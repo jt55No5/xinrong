@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.service-tab ul.tabs { height:33px; border-bottom:1px solid #99abbc; background:#f2f2f2; margin:0px; padding:0px 0 0 10px; list-style:none;}
+.service-tab ul.tabs li { display: block; height: 26px; line-height: 26px; border: 1px solid #9AABBD; border-bottom: none; color:#0078B6; background-color: #F8F8F8; font-size:14px; text-align:center; float:left; position:relative; margin:6px 9px -1px 0; padding:0 15px; cursor:pointer;}
+.service-tab ul.tabs li:hover { color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff; position:relative; margin-bottom:-1px;}
+.service-tab ul.tabs li.current { color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff; position:relative; margin-bottom:-1px;}
+.service-tab .tabscontent { display:none; width:100%; padding:15px 0; min-height:400px; font-size:13px;}
+
+.service-tab .tabscontent h2{ height:31px; line-height:31px; padding:0 10px; border-bottom:1px solid #cfcfcf; font-size:14px;}
+.service-tab .tabscontent .tj{ padding:10px 0;}
+.service-tab .tabscontent .tj li{ padding-left:15px; height:30px; line-height:30px;}
+.service-tab .tabscontent .paddingleft{ padding-left:30px;}
+
+.service-tab .tabscontent .cj{ position:relative; padding:10px 0; width:100%;}
+.service-tab .tabscontent .cj li{ width:285px; padding-left:15px; height:30px; line-height:30px; float:left;}
+.service-tab .tabscontent .sub02{ width:110px; height:29px; line-height:29px; border:1px solid #da5800; border-radius:3px;}
+.service-tab .tabscontent .sersub{ position:absolute; right:10px; top:15px;}
+
+.service-tab .tabscontent .service-font{ padding:10px 0 10px 15px; line-height:30px; position:relative;}
+.service-tab .tabscontent .service-font .subxf{ width:48px; height:19px; line-height:19px; display:inline-block; background:#f60; text-align:center; color:#fff; margin-right:6px; border-radius:3px;}
+.service-tab .tabscontent .service-font .subtz{ width:88px; height:25px; line-height:25px; display:inline-block; background:#f60; text-align:center; color:#fff; margin-right:6px; border-radius:3px;}
+.service-tab .tabscontent .service-font .progress{ width:152px; height:16px; background:#fff; border:1px solid #dedede; display:inline-block; vertical-align:middle; margin:0 0 2px 8px; position:relative;}
+.service-tab .tabscontent .service-font .progress span{ width:152px; height:16px; line-height:16px; font-size:12px; text-align:center; display:inline-block; position:absolute; left:0px; top:0px;}
+.service-tab .tabscontent .service-font .progress i{ width:60%; height:16px; background:url("../images/progress.jpg"/*tpa=https://www.xinrong.com/2.0/images/progress.jpg*/) repeat-x; display:inline-block;}
+.service-tab .tabscontent .service-font .probg{ background:url("../images/progressno.jpg"/*tpa=https://www.xinrong.com/2.0/images/progressno.jpg*/) repeat-x;}
+
+.service-tab .tabscontent .rafflebox{ padding:20px 10px; border:1px solid #cfcfcf;}
+.service-tab .tabscontent .rafflebox h2{ border:0px;}
+.service-tab .tabscontent .rafflebox .cj li.w01{ width:340px;}
+.service-tab .tabscontent .rafflebox .cj li.w02{ width:216px;}
+.service-tab .tabscontent .rafflebox .cj li.w03{ width:530px;}
+
+.service-tab .tabscontent .valuebox{ padding:10px; border:1px solid #cfcfcf;}
+.service-tab .tabscontent .valuebox dl{ width:100%;}
+.service-tab .tabscontent .valuebox dt{ width:338px; border-right:1px solid #cfcfcf; padding:15px 0 0 20px; float:left; line-height:40px; height:204px;}
+.service-tab .tabscontent .valuebox dt .sub03{ width:110px; height:29px; line-height:29px; border:1px solid #f60; background:#fff; color:#f60; margin-right:10px;}
+
+.service-tab .tabscontent .valuebox dd{ width:407px; height:204px; padding-left:20px; float:left;}
+.service-tab .tabscontent .valuebox dd h2{ height:30px; line-height:30px; border-bottom:1px dotted #cfcfcf; padding:0;}
+
+.service-tab .tabscontent .valuebox .iconI{ margin:0 0 4px 5px; cursor:pointer; position:relative;}
+.service-tab .tabscontent .valuebox .iconI .infobox{ display:none;}
+.service-tab .tabscontent .valuebox .iconI:hover .infobox{ display:inline-block; width:290px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:-145px; top:26px; padding:8px; line-height:18px; font-style:normal; font-size:12px;}
+.service-tab .tabscontent .valuebox .iconI:hover .infobox b{ display:inline-block; position:absolute; left:144px; top:-7px;}
+
+
+.service-tab .tabscontent .valuebox .valuelist{ width:100%;}
+.service-tab .tabscontent .valuebox .valuelist li{ width:100%; padding-top:9px; line-height:28px; float:left;}
+.service-tab .tabscontent .valuebox .valuelist li .fname{ width:151px; float:left; display:block; text-align:right;}
+.service-tab .tabscontent .valuebox .valuelist li .fcompute{ width:238px; padding-left:5px; float:left; display:block;}
+.service-tab .tabscontent .valuebox .valuelist li .Inputtext{ width:137px; height:26px; line-height:26px; padding:0 5px; border:1px solid #b6c4cd; vertical-align:middle;}
+.service-tab .tabscontent .valuebox .valuelist li .Inputtext01{ width:147px; height:26px; line-height:26px; border:1px solid #b6c4cd; vertical-align:middle;}
+.service-tab .tabscontent .valuebox .valuelist li .computesub{ width:139px; height:34px; line-height:34px; display:inline-block; background:#0078b6; color:#fff; font-size:14px; text-align:center; text-decoration:none; margin-top:10px;}
+
+.service-tab .tabscontent .fontmsg{ text-align:center; padding:20px 0;}
+

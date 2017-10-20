@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { font-size: 100%; margin: 0; padding: 0; -webkit-text-size-adjust:none;}
+body{font: 12px/1.5 tahoma, arial, \5b8b\4f53; color:#333333;}
+input{ color:#333333; font-size:12px; font-family:"宋体";}
+img{ border:0;}
+ul,ol{ list-style:none}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#ff7700;}
+
+.clear{ clear:both; height:0px; line-height:0px; font-size:0px; margin:0px; padding:0px;}
+.left{ float:left; display:inline}
+.right{ float:right; display:inline}
+.Main{ width:1100px; margin:0 auto;}
+
+.black5{ height:5px; overflow:hidden; font-size:0; clear:both;}
+.black10{ height:10px; overflow:hidden; font-size:0; clear:both;}
+.black15{ height:15px; overflow:hidden; font-size:0; clear:both;}
+.black20{ height:20px; overflow:hidden; font-size:0; clear:both;}
+.black25{ height:25px; overflow:hidden; font-size:0; clear:both;}
+
+.PositionR{ position:relative;}
+.AllIcon{ background:url("../../../images/icon-1.png"/*tpa=http://www.xinrong.com/s/images/icon.png*/) no-repeat;}
+.MarginLeft{ margin-left:10px;}
+.MarginLeft01{ margin-left:20px;}
+.MarginLeft02{ margin-left:15px;}
+.red{ color:#f00}
+.blue{ color: #0078B6; }
+.c999{ color:#999;}
+.c666{ color:#666;}
+.orange{color: #F60;}
+.TextAlign{ text-align: center;}
+/*header*/
+.HeaderMain{ width:100%; min-width:1000px; border-bottom:1px solid #c5c5c5; line-height:27px; background:#f2f2f2;}
+.HeaderMain .LeftFont{ margin:0px; padding:0px; list-style:none;}
+.HeaderMain .LeftFont li{ float:left; height:27px; line-height:27px; color: #C6C6C6; position:relative;}
+.HeaderMain .LeftFont li a{ margin: 0 8px; color:#666;}
+.HeaderMain .LeftFont li a.Font01{ margin: 0 0px 0 8px;}
+.HeaderMain .LeftFont li a.Font02{ margin: 0 14px 0 8px; text-decoration:none;}
+.HeaderMain .LeftFont li a.FontBg{}
+.HeaderMain .LeftFont li a i{ width: 0; height: 0; line-height: 0; border-color:#666 whiteSmoke whiteSmoke; border-style: solid; border-width: 5px; font-size: 0; margin-left:5px; position: absolute; right: -5px; top: 10px;}
+.HeaderMain .LeftFont li.WeiBo{ background-position:8px 5px; padding-left:22px;}
+.HeaderMain .LeftFont li .FontN{ display:block; width:9px; height:11px; position:absolute; right:9px; top:0px;}
+
+
+.logo{ padding:20px 0 10px 0;}
+.MainNav{ margin:0px; padding:46px 0 0 0; list-style:none; width:647px;}
+.MainNav li{ padding-left:30px; float:left;}
+.MainNav li a{ width: 84px; height: 16px; text-indent:-99999em; background:url("../images/Nav-1.png"/*tpa=http://www.xinrong.com/s/css/v2/images/Nav.png*/) no-repeat;  overflow: hidden; display:block;}
+.MainNav li a.Home{ background-position:0 -29px; width:50px;}
+.MainNav li a.Home:hover,.MainNav li a.HomeCur{ background-position:0 0px;}
+
+.MainNav li a.Invest{ background-position:-84px -29px;}
+.MainNav li a.Invest:hover,.MainNav li a.InvestCur{ background-position:-84px 0px;}
+
+.MainNav li a.Sevice{ background-position:-201px -29px;}
+.MainNav li a.Sevice:hover,.MainNav li a.SeviceCur{ background-position:-201px 0px;}
+
+.MainNav li a.Security{ background-position:-317px -29px;}
+.MainNav li a.Security:hover,.MainNav li a.SecurityCur{ background-position:-317px 0px;}
+
+.MainNav li a.About{ background-position:-434px -29px;}
+.MainNav li a.About:hover,.MainNav li a.AboutCur{ background-position:-434px 0px;}
+
+.MainNav li a.Account{ width:80px; background-position:-551px -29px; padding-right:0px;}
+.MainNav li a.Account:hover,.MainNav li a.AccountCur{ background-position:-551px 0px;}
+/*header end*/
+
+/*footer*/
+.FooterLeft{ width:697px; border-right:1px solid #e9e9e9; margin-top:15px;}
+.FooterLeft ul li{ padding-left:45px; float:left;}
+.FooterTel{ width:267px; font-family:"微软雅黑"; color:#666; font-weight:normal;}
+.FooterTel .FooterTelQQ{ display:block; line-height:25px;}
+.FooterTel .FooterTelQQ img{ vertical-align:middle; padding-right:17px;}
+.FooterTel .FooterTelFont{ display:block; line-height:25px;}
+.FooterTel .FooterTelFont span{ font-size:20px;}
+.FooterTel .FooterTelTime{ display:block; line-height:18px;}
+
+.FooterFont{ border-top:1px solid #e9e9e9; padding:22px 0; color:#b6b6b6; text-align:center; line-height:22px; font-weight:normal;}
+.FooterFont a{ color:#b6b6b6; margin:0 8px;}
+/*footer end*/
+
+/*内页公共*/
+.ConMain{ width:100%; min-width:1000px;}
+.LineBorder{ border-bottom:1px solid #d1d1d1; overflow:hidden; font-size:0; clear:both;}
+
+.ConLeft{ width:685px;}
+.ConRight{ width:300px;}
+
+.SubFont{ width:85px; height:23px; line-height:23px; border:1px solid #ef5f09; text-align:center; color:#fff; background:#f46904; background:-webkit-linear-gradient(#fe820f,#f46904,#f15a00); -moz-border-radius:2px; -webkit-border-radius:2px; display:block; cursor:pointer;}
+.SubFont:hover{ text-decoration:none; color:#fff; background:#f15a00;}
+
+.SubFont01{ width:85px; height:23px; line-height:23px; border:1px solid #b2c8db; text-align:center; color:#333333; background:#fff; background:-webkit-linear-gradient(#ffffff,#f6f6f6); -moz-border-radius:3px; -webkit-border-radius:3px; display:block;}
+.SubFont01:hover{ text-decoration:none; color:#333333; border:1px solid #6C8FAF;}
+
+.SubFont02{ width:58px; height:23px; line-height:23px; border:1px solid #bababa; text-align:center; color:#a5a5a5; background:#f4f4f4; -moz-border-radius:3px; -webkit-border-radius:3px; display:block;}
+.SubW{ width:58px; line-height:20px;}
+.SubW01{ width:98px; height:30px; line-height:30px; font-size:14px; font-weight:bold;}
+.SubW02{ width:156px; height:32px; line-height:32px; font-size:16px; font-weight:bold; display:inline-block;}
+.SubW03{ width:74px; height:26px; line-height:26px; font-size:14px; font-weight:bold;}
+
+.SubVip{ border-color: #F15A00; background:#006cb1; color: white !important;display: inline-block;width: 98px;height: 28px;line-height: 28px;font-size: 14px;font-family: Simsun;text-align: center;border: 1px solid transparent;cursor: pointer;color: white;-webkit-border-radius: 2px 2px 2px 2px;-moz-border-radius: 2px 2px 2px 2px;-ms-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px; margin-right:10px;}
+
+.Sub04{ background: white;background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%,#F6F6F6) );background-image: -webkit-linear-gradient(white, #F6F6F6);background-image: -moz-linear-gradient(white, #F6F6F6);background-image: -o-linear-gradient(white, #F6F6F6);background-image: linear-gradient(white, #F6F6F6); display: inline-block;width: 98px;height: 28px;line-height: 28px;font-size: 14px;font-weight: 700;font-family: Simsun;text-align: center; border: 1px solid transparent;  border-color: #B0C6DA; cursor: pointer;color: white;-webkit-border-radius: 2px 2px 2px 2px;-moz-border-radius: 2px 2px 2px 2px;-ms-border-radius: 2px 2px 2px 2px;-o-border-radius: 2px 2px 2px 2px;border-radius: 2px 2px 2px 2px; color: #333;}
+.Sub04:hover{border-color: #6C8FAF;background: white;background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #E5E9EC) );background-image: -webkit-linear-gradient(white, #E5E9EC);background-image: -moz-linear-gradient(white, #E5E9EC);background-image: -o-linear-gradient(white, #E5E9EC);background-image: linear-gradient(white, #E5E9EC); color:#333; text-decoration:none;}
+
+
+/***************************************************/
+.PartLeft{ width:170px; border:1px solid #c4d6e6;}
+.PartLeft ul{ margin:0px; padding:0px; list-style:none;}
+.PartLeft ul li{ padding-bottom:4px;}
+.PartLeft ul li.lifoot{ padding-bottom:0px;}
+.PartLeft ul li a{ height:38px; line-height:38px; padding-left:21px; font-size:14px; color:#333; display:block; text-decoration:none;}
+.PartLeft ul li a .IconNav{ width:16px; height:19px; background-position:-127px -368px; display:inline-block; vertical-align:middle; margin-right:8px;}
+.PartLeft ul li a:hover{ background:#e1eaf2;}
+.PartLeft ul li a.cur{ background:#4c8bc5; color:#fff; font-weight:bold;}
+.PartLeft ul li a.cur .IconNav{ background-position:-108px -368px;}
+
+.PartRight{ width:814px;}
+
+.AutoHand{ width:29px; height:17px; display:inline-block; vertical-align:middle; background-position:0 -430px; margin:0 0 3px 5px;}
+
+.IconAI { background-position: -161px -19px;width: 15px;height: 18px;display: inline-block;vertical-align: middle;margin-right: 6px;}
+
+.HeaderLogo{ height:59px; line-height: 59px; padding:17px 0 0 23px; font-family:"微软雅黑"; font-size:22px; color:#666666; font-weight:bold;}
+

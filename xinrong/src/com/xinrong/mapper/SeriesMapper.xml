@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinrong.dao.SeriesMapper" >
+  <resultMap id="BaseResultMap" type="com.xinrong.bean.Series" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="seriesName" property="seriesname" jdbcType="VARCHAR" />
+    <result column="minExpectedAmount" property="minexpectedamount" jdbcType="DOUBLE" />
+    <result column="maxExpectedAmount" property="maxexpectedamount" jdbcType="DOUBLE" />
+    <result column="minFinancingTime" property="minfinancingtime" jdbcType="INTEGER" />
+    <result column="maxFinancingTime" property="maxfinancingtime" jdbcType="INTEGER" />
+    <result column="minDuration" property="minduration" jdbcType="INTEGER" />
+    <result column="maxDuration" property="maxduration" jdbcType="INTEGER" />
+    <result column="receivableWay" property="receivableway" jdbcType="INTEGER" />
+    <result column="minExpectedAnnualized" property="minexpectedannualized" jdbcType="DOUBLE" />
+    <result column="maxExpectedAnnualized" property="maxexpectedannualized" jdbcType="DOUBLE" />
+    <result column="capitaUses" property="capitauses" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seriesName, minExpectedAmount, maxExpectedAmount, minFinancingTime, maxFinancingTime, 
+    minDuration, maxDuration, receivableWay, minExpectedAnnualized, maxExpectedAnnualized, 
+    capitaUses
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from series
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from series
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinrong.bean.Series" >
+    insert into series (id, seriesName, minExpectedAmount, 
+      maxExpectedAmount, minFinancingTime, maxFinancingTime, 
+      minDuration, maxDuration, receivableWay, 
+      minExpectedAnnualized, maxExpectedAnnualized, 
+      capitaUses)
+    values (#{id,jdbcType=INTEGER}, #{seriesname,jdbcType=VARCHAR}, #{minexpectedamount,jdbcType=DOUBLE}, 
+      #{maxexpectedamount,jdbcType=DOUBLE}, #{minfinancingtime,jdbcType=INTEGER}, #{maxfinancingtime,jdbcType=INTEGER}, 
+      #{minduration,jdbcType=INTEGER}, #{maxduration,jdbcType=INTEGER}, #{receivableway,jdbcType=INTEGER}, 
+      #{minexpectedannualized,jdbcType=DOUBLE}, #{maxexpectedannualized,jdbcType=DOUBLE}, 
+      #{capitauses,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinrong.bean.Series" >
+    insert into series
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seriesname != null" >
+        seriesName,
+      </if>
+      <if test="minexpectedamount != null" >
+        minExpectedAmount,
+      </if>
+      <if test="maxexpectedamount != null" >
+        maxExpectedAmount,
+      </if>
+      <if test="minfinancingtime != null" >
+        minFinancingTime,
+      </if>
+      <if test="maxfinancingtime != null" >
+        maxFinancingTime,
+      </if>
+      <if test="minduration != null" >
+        minDuration,
+      </if>
+      <if test="maxduration != null" >
+        maxDuration,
+      </if>
+      <if test="receivableway != null" >
+        receivableWay,
+      </if>
+      <if test="minexpectedannualized != null" >
+        minExpectedAnnualized,
+      </if>
+      <if test="maxexpectedannualized != null" >
+        maxExpectedAnnualized,
+      </if>
+      <if test="capitauses != null" >
+        capitaUses,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="seriesname != null" >
+        #{seriesname,jdbcType=VARCHAR},
+      </if>
+      <if test="minexpectedamount != null" >
+        #{minexpectedamount,jdbcType=DOUBLE},
+      </if>
+      <if test="maxexpectedamount != null" >
+        #{maxexpectedamount,jdbcType=DOUBLE},
+      </if>
+      <if test="minfinancingtime != null" >
+        #{minfinancingtime,jdbcType=INTEGER},
+      </if>
+      <if test="maxfinancingtime != null" >
+        #{maxfinancingtime,jdbcType=INTEGER},
+      </if>
+      <if test="minduration != null" >
+        #{minduration,jdbcType=INTEGER},
+      </if>
+      <if test="maxduration != null" >
+        #{maxduration,jdbcType=INTEGER},
+      </if>
+      <if test="receivableway != null" >
+        #{receivableway,jdbcType=INTEGER},
+      </if>
+      <if test="minexpectedannualized != null" >
+        #{minexpectedannualized,jdbcType=DOUBLE},
+      </if>
+      <if test="maxexpectedannualized != null" >
+        #{maxexpectedannualized,jdbcType=DOUBLE},
+      </if>
+      <if test="capitauses != null" >
+        #{capitauses,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinrong.bean.Series" >
+    update series
+    <set >
+      <if test="seriesname != null" >
+        seriesName = #{seriesname,jdbcType=VARCHAR},
+      </if>
+      <if test="minexpectedamount != null" >
+        minExpectedAmount = #{minexpectedamount,jdbcType=DOUBLE},
+      </if>
+      <if test="maxexpectedamount != null" >
+        maxExpectedAmount = #{maxexpectedamount,jdbcType=DOUBLE},
+      </if>
+      <if test="minfinancingtime != null" >
+        minFinancingTime = #{minfinancingtime,jdbcType=INTEGER},
+      </if>
+      <if test="maxfinancingtime != null" >
+        maxFinancingTime = #{maxfinancingtime,jdbcType=INTEGER},
+      </if>
+      <if test="minduration != null" >
+        minDuration = #{minduration,jdbcType=INTEGER},
+      </if>
+      <if test="maxduration != null" >
+        maxDuration = #{maxduration,jdbcType=INTEGER},
+      </if>
+      <if test="receivableway != null" >
+        receivableWay = #{receivableway,jdbcType=INTEGER},
+      </if>
+      <if test="minexpectedannualized != null" >
+        minExpectedAnnualized = #{minexpectedannualized,jdbcType=DOUBLE},
+      </if>
+      <if test="maxexpectedannualized != null" >
+        maxExpectedAnnualized = #{maxexpectedannualized,jdbcType=DOUBLE},
+      </if>
+      <if test="capitauses != null" >
+        capitaUses = #{capitauses,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinrong.bean.Series" >
+    update series
+    set seriesName = #{seriesname,jdbcType=VARCHAR},
+      minExpectedAmount = #{minexpectedamount,jdbcType=DOUBLE},
+      maxExpectedAmount = #{maxexpectedamount,jdbcType=DOUBLE},
+      minFinancingTime = #{minfinancingtime,jdbcType=INTEGER},
+      maxFinancingTime = #{maxfinancingtime,jdbcType=INTEGER},
+      minDuration = #{minduration,jdbcType=INTEGER},
+      maxDuration = #{maxduration,jdbcType=INTEGER},
+      receivableWay = #{receivableway,jdbcType=INTEGER},
+      minExpectedAnnualized = #{minexpectedannualized,jdbcType=DOUBLE},
+      maxExpectedAnnualized = #{maxexpectedannualized,jdbcType=DOUBLE},
+      capitaUses = #{capitauses,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

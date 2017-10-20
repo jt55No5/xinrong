@@ -1,0 +1,609 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>信融花花-纯信用借贷,极速放贷,给你最好的借款体验</title>
+<link href="../../css/basic-1.css" tppabs="http://www.xinrong.com/2.0/css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../../css/dialog-1.css" tppabs="http://www.xinrong.com/2.0/css/dialog.css" rel="stylesheet" type="text/css" />
+<link href="../../css/global-1.css" tppabs="http://www.xinrong.com/2.0/css/global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../../../res.wx.qq.com/open/js/jweixin-1.0.0.js" tppabs="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="../../js/var-1.js" tppabs="http://www.xinrong.com/2.0/js/var.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.10.2.min-1.js" tppabs="http://www.xinrong.com/2.0/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../../../s/js/AA.base-min-2.js" tppabs="http://www.xinrong.com/s/js/AA.base-min.js"></script>
+<script type="text/javascript" src="../../js/XR.base-1.js" tppabs="http://www.xinrong.com/2.0/js/XR.base.js"></script>
+<script type="text/javascript" src="../../../s/vendor/artDialog/jquery.artDialog-1.js" tppabs="http://www.xinrong.com/s/vendor/artDialog/jquery.artDialog.js"></script>
+<script type="text/javascript" src="../../../s/vendor/artDialog/dialog_ex-2.js" tppabs="http://www.xinrong.com/s/vendor/artDialog/dialog_ex.js"></script>
+<script type="text/javascript" src="../../js/mod/login-1.js" tppabs="http://www.xinrong.com/2.0/js/mod/login.js"></script>
+<script type="text/javascript" src="../../js/mod/phone-1.js" tppabs="http://www.xinrong.com/2.0/js/mod/phone.js"></script>
+<script type="text/javascript" src="../../../webapp2.0/js/api/wxjssdk-1.js" tppabs="http://www.xinrong.com/webapp2.0/js/api/wxjssdk.js"></script>
+<script type="text/javascript" src="../../js/www/huahua-1.js" tppabs="http://www.xinrong.com/2.0/js/www/huahua.js"></script>
+</head>
+<style>
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.blue{ color:#008cee;}
+
+.hh_banner{ width:100%; min-width:1000px; background:url("images/banner-1.jpg"/*tpa=http://www.xinrong.com/2.0/action/xr_huahua/images/banner.jpg*/) center no-repeat; height:514px;}
+.hh_summary{ width:1000px; padding:20px 0 84px 0;}
+.hh_summary h1{ text-align:center;}
+.hh_summary ul{ width:100%; margin:0px; padding:75px 0 0 0px;}
+.hh_summary ul li{ width:274px; float:left; margin:0 25px; background:#d0e4fa; height:338px; text-align:center;}
+.hh_summary ul li h2{ text-align:center; border-radius:43px; font-size:24px; color:#fff; font-weight:normal; position:relative; margin-top:-22px;}
+.hh_summary ul li h2 span{ width:214px; height:46px; line-height:46px; background:#56b1f0; display:inline-block; border-radius:23px;}
+.hh_summary ul li p{ padding-top:26px;}
+.hh_summary ul li h3{ line-height:39px; font-size:18px; padding-top:17px; font-weight:normal;}
+
+.hh_lcpic{ width:100%; min-width:1000px; background:#f7f7f7; padding:70px 0; text-align:center;}
+.hh_lcpic p{ padding-top:80px;}
+.sub01{ width:295px; height:55px; line-height:55px; text-align:center; color:#fff; background:#36c86c; font-size:28px; border-radius:6px;}
+
+.hh_reward{ padding:76px 0 80px 0;}
+.hh_reward h1{ text-align:center;}
+.hh_reward ul{ padding-top:20px;}
+.hh_reward ul li{ margin-top:20px; height:46px; line-height:46px; background:#56b1f0; padding-left:30px; color:#fff; font-size:20px; border-radius:23px;}
+.hh_reward ul li img{ vertical-align:middle; margin-bottom:5px;}
+.hh_reward .reward_font{ font-size:18px; color:#959da9; line-height:30px; padding:28px 36px 0px 36px;}
+.hh_reward .reward_font a{ text-decoration:none;}
+
+.hh_qa{ width:100%; min-width:1000px; background:#fff; padding:70px 0;}
+.hh_qa h1{ text-align:center; margin-bottom:30px;}
+.hh_qa dl{ width:100%; padding:25px 0 0 0; font-size:16px; color:#8f8f8f; line-height:26px;}
+.hh_qa dt{ width:100%; color:#4d4d4d; font-size:18px;}
+.hh_qa dt i{ width:22px; height:22px; line-height:22px; color:#fff; background:#56b1f0; font-style:normal; display:inline-block; border-radius:4px; text-align:center; font-size:16px; margin-right:8px;}
+.hh_qa dd{ width:100%; padding-top:5px;}
+.hh_qa dd .t-font{ width:970px; float:left;}
+.hh_qa dd i{ width:22px; height:22px; line-height:22px; color:#fff; background:#36c86c; font-style:normal; display:inline-block; border-radius:4px; text-align:center; font-size:16px; margin:4px 8px 0 0; float:left;}
+.hh_qa .qa_sub{ padding-top:80px; text-align:center;}
+
+.hh_vip{ width:100%; min-width:1000px; background:#f7f7f7; padding:70px 0;}
+.hh_vip h1{ text-align:center; margin-bottom:40px;}
+.hh_vip table{ border:1px solid #dedede; border-collapse:collapse; background:#fff; font-size:13px; line-height:22px;}
+.hh_vip th{ border:1px solid #dedede; background:#f3f2f2; padding:8px 10px;}
+.hh_vip td{ border:1px solid #dedede; padding:8px 10px;}
+.hh_vip .vip_font{ padding:20px 6px 0 6px; font-size:13px; line-height:28px; color:#666;}
+.hh_vip .vip_font h3{ font-size:16px; color:#444;}
+.hh_vip .vip_font h3 img{ vertical-align:middle; width:26px; margin:0 5px 5px 0;}
+</style>
+<body>
+<!--header-->
+<script type="text/javascript">
+$(function(){
+    // 固定导航
+	$(document).scroll(function(){
+		t=$(document).scrollTop();
+		if(t>=0){
+			$("#hmenu_nav").removeClass("h_por").css("top","78px;");
+			}
+		if(t>78){
+			$("#hmenu_nav").addClass("h_por").css("top","0px;");
+			}
+		});
+});
+</script>
+<div class="hmenu_nav">
+  <div class="main PositionR">
+    <div class="logo left PositionR"><a href="../../../index.htm" tppabs="http://www.xinrong.com/index.shtml"><img src="../../images/logo-1.gif" tppabs="http://www.xinrong.com/2.0/images/logo.gif" /></a><a href="../../views/about/shareholder.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/shareholder.shtml" class="logo_font">上市公司系</a></div>
+    <div class="right top_my"><a href="../../views/account/account_index.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/account_index.shtml" class="f-my" id="nav_my">我的账户</a> <a id="top_exit" href="javascript:AA.RapidLogin.loginout();" class="f_exit" style="display:none;">退出</a> <span class="h-login-reg h-login" style="display: none;"><i></i><a href="../../login2.0.html" tppabs="http://www.xinrong.com/2.0/login2.0.html" class="flogin">登录</a><a href="../../views/account/register4.0.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/register4.0.shtml" class="freg">注册</a></span></div>
+    <div class="clear"></div>
+  </div>
+  <div class="h_nav" id="hmenu_nav">
+    <div class="main PositionR">
+      <ul>
+        <li><a href="../../../index.htm" tppabs="http://www.xinrong.com/index.shtml" id="nav_index">首页</a></li>
+        <li><a href="../../../invest.shtml.htm" tppabs="http://www.xinrong.com/invest.shtml" id="nav_invest">投资<i class="arrow"></i></a>
+        <ul>
+        <li><a href="../../calculator.html" tppabs="http://www.xinrong.com/2.0/calculator.html#finvest" target="_blank">投资计算器</a></li>
+        </ul>
+        </li>
+        <li><a href="huahua.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" id="nav_huahua">信融花花<i class="arrow"></i><b class="hh_icon"><img src="../../images/hh_icon-1.png" tppabs="http://www.xinrong.com/2.0/images/hh_icon.png" /></b></a>
+          <ul>
+          	<li><a href="huahua.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" target="_blank">我要借款</a></li>
+            <li><a href="../../calculator.html" tppabs="http://www.xinrong.com/2.0/calculator.html" target="_blank">借款计算器</a></li>
+          </ul>
+        </li>
+        <li><a href="../../views/about/invest_help.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/invest_help.shtml" id="nav_invest_help">新手指引<i class="arrow"></i></a>
+          <ul>
+          	<li><a href="../../views/about/invest_help.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/invest_help.shtml" target="_blank">投资帮助</a></li>
+          	<li><a href="../../views/about/risk.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/risk.shtml" target="_blank">风险控制</a></li>
+            <li><a href="../../views/about/laws_regulations.shtml.htm#navLaws" tppabs="http://www.xinrong.com/2.0/views/about/laws_regulations.shtml#navLaws" target="_blank">法律法规</a></li>
+          </ul>
+        </li>
+        <li><a href="../../views/about/about.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about">信息披露<i class="arrow"></i></a>
+          <ul>
+            <li><a href="../../views/about/about.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about_index">公司简介</a></li>
+            <li><a href="../../views/about/team.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/team.shtml">团队介绍</a></li>
+            <li><a href="../../views/about/service_data.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/service_data.shtml">运营数据</a></li>
+            <li><a href="../../views/about/partner.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/partner.shtml">合作机构</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav_r"><a href="../../vip.html" tppabs="http://www.xinrong.com/2.0/vip.html" id="nav_vip">VIP特权</a></div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<style type="text/css">
+.fengxian_dialog{ width:469px; height:315px; background:#ffffff; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.fengxian_dialog h1{ height:50px; line-height:50px; background:#ececec; color:#2c2c2c; font-size:18px; font-weight:normal; padding:0 10px; border-top-left-radius:5px; border-top-right-radius:5px; position:relative;}
+.fengxian_dialog h1 .close{ position:absolute; right:10px; top:0px; font-family:"宋体"; font-size:30px; color:#aeaeae; font-weight:normal; text-decoration:none;}
+.fengxian_dialog .fx_font{ padding:20px 30px; font-size:18px; line-height:30px;}
+.fengxian_dialog .fx_sub{ text-align:center; line-height:36px;}
+.fengxian_dialog .fx_sub .sub02{ font-size:18px; width:166px; height:45px; line-height:45px;}
+.fengxian_dialog .fx_sub p a{ color:#a1a1a1; font-size:15px;}
+</style>
+<script type="text/javascript" src="../../js/wbox.js" tppabs="http://www.xinrong.com/2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../css/dialog-wbox.css" tppabs="http://www.xinrong.com/2.0/css/dialog-wbox.css">
+<!--风险测评-->
+<div id="fxpc_dialog" style="display: none;">
+  <div class="fengxian_dialog">
+    <h1>温馨提示<a href="javascript:void(0)" class="close" id="close">×</a></h1>
+    <div class="fx_font"> 尊敬的用户，为了帮助您更好的了解自己的风险承受能力，请您花30秒的时间完成10道风险测试题。 网贷非存款，投资需谨慎，是否立即进行风险测评？ </div>
+    <div class="fx_sub"><a href="javascript:void(0)" class="sub02" id="goToAnswer">立即测评</a>
+      <p><a href="javascript:void(0)" id="afterAnswer">稍后再说</a></p>
+    </div>
+  </div>
+</div>
+<script>
+	
+	(function() {
+	
+	var channel=location.href;
+
+	var index=channel.lastIndexOf("/");
+	
+	var index1=channel.lastIndexOf(".");
+
+	if(index>0){
+		channel=channel.substring(index+1,index1);
+
+		if(channel==".com/"||channel==".com"){
+			$('#nav_index').parent().attr("class","cur");
+		}else if(channel=="xincunbao"){
+			$('#nav_my').addClass("cur");
+		}else if(channel=="invest_help"||channel=="risk"||channel=="security"){
+			$('#nav_invest_help').parent().attr("class","cur");			
+		}else if(channel=="help"||channel=="guide1"||channel=="guide2"||channel=="guide3"||channel=="guide4"){
+			$('#nav_invest_help').parent().attr("class","cur");
+			$('#nav_help').attr("class","cur");		
+		}else if(channel=="xr_call"){
+			$('#nav_duoduo').parent().attr("class","cur");
+		}else if(channel=="vip"){
+			$('#nav_vip').attr("class","cur");
+		}else{
+			$('#nav_'+channel).parent().attr("class","cur");	
+		}
+		
+	}
+})();
+
+$(document).ready(function(){
+	$(".h-login-reg a").mouseenter(function(){
+		if($(this).is(".flogin"))
+			{
+				$(".h-login-reg").addClass("h-login");
+				$(".h-login-reg").removeClass("h-reg");
+			}
+			else{
+				$(".h-login-reg").addClass("h-reg");
+				$(".h-login-reg").removeClass("h-login");
+				}
+		});
+	var isAnswered=sessionStorage.getItem('afterAnswer')||null;
+	if (location.href.indexOf('goAnswer=true') < 0) {
+		if (isAnswered =='null') {
+			$.ajax({
+				url:'../../../v2/login/in_session_data.jso'/*tpa=http://www.xinrong.com/v2/login/in_session_data.jso*/,
+			    type:'GET' ,
+			    dataType:'json',
+			    success:function (result) {
+					if(result.state==0){
+						if (document.cookie.substring(document.cookie.indexOf("isAnswer=")+9,document.cookie.indexOf("isAnswer=")+10) =="N") {
+							showFXPCdialog();
+							
+							if (location.href.indexOf("account_settings.shtml")>) {
+								$('#wBox #goToAnswer').unbind('click').bind('click',function(){
+						        	$('#tp2').click();
+						        })
+							}
+						}
+					}
+				}
+			});
+		}
+	}
+	
+
+	function showFXPCdialog(){
+		wBox = $('#fxpc_dialog').wBox({
+                noTitle:true,
+                top:5,
+                html: $('#fxpc_dialog').html()
+            });
+        wBox.showBox(); 
+        $('#wBox #afterAnswer').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        });
+        $('#wBox #goToAnswer').unbind('click').bind('click',function(){
+        	location.href="../../views/account/account_settings.shtml.htm"/*tpa=http://www.xinrong.com/2.0/views/account/account_settings.shtml?goAnswer=true*/;
+        });
+        $('#wBox #close').unbind('click').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        })
+
+	}
+});
+
+</script> 
+
+<!--header end-->
+<div class="LineBorder" style="display:none;"></div>
+<div class="PositionR main" style="display:none;">
+  <div class="tel"><img src="images/tel-1.jpg" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/tel.jpg" width="35" height="29" />400-777-9888</div>
+</div>
+<!--center-->
+<div class="hh_banner"></div>
+<div class="hh_summary main">
+<h1><img src="images/01-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/01.png" /></h1>
+<ul>
+<li>
+<h2><span>纯信用借款</span></h2>
+<p><img src="images/02-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/02.png" /></p>
+<h3>免担保    免抵押    免工作证明</h3>
+</li>
+<li>
+<h2><span>纯线上借款</span></h2>
+<p><img src="images/03-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/03.png" /></p>
+<h3>随时随地，轻松借款</h3>
+</li>
+<li>
+<h2><span>极速放款</span></h2>
+<p><img src="images/04-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/04.png" /></p>
+<h3>申请通过，快至1天放款</h3>
+</li>
+</ul>
+<div class="clear"></div>
+<p style="text-align:center; padding:40px 25px 0 0;"><a href="huahua_story.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/huahua_story.shtml" class="sub01" target="_blank">品牌故事</a></p>
+</div><!--end-->
+<div class="hh_lcpic">
+<div class="main">
+<img src="images/05-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/05.png" />
+<p><a href="../../views/huahua/huahua.html" tppabs="http://www.xinrong.com/2.0/views/huahua/huahua.html" class="sub01" target="_blank">申请信融花花</a></p>
+</div>
+</div><!--end-->
+<div class="hh_reward main">
+<h1><img src="images/06-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/06.png" /></h1>
+<ul>
+<li><img src="images/07-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/07.png" /> 借款每满1000元赠送2000积分，VIP用户积分再乘以对应等级系数（积分在首期正常还款后一次性赠送）</li>
+<li><img src="images/07-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/07.png" /> 若借款人借款时是VIP，则赠送成长值（赠送方式与投资用户相同，若还款期间VIP过期则暂停赠送）</li>
+<li><img src="images/07-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/07.png" /> 若借款人借款后有逾期、赖账等行为，平台将停止发放奖励，并对已发放的奖励进行扣除</li>
+</ul>
+<div class="reward_font">
+举例：某VIP3（VIP等级系数1.2）借款人1月1日成功借款5000元，分6期还清，则其在2月1日首次还款后将获得2000*5*1.2=12000积分，1月2日-7月1日期间将累计获得成长值5000*0.25*6*1.2=9000点。
+VIP等级系数及成长值计算请参考 <a href="../../vip.html" tppabs="http://www.xinrong.com/2.0/vip.html" class="blue" target="_blank">VIP会员特权></a>
+</div>
+</div><!--end-->
+<div class="hh_vip">
+<div class="main">
+<h1><img src="images/10-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/10.png" /></h1>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+  <tr>
+    <th width="300" align="center">特权项</th>
+    <th align="center" class="orange">普通用户</th>
+    <th align="center" class="orange">VIP1</th>
+    <th align="center" class="orange">VIP2</th>
+    <th align="center" class="orange">VIP3</th>
+    <th align="center" class="orange">VIP4</th>
+    <th align="center" class="orange">VIP5</th>
+    <th align="center" class="orange">VIP6</th>
+    <th align="center" class="orange">VIP7</th>
+    <th align="center" class="orange">VIP8</th>
+    <th align="center" class="orange">VIP9</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td align="center">风险准备金<p class="gray">（按借款时等级收取，按借款本金的百分比收取）</p></td>
+    <td align="center">5%</td>
+    <td align="center">2%</td>
+    <td align="center">1%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+    <td align="center">0%</td>
+  </tr>
+  <tr>
+    <td align="center">融资服务费<p class="gray">（每月）</p></td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+    <td align="center">1%</td>
+  </tr>
+  </tbody>
+</table>
+<div class="vip_font">
+<h3><img src="images/09-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/09.png" />举个栗子</h3>
+<p>某普通用户借款10000元，借款期限1个月，借款成本：风险准备金500元+融资服务费100元+借款利息92.5元=<b class="blue">692.5元</b>；</p>
+<p>某VIP1用户借款10000元，借款期限1个月，借款成本：风险准备金200元+融资服务费100元+借款利息92.5元=<b class="blue">392.5元</b>；</p>
+</div>
+</div>
+</div><!--vip end-->
+<div class="hh_qa">
+<div class="main">
+<h1><img src="images/08-1.png" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/images/08.png" /></h1>
+<dl>
+<dt><i>Q</i>申请借款需要提供哪些资料？</dt>
+<dd><i>A</i><span class="t-font">借款人注册并完成认证后，只需要完善个人信息即可，不需要提供工作证明、收入证明等资料；</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>如何提高授信额度？为什么我的授信额度为零？</dt>
+<dd><i>A</i><span class="t-font">授信额度由借款人芝麻信用分、VIP等级等多个维度决定，并会根据情况实时调整；由于目前系统数据不够充足，部分用户无法获得授
+信额度，请这部分用户通过其他渠道借款；</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>VIP会员有哪些特权？</dt>
+<dd><i>A</i><span class="t-font">用户的借款额度会参考VIP等级信息，VIP等级越高借款时收取的风险准备金越低，更多特权请查看<a href="../../vip.html" tppabs="http://www.xinrong.com/2.0/vip.html" class="blue" target="_blank">VIP会员特权></a>。</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>VIP如何获取？如何升级？</dt>
+<dd><i>A</i><span class="t-font">用户可参与“投资满50000送vip”活动成为VIP会员，也可直接付费开通（会员费150元/年）。VIP升级与成长值相关，详情请查看<br /><a href="../../vip.html" tppabs="http://www.xinrong.com/2.0/vip.html" class="blue" target="_blank">VIP会员特权></a>。</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>借款费用有哪些？如何收取？</dt>
+<dd><i>A</i><span class="t-font">借款费用包括利息（按借款期限不同年利率在9%-13.8%之间）、融资服务费1%/月、风险准备金（按借款本金计提，普通用户5%，VIP1为2%，VIP2为1%，VIP3-9免准备金）。融资服务费与风险准备金在筹款成功后一次性扣除，利息在每个月还款时还给投资人。具体参考 <a href="../../calculator.html" tppabs="http://www.xinrong.com/2.0/calculator.html" class="blue" target="_blank">计算器></a></span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>申请通过后多久资金可以到账？</dt>
+<dd><i>A</i><span class="t-font">一般在申请成功后1-2个工作日即可完成筹款，筹款成功后资金直接汇入借款人信融财富账户，借款人可根据实际需要操作提现至本人银行卡；</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>借款成功后如何还款？</dt>
+<dd><i>A</i><span class="t-font">在还款日前将还款金额存入信融财富账户即可，系统将自动完成扣款；另外，为避免账户的资金因自动投资而导致还款失败，请用户提前关闭自动投资功能；</span></dd>
+<div class="clear"></div>
+</dl>
+<dl>
+<dt><i>Q</i>未按时还款会有什么处罚？</dt>
+<dd><i>A</i><span class="t-font">用户逾期未还款，平台将按天计算逾期费用，并安排催收人员进行催收，并将借款人信息披露在“逾期黑名单”中。严重逾期的将会影响借款人的芝麻信用、人民银行个人信用记录、银行贷款申请等。</span></dd>
+<div class="clear"></div>
+</dl>
+<p class="qa_sub"><a href="../../views/huahua/huahua.html" tppabs="http://www.xinrong.com/2.0/views/huahua/huahua.html" class="sub01" target="_blank">申请信融花花</a></p>
+</div>
+</div>
+<!--center end--> 
+<!--footer-->
+<div class="footer_box">
+<div class="footer_fnav">
+<div class="main">
+<div class="footer_about left">
+<ul>
+<li><h2><a href="../../views/about/about.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" target="_blank">关于我们</a></h2><p><a href="../../views/about/team-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/team.shtml" target="_blank">团队介绍</a></p><p><a href="../../views/about/xr_history-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_history.shtml" target="_blank">发展历程</a></p><p><a href="../../views/about/xr_credit-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_credit.shtml" target="_blank">资质荣誉</a></p><p><a href="../../views/about/partner-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/partner.shtml" target="_blank">合作机构</a></p></li>
+<li><h2><a href="../../views/about/help.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml" target="_blank">帮助中心</a></h2><p><a href="../../views/about/guide/guide1-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/guide/guide1.shtml" target="_blank">新手指引</a></p><p><a href="../../views/about/help-2.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml?tab=tab1" target="_blank">问题答疑</a></p><p><a href="../../views/about/help-3.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml?tab=tab10" target="_blank">投资攻略</a></p><p><a href="javascript:if(confirm('http://bbs.xinrong.com/forum-49-1.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://bbs.xinrong.com/forum-49-1.html'" tppabs="http://bbs.xinrong.com/forum-49-1.html" target="_blank">意见反馈</a></p></li>
+<li><h2><a href="../../views/about/about.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" target="_blank">信息中心</a></h2><p><a href="../../views/about/xr_announcement-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_announcement.shtml" target="_blank">平台公告</a></p><p><a href="../../views/about/media_report-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/media_report.shtml" target="_blank">媒体报道</a></p><p><a href="../../views/about/activitysum-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/activitysum.shtml" target="_blank">信融点滴</a></p><p><a href="javascript:if(confirm('http://bbs.xinrong.com/forum.php  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://bbs.xinrong.com/forum.php'" tppabs="http://bbs.xinrong.com/forum.php" target="_blank">社 区</a></p></li>
+<li><h2>产品体系</h2><p><a href="../../vip.html" tppabs="http://www.xinrong.com/2.0/vip.html" target="_blank">VIP特权</a></p><p><a href="javascript:if(confirm('http://www.xinrong.com/gift  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://www.xinrong.com/gift'" tppabs="http://www.xinrong.com/gift" target="_blank">积品汇</a></p><p><a href="../../../action/jf.htm" tppabs="http://www.xinrong.com/action/jf" target="_blank">抽奖</a></p></li>
+</ul>
+</div>
+<div class="footer_contact left">
+<h2>网贷有风险    投资需谨慎</h2>
+<h3><span ><i class="AllIcon"></i>400-777-9888</span></h3>
+<p>周一至周五9:00 - 18:30</p>
+<p class="gray">官方QQ群：167877489</p>
+<div class="con_pic">
+<ul>
+<li class="fb01"><a href="javascript:void(0)"><i class="AllIcon icon01"></i></a>
+<ul class="weix_box"><b></b><li><img src="../../../s/img/w02-1.jpg" tppabs="http://www.xinrong.com/s/img/w02.jpg" width="100"><h4>关注服务号</h4></li><li><img src="../../../s/img/w05-1.jpg" tppabs="http://www.xinrong.com/s/img/w05.jpg" width="100"><h4>关注订阅号</h4></li><li><img src="../../../s/img/w06-1.jpg" tppabs="http://www.xinrong.com/s/img/w06.jpg" width="100"><h4>微信客服-小薇</h4></ul>
+</li>
+<li class="fb02"><a href="javascript:if(confirm('http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5'" tppabs="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5" title="在线咨询" target="_blank"><i class="AllIcon icon02"></i></a>
+<ul class="weix_box qq_box">
+<li><b></b><img src="../../images/qq-1.png" tppabs="http://www.xinrong.com/2.0/images/qq.png" width="120"><h4>QQ号：4007779888</h4></li>
+</ul></li>
+<li class="fb03"><a href="javascript:if(confirm('http://weibo.com/u/2719695463?profile_ftype=1&is_all=1  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://weibo.com/u/2719695463?profile_ftype=1&is_all=1#_0'" tppabs="http://weibo.com/u/2719695463?profile_ftype=1&is_all=1#_0" target="_blank" title="微博"><i class="AllIcon icon03"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="footer_app right">
+  <img src="../../../s/img/w07-1.jpg" tppabs="http://www.xinrong.com/s/img/w07.jpg" width="122" class="bimg" /><h2>下载手机客户端<i class="AllIcon icon01"></i> <i class="AllIcon icon02"></i></h2> </div>
+<div class="black10"></div>
+</div>
+</div><!--end-->
+<div class="clear"></div>
+<div class="footer_pic">
+<ul>
+<li><a target="_blank" href="javascript:if(confirm('http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86'" tppabs="http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86" title="深圳市市场监督管理局企业主体身份公示"><i class="icon01"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN'" tppabs="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN" title="信融财富是中国首批引入VeriSign 256位SSL加密的融资理财平台。您的隐私及个人资料安全已受最高级别的保护。"><i class="icon03"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401'" tppabs="http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401" title="中国信用企业"><i class="icon02"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('https://search.szfw.org/cert/l/CX20140805008628008716  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://search.szfw.org/cert/l/CX20140805008628008716'" tppabs="https://search.szfw.org/cert/l/CX20140805008628008716" title="诚信网站"><i class="icon04"></i></a></li>
+<li><a title="腾讯云安全认证"><i class="icon05"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business'" tppabs="http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business" title="安全联盟认证网站"><i class="icon06"></i></a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="footer_font main"><p> <a href="javascript:if(confirm('http://www.xinrong.com/about/privacy  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://www.xinrong.com/about/privacy'" tppabs="http://www.xinrong.com/about/privacy" target="_blank">隐私保护申明</a> 　|　 <a href="javascript:if(confirm('http://www.xinrong.com/about/agreement  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://www.xinrong.com/about/agreement'" tppabs="http://www.xinrong.com/about/agreement" target="_blank">服务协议</a>　 |　 粤ICP备12020226号</p>Copyright Xinrong.com All Rights Reserved   信融财富投资管理有限公司</div>
+</div>
+
+<style>
+.d-dialog{ border: 1px solid #0078b5; background:#fff;}
+.d-dialog h1{ height: 30px; line-height: 30px; padding: 0 28px 0 10px; color: #fff; background: #74b4e2; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74b4e2), color-stop(100%, #3d8fca) ); background-image: -webkit-linear-gradient(#74b4e2, #3d8fca); background-image: -moz-linear-gradient(#74b4e2, #3d8fca); background-image: -o-linear-gradient(#74b4e2, #3d8fca); background-image: linear-gradient(#74b4e2, #3d8fca); position:relative; font-size:14px;}
+.d-dialog h1 .d-close { padding: 0; position:absolute; top: 4px; right: 4px; width: 21px; height: 21px; line-height: 21px; font-size: 25px; _font-size: 20px; color: #fff; text-align: center; font-family: Helvetica, STHeiti; _font-family: Tahoma, '\u9ed1\u4f53', 'Book Antiqua', Palatino;text-decoration: none; display:block;outline: none;}
+
+.d-dialog .call_font{ padding:50px 40px 20px 40px; line-height:24px; font-size:16px;width:350px}
+.d-dialog .call_sub{ padding:20px 0 0 0; text-align:center;}
+.d-dialog .call_sub .sub01{ width:156px; height:45px; line-height:43px; text-align:center; background:#15a32c; font-size:20px;}
+.d-dialog .call_sub .sub02{ width:156px; height:45px; line-height:43px; text-align:center; background:#c8c8c8; font-size:20px;}
+.d-dialog .c_font{ text-align:center; padding-left:0px; padding-right: 0px;}
+</style>
+<script>
+$(function(){
+	//免费咨询电话
+	/*$('.ftel').click(function(){
+		$.dialog({
+			id:'tel',
+			content:$('#free_tel_box').html(),
+			initialize:function(){
+				var _dialog = this;
+				$('.d-dialog #free_tel_btn').click(function(){
+					$.ajax({
+						url:'../../../v2/communication/free_consulation-1.jso'/*tpa=http://www.xinrong.com/v2/communication/free_consulation.jso*/,
+						type:'post',
+						dataType:'json',
+						success:function(result){
+							if(result.state == 0){
+								$('.d-dialog #free_tel_btn').removeClass().addClass('sub02').html('请接听');
+								$('.d-dialog #free_tel_btn').unbind('click').click(function(){
+									_dialog.close();
+								});
+							}else if(result.state == 1009){
+								_dialog.close();
+								AA.RapidLogin.popup();
+							}else{
+								_dialog.close();
+								$.dialog({
+									id:'tel_msg',
+									content:$('#free_tel_msg_box').html(),
+									initialize:function(){
+										var _dialog = this;
+										$('.d-dialog #msg_view').html(result.msg);
+										$('.d-dialog #free_tel_msg_btn').click(function(){
+											_dialog.close();
+										});
+									}
+								});
+							}
+						}
+					});
+				});
+			}
+		});
+	});*/
+});
+</script>
+<div id="free_tel_box" style="display:none;">
+<div class="call_font" >
+点击通话，<font  >致电给信融财富</font>，
+稍后您将接到回拨电话，此次通话对您<span class="blue">完全免费</span>，请放心接听！
+</div>
+<div class="call_sub"><a id="free_tel_btn" href="javascript:void(0)" class="sub01">通话</a></div>
+<div class="black20"></div>
+</div>
+<div id="free_tel_msg_box" style="display:none;">
+<div class="call_font c_font" id="msg_view">
+</div>
+<div class="call_sub"><a id="free_tel_msg_btn" href="javascript:void(0)" class="sub01">确定</a></div>
+<div class="black20"></div>
+</div>
+
+<script type="text/javascript" src="../../js/channel-1.js" tppabs="http://www.xinrong.com/2.0/js/channel.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var agent=navigator.userAgent;
+
+	if(agent.indexOf('android')==-1&&agent.indexOf('Android')==-1){
+		var hm = document.createElement("script");
+		hm.src = "../../../../hm.baidu.com/hm-1.js"/*tpa=http://hm.baidu.com/hm.js?a5ef11ea1e672f6b504ec7fe5a92cf30*/;
+		 var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	}
+})();
+</script>
+<script>
+(function() {
+	$.ajax({
+		url:'../../../v2/login/in_session_data-1.jso'/*tpa=http://www.xinrong.com/v2/login/in_session_data.jso*/,
+	    type:'GET' ,
+	    dataType:'json',
+	    success:function (result) {
+	    	if(result.state==0){
+	    		G_ENV_VAR.IS_CHECKED_EMAIL=result.isAuthEmail==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_MOBILE=result.isAuthMobile==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_IDENTIFICATION=result.isAuthIden==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_BANKCARD=result.isAuthBankCard==0?false:true;
+	    		G_ENV_VAR.UNAME=result.uname;
+	    		G_ENV_VAR.UID=result.uid;
+	    		G_ENV_VAR.VIP=result.vip;
+
+	    		if(G_ENV_VAR.UID!=''&&G_ENV_VAR.UID>0){
+	    			$('#top_exit').show();
+					
+	    		}
+
+	    	}else if(result.state == 1009){
+				$('.h-login-reg').show();
+				}
+
+	    }
+	});
+
+})();
+</script>
+<!--footer end-->
+
+<!--footer end--> 
+
+<div  id="sidebar-login-box" style="display: none; ">
+<div class="wgt-dialog wgt-dialog-login" >
+    <fieldset class="ui-form">
+        <form id="rapid-login-form" method="post" action="http://www.xinrong.com/v2/login/login.jso">
+            <h3 class="wgt-dialog-title">信融财富用户登录</h3>
+            <div class="ui-form-line">
+                <label for="username" class="ui-form-label">账　号：</label>
+                <input type="text" name="username" id="rapid-userName" class="ui-form-input" maxlength="50" tabindex="1" placeholder="账户名 / Email / 手机号"/>
+                <a href="../../views/account/register4.0.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/register4.0.shtml" class="blue" target="_blank">注册账号</a>
+            </div>
+            <div class="ui-form-line">
+                <label for="password" class="ui-form-label">密　码：</label>
+                <input type="password" name="password" id="rapid-userPw" class="ui-form-input" maxlength="16" tabindex="2" placeholder="登录密码"/>
+                <a href="../../views/account/back_password.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/back_password.shtml" class="blue" target="_blank">忘记账号/密码？</a>
+            </div>
+            <div class="ui-form-line ui-form-captcha" id="captcha_view" style="display:none">
+                <label for="rapid-captcha" class="ui-form-label">验证码：</label>
+                <input type="text" id="rapid-captcha" name="captcha" class="ui-form-input" autocomplete="off" maxlength="4" tabindex="3" placeholder="验证码"/>
+                <span id="rapid-captcha-placeholder" class="captcha-placeholder"><img src="" width='101' height='31' id='img-captcha' title='看不清楚？换一个' /></span>
+                <input type="hidden" id="rapid-seed" name="seed" value=""/>
+            </div>
+            <div class="ui-form-line ui-form-action">
+                <input  type="submit" class="ui-button ui-button-orange" style="width: 234px;height: 36px;line-height: 36px;" tabindex="4" value="登 录" />
+                
+                <em class="ui-tip"></em>
+                <img src="../../images/Connect_logo_7-1.png" tppabs="http://www.xinrong.com/2.0/images/Connect_logo_7.png" onclick=" AA.RapidLogin.qqClick();" style="cursor:pointer; margin-left:8px;"></img>
+            </div>
+            <style>
+            .login-succ{ margin:auto; width:290px; height:210px; position:fixed; left:0; right:0px; top:0px; bottom:0px; z-index:999; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000'); border-radius:8px; text-align:center;}
+            :root .login-succ{ filter:none; background-color:rgba(0,0,0,0.5);}
+            .login-succ h1{ font-size:24px; color:#fff; padding-top:60px; font-weight:normal; position:relative;}
+            .login-succ img{ vertical-align:middle;padding:0px 10px 0 0;}
+            .login-succ span{ vertical-align:middle; padding: 26px 0 0 0;  display: inline-block;}
+            </style>
+            <div id="login_suc_dialog" style="display: none;">
+            <div class="login-succ">
+            <h1><img src="../../images/c-login1-1.gif" tppabs="http://www.xinrong.com/2.0/images/c-login1.gif" width="68" height="93" /><span><i class="icondagou"></i>登录成功</span></h1>
+            </div>
+            </div>
+        </form>
+    </fieldset>
+</div> 
+
+</div>
+<script type="text/javascript" src="../../js/rsa-1.js" tppabs="http://www.xinrong.com/2.0/js/rsa.js"></script>
+<script type="text/javascript" src="../../../webapp2.0/js/wbox-1.js" tppabs="http://www.xinrong.com/webapp2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../css/dialog-wbox-1.css" tppabs="http://www.xinrong.com/2.0/css/dialog-wbox.css">
+
+</body>
+</html>

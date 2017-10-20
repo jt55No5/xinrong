@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinrong.dao.ViplevelMapper" >
+  <resultMap id="BaseResultMap" type="com.xinrong.bean.Viplevel" >
+    <id column="vipId" property="vipid" jdbcType="INTEGER" />
+    <result column="vipName" property="vipname" jdbcType="VARCHAR" />
+    <result column="commission" property="commission" jdbcType="DOUBLE" />
+    <result column="commissionDis" property="commissiondis" jdbcType="DOUBLE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    vipId, vipName, commission, commissionDis
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from viplevel
+    where vipId = #{vipid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from viplevel
+    where vipId = #{vipid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinrong.bean.Viplevel" >
+    insert into viplevel (vipId, vipName, commission, 
+      commissionDis)
+    values (#{vipid,jdbcType=INTEGER}, #{vipname,jdbcType=VARCHAR}, #{commission,jdbcType=DOUBLE}, 
+      #{commissiondis,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinrong.bean.Viplevel" >
+    insert into viplevel
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="vipid != null" >
+        vipId,
+      </if>
+      <if test="vipname != null" >
+        vipName,
+      </if>
+      <if test="commission != null" >
+        commission,
+      </if>
+      <if test="commissiondis != null" >
+        commissionDis,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="vipid != null" >
+        #{vipid,jdbcType=INTEGER},
+      </if>
+      <if test="vipname != null" >
+        #{vipname,jdbcType=VARCHAR},
+      </if>
+      <if test="commission != null" >
+        #{commission,jdbcType=DOUBLE},
+      </if>
+      <if test="commissiondis != null" >
+        #{commissiondis,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinrong.bean.Viplevel" >
+    update viplevel
+    <set >
+      <if test="vipname != null" >
+        vipName = #{vipname,jdbcType=VARCHAR},
+      </if>
+      <if test="commission != null" >
+        commission = #{commission,jdbcType=DOUBLE},
+      </if>
+      <if test="commissiondis != null" >
+        commissionDis = #{commissiondis,jdbcType=DOUBLE},
+      </if>
+    </set>
+    where vipId = #{vipid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinrong.bean.Viplevel" >
+    update viplevel
+    set vipName = #{vipname,jdbcType=VARCHAR},
+      commission = #{commission,jdbcType=DOUBLE},
+      commissionDis = #{commissiondis,jdbcType=DOUBLE}
+    where vipId = #{vipid,jdbcType=INTEGER}
+  </update>
+</mapper>

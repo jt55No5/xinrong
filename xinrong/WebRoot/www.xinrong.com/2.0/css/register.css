@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"微软雅黑";}
+input{ font-family:"微软雅黑";}
+
+
+.registerbg{ width:100%; min-width:1000px; background:#f7f7f7;}
+
+.logo{ padding:10px 0 10px 0;}
+.r-head{ position:absolute; right:0px; top:-80px; width:720px;}
+.HeaderLogo{ height:46px; line-height: 46px; margin:23px 0 0 0px; padding:0px 0 0 25px; font-family:"微软雅黑"; font-size:30px; color:#666666; font-weight:normal; border-left:1px solid #c6c6c6;}
+.headerright{ height:43px; line-height:43px; padding-top:30px; padding-right:22px; font-size:14px; color:#656565; font-weight:bold;}
+
+.FooterLeft ul li{ padding-left:29px; float:left;}
+
+.tsicon{ background:url("../../s/images/account/register/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/s/images/account/register/tip-s5a01e083c6.png*/) -1px -195px no-repeat; width:15px; height:16px; display:inline-block; margin-right:4px; vertical-align:middle;}
+.tsicon01{ background:url("../../s/images/account/register/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/s/images/account/register/tip-s5a01e083c6.png*/) -1px -221px no-repeat; width:15px; height:16px; display:inline-block; margin-right:4px; vertical-align:middle;}
+
+
+.eoicon{ background:url("../images/eye_open.png"/*tpa=https://www.xinrong.com/2.0/images/eye_open.png*/) -1px -1px  no-repeat   ;  background-size: contain; width:36px; height:36px; display:inline-block; margin-right:4px; vertical-align:middle;}
+
+.ecicon{ background:url("../images/eye_close.png"/*tpa=https://www.xinrong.com/2.0/images/eye_close.png*/) -1px -1px  no-repeat   ;  background-size: contain; width:36px; height:36px; display:inline-block; margin-right:4px; vertical-align:middle;}
+
+
+
+
+.registermain{ width:951px; margin:0 auto; background:#fff; border:1px solid #eeeeee; border-bottom:2px solid #d5d5d5; font-family:"微软雅黑";}
+.registerbuz{ width:776px; height:16px; margin:0 auto; background:url("../../s/images/account/register/sbg.jpg"/*tpa=https://www.xinrong.com/s/images/account/register/sbg.jpg*/) repeat-x; margin-top:69px; position:relative;}
+.registerbuz .buzfont01{ width:95px; position:absolute; left:-32px; top:-19px; text-align:center;}
+.registerbuz .buzfont02{ width:95px; position:absolute; left:356px; top:-19px; text-align:center;}
+.registerbuz .buzfont03{ width:95px; position:absolute; right:-32px; top:-19px; text-align:center;}
+.registerbuz p{ font-size:15px; color:#858585; line-height:28px;}
+.registerbuz p.orange{ color:#f60;}
+.registerbuz .buzicon{ width:54px; height:53px; line-height:53px; text-align:center; background:url("../../s/images/account/register/icon.png"/*tpa=https://www.xinrong.com/s/images/account/register/icon.png*/) -69px 0 no-repeat; font-style:normal; display:inline-block; color:#fff; font-family:Arial; font-size:26px; font-weight:bold;}
+.registerbuz .buzicon01{ width:54px; height:53px; line-height:53px; text-align:center; background:url("../../s/images/account/register/icon.png"/*tpa=https://www.xinrong.com/s/images/account/register/icon.png*/) 0px 0 no-repeat; font-style:normal; display:inline-block; color:#fff; font-family:Arial; font-size:26px; font-weight:bold;}
+.registerbuz .registerorg{ position:absolute; left:0px; top:0px; width:416px; height:16px; background:#ff6600;}
+.registerbuz .registerorg01{ position:absolute; left:0px; top:0px; width:776px; height:16px; background:#ff6600;}
+
+.registerpic{ padding-top:84px; text-align:center;}
+
+.registerlist{ width:832px; margin:0 auto; padding-top:40px;}
+.registerlist dl{ width:100%; clear:both; padding:10px 0 0 0; color:#706f6f; line-height:39px; font-size:15px;}
+.registerlist dt{ width:287px; text-align:right; padding-right:10px; float:left;}
+.registerlist dd{ width:530px; float:left;}
+.registerlist dd p{ font-size:12px; height:20px; line-height:20px;}
+.registerlist dd .cc6c6c6{ color:#c6c6c6;}
+.registerlist dd i{ width:17px; height:27px; display:inline-block; position:absolute; left:5px; top:6px; background:url("../../s/images/account/register/icon.png"/*tpa=https://www.xinrong.com/s/images/account/register/icon.png*/) no-repeat;}
+.registerlist dd .icon02{ background-position: -140px 0; left:7px;}
+.registerlist dd .icon03{ width:22px; background-position: -168px 0;}
+.registerlist dd .icon04{ width:22px; background-position: -198px 0;}
+.registerlist dd .icon05{ width:22px; background-position: -168px -36px; top:12px; left:247px;}
+.registerlist dd .icon06{ width:22px; background-position: -140px -35px; top:10px;}
+.registerlist dd .spanpic{ display:inline-block; padding-left:6px;}
+.registerlist dd .spanpic img{ vertical-align:middle; height:37px;}
+.registerlist dd .regisfont{ display:inline-block; width:60px; line-height:14px; vertical-align:middle; font-size:12px;}
+.registerlist dd .regisfont a{ color:#64b5ec;}
+.registerlist dd input{ height:37px; line-height:37px; border:1px solid #dadada; padding:0 10px; vertical-align:middle; font-size:14px;}
+.registerlist dd .registertext01{ width:230px; padding-left:29px;}
+.registerlist dd .registertext02{ width:133px;}
+.registerlist dd .fontbg{ display:inline-block; padding-left:12px; vertical-align:middle;}
+.registerlist dd .fontbg a{ width:101px; height:33px; line-height:33px; text-align:center; display:inline-block; background:#7dbfee; color:#fff; font-size:13px; text-decoration:none;}
+.registerlist dd .ce1b43d{ color:#e1b43d;}
+.registerlist dd .SubFont{ border:0px; font-size:18px; width:268px; background:#ff6600;}
+.registerlist dd .security{ display:inline-block; padding-left:12px; color:#c6c6c6; vertical-align:middle; font-size:12px; line-height:19px;}
+.registerlist dd .security span{ background:#e0e0e0; color:#b1b1b1; padding:0 5px; margin-right:4px;}
+.registerlist dd .security span.sebg{ color:#fff; background:#f60;}
+.registerlist dt .fontline{ line-height:20px;}
+.registerlist dt .c62b4ec{ color:#e1b43d; font-size:12px;}
+.registerlist dd .tsicon01,.registerlist dd .tsicon{ position:absolute; left:249px; top:12px;}
+
+.registerlist dd .ecicon01,.registerlist dd .ecicon{ position:absolute; left:230px; top:4px;}
+.registerlist dd .eoicon01,.registerlist dd .eoicon{ position:absolute; left:230px; top:4px;}
+
+.registersuccess{ width:832px; margin:0 auto; border-top:1px solid #ebebeb; margin-top:90px;}
+.registersuccess .success{ display:block; padding-left:231px; font-size:16px; color:#656565; line-height:38px;}
+.registersuccess .success h2{ font-size:20px; color:#656565; font-weight:normal;}
+.registersuccess .success .icon01{ background:url("../../s/images/account/register/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/s/images/account/register/tip-s5a01e083c6.png*/) 0 -39px no-repeat; width:35px; height:35px; display:inline-block; vertical-align:middle; margin-right:7px;}
+.registersuccess .successSub{ display:block; text-align:center; padding:36px 0 20px 0;}
+.registersuccess .successSub span{ width:150px; height:37px; line-height:37px; display:inline-block; text-align:center; font-size:16px; color:#656565; background:#ecebeb; border:1px solid #adadad; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.registersuccess .successSub span b{ font-weight:normal;}
+
+

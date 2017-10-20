@@ -1,0 +1,1055 @@
+.feature {
+	position: relative;
+	height: 160px;
+	color: #7c522b;
+	background: url("../../img/feature.jpg-1352892496.jpg"/*tpa=https://www.xinrong.com/s/img/feature.jpg?1352892496*/) no-repeat
+}
+
+.feature a.more {
+	position: absolute;
+	right: 43px;
+	top: 33px
+}
+
+.feature dl.item {
+	float: left;
+	display: inline;
+	margin-top: 80px;
+	line-height: 22px;
+	font-family: Simsun
+}
+
+.feature .security {
+	margin-left: 80px
+}
+
+.feature .no-worry {
+	margin-left: 57px
+}
+
+.feature .gains {
+	margin-left: 88px
+}
+
+.feature dt {
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 15px;
+	text-indent: -99999em;
+	*font-size: 0
+}
+
+.feature dd {
+	padding-left: 10px
+}
+
+.feature,.introduction {
+	overflow: hidden
+}
+
+.feature .ui-button {
+	position: absolute;
+	top: 23px;
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #333;
+	font-size: 12px
+}
+
+.feature .invest-now {
+	right: 124px
+}
+
+.feature .i-want-to-financing {
+	right: 25px
+}
+
+.wgt-tab-trigger {
+	position: relative;
+	*zoom: 1
+}
+
+.wgt-tab-trigger:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-tab-trigger .item {
+	float: left;
+	display: block
+}
+
+.wgt-tab-container .item {
+	display: none
+}
+
+.wgt-tab-container .current {
+	display: block
+}
+
+.wgt-datagrid {
+	width: 100%;
+	font-family: Simsun
+}
+
+.wgt-datagrid tr.odd {
+	background-color: #f3f8fd
+}
+
+.wgt-datagrid th,.wgt-datagrid td {
+	text-align: center;
+	vertical-align: middle
+}
+
+.wgt-datagrid th {
+	height: 29px;
+	border-top: 1px solid #ccc;
+	background-color: #f2f2f2
+}
+
+.wgt-datagrid td {
+	height: 35px
+}
+
+.wgt-datagrid th.first,.wgt-datagrid td.first {
+	text-align: left;
+	padding-left: 18px
+}
+
+.wgt-datagrid th.last,.wgt-datagrid td.last {
+	padding-right: 0px
+}
+
+.wgt-datagrid .tl {
+	padding-left: 10px
+}
+
+.wgt-datagrid a {
+	color: #333;
+	text-decoration: underline
+}
+
+.wgt-datagrid a.ui-button {
+	text-decoration: none
+}
+
+.wgt-datagrid a:hover {
+	color: #f00
+}
+
+.wgt-datagrid-empty-row {
+	padding-top: 15px
+}
+
+.wgt-tab-container {
+	line-height: 22px
+}
+
+.introduction .wgt-tab-trigger {
+	padding-left: 10px
+}
+
+.introduction .wgt-tab-trigger a.item {
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 10px;
+	border: 1px solid #b5c2ca;
+	border-bottom: none;
+	text-align: center;
+	color: #333333;
+	z-index: 2;
+	margin-top: 1px;
+	font-family: SimSun;
+	font-size: 14px;
+	background-color: #f6f6f6
+}
+
+.introduction .wgt-tab-trigger a.item:hover {
+	text-decoration: none;
+	color: #0078b6
+}
+
+.introduction .wgt-tab-trigger a.current {
+	border-color: #99abbc !important;
+	bottom: -1px;
+	height: 29px;
+	margin-top: 0;
+	font-weight: 700;
+	background-color: #FFF
+}
+
+.introduction .wgt-tab-trigger a.current:hover {
+	color: #333
+}
+
+.introduction .wgt-tab-container {
+	padding-top: 23px;
+	border-top: 1px solid #99abbc
+}
+
+.introduction .wgt-tab-container h2 {
+	padding-top: 1px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #f60
+}
+
+.introduction .g-mod h3.hd {
+	height: 26px;
+	line-height: 26px;
+	font-weight: 700;
+	background-color: #f2f2f2;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+	font-size: 12px;
+	padding-left: 18px
+}
+
+.introduction .g-mod .bd {
+	padding: 14px 0
+}
+
+.introduction .intro .bd {
+	padding: 0 18px
+}
+
+.introduction .intro h2 {
+	height: 14px;
+	line-height: 14px;
+	margin-bottom: 16px
+}
+
+.introduction dt {
+	font-weight: 700
+}
+
+.introduction .wgt-datagrid th {
+	height: 28px;
+	border-top-color: #cfcfcf;
+	background-color: #f2f2f2
+}
+
+.principle img {
+	margin: 0 0 15px 65px
+}
+
+.principle .summary {
+	background-color: #f3f8fd
+}
+
+.principle .summary dt,.principle .summary dd {
+	float: left;
+	width: 287px;
+	height: 85px;
+	margin-left: 36px;
+	margin-bottom: 11px;
+	_display: inline;
+	overflow: hidden
+}
+
+.principle .summary dt {
+	height: 20px;
+	line-height: 20px;
+	margin-top: 17px;
+	margin-bottom: 0
+}
+
+.risk .bd {
+	padding-left: 18px !important;
+	padding-right: 18px !important
+}
+
+.risk .r1 {
+	height: 87px;
+	*height: 95px;
+	background: url("../../img/icons/risk/r1.png-1352170530.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r1.png?1352170530*/) no-repeat
+}
+
+.risk .r2 {
+	height: 98px;
+	background: url("../../img/icons/risk/r2.png-1352170544.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r2.png?1352170544*/) no-repeat
+}
+
+.risk .r3 {
+	height: 98px;
+	background: url("../../img/icons/risk/r3.png-1352170579.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r3.png?1352170579*/) no-repeat
+}
+
+.risk .r4 {
+	height: 90px;
+	background: url("../../img/icons/risk/r4.png-1352170602.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r4.png?1352170602*/) no-repeat
+}
+
+.risk .r5 {
+	height: 97px;
+	background: url("../../img/icons/risk/r5.png-1352170628.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r5.png?1352170628*/) no-repeat
+}
+
+.risk .r6 {
+	height: 101px;
+	background: url("../../img/icons/risk/r6.png-1352170662.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r6.png?1352170662*/) no-repeat
+}
+
+.risk .r7 {
+	height: 105px;
+	*height: 121px;
+	background: url("../../img/icons/risk/r7.png-1352170678.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r7.png?1352170678*/) no-repeat
+}
+.risk .r8{
+	height:70px;
+	background: url("../../img/icons/risk/r8.png"/*tpa=https://www.xinrong.com/s/img/icons/risk/r8.png*//*tpa=https://www.xinrong.com/s/img/icons/risk/r8.png*/) no-repeat
+}
+
+
+.risk dl {
+	border-bottom: 1px dotted #cfcfcf;
+	padding-left: 70px;
+	*width: 574px;
+	*background-position: left 18px !important
+}
+
+.risk dt {
+	height: 12px;
+	line-height: 12px;
+	margin: 18px 0 10px;
+	padding-top: 1px
+}
+
+.risk a {
+	color: #0078b6
+}
+
+.rules .g-mod {
+	margin-bottom: 0
+}
+
+.rules .bd {
+	padding-left: 17px !important;
+	padding-right: 16px !important
+}
+
+.rules dt {
+	height: 12px;
+	line-height: 12px;
+	margin: 0 0 10px 0
+}
+
+.rules dd {
+	margin-bottom: 20px;
+	font-family: Simsun
+}
+
+.rules dd span {
+	display: block;
+	background: url("../../img/dot.png-1352173647.png"/*tpa=https://www.xinrong.com/s/img/dot.png?1352173647*/) no-repeat left center;
+	padding-left: 10px;
+	margin-top: 18px
+}
+
+.rules hr {
+	border: none;
+	border-bottom: 1px dotted #cfcfcf;
+	margin-bottom: 19px
+}
+
+.policy .bd {
+	padding: 0 18px !important
+}
+
+.policy dd {
+	border-bottom: 1px dotted #cfcfcf;
+	padding-bottom: 17px
+}
+
+.policy dd span {
+	display: block;
+	margin-top: 22px
+}
+
+.policy dt {
+	height: 12px;
+	line-height: 12px;
+	margin: 16px 0 15px 0
+}
+
+.ui-rank {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url("../../img/rank.png-1351487370.png"/*tpa=https://www.xinrong.com/s/img/rank.png?1351487370*/) repeat-x 0 2px;
+	overflow: hidden
+}
+
+.ui-rank.r {
+	background-position: 0 -12px
+}
+
+.ui-rank.r1 {
+	width: 14px
+}
+
+.ui-rank.r2 {
+	width: 28px
+}
+
+.ui-rank.r3 {
+	width: 42px
+}
+
+.ui-rank.r4 {
+	width: 56px
+}
+
+.ui-rank.r5 {
+	width: 70px
+}
+
+.login,.user-info {
+	padding: 20px 25px;
+	border: 1px solid #d3d3d3;
+	font-family: Simsun
+}
+
+.login .tip,.user-info .tip {
+	display: block;
+	padding: 15px 0;
+	margin-bottom: 17px;
+	border-bottom: 1px dotted #dfdfdf
+}
+
+.login {
+	text-align: center;
+	color: #cfcfcf
+}
+
+.login .ui-button {
+	width: 156px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 16px
+}
+
+.user-info {
+	height: 118px;
+	overflow: hidden;
+	line-height: 2.2em;
+	color: #333
+}
+
+.user-info .blue {
+	margin-left: 12px
+}
+
+.user-info .income {
+	padding-top: 10px;
+	color: #666;
+	border-top: 1px dotted #dfdfdf;
+	text-align: center
+}
+
+.user-info .income .i-num {
+	color: #f00;
+	text-decoration: underline
+}
+
+.user-info .income .blue {
+	margin-left: 2px
+}
+
+.user-info .ui-tip {
+	display: block;
+	margin-top: 10px;
+	color: #f00;
+	padding-bottom: 15px
+}
+
+.user-info .ui-button {
+	position: relative;
+	width: 39px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	padding: 0 8px 0 9px
+}
+
+.user-info .ui-button,.user-info .ui-button:hover {
+	filter: none;
+	background: #FFF url("../../img/icons/dropdown/down.png-1351500953.png"/*tpa=https://www.xinrong.com/s/img/icons/dropdown/down.png?1351500953*/)
+		no-repeat 39px 8px
+}
+
+.user-info .down {
+	border-radius: 0 0 0 0;
+	border-bottom: none;
+	*border-bottom: 1px solid #FFF !important;
+	z-index: 2
+}
+
+.user-info .down,.user-info .down:hover {
+	filter: none;
+	background: #FFF url("../../img/icons/dropdown/up.png-1351500954.png"/*tpa=https://www.xinrong.com/s/img/icons/dropdown/up.png?1351500954*/)
+		no-repeat 39px 8px;
+	border-color: #B0C6DA
+}
+
+.user-info .i-score {
+	margin-left: 2px
+}
+
+.user-info .balance-panel {
+	position: absolute;
+	top: 69px;
+	*top: 70px;
+	_top: 68px;
+	font-size: 12px;
+	width: 185px;
+	line-height: 12px;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #B0C6DA;
+	padding: 15px 10px 13px;
+	left: 91px;
+	z-index: 1
+}
+
+.user-info .balance-panel .btn-close {
+	position: absolute;
+	display: block;
+	right: 2px;
+	top: 2px;
+	width: 12px;
+	height: 11px;
+	background: url("../../img/close.png-1351649242.png"/*tpa=https://www.xinrong.com/s/img/close.png?1351649242*/) no-repeat
+}
+
+.user-info .balance-panel .btn-close:hover {
+	background-position: 0 -13px
+}
+
+.user-info .balance-panel dt,.user-info .balance-panel dd {
+	float: left;
+	line-height: 20px
+}
+
+.user-info .balance-panel dd {
+	width: 125px
+}
+
+.user-info .balance-panel dd a.overdue {
+	padding: 1px 3px;
+	margin-left: 10px;
+	border: 1px solid #999;
+	color: #f60;
+	font-weight: 700
+}
+
+.user-info .balance-panel dd a.overdue:hover {
+	text-decoration: none
+}
+
+.sidebar {
+	float: right;
+	width: 305px
+}
+
+.sidebar h3 {
+	font-size: 12px;
+	border-bottom: 1px solid #CCC
+}
+
+.sidebar li {
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+	font-family: Simsun
+}
+
+.sidebar li a {
+	color: #333
+}
+
+.sidebar li span {
+	position: absolute;
+	right: 4px;
+	top: 0;
+	color: #666
+}
+
+.sidebar .ad {
+	height: 100px
+}
+
+.sidebar .ad a,.sidebar .ad img {
+	display: block
+}
+
+.sidebar .ad a {
+	z-index: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0
+}
+
+.main-content {
+	float: left;
+	width: 680px
+}
+
+.deals {
+	font-family: Simsun
+}
+
+.deals .bd {
+	height: 120px
+}
+
+.deals li {
+	height: 24px;
+	line-height: 24px
+}
+
+.deals span {
+	position: static !important;
+	display: inline-block;
+	overflow: hidden;
+	color: #333 !important
+}
+
+.deals .date {
+	width: 80px;
+	padding-left: 4px
+}
+
+.deals .name {
+	width: 35px
+}
+
+.deals .sn {
+	width: 128px
+}
+
+.deals .state {
+	width: 24px
+}
+
+.deals .money {
+	width: 52px;
+	text-align: right
+}
+
+.deals a {
+	color: #333
+}
+
+.side-nav {
+	width: 172px;
+	border: 1px solid #c4d6e6
+}
+
+.side-nav h3,.side-nav a.item {
+	width: 128px;
+	height: 38px
+}
+
+.side-nav h3 {
+	height: 42px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-weight: normal
+}
+
+.side-nav h3.last {
+	height: 38px
+}
+
+.side-nav h3.last a.current {
+	height: 40px
+}
+
+.side-nav a.item {
+	display: block;
+	line-height: 38px;
+	padding-left: 44px;
+	color: #333;
+	background: url("../../img/side_nav.png-1352709129.png"/*tpa=https://www.xinrong.com/s/img/side_nav.png?1352709129*/) no-repeat 21px -30px
+}
+
+.side-nav a:hover {
+	background-color: #e1eaf2;
+	text-decoration: none
+}
+
+.side-nav a.current {
+	background-position: 22px 12px
+}
+
+.side-nav a.current,.side-nav a.current:hover {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 129px;
+	padding-left: 45px;
+	border: none;
+	font-weight: 700;
+	color: #fff;
+	background-color: #4c8bc5
+}
+
+.side-nav a.disabled {
+	color: #999;
+	background-position: 21px -73px
+}
+
+.side-nav a.disabled:hover {
+	background-color: #fff
+}
+
+.main-container {
+	float: right;
+	width: 814px
+}
+
+.main-container a {
+	color: #0278b5
+}
+
+.main-container dt {
+	padding-top: 1px;
+	height: 12px;
+	line-height: 12px;
+	font-weight: 700;
+	margin-top: 27px;
+	margin-bottom: 15px;
+	background: url("../../img/dot.png-1352173647.png"/*tpa=https://www.xinrong.com/s/img/dot.png?1352173647*/) no-repeat left center;
+	padding-left: 10px
+}
+
+.main-container ol {
+	margin-left: 14px
+}
+
+.main-container .overview,.main-container .fund,.main-container .income,.main-container .data,.main-container .privacy
+	{
+	height: 550px
+}
+
+.main-container .fund,.main-container .income,.main-container .data,.main-container .privacy
+	{
+	background: url("../../img/safe.jpg-1352184778.jpg"/*tpa=https://www.xinrong.com/s/img/safe.jpg?1352184778*/) no-repeat right 38px
+}
+
+.main-container .fund h3.hd,.main-container .income h3.hd,.main-container .data h3.hd,.main-container .privacy h3.hd
+	{
+	height: 37px;
+	line-height: 37px;
+	padding-left: 14px;
+	border-bottom-color: #cfcfcf !important
+}
+
+.main-container .fund .bd,.main-container .income .bd,.main-container .data .bd,.main-container .privacy .bd
+	{
+	padding: 26px 165px 0 14px
+}
+
+.dot {
+	display: inline-block;
+	background: url("../../img/dot.png-1352173647.png"/*tpa=https://www.xinrong.com/s/img/dot.png?1352173647*/) no-repeat left center;
+	padding-left: 10px;
+	margin-right: 53px
+}
+
+.overview {
+	background: none
+}
+
+.overview h2 {
+	font-size: 14px;
+	font-weight: 700
+}
+
+.overview .intro {
+	line-height: 28px;
+	margin-bottom: 22px
+}
+
+.overview li {
+	float: left;
+	_display: inline;
+	cursor: pointer
+}
+
+.overview li h3 {
+	padding-top: 1px;
+	height: 12px;
+	line-height: 12px;
+	margin: 13px 0 8px 14px;
+	font-size: 12px;
+	border: none
+}
+
+.overview li li {
+	display: block;
+	float: none;
+	width: 350px;
+	margin-left: 19px;
+	padding-left: 4px;
+	font-family: SimSun
+}
+
+.overview .term {
+	display: block;
+	width: 398px;
+	height: 108px;
+	margin: 0 0 14px 14px;
+	border: 1px solid #d6e1ec;
+	background-color: #f6f9fd;
+	overflow: hidden;
+	color: #333
+}
+
+.overview .term:hover {
+	border: 1px solid #98bee2;
+	background-color: #ebf3fc;
+	text-decoration: none
+}
+
+.overview .first {
+	margin-left: 0
+}
+
+.channel-about .wgt-tab {
+	font-family: Simsun
+}
+
+.channel-about .item {
+	height: 1200px
+}
+
+.channel-about .item h3 {
+	height: 14px;
+	line-height: 14px;
+	border-bottom: none;
+	padding: 1px 0 0 0;
+	margin-top: 25px;
+	margin-bottom: 0
+}
+
+.channel-about p {
+	line-height: 22px;
+	margin-top: 16px
+}
+
+.channel-about ul {
+	font-family: Simsun
+}
+
+.channel-about li {
+	display: block
+}
+
+.channel-about .c333 {
+	margin-right: 18px;
+	color: #333;
+	text-decoration: underline
+}
+
+.culture p {
+	height: 12px;
+	line-height: 12px
+}
+
+.culture .value li {
+	width: 178px;
+	margin-right: 32px;
+	float: left;
+	_display: inline;
+	text-align: center
+}
+
+.culture .value li.last {
+	margin-right: 0
+}
+
+.culture .dot {
+	padding-top: 1px
+}
+
+.partner h3 {
+	margin-top: 0 !important;
+	padding: 8px 15px !important;
+	background-color: #f2f2f2
+}
+
+.partner ul {
+	margin-bottom: 40px
+}
+
+.partner li {
+	float: left;
+	margin: 20px 90px 0 0;
+	padding-left: 26px;
+	_display: inline
+}
+
+.partner .companys li {
+	width: 160px;
+	height: 42px;
+	margin: 18px 26px 0 0
+}
+
+.partners h3.hd {
+	margin-bottom: 20px !important;
+	padding-left: 0 !important
+}
+
+.partners h3.hd a {
+	color: #333
+}
+
+.partners h3.hd a:hover {
+	text-decoration: underline
+}
+
+.partners table {
+	width: 100%;
+	margin-bottom: 20px
+}
+
+.partners table,.partners th,.partners td {
+	border: 1px solid #b6c4cb;
+	text-align: center
+}
+
+.partners th,.partners td {
+	padding: 5px 10px
+}
+
+.partners td {
+	padding: 10px
+}
+
+.partners th {
+	font-weight: 700;
+	background-color: #f2f2f2
+}
+
+.partners h4 {
+	font-weight: 700;
+	font-size: 14px
+}
+
+.partners .bd {
+	line-height: 22px
+}
+
+.partners img {
+	border: 1px solid #EEE
+}
+
+.partners .papers img {
+	margin-right: 17px
+}
+
+.partners .caption {
+	margin-top: -3px;
+	font-weight: 700;
+	color: #666
+}
+
+.partners .caption span {
+	display: inline-block;
+	width: 270px;
+	text-align: center
+}
+
+.contact {
+	height: 630px !important;
+	padding: 20px 0 0 69px
+}
+
+.contact img {
+	display: block;
+	margin-bottom: 32px
+}
+
+.contact p {
+	line-height: 28px;
+	margin-top: 0 !important;
+	padding-left: 40px
+}
+
+.channel-financing h3 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	padding-bottom: 0;
+	background-color: #f2f2f2;
+	border-bottom: none;
+	margin-bottom: 16px;
+	padding-left: 15px
+}
+
+.requirement {
+	width: 515px
+}
+
+.requirement .bd {
+	padding-left: 14px;
+	line-height: 24px
+}
+
+.requirement dt {
+	font-weight: 700
+}
+
+.requirement dd {
+	margin-bottom: 30px
+}
+
+.apply-form {
+	width: 470px;
+	font-family: Simsun
+}
+
+.apply-form ul {
+	margin-left: 20px
+}
+
+.apply-form li {
+	line-height: 26px
+}
+
+.apply-form .ui-form-label {
+	width: 78px
+}
+
+.apply-form input {
+	margin-right: 5px
+}
+
+.apply-form textarea.ui-form-input {
+	border: 1px solid #B6C4CD;
+	width: 365px;
+	height: 40px;
+	padding: 3px;
+	vertical-align: middle
+}
+
+.apply-form .ui-tip {
+	display: inline-block
+}

@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+
+.i-green{ background:#04c3be;}
+.i-yellow{ background:#ffbe05;}
+.i-wathet{ background:#abd5fc;}
+.i-pink{ background:#ed6579;}
+.i-blue{ background:#4c8bc5;}
+.i-gray{ background:#c8c8c8;}
+.i-purple{ background:#dab0ed;}
+
+.about_banner{ background:#e9e9e9 url("../images/about/banner.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/banner.jpg*/) center no-repeat; height:238px;}
+
+.sidebar_a{ width:187px;}
+.sidebar_b{ width:897px; color:#888; min-height:686px;}
+.frameDiv{color:#888;}
+.side_nav {	padding-top: 69px;}
+.side_nav h1 { position: absolute; left: 0px; top: -84px;}
+.side_nav ul { margin: 0px;	padding: 0px; border: 1px solid #e7e7e7;}
+.side_nav ul li { text-align: left;	border-bottom: 1px solid #e7e7e7; position: relative; z-index: 9;}
+.side_nav ul li h2 { border-left: 5px solid #fff; height: 43px;	line-height: 43px; font-weight: normal;	font-size: 16px; padding-left: 35px; position: relative;}
+.side_nav ul li h2 .h_img {	font-family: "宋体";	position: absolute;	right: 13px; top: 0px; font-style: normal; color: #bfbfbf; font-weight: normal;	-webkit-transform: rotate(90deg); transform: rotate(90deg); font-size: 18px;	font-weight: bold; cursor: pointer;}
+.side_nav ul li h2.curbg { background: #ffede3;	color: #f60; text-decoration: none;	border-left: 5px solid #f60;}
+.side_nav ul li h2.curbg .h_img { -webkit-transform: rotate(270deg); transform: rotate(270deg);	-webkit-transition: all 0.5s; transition: all 0.5s;	color: #f60;}
+.side_nav ul li a {	border-left: 5px solid #fff; height: 43px; line-height: 43px; display: block; font-size: 16px; padding-left: 35px;}
+.side_nav ul li a:hover, .side_nav ul li.cur a { background: #ffede3; color: #f60; text-decoration: none; border-left: 5px solid #f60;}
+.side_nav ul li ul { background: #fff; display: none; border: 0px; border-top: 1px solid #e7e7e7; padding: 5px 0;}
+.side_nav ul li ul li {	padding: 0px; margin: 0px; border: 0px;}
+.side_nav ul li ul li a { height: 30px; line-height: 30px; font-size: 14px; padding: 0px 0 0 55px; border: 0px;	color: #888; background: #fff;}
+.side_nav ul li ul li a i {	width: 5px;	height: 5px; background: #999; border-radius: 50%; display: inline-block; vertical-align: middle; margin: 0 8px 2px 0;}
+.side_nav ul li ul li a:hover, .side_nav ul li ul li.cur a { color: #f60; border: 0px; background: none;}
+.side_nav ul li ul li a:hover i, .side_nav ul li ul li.cur a i { background: #f60;}
+
+.sidetitle{ height:43px; line-height:43px; background:#f1f1f1;}
+.sidetitle span{ height:43px; line-height:43px; background:#f60; font-size:16px; color:#fff; font-weight:normal; display:inline-block; padding:0 32px;}
+
+.about_font{ padding:20px 0; font-size:14px; line-height:36px;}
+
+.about_list{ width:100%; background:url("../images/about/03.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/03.jpg*/) left repeat-y; font-size:14px;}
+.about_list dt{ padding-bottom:15px;}
+.about_list h2{ line-height:24px; font-size:16px; font-weight:normal;}
+.about_list h2 .dot{ width:9px; height:9px; background:#f60; border:5px solid #fff; display:inline-block; vertical-align:middle; margin:0px 5px 4px 1px;}
+.about_list dd{ padding:0 0 30px 40px; line-height:36px;}
+.about_list dd.paddingl{ padding-left:26px;}
+.about_list .img_list{ width:100%;}
+.about_list .img_list li{ float:left; padding-right:8px; line-height:34px;}
+
+.about_list .partnerimg{ width:100%;}
+.about_list .partnerimg li{ float:left; padding:20px 50px 0 0;}
+.about_list .partnerimg li.paddingr{ padding-right:0px;}
+
+.team_list{ width:100%;}
+.team_list dl{ width:100%; padding:28px 0; clear:both;}
+.team_list dt{ width:121px; height: 167px; margin-left:16px; overflow: hidden; float:left; display:inline-table;}
+.team_list dt img{ width: 121px; height: 167px; -webkit-transition: all .5s ease-in; -ms-transition: all .5s ease-in; -moz-transition: all .5s ease-in; -o-transition: all .5s ease-in; transition: all .5s ease-in;}
+.team_list dt img:hover{-webkit-transform: scale(1.2,1.2); -ms-transform: scale(1.2,1.2); -moz-transform: scale(1.2,1.2); -o-transform: scale(1.2,1.2); transform: scale(1.2,1.2);}
+.team_list dd{ width:720px; font-size:14px; line-height:26px; float:right;}
+.team_list dd h2{ font-size:18px; font-weight:normal; color:#444; line-height:30px; padding-bottom:10px;}
+.team_list dd h2 span{ display:inline-block; padding-left:10px; font-size:14px;}
+
+.partner_list h2 .dot{ margin-right:20px;}
+.partner_font{ border:1px solid #ececec;}
+.partner_font td.bg{ background:#f3f0f0;}
+.partner_font .picbg{ display:block; background:#fff; position:relative; margin-left:-1px; padding:10px 0;}
+.partner_font h1{ line-height:52px; font-size:16px; border-bottom:1px solid #ececec; color:#444; padding-left:25px;}
+.partner_font dl{ width:100%; clear:both; padding:8px 0; line-height:24px; font-size:13px;}
+.partner_font dt{ padding:0 0 0 25px; width:80px; float:left; font-size:14px; color:#444;}
+.partner_font dd{ width:460px; float:left;}
+.partner_font dd p{ padding:0 0 15px 0;}
+.partner_font dd li{ padding:0 10px 8px 0; text-align:center; float:left;}
+
+.contact_list dt{ padding-bottom:11px;}
+.contact_list dt h2{ color:#444;}
+.contact_list dt h2 .dot{ margin-right:10px;}
+.contact_list dt .t-font{ font-size:12px; padding-left:5px; color:#666;}
+.contact_list dd{ line-height:26px; padding-left:31px}
+.contact_list .f-tip{ font-size:12px;}
+.contact_list dd .c_nav{ width:100%; margin:0px; padding:0px;}
+.contact_list dd .c_nav li{ float:left; padding-right:20px;}
+.contact_list dd .c_nav li a{ display:block; padding:3px 15px; text-decoration:none; background:#ce8208; color:#fff; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+
+.media_report{ width:100%;}
+.media_report dl{ width:100%; clear:both; padding-top:28px;}
+.media_report dt{ padding:0 0 0 5px; width:197px; float:left;}
+.media_report dd{ padding:0 10px 0 0; width:662px; font-size:14px; line-height:24px; float:right;}
+.media_report dd h2{ line-height:33px;  font-size:16px; font-weight:normal; margin-bottom:9px;}
+.media_report dd .d_font{height:42px; line-height:42px; margin-top:5px; padding:0 10px;border-bottom:1px solid #dcdcdc;}
+.media_report dd .d_font img{ vertical-align:middle; margin-bottom:3px;padding-right: 8px;}
+.pageCur {font-weight: 900;color: #FF4242 !important;}
+
+.history_list{ width:100%; background:url("../images/about/02.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/02.jpg*/) 144px repeat-y; position:relative;}
+.history_list h2{ width:51px; height:30px; line-height:30px; border:1px solid #f60; background:#ffede4; margin-left:117px; border-radius:20px; text-align:center; color:#f60; font-size:14px; font-weight:normal;}
+.history_list dl{ width:100%; clear:both; font-size:14px; padding-top:20px;}
+.history_list dt{ width:148px; text-align:right; float:left;}
+.history_list dt i{ width:7px; height:7px; background:#e3e3e3; display:inline-block; vertical-align:middle; margin:0 0 2px 19px;}
+.history_list dt i.orange{ background:#f60;}
+.history_list dd{ width:620px; padding-left:27px; float:left;}
+
+#h-nav{ position:fixed; left:50%; margin-left:490px; top:400px;}
+#h-nav ul li{ width:51px; background:url("../images/about/02.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/02.jpg*/) center repeat-y; padding-bottom:25px;}
+#h-nav ul li.padb{ padding-bottom:0px;}
+#h-nav ul li a{ display:block; width:51px; height:30px; line-height:30px; border:1px solid #f60; background:#fff; border-radius:20px; text-align:center; color:#f60; font-size:14px; text-decoration:none}
+#h-nav ul li a:hover,#h-nav ul li a.current{ color:#fff; background:#f60;}
+#h-nav ul li a.h-top{ background:#fff url("../images/about/top.png"/*tpa=https://www.xinrong.com/2.0/images/about/top.png*/) center no-repeat;}
+#h-nav ul li a.h-top .t-font{ display:none;}
+#h-nav ul li a.h-back{ background:#fff url("../images/about/back001.png"/*tpa=https://www.xinrong.com/2.0/images/about/back001.png*/) 17px 7px no-repeat;}
+#h-nav ul li a.h-back .t-font{ display:none;}
+#h-nav ul li a:hover.h-back{ background:#f60 url("../images/about/back001.png"/*tpa=https://www.xinrong.com/2.0/images/about/back001.png*/) -7px 7px no-repeat; text-decoration:none; position:relative;}
+#h-nav ul li a:hover.h-back .t-font{ display:block; width:94px; height:29px; line-height:29px; text-align:center; background:#f60; position:absolute; left:-101px;}
+#h-nav ul li a:hover.h-back .t-font b{ position:absolute; top:10px; right:-8px; width: 0; height: 0; line-height: 0; border-color: transparent transparent transparent #f60; border-style: solid; border-width: 4px; font-size: 0;}
+#h-nav ul li a:hover.h-top{ background:#f60 url("../images/about/top-b.png"/*tpa=https://www.xinrong.com/2.0/images/about/top-b.png*/) center no-repeat; text-decoration:none; position:relative;}
+#h-nav ul li a:hover.h-top .t-font{ display:block; width:94px; height:29px; line-height:29px; text-align:center; background:#f60; position:absolute; left:-101px;}
+#h-nav ul li a:hover.h-top .t-font b{ position:absolute; top:10px; right:-8px; width: 0; height: 0; line-height: 0; border-color: transparent transparent transparent #f60; border-style: solid; border-width: 4px; font-size: 0;}
+
+.credit_list{ width:100%;}
+.credit_list ul{ margin:0px; padding:0px; list-style:none;}
+.credit_list ul li{ width:288px; padding:45px 54px 0 54px; float:left;}
+.credit_list ul li h2{ font-size:16px; line-height:24px; font-weight:normal; color:#666; text-align:center; padding:8px 0 0 0;}
+.credit_list ul li .f-year{ display:block; text-align:center; border-bottom:1px solid #d6d6d6; height:20px;}
+.credit_list ul li .f-year span{ display:inline-block; color:#888; font-size:14px; background:#fff; line-height:20px; position:relative; margin-top:11px; padding:0 5px;}
+
+.credit_License{ width:100%; padding:30px 0;}
+.credit_License li{ float:left; padding:10px 8px;}
+
+.announce_list{padding:20px 0 0 0;}
+.announce_list .collapsing {  position: relative; height:0; overflow: hidden; padding: 0 20px;color:#444;  -webkit-transition-timing-function: ease;  -o-transition-timing-function: ease;  transition-timing-function: ease;
+    -webkit-transition-duration: .35s;  -o-transition-duration: .35s;  transition-duration: .35s;  -webkit-transition-property: height, visibility;  -o-transition-property: height, visibility;  transition-property: height, visibility
+}
+.announce_list .collapsing .wrapper{ padding-top:15px;}
+.announce_list .collapsing .wrapper img{ clear: both; display: block;  margin:auto; padding: 10px;max-width: 100%}
+.announce_list .collapsing {  background-color: #fdfdfd;  }
+.announce_list .collapseDiv{  background-color: #f8f8f8;  padding:0 1px;  margin:10px 5px;  font-size:14px; line-height: 24px; border: 1px solid #efefee;  }
+.announce_list .collapseDiv dt{  position: relative;  padding-top: 10px;  padding-right: 5px;  padding-bottom: 10px;  padding-left: 15px;  margin: 0px;  color:#888;  border-bottom:1px solid #efefee;  }
+.announce_list .active{ color:#444 !important;}
+.announce_list .collapseDiv dt:hover{  background:#f7f8f9;  cursor:pointer;  }
+.announce_list .collapseDiv dt span{   margin-left: 8px;  color:#bfbfbf; font-size: 12px }
+.announce_list .collapseDiv dt i{  position:absolute;right:12px;top:30%;display:inline-block;width:13px; height:13px; background:url("../images/about/ann_dico.png"/*tpa=https://www.xinrong.com/2.0/images/about/ann_dico.png*/) no-repeat;  -webkit-transition-duration: .5s;  transition-duration: .5s;  -o-transition-duration: .5s;  -webkit-transition-property: transform;  transition-property: transform;  }
+.announce_list .collapseDiv dt.active i { transform: rotateX(180deg);}
+.announce_list .collapseDiv dt i:hover{ transform:rotate(360deg); -ms-transform:rotate(360deg); -moz-transform:rotate(360deg); -webkit-transform:rotate(360deg); -o-transform:rotate(360deg);}
+.announce_list .collapseDiv dd p{text-indent:2em}
+.announce .holder { margin: 15px 10px; text-align:right;}
+.announce .holder a { font-size: 12px; cursor: pointer; margin: 0 5px; color: #333;}
+.announce .holder a:hover { background-color: #222; color: #fff;}
+.announce .holder a.jp-previous { margin-right: 5px; }
+.announce .holder a.jp-next { }
+.announce .holder a.jp-current, a.jp-current:hover { color: #FF4242; font-weight: bold;}
+.announce .holder a.jp-disabled, a.jp-disabled:hover { color: #bbb;}
+.announce .holder a.jp-current, a.jp-current:hover,.holder a.jp-disabled, a.jp-disabled:hover { cursor: default; background: none;}
+.announce .holder span { margin: 0 5px;}
+
+.sum_com{ width:100%;}
+.sum_com .com_list{ padding-left:20px;}
+.sum_com .com_list li{ width: 373px; border: 1px solid #d1d1d1; margin: 20px 20px 0 20px; background: #fff; float: left;}
+.sum_com .com_list li h2 { height: 49px; line-height: 49px; padding: 0 10px; font-size: 16px; font-weight: normal; position: relative;}
+.sum_com .com_list li h2 a.modetail { width: 60px; height: 30px; line-height: 30px; font-size: 14px; position: absolute; right: 10px; top: 9px; text-align: center; background: #ff6600; color: #fff; display: inline-block; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; text-decoration: none;}
+
+.sum_com .holder { margin: 15px 10px; text-align:right;}
+.sum_com .holder a { font-size: 12px; cursor: pointer; margin: 0 5px; color: #333;}
+.sum_com .holder a:hover { background-color: #222; color: #fff;}
+.sum_com .holder a.jp-previous { margin-right: 15px; }
+.sum_com .holder a.jp-next { margin-left: 15px; }
+.sum_com .holder a.jp-current, a.jp-current:hover { color: #FF4242; font-weight: bold;}
+.sum_com .holder a.jp-disabled, a.jp-disabled:hover { color: #bbb;}
+.sum_com .holder a.jp-current, a.jp-current:hover,.holder a.jp-disabled, a.jp-disabled:hover { cursor: default; background: none;}
+.sum_com .holder span { margin: 0 5px;}
+
+.monthborder{ border:1px solid #dddddd; border-width:0 1px; background:#fff;}
+.monthfont{ padding:20px; line-height:24px; color:#737373;}
+.monthfont h1{ color:#f60; font-size:16px; height:30px;}
+.monthfont p{ padding-left:30px; font-size:14px;}
+
+.monthly_tabs#tabsholder{ padding:0 0px;}
+.monthly_tabs ul.tabs { width:100%; border-bottom:1px solid #e1e1e1; height:45px;}
+.monthly_tabs ul.tabs li { width:119px; height:45px; line-height:35px; color:#666; text-align:center; font-size:16px; float:left; cursor:pointer; margin-right:10px; text-align:center; position:relative;}
+.monthly_tabs ul.tabs li .t-f{ display:inline-block; line-height:26px; padding:0 8px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+.monthly_tabs ul.tabs li i{ width:100%; line-height:10px; font-style:normal; position:absolute; left:0px; bottom:-4px; font-size:18px; color:#e1e1e1; display:block;}
+.monthly_tabs ul.tabs li.current .t-f{ background:#f60; color:#fff;}
+.monthly_tabs ul.tabs li.current .t-f b{ position: absolute; left:50%; bottom:6px; width: 0; height: 0; line-height: 0; border-color: #f60 transparent transparent; border-style: solid; border-width: 4px; font-size: 0; margin-left:-4px;}
+.monthly_tabs ul.tabs li.current i{ color:#f60;}
+.monthly_tabs .tabscontent { width:100%; text-align:justify;}
+
+.monthlist .prolist{ position:relative; min-height:410px;}
+.monthlist .prolist li{ width:289px; border:1px solid #d1d1d1; margin:20px 4px 0 4px; background:#fff; float:left;}
+.monthlist .prolist li img{ width:289px;}
+.monthlist .prolist li h2{ height:49px; line-height:49px; padding:0 10px; font-size:16px; font-weight:normal; position:relative;}
+.monthlist .prolist li h2 a.modetail{ width:60px; height:30px; line-height:30px; font-size:14px; position:absolute; right:10px; top:9px;}
+
+.report_font{ margin:0 20px; padding:15px 0 20px 0; line-height:32px; font-size:16px;}
+.report_pic{ margin:0px; padding:0px;}
+.report_pic li{ width:326px; padding:40px 25px 20px 25px; display:inline-table; float:left; position:relative;}
+.report_pic li img{ padding:9px; background:#fff; border:1px solid #d5d5d5;}
+.report_pic li h2{ height:47px; line-height:47px; text-align:center; font-size:14px; font-weight:normal;}
+.report_pic li h2 .gray{ padding-left:16px;}
+.report_pic li a:hover{ color:#f60; text-decoration:none;}
+.report_pic li a:hover .gray{ color:#f60;}
+.report_pic li a:hover img{ border:1px solid #f60;}
+.report_pic li .newpic{ width:84px; height:49px; background:url("../images/about/report/new.png"/*tpa=https://www.xinrong.com/2.0/images/about/report/new.png*/) no-repeat; display:block; position:absolute; top:40px; right:25px;}
+
+.report_list{ width:847px; margin:0 auto;}
+.report_list li{ width:100%; float:left; border-bottom:1px solid #ecebea; font-size:14px;}
+.report_list li a{ height:58px; line-height:58px; display:block;}
+.report_list li .listname{ padding-left:15px; display:block; float:left;}
+.report_list li .listtime{ float:right; padding-right:15px; display:block;}
+.report_list li a .listtime{ color:#bababa;}
+.report_list li img{ vertical-align:middle; padding-right:9px;}
+.report_list li a:hover{ background:#f7f8f9;}
+
+
+/*运营数据*/
+.data_top{ width:100%;}
+.data_top h2{ text-align:right; line-height:35px; font-size:14px; font-weight:normal;}
+.data_top h2 i{ background:url("../images/about/data.png"/*tpa=https://www.xinrong.com/2.0/images/about/data.png*/) 0 0 no-repeat; width:19px; height:19px; display:inline-block; vertical-align:middle; margin:0 5px 3px 0;}
+.data_top .paddingl{ padding-left:10px;}
+.data_top ul{ margin:0px; padding:0px; color:#444;}
+.data_top ul li{ width:420px; height:83px; line-height:83px; border:1px solid #fff; margin:-1px 0 0 -1px; background:#f2f2f2; padding-left:27px; font-size:16px; float:left;}
+.data_top ul li.bg{ background:#f5e1d8;}
+.data_top ul li i{ background:url("../images/about/data.png"/*tpa=https://www.xinrong.com/2.0/images/about/data.png*/) no-repeat; display:inline-block; vertical-align:middle; margin:0 10px 3px 0;}
+.data_top ul li i.icon01{ width:35px; height:35px; background-position:-36px 0;}
+.data_top ul li i.icon02{ width:31px; height:39px; background-position:-89px 0;}
+.data_top ul li i.icon03{ width:32px; height:32px; background-position:-138px 0;}
+.data_top ul li i.icon04{ width:33px; height:34px; background-position:-186px 0;}
+.data_top ul li .orange{ font-size:18px;}
+.data_top ul li .orange .unit{  padding: 0 2px;color:#444 !important; font-size:16px;}
+
+.data_ms_01{ width:100%;}
+.data_ms_01 .ms_box{ width:291px; height:522px; background:#f5f5f5; margin-right:10px; display:inline-block; float:left;}
+.data_ms_01 .ms_box h2{ height:44px; line-height:44px; background:#e7e7e7; text-align:center; font-size:16px; font-weight:normal; color:#444;}
+.data_ms_01 .ms_box .list_round{ padding:33px 0; text-align:center;}
+.data_ms_01 .ms_box ul{ margin:0px; padding:0 0 0 74px;}
+.data_ms_01 .ms_box ul li{ width:100%; height:30px; line-height:30px;}
+.data_ms_01 .ms_box ul li i{ width:27px; height:10px; display:inline-block; vertical-align:middle; margin:0 5px 2px 0;}
+
+.data_ms_01 .ms_box ul.p-list{ padding-left:35px;}
+.data_ms_01 .ms_box ul.p-list li{ width:105px; float:left;}
+.data_ms_01 .ms_marginr{ margin-right:0px;}
+
+/* tabs */
+.data_tabs ul.list li { list-style-type:none;}
+.data_tabs ul.tabs { width:100%; background:#f5f5f5; height:49px; overflow:hidden;}
+.data_tabs ul.tabs li { width:145px; height:45px; line-height:45px; text-align:center; font-size:16px; border-bottom:4px solid #f5f5f5; list-style-type:none; display:block; float:left; color:#444; cursor:pointer;}
+.data_tabs ul.tabs li.current { border-bottom:4px solid #f60; color:#f60; background-color:#e7e7e7;}
+.data_tabs .tabscontent { display:none; width:100%;}
+
+
+/* select */
+.data_select .t-title{ font-size:16px; color:#444; padding-right:8px; line-height:35px;}
+.data_select .select{ position:relative; float:left; margin:0 0px;}
+.data_select .select dt{ height:35px; display:inline-block; border:1px solid #d4d4d4; background:#fff url("../images/ico.png"/*tpa=https://www.xinrong.com/2.0/images/ico.png*/) no-repeat right center; line-height:35px; padding-left:10px; cursor:pointer; width:76px; padding-right:32px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; position:relative; z-index:99; border-radius:4px; font-size:14px; color:#444;}
+.data_select .select dt:hover,.select dt.cur{ border:1px solid #409DFE; box-shadow:0 0 3px #409DFE;}
+.data_select .select dd{ position:absolute; left:0; top:35px; border:1px solid #d4d4d4; background:#fff; display:none;z-index: 1;}
+.data_select .select dd ul{ padding:4px; width:110px; max-height:250px; overflow:auto;}
+.data_select .select dd ul li a{ line-height:28px; display:block; padding:0 8px; text-decoration:none; font-size:14px;}
+.data_select .select dd ul li a:hover{ background:#f5f5f5;}
+/****************************************************/
+
+.data_ms_02{ width:100%;}
+.data_ms_02 .ms_left{ width:562px;}
+
+.data_ms_02 .ms_right{ width:227px; background:#f2f2f2;}
+.data_ms_02 .ms_right ul{ width:100%; margin:0px; padding:0px;}
+.data_ms_02 .ms_right ul li{ border-bottom:1px solid #fff; padding:20px; font-size:14px; color:#444; line-height:22px;}
+.data_ms_02 .ms_right ul li.bg{ background:#f9e9e3;}
+.data_ms_02 .ms_right ul li .f-money{ display:block; border-bottom:1px solid #d8d8d8; padding-bottom:10px;}
+.data_ms_02 .ms_right ul li .unit{ padding: 0 1.7px;color:#444 !important; font-size:13px; }
+.data_ms_02 .ms_right ul li .f-moneyf{ display:block; border-top:1px solid #fff; padding-top:10px;}
+
+
+.data_ms_02 .ms_xcb{ width:636px;}
+.data_ms_02 .ms_xcb .select dt{ width:170px;}
+.data_ms_02 .ms_xcb .select dd ul{ width:204px;}
+.data_ms_02 .xcb_box{ width:154px;}
+.data_ms_02 .xcb_box ul li{ padding:25px 20px; line-height:26px;}
+
+.data_ms_02 .ms_year{ width:637px;}
+.data_ms_02 .year_box{ width:123px; padding:150px 0 0 0; font-size:14px; line-height:25px; color:#444;}
+
+.data_title{ height:40px; line-height:40px; text-align:center; font-size:16px; color:#444;}
+.data_ms_03{ padding-top:35px;}
+.data_ms_03 h3{ font-size:13px; font-weight:normal; font-weight:normal; text-align:center; height:31px;}
+.data_ms_03 .ms_box{ background:#f7f7f7; padding:20px;}
+.data_ms_03 .ms_box ul{ margin:0px; padding:0px; list-style:none;}
+.data_ms_03 .ms_box ul li{ height:48px; line-height:48px; font-size:16px; color:#444;}
+.data_ms_03 .ms_box ul li .icon01{ background:url("../images/about/13.png"/*tpa=https://www.xinrong.com/2.0/images/about/13.png*/) no-repeat; width:31px; height:31px; display:inline-block; vertical-align:middle; margin:0 8px 5px 0;}
+.data_ms_03 .ms_box ul li .icon02{ background:url("../images/about/14.png"/*tpa=https://www.xinrong.com/2.0/images/about/14.png*/) no-repeat; width:31px; height:31px; display:inline-block; vertical-align:middle; margin:0 8px 5px 0;}
+.data_ms_03 .ms_box ul li .paddingl{ padding-left:60px;}
+.data_ms_03 .ms_box dl{ width:100%; clear:both; line-height:28px; font-size:16px; color:#444; border-bottom:1px dotted #b2b2b2; padding:10px 0;}
+.data_ms_03 .ms_box dl.bor{ border-bottom:0px;}
+.data_ms_03 .ms_box dt{ width:210px; float:left;}
+.data_ms_03 .ms_box dt .icon01{ background:url("../images/about/17.png"/*tpa=https://www.xinrong.com/2.0/images/about/17.png*/) no-repeat; width:25px; height:25px; display:inline-block; vertical-align:middle; margin:0 8px 5px 0;}
+.data_ms_03 .ms_box dt .icon02{ background:url("../images/about/18.png"/*tpa=https://www.xinrong.com/2.0/images/about/18.png*/) no-repeat; width:25px; height:25px; display:inline-block; vertical-align:middle; margin:0 8px 5px 0;}
+.data_ms_03 .ms_box dt .icon03{ background:url("../images/about/19.png"/*tpa=https://www.xinrong.com/2.0/images/about/19.png*/) no-repeat; width:25px; height:25px; display:inline-block; vertical-align:middle; margin:0 8px 5px 0;}
+.data_ms_03 .ms_box dd{ width:540px; color:#888; float:left;}
+.data_ms_03 .ms_box dd .t-fontw{ display:inline-block; padding-right:30px;}
+.data_ms_03 .ms_box dd .t-fontw01{ width:265px; display:inline-block;}
+.data_ms_03 .ms_box dd .t-gray{ font-size:12px; padding:10px 0 0 0;}
+
+
+.data_ms_04{ padding-top:35px;}
+.data_ms_04 h3{ height:48px; line-height:48px; font-size:14px; font-weight:normal; color:#444;}
+.data_ms_04 .ms_left{ width:210px;}
+.data_ms_04 .ms_left h2 span{ height:24px; line-height:24px; background:#4b5062; font-size:14px; display:inline-block; padding:0 10px; color:#fff; font-weight:normal;}
+.data_ms_04 .ms_left ul{ width:100%;}
+.data_ms_04 .ms_left li{ width:100%; height:27px; line-height:27px; background:#ebebeb; margin-top:17px; font-size:14px; float:left;}
+.data_ms_04 .ms_left li .left,.data_ms_04 .ms_left li .right{ padding:0 5px;}
+.data_ms_04 .ms_left li b{ color:#444;}
+.data_ms_04 .ms_right{ width:584px; padding-top:20px; height:469px;}
+
+.data_ms_05{ padding-top:45px;}
+.data_ms_05 .ms_box{ width:397px; height:318px; background:#f5f5f5;}
+.data_ms_05 .ms_box h3{ height:44px; line-height:44px; background:#e7e7e7; font-size:16px; color:#444; font-weight:normal; text-align:center;}
+.data_ms_05 .ms_box dl{ width:100%; padding-top:36px;}
+.data_ms_05 .ms_box dt{ width:219px; padding:0 0 0 19px; float:left;}
+.data_ms_05 .ms_box dd{ width:140px; float:left;}
+.data_ms_05 .ms_box dd li{ width:100%; height:30px; line-height:30px;}
+.data_ms_05 .ms_box dd li i{ width:27px; height:10px; display:inline-block; vertical-align:middle; margin:0 5px 2px 0;}
+
+.dialog_background {position:fixed;	_position:absolute;	z-index:998;top:0px;left:0px;width:100%;_width:expression(document.documentElement.clientWidth);height:100%;_height:expression(document.documentElement.clientHeight);background:rgb(50,50,50);	background:rgba(0, 0, 0, 0.8);}
+.webox { position:fixed; _position:absolute; z-index:999; padding:8px; _background:#777; background:rgba(0, 0, 0, 0.2);}
+.webox #d_box { background-color:#FFFFFF;height:240px; border:1px solid #ba4e07;}
+.webox #d_box h1 { -moz-user-select:none;-webkit-user-select:none;	position:relative;display:block;margin:0;padding:0;font-size:16px;line-height:37px;	height:37px;padding-left:10px;background:#ff6600;cursor:move;color:#fff; font-weight:normal;}
+.webox #d_box h1 a {position:absolute; display:block;right:5px;margin-top:13px; top:0px;font-size:14px;	background-image:url("../images/close1.png"/*tpa=https://www.xinrong.com/2.0/images/close1.png*/); background-repeat:no-repeat;background-position:center top; width:17px;	height:17px;cursor:pointer;display:inline-block;}
+
+.address_list{ padding:40px 0 0 40px; color:#444; font-size:16px; line-height:40px;}
+.address_sub{ text-align:center; padding-top:25px;}
+.address_sub .sub02{ font-size:15px; width: 130px; height: 37px; line-height: 37px; display:inline-block;}
+
+
+.a-detail-font{ padding:10px 10px 30px 10px; font-size:14px; line-height:24px; border-bottom:1px solid #f3f2f1; color:#666;}
+.a-detail-font h1{ font-size:22px; line-height:40px; text-align:center; font-weight:normal; color:#444; padding-top:30px;}
+.a-detail-font h2{ font-weight:normal; text-align:center; color:#ccc; line-height:35px; font-size:12px;}
+.a-detail-font p{ text-indent:2em;}
+
+.shareholder_font{ padding-top:30px;}
+.shareholder_font h2{ font-size:23px; line-height:68px; color:#444; text-align:center; font-weight:normal;}
+.shareholder_font .shareholder_table{ width:723px; margin:0 auto;}
+.shareholder_font table{ border:1px solid #e7e7e6; border-collapse:collapse; text-align:center; line-height:28px;}
+.shareholder_font table th{ border:1px solid #e7e7e6; background:#fef4ee; padding:10px 0; font-size:18px; color:#666; font-weight:normal;}
+.shareholder_font table td{ border:1px solid #e7e7e6; padding:10px 0; font-size:16px;}
+
+/*员工信息*/
+.employee_font{ padding:20px 15px; font-size:14px; line-height:26px;}
+.employee_list{ width:100%; padding:15px 0;}
+.employee_list ul{ width:100%;}
+.employee_list ul li{ width:271px; height:402px; background:#f5f5f5; text-align:center; line-height:24px; color:#666; margin:0 14px; float:left;}
+.employee_list ul li h2{ line-height:62px; font-size:16px; font-weight:normal; margin-bottom:16px;}
+.employee_list ul li p{ text-align:left; padding-left:87px;}
+.employee_list ul li p img{ vertical-align:middle; padding:0 5px;}
+
+/*法律法规*/
+.laws_body{ background: #f5f5f5;}
+
+.laws_font{ padding:20px; font-size:14px; color:#999; line-height:23px;}
+.laws_font .borline{ border-bottom:1px solid #e7e7e7; height:1px; line-height:1px; font-size:0px; margin:20px 0;}
+.laws_font h2{ font-size:16px; color:#444; font-weight:normal; line-height:40px;}
+.laws_font h2 i{ width:6px; height:6px; display:inline-block; border-radius:50%; background:#f60; vertical-align:middle; margin-right:5px;}
+.laws_font li{ height:40px; line-height:40px;}
+
+.laws_banner{ width:100%; min-width:1100px; background:url("../images/about/banner01.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/banner01.jpg*/) center no-repeat; height:320px; display:none;}
+.laws_center{ width:1100px; margin:0 auto; background:#fff; margin-top:20px;}
+.laws_center .laws_font{ padding:20px 45px; font-size:16px; line-height:28px;}
+.laws_center .laws_font h2{ font-size:20px;}
+.laws_center .laws_font h2 i{ width:7px; height:19px; border-radius:0px; margin:0 8px 4px 0;}
+
+/*公司风采*/
+.mien_pic{ padding:25px 0 0 0;}
+.mien_pic ul.tabs { width:100%; overflow:hidden;}
+.mien_pic ul.tabs li { width:95px; height:26px; line-height:26px; text-align:center; border:1px solid #dddddd; border-radius:6px; float:left; display:inline-block; color:#666; margin:0 10px; font-size:16px; cursor:pointer;}
+.mien_pic ul.tabs li.current { background-color:#f60; border:1px solid #f60; color:#fff;}
+.mien_pic .tabscontent { display:none; width:100%; padding:10px 0 10px 10px;}
+.mien_pic .tabscontent img{ padding:2px;}
+
+/*平台技术安全*/
+.safety_font { padding: 15px 20px; font-size: 14px;	color: #999999;	line-height: 24px;}
+.safety_font h2 { font-size: 16px; font-weight: normal;	color: #444; padding-bottom: 8px;}
+.safety_font h2 span { font-size: 12px;	color: #f60; padding-right: 5px;}
+.safety_font .s-bor { border-bottom: 1px solid #e7e7e7;	height: 1px; line-height: 1px; font-size: 0px; margin: 20px 0;}
+
+
+
+

@@ -1,0 +1,777 @@
+.feature {
+	position: relative;
+	height: 160px;
+	color: #7c522b;
+	background: url("../../img/loan_type.jpg-1352892496.jpg"/*tpa=https://www.xinrong.com/s/img/loan_type.jpg?1352892496*/) no-repeat
+}
+
+.feature a.more {
+	position: absolute;
+	right: 43px;
+	top: 33px
+}
+
+.feature dl.item {
+	float: left;
+	display: inline;
+	margin-top: 80px;
+	line-height: 22px;
+	font-family: Simsun
+}
+
+.feature .security {
+	margin-left: 80px
+}
+
+.feature .no-worry {
+	margin-left: 57px
+}
+
+.feature .gains {
+	margin-left: 88px
+}
+
+.feature dt {
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 15px;
+	text-indent: -99999em;
+	*font-size: 0
+}
+
+.feature dd {
+	padding-left: 10px
+}
+
+.search {
+	position: relative;
+	padding: 6px 18px 7px;
+	border-top: 1px solid #cfcfcf;
+	background-color: #f2f2f2
+}
+
+.search select {
+	vertical-align: middle
+}
+
+.search .pk-time {
+	padding-top: 10px
+}
+
+.search .pk-time label.e-time {
+	margin-left: 10px
+}
+
+.wgt-datagrid th {
+	border-top: none
+}
+
+.wgt-datagrid {
+	width: 100%;
+	font-family: Simsun
+}
+
+.wgt-datagrid tr.odd {
+	background-color: #f3f8fd
+}
+
+.wgt-datagrid th,.wgt-datagrid td {
+	text-align: center;
+	vertical-align: middle
+}
+
+.wgt-datagrid th {
+	height: 29px;
+	border-top: 1px solid #aeaeae;
+	background-color: #d9d9d9
+}
+
+.wgt-datagrid td {
+	height: 35px
+}
+
+.wgt-datagrid th.do{
+	width:75px;
+}
+
+.wgt-datagrid th.first,.wgt-datagrid td.first {
+	text-align: left;
+	padding-left: 18px
+}
+
+.wgt-datagrid td.last {
+	
+}
+
+.wgt-datagrid .tl {
+	padding-left: 10px
+}
+
+.wgt-datagrid a {
+	color: #333;
+	text-decoration: underline
+}
+
+.wgt-datagrid a.ui-button {
+	text-decoration: none
+}
+
+.wgt-datagrid a:hover {
+	color: #f00
+}
+
+.wgt-datagrid-empty-row {
+	padding-top: 15px
+}
+
+.wgt-pagination {
+	padding-top: 10px;
+	text-align: right;
+	font-family: Arial;
+	*zoom: 1
+}
+
+.wgt-pagination:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-pagination .wgt-pagination-info {
+	float: left;
+	padding: 5px 0 0 18px;
+	color: #333
+}
+
+.wgt-pagination a {
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	padding: 0 5px;
+	color: #0077b5
+}
+
+.wgt-pagination a:hover {
+	text-decoration: none
+}
+
+.wgt-pagination a.selected,.wgt-pagination a.disabled {
+	cursor: default
+}
+
+.wgt-pagination a.disabled,.wgt-pagination a.disabled:hover {
+	color: #333
+}
+
+.wgt-pagination a.selected {
+	background: #75b3da;
+	color: #fff
+}
+
+.main-content {
+	float: left;
+	width: 680px
+}
+
+.sidebar {
+	float: right;
+	width: 305px
+}
+
+.sidebar h3 {
+	font-size: 12px;
+	border-bottom: 1px solid #CCC
+}
+
+.sidebar li {
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+	font-family: Simsun
+}
+
+.sidebar li a {
+	color: #333
+}
+
+.sidebar li span {
+	position: absolute;
+	right: 4px;
+	top: 0;
+	color: #666
+}
+
+.sidebar .ad {
+	height: 100px
+}
+
+.sidebar .ad a,.sidebar .ad img {
+	display: block
+}
+
+.sidebar .ad a {
+	z-index: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0
+}
+
+.login,.user-info {
+	padding: 20px 25px;
+	border: 1px solid #d3d3d3;
+	font-family: Simsun
+}
+
+.login .tip,.user-info .tip {
+	display: block;
+	padding: 15px 0;
+	margin-bottom: 17px;
+	border-bottom: 1px dotted #dfdfdf
+}
+
+.login {
+	text-align: center;
+	color: #cfcfcf
+}
+
+.login .ui-button {
+	width: 156px;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 16px
+}
+
+.user-info {
+	height: 118px;
+	overflow: hidden;
+	line-height: 2.2em;
+	color: #333
+}
+
+.user-info .blue {
+	margin-left: 12px
+}
+
+.user-info .income {
+	padding-top: 10px;
+	color: #666;
+	border-top: 1px dotted #dfdfdf;
+	text-align: center
+}
+
+.user-info .income .i-num {
+	color: #f00;
+	text-decoration: underline
+}
+
+.user-info .income .blue {
+	margin-left: 2px
+}
+
+.user-info .ui-tip {
+	display: block;
+	margin-top: 10px;
+	color: #f00;
+	padding-bottom: 15px
+}
+
+.user-info .ui-button {
+	position: relative;
+	width: 39px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	padding: 0 8px 0 9px
+}
+
+.user-info .ui-button,.user-info .ui-button:hover {
+	filter: none;
+	background: #FFF url("../../img/icons/dropdown/down.png-1351500953.png"/*tpa=https://www.xinrong.com/s/img/icons/dropdown/down.png?1351500953*/)
+		no-repeat 39px 8px
+}
+
+.user-info .down {
+	border-radius: 0 0 0 0;
+	border-bottom: none;
+	*border-bottom: 1px solid #FFF !important;
+	z-index: 2
+}
+
+.user-info .down,.user-info .down:hover {
+	filter: none;
+	background: #FFF url("../../img/icons/dropdown/up.png-1351500954.png"/*tpa=https://www.xinrong.com/s/img/icons/dropdown/up.png?1351500954*/)
+		no-repeat 39px 8px;
+	border-color: #B0C6DA
+}
+
+.user-info .i-score {
+	margin-left: 2px
+}
+
+.user-info .balance-panel {
+	position: absolute;
+	top: 69px;
+	*top: 70px;
+	_top: 68px;
+	font-size: 12px;
+	width: 185px;
+	line-height: 12px;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #B0C6DA;
+	padding: 15px 10px 13px;
+	left: 91px;
+	z-index: 1
+}
+
+.user-info .balance-panel .btn-close {
+	position: absolute;
+	display: block;
+	right: 2px;
+	top: 2px;
+	width: 12px;
+	height: 11px;
+	background: url("../../img/close.png-1351649242.png"/*tpa=https://www.xinrong.com/s/img/close.png?1351649242*/) no-repeat
+}
+
+.user-info .balance-panel .btn-close:hover {
+	background-position: 0 -13px
+}
+
+.user-info .balance-panel dt,.user-info .balance-panel dd {
+	float: left;
+	line-height: 20px
+}
+
+.user-info .balance-panel dd {
+	width: 125px
+}
+
+.user-info .balance-panel dd a.overdue {
+	padding: 1px 3px;
+	margin-left: 10px;
+	border: 1px solid #999;
+	color: #f60;
+	font-weight: 700
+}
+
+.user-info .balance-panel dd a.overdue:hover {
+	text-decoration: none
+}
+
+.deals {
+	font-family: Simsun
+}
+
+.deals .bd {
+	height: 120px
+}
+
+.deals li {
+	height: 24px;
+	line-height: 24px
+}
+
+.deals span {
+	position: static !important;
+	display: inline-block;
+	overflow: hidden;
+	color: #333 !important
+}
+
+.deals .date {
+	width: 80px;
+	padding-left: 4px
+}
+
+.deals .name {
+	width: 35px
+}
+
+.deals .sn {
+	width: 128px
+}
+
+.deals .state {
+	width: 24px
+}
+
+.deals .money {
+	width: 52px;
+	text-align: right
+}
+
+.deals a {
+	color: #333
+}
+
+.oauth-sprite,.oauth.qq,.oauth.sina {
+	background: url("../../img/icons/oauth-s57b6808197.png"/*tpa=https://www.xinrong.com/s/img/icons/oauth-s57b6808197.png*//*tpa=https://www.xinrong.com/s/img/icons/oauth-s57b6808197.png*/) no-repeat
+}
+
+.oauth {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 20px;
+	margin-right: 10px
+}
+
+.oauth.qq {
+	background-position: 0 -16px
+}
+
+.oauth.sina {
+	background-position: 0 0
+}
+
+.wgt-dialog-loan-info {
+	position: relative;
+	width: 644px;
+	height: 344px;
+	line-height: 22px;
+	color: #333
+}
+
+.wgt-dialog-loan-info .loan-info {
+	padding: 24px 28px 0
+}
+
+.wgt-dialog-loan-info h3.loan-name {
+	font-size: 14px;
+	padding: 3px 42px;
+	border-bottom: none;
+	margin-bottom: 25px;
+	background: url("../../img/title.png-1350281384.png"/*tpa=https://www.xinrong.com/s/img/title.png?1350281384*/) no-repeat 4px center
+}
+
+.wgt-dialog-loan-info table.loan-summary {
+	width: 100%
+}
+
+.wgt-dialog-loan-info table.loan-summary td {
+	padding-right: 10px
+}
+
+.wgt-dialog-loan-info table.loan-summary span {
+	color: #f00
+}
+
+.wgt-dialog-loan-info .btn-invest {
+	text-align: right
+}
+
+.wgt-dialog-loan-info .ui-button {
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.wgt-dialog-loan-info .section {
+	border-top: 1px dotted #cfcfcf;
+	padding: 15px 0;
+	margin-top: 15px
+}
+
+.wgt-dialog-loan-info .company-intro {
+	margin-left: 20px
+}
+
+.wgt-dialog-loan-info .serve-intro {
+	border-top: 1px solid #cfcfcf;
+	background-color: #f5f5f5;
+	padding: 20px 28px 24px
+}
+
+.wgt-dialog-loan-info .serve-intro h4 {
+	font-weight: 700
+}
+
+.wgt-datagrid th.g-money {
+	width: 100px
+}
+
+.wgt-datagrid th.first {
+	width: 190px
+}
+
+.wgt-datagrid th.last {
+	padding-right: 0;
+	
+}
+
+.wgt-datagrid td {
+	height: 42px
+}
+
+.wgt-datagrid td.first a,.wgt-datagrid td.first .g-dian {
+	_font-family: Arial
+}
+
+.wgt-datagrid-empty-row {
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 60px
+}
+
+.countdown {
+	position: absolute;
+	left: 205px;
+	top: 2px;
+	width: 300px;
+	background: url("../../img/countdown.png-1358923724.png"/*tpa=https://www.xinrong.com/s/img/countdown.png?1358923724*/) no-repeat 135px
+		center
+}
+
+.countdown a {
+	color: #666
+}
+
+.countdown a:hover {
+	color: #333
+}
+
+.countdown span {
+	padding: 0 20px;
+	font-weight: 600;
+	color: #f60
+}
+
+i.ico {
+	display: inline-block;
+	height: 21px;
+	margin-left: 3px;
+	vertical-align: middle;
+	background: url("../../img/icos.gif-1359165946.gif"/*tpa=https://www.xinrong.com/s/img/icos.gif?1359165946*/) no-repeat
+}
+
+i.ico.ico1 {
+	width: 28px;
+	background-position: 0 0
+}
+
+i.ico.ico2 {
+	width: 24px;
+	background-position: -30px 0
+}
+
+.invests {
+	height: 767px
+}
+
+.invests a.order {
+	display: block;
+	padding-right: 12px;
+	color: #333;
+	background: url("../../img/order.png-1357553518.png"/*tpa=https://www.xinrong.com/s/img/order.png?1357553518*/) no-repeat right 4px
+}
+
+.invests a.order.asc {
+	background-position: right -37px
+}
+
+.invests a.order.desc {
+	background-position: right -16px
+}
+
+.invests a.order:hover {
+	color: #333
+}
+
+.search label {
+	width: 170px;
+	display: inline-block
+}
+
+.search select {
+	width: 90px
+}
+
+.search .ui-button {
+	position: absolute;
+	right: 22px;
+	top: 6px
+}
+
+.deals .bd {
+	height: 240px
+}
+
+.invest-detail h1.hd,.g-mod .hd {
+	font-weight: 700
+}
+
+.invest-detail {
+	height: 140px;
+	padding: 20px 26px 0 27px;
+	color: #8c5d3a;
+	background: #f6f2e7 url("../../img/i.png-1355884650.png"/*tpa=https://www.xinrong.com/s/img/i.png?1355884650*/) no-repeat 27px 20px
+}
+
+.invest-detail h1.hd {
+	height: 35px;
+	line-height: 35px;
+	padding-left: 38px;
+	font-size: 16px
+}
+
+.invest-detail span.sn {
+	font-family: Arial
+}
+
+.invest-detail li {
+	float: left;
+	width: 168px;
+	height: 16px;
+	margin-top: 15px
+}
+
+.invest-detail .ui-button-orange {
+	margin: 25px 0 0 23px;
+	*margin-top: -10px;
+	_margin-left: 19px
+}
+
+.invest-detail .ui-button-disabled {
+	position: absolute;
+	right: 48px;
+	top: 67px
+}
+
+.invest-detail .ui-tip {
+	position: absolute;
+	right: 25px;
+	top: 108px;
+	text-align: right
+}
+
+.invest-detail a.more {
+	margin: 28px 18px 0 0
+}
+
+.stuff .hd,.financer .hd,.guarantee .hd {
+	height: 26px;
+	line-height: 26px;
+	padding-left: 10px;
+	border-bottom: none;
+	font-size: 12px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-color: #f2f2f2
+}
+
+.stuff .bd,.financer .bd,.guarantee .bd {
+	padding: 12px 10px 0;
+	line-height: 1.8em
+}
+
+.stuff strong {
+	color: #666
+}
+
+.stuff li {
+	line-height: 22px;
+	font-family: Simsun
+}
+
+.stuff li.split {
+	width: 533px;
+	margin: 10px 0;
+	border-top: 1px dotted #dfdfdf;
+	line-height: 1px
+}
+
+.stuff li.last span {
+	margin-left: 67px
+}
+
+.stuff li li a {
+	text-decoration: underline
+}
+
+.stuff a {
+	color: #0078b6
+}
+
+.papers h4.hd {
+	font-size: 12px;
+	padding: 0 0 7px 10px;
+	font-weight: 700;
+	border: none;
+	color: #666
+}
+
+.papers .bd {
+	height: 80px;
+	padding: 12px 2px;
+	background-color: #eaf2f6
+}
+
+.papers li {
+	width: 100px;
+	float: left;
+	margin-left: 11px;
+	_display: inline;
+	overflow: hidden
+}
+
+.papers li a,.papers li img {
+	display: block
+}
+
+.papers li a {
+	padding: 2px;
+	border: 1px solid #ccc;
+	background-color: #fff
+}
+
+.papers li a:hover {
+	text-decoration: none;
+	padding: 1px;
+	border: 2px solid #f60
+}
+
+.papers span {
+	display: block;
+	margin-top: 4px;
+	text-align: center;
+	color: #666
+}
+
+.papers .wgt-pagination {
+	height: 18px;
+	padding-right: 5px
+}
+
+.financer {
+	margin-bottom: 10px
+}
+
+.financer .bd p {
+	text-indent: 2em;
+	margin-bottom: 10px
+}
+
+.guarantee .bd {
+	font-family: Simsun;
+	padding-left: 8px
+}
+
+.Manual{
+	background:url("../../img/icons/ico4.png"/*tpa=https://www.xinrong.com/s/img/icons/ico4.png*//*tpa=https://www.xinrong.com/s/img/icons/ico4.png*/) no-repeat;width:29px; height:17px; display:inline-block; vertical-align:middle;
+	margin:0 0px 0px 4px;
+}
+
+i.ico3{
+	
+	background:url("../../img/icons/ico3.png"/*tpa=https://www.xinrong.com/s/img/icons/ico3.png*//*tpa=https://www.xinrong.com/s/img/icons/ico3.png*/) no-repeat;width:29px; height:17px; display:inline-block; vertical-align:middle;
+	margin:0 0px 0px 0px;
+	
+}

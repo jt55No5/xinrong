@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.dialogbox{}
+.dialogbox .boxbg{ background:#fff; border:1px solid #a10d19;}
+.dialogbox .boxbg h1{background: #e10019;background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e10019), color-stop(100%, #920711) );background-image: -webkit-linear-gradient(#e10019, #920711);background-image: -moz-linear-gradient(#e10019, #920711);background-image: -o-linear-gradient(#e10019, #920711);background-image: linear-gradient(#e10019, #920711);color: #FFF; height:28px; line-height:28px; padding:0 10px; font-size:14px; position:relative;}
+.dialogbox .boxbg h1.bgtitle{ height:43px; line-height:43px;}
+.dialogbox .boxbg h1.bgtitle img{ vertical-align:middle;}
+.dialogbox .boxbg h1.bgtitle .font01{ padding-left:25px;}
+
+.dialogbox .boxbg .closepo{ position:absolute; right:0px; top:0px; background:#db2034; padding:0px 5px;}
+.dialogbox .boxbg .boxbgfont{ background:url("../../../images/action/dbg.jpg"/*tpa=https://www.xinrong.com/s/images/action/dbg.jpg*/) center no-repeat; height:142px; text-align:center; line-height:31px; color:#706f6f; font-size:17px; font-family:"微软雅黑"; padding:38px 0 0 0;}
+.dialogbox .boxbg .boxbgfont p{ padding:13px 0 0 0;}
+.dialogsub{ font-size:14px; color:#fff;background: #e10019;background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e10019), color-stop(100%, #920711) );background-image: -webkit-linear-gradient(#e10019, #920711);background-image: -moz-linear-gradient(#e10019, #920711);background-image: -o-linear-gradient(#e10019, #920711);background-image: linear-gradient(#e10019, #920711); width:105px; height:30px; display:inline-block; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; text-decoration:none;}
+.dialogsub:hover{ color:#fff; text-decoration:none;}
+
+.dialogbox .boxbg .boxbgfont01{ background:url("../../../images/action/images/dbg01.jpg"/*tpa=https://www.xinrong.com/s/images/action/images/dbg01.jpg*/) top right no-repeat; height:186px; text-align:left; line-height:31px; color:#706f6f; font-size:15px; font-family:"微软雅黑"; padding:28px 0 0 20px;}
+.dialogbox .boxbg .boxbgfont01 .red{ font-size:18px;}
+.dialogbox .boxbg .boxbgfont01 .fontbg01{ height:26px; line-height:26px; background:#e60012; font-size:13px; color:#fff; display:inline-block; padding:0 5px; margin-top:23px; margin-left:42px;}
+.dialogbox .boxbg .boxbgfont01 .fontbg01 span{ color:#ffe403;}
+.dialogbox .boxbg .boxbgfont01 .padding01{padding-left:42px;}
+.dialogbox .boxbg .boxbgfont01 .padding02{font-size:12px;padding-left:42px;}
+

@@ -1,0 +1,12 @@
+.Wdate {
+    border: #999 1px solid;
+    height: 20px;
+    padding: 0 3px;
+    background: #fff url("datePicker.png"/*tpa=https://www.xinrong.com/s/vendor/datepicker/skin/datePicker.png*/) no-repeat right center;
+    vertical-align: middle;
+}
+
+.WdateFmtErr {
+    font-weight: bold;
+    color: red;
+}

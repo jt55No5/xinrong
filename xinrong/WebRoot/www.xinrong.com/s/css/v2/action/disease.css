@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.diseasebg{ background:#f3f3dc; width:100%; min-width:1000px; border-bottom:14px solid #006791;}
+.diseasebg .diseasebanner{ background:url("../../../images/action/disease/banner.jpg"/*tpa=https://www.xinrong.com/s/images/action/disease/banner.jpg*/) top center no-repeat; height:762px;}
+
+.diseasebg .diseasemain{ width:1000px; margin:0 auto; background:url("../../../images/action/disease/01.png"/*tpa=https://www.xinrong.com/s/images/action/disease/01.png*/) left 15px no-repeat;}
+.diseasebg .diseasemain .diseasefont{ padding:20px 25px 0 133px; color:#1c1c1c; font-size:16px; line-height:28px;}
+.diseasebg .diseasemain .diseasefont p{ padding:13px 0;}
+
+.diseasebg .diseasemain .diseasenew{ padding:59px 0;}
+.diseasebg .diseasemain .diseasenew h1{ padding-left:80px; padding-bottom:8px;}
+.diseasebg .diseasemain .diseasenew .newleft{ width:330px; float:left;}
+.diseasebg .diseasemain .diseasenew .newcenter{ width:376px; padding-top:27px; float:left;}
+.diseasebg .diseasemain .diseasenew .newcenter ul{ margin:0px; padding:0px; list-style:none;}
+.diseasebg .diseasemain .diseasenew .newcenter ul li{ width:148px; border:1px solid #fff; -moz-box-shadow: 3px 3px 4px #DFDFDF; -webkit-box-shadow: 3px 3px 4px #DFDFDF; box-shadow: 3px 3px 4px #DFDFDF; margin-bottom:18px; margin-right:24px; display:inline; float:left;}
+.diseasebg .diseasemain .diseasenew .newcenter ul li a{ display:block;}
+.diseasebg .diseasemain .diseasenew .newcenter ul li:hover{ border:1px solid #FFB17E; -moz-box-shadow: 3px 3px 4px #ffd9c0; -webkit-box-shadow: 3px 3px 4px #ffd9c0; box-shadow: 3px 3px 4px #ffd9c0;}
+.diseasebg .diseasemain .diseasenew .newright{ width:278px; padding:27px 10px 0 0; float:right;}
+.diseasebg .diseasemain .diseasenew .newright .rightbg{ display:block; background:#fff; padding:15px 15px 0 15px; -moz-box-shadow: 3px 3px 4px #DFDFDF; -webkit-box-shadow: 3px 3px 4px #DFDFDF; box-shadow: 3px 3px 4px #DFDFDF;}
+.diseasebg .diseasemain .diseasenew .newright .rightbg p{ height:30px; line-height:30px; text-align:center; font-size:14px; color:#333333;}
+
+

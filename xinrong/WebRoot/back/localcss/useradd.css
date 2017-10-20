@@ -1,0 +1,15 @@
+.{
+	font-family: "微软雅黑";
+}
+.form-control-static{
+	font-size: 18px;
+}
+.row{
+	margin-bottom: 15px;
+}
+.rpwd{
+	position: relative;
+	left: -30px
+	display:inline-block;
+	width: 100px;
+}

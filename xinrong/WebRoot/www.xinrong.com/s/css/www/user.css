@@ -1,0 +1,1608 @@
+.side-nav {
+	width: 170px;
+	background-color:#fff;
+	border:1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+
+.side-nav h3,.side-nav a.item {
+	height: 44px
+}
+
+.side-nav h3 {
+	height: 44px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	border-bottom:1px solid #e8e8e8;
+	font-weight: normal
+}
+
+.side-nav h3.last {
+	height: 38px
+}
+
+.side-nav h3.last a.current {
+	height: 40px
+}
+
+.side-nav a.item {
+	display: block;
+	line-height: 44px;
+	padding-left: 44px;
+	font-size:16px;
+	color:#333;
+}
+
+
+
+
+.side-nav a:hover {
+	background-color: #e1eaf2;
+	text-decoration: none
+}
+
+.side-nav a.current {
+	background-position: 22px 12px
+}
+
+.side-nav a.current,.side-nav a.current:hover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 129px;
+	padding-left: 45px;
+	border: none;
+	font-weight: 700;
+	color: #fff;
+	background-color: #4c8bc5
+}
+
+.side-nav a.disabled {
+	color: #999;
+	background-position: 21px -73px
+}
+
+.side-nav a.disabled:hover {
+	background-color: #fff
+}
+
+.wgt-pagination {
+	padding-top: 10px;
+	text-align: right;
+	font-family: Arial;
+	*zoom: 1
+}
+
+.wgt-pagination:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-pagination .wgt-pagination-info {
+	float: left;
+	padding: 5px 0 0 18px;
+	color: #333
+}
+
+.wgt-pagination a {
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	padding: 0 5px;
+	color: #0077b5
+}
+
+.wgt-pagination a:hover {
+	text-decoration: none
+}
+
+.wgt-pagination a.selected,.wgt-pagination a.disabled {
+	cursor: default
+}
+
+.wgt-pagination a.disabled,.wgt-pagination a.disabled:hover {
+	color: #333
+}
+
+.wgt-pagination a.selected {
+	background: #75b3da;
+	color: #fff
+}
+
+.wgt-datagrid {
+	width: 100%;
+	font-family: Simsun
+}
+
+.wgt-datagrid tr.odd {
+	background-color: #f3f8fd
+}
+
+.wgt-datagrid th,.wgt-datagrid td {
+	text-align: center;
+	vertical-align: middle
+}
+
+.wgt-datagrid th {
+	height: 29px;
+	border-top: 1px solid #aeaeae;
+	background-color: #d9d9d9
+}
+
+.wgt-datagrid td {
+	height: 35px
+}
+
+.wgt-datagrid th.first,.wgt-datagrid td.first {
+	text-align: left;
+	padding-left: 18px
+}
+
+.wgt-datagrid th.last,.wgt-datagrid td.last {
+	padding-right: 10px
+}
+
+.wgt-datagrid .tl {
+	padding-left: 10px
+}
+
+.wgt-datagrid a {
+	color: #333;
+	text-decoration: underline
+}
+
+.wgt-datagrid a.ui-button {
+	text-decoration: none
+}
+
+.wgt-datagrid a:hover {
+	color: #f00
+}
+
+.wgt-datagrid-empty-row {
+	padding-top: 15px
+}
+
+.search {
+	position: relative;
+	padding: 6px 18px 7px;
+	border-top: 1px solid #cfcfcf;
+	background-color: #f2f2f2
+}
+
+.search select {
+	vertical-align: middle
+}
+
+.search .pk-time {
+	padding-top: 10px
+}
+
+.search .pk-time label.e-time {
+	margin-left: 10px
+}
+
+.wgt-datagrid th {
+	border-top: none
+}
+
+.side-nav a.item {
+	padding-left: 45px;
+	border-left:3px solid #fff;
+	display:block;
+	/*background: url("/s/img/icons/sidenav-s14d61a2d69.png?1353296237")
+		no-repeat*/
+}
+.side-nav .esw_new{ position:absolute; right:-3px; top:-3px;}
+.side-nav a.item:hover {
+	background:#ffede3;
+	border-left:3px solid #f60;
+	text-decoration: none
+}
+
+#side-nav-index {
+	background-position: 33px -448px
+}
+
+#side-nav-index.current {
+	background-position: 34px -192px
+}
+
+#side-nav-invest {
+	background-position: 33px -545px
+}
+
+
+
+#side-nav-invest.current {
+	background-position: 34px -241px
+}
+
+#side-nav-borrowing {
+	background-position: 34px -715px;
+}
+
+#side-nav-borrowing.current {
+	background-position: 34px -685px;
+}
+
+#side-nav-invite {
+	background-position: 34px -797px;
+}
+
+#side-nav-invite.current {
+	background-position: 33px -757px;
+}
+
+#side-nav-cash {
+	background-position: 33px -399px
+}
+
+#side-nav-cash.current {
+	background-position: 34px -92px
+}
+
+#side-nav-consume {
+	background-position: 33px -346px
+}
+
+#side-nav-consume.current {
+	background-position: 34px -40px
+}
+
+#side-nav-setting {
+	background-position: 33px -294px
+}
+
+#side-nav-setting.current {
+	background-position: 34px 11px
+}
+
+#side-nav-msg {
+	background-position: 33px -496px
+}
+
+#side-nav-msg.current {
+	background-position: 34px -143px
+}
+
+#side-nav-xrb {
+	background-position: 33px -632px
+}
+
+#side-nav-xrb.current {
+	background-position: 34px -590px
+}
+
+#side-nav-zz {
+	background-position: 33px -955px
+}
+#side-nav-zz .iconhot{ width: 22px; height: 14px; background:url("../../../2.0/images/icon.png"/*tpa=https://www.xinrong.com/2.0/images/icon.png*/) no-repeat; background-position: -223px -298px; display:inline-block; margin-left:5px;}
+
+#side-nav-zz.current {
+	background-position: 34px -922px
+}
+
+#side-nav-dd {
+	background-position: 33px -878px
+}
+#side-nav-dd .iconnew{ width:22px; height:14px; background:url("../../../2.0/images/icon.png"/*tpa=https://www.xinrong.com/2.0/images/icon.png*/) no-repeat; background-position:0px -191px; display:inline-block; margin-left:5px;}
+
+#side-nav-dd.current {
+	background-position: 34px -837px
+}
+#side-nav-xcb i{ width:9px; height:9px; line-height:9px; display:inline-block; border:1px solid #444; border-radius:50%; font-size:12px; text-align:center; color:#444; font-style:normal; vertical-align:middle; margin:-14px 0 0 4px;}
+#side-nav-xcb.current i{ border:1px solid #f60; color:#f60;}
+
+.side-nav a.current,.side-nav a.current:hover {
+	width: 122px;
+	padding-left: 45px;
+	color:#f60;
+	background:#ffede3;
+	border-left:3px solid #f60;
+}
+
+.main-section {
+	width: 914px
+}
+
+.main-section .ad {
+	margin-top: 20px;
+	margin-bottom: 0
+}
+
+.form-header {
+	padding-left: 14px;
+	height: 34px;
+	background-color: #f5f5f5;
+	*zoom: 1
+}
+
+.form-header:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.form-header h3 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-top: 6px;
+	font-weight: normal;
+	border-bottom: none
+}
+
+.form-header a {
+	position: relative;
+	display: block;
+	width: 88px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 1px;
+	margin-right: 9px;
+	border: 1px solid #9aabbd;
+	border-bottom: none;
+	text-align: center;
+	color: #0078b6;
+	z-index: 2;
+	font-family: SimSun;
+	background-color: #f8f8f8
+}
+
+.form-header a:hover {
+	text-decoration: none
+}
+
+.form-header a.current {
+	bottom: -1px;
+	left: -1px;
+	height: 27px;
+	line-height: 27px;
+	margin-top: 0;
+	border-color: #9aabbd;
+	font-weight: 700;
+	color: #333333;
+	background-color: #FFF
+}
+
+.form-container {
+	padding-top: 15px;
+	border-top: 1px solid #9aabbd;
+	color: #333333
+}
+
+.form-container .ui-form {
+	padding: 5px 0 0 44px
+}
+
+.wgt-dialog-income-detail {
+	text-align: center
+}
+
+.wgt-dialog-income-detail .income-detail {
+	width: 645px;
+	margin: 30px 28px 0
+}
+
+.wgt-dialog-income-detail .income-detail,.wgt-dialog-income-detail .income-detail th,.wgt-dialog-income-detail .income-detail td
+	{
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #b5c4cb
+}
+
+.wgt-dialog-income-detail .income-detail th {
+	height: 94px;
+	line-height: 2.5em;
+	text-align: left;
+	padding-left: 13px;
+	color: #999;
+	background-color: #f5f5f5
+}
+
+.wgt-dialog-income-detail .sn,.wgt-dialog-income-detail .g-in {
+	color: #333;
+	margin-right: 22px
+}
+
+.wgt-dialog-income-detail .income-detail td {
+	line-height: 2em
+}
+
+.wgt-dialog-income-detail .info {
+	color: #999
+}
+
+.wgt-dialog-income-detail .ui-button {
+	margin-top: 25px
+}
+
+.user-info {
+	
+	font-family: Simsun
+}
+
+.user-info .greet {
+	line-height: 14px;
+	border-bottom: 1px dotted #c9d5e1;
+	padding: 0 0 12px 0;
+	margin-bottom: 0
+}
+
+.user-info .vip-info {
+	position: absolute;
+	right: 18px;
+	top: 12px;
+	text-align: left
+}
+
+.user-info .vip-info img {
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+.user-info .vip-info p.ui-tip {
+	padding: 2px 0 0 0;
+	width: 160px
+}
+
+.user-info .vip-info a.rank {
+	display: block;
+	width: 125px;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 35px;
+	color: #a52b0a;
+	background: url("../../img/vip.png-1352082673.png"/*tpa=https://www.xinrong.com/s/img/vip.png?1352082673*/) no-repeat left center
+}
+
+.user-info .vip-info a.info {
+	display: block;
+	margin-top: 15px;
+	color: #f00
+}
+
+.user-info dt,.user-info dd {
+	float: left;
+	_display: inline
+}
+
+.user-info dt {
+	margin-left: 16px
+}
+
+.user-info .balance-info {
+	margin: 12px 0
+}
+
+.user-info .auth-status {
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 18px;
+	clear: both
+}
+
+.user-info .cash-gift {
+	margin-bottom: 12px
+}
+
+.user-info .cash-gift .ui-tip {
+	padding-left: 10px
+}
+
+.user-info .cash-gift .help {
+	padding: 0 0 3px 16px;
+	vertical-align: top;
+	vertical-align: text-top\0
+}
+
+.user-info .cash-gift .help:hover {
+	text-decoration: none
+}
+
+.user-info .invest-info {
+	line-height: 12px
+}
+
+.user-info .invest-info .ui-tip {
+	position: absolute;
+	bottom: 18px;
+	right: 18px
+}
+
+.user-info .balance-info dt,.user-info .balance-info em,.user-info .label-balance,.user-info .ui-button
+	{
+	height: 26px;
+	line-height: 26px;
+	vertical-align: middle
+}
+
+.user-info .balance-info em {
+	color: #666
+}
+
+.user-info .label-balance {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 24px
+}
+
+.user-info .ui-button {
+	width: 70px;
+	margin-left: 10px;
+	font-weight: 700
+}
+
+.user-info .ui-button-orange {
+	margin-left: 40px
+}
+
+.user-info .blue {
+	margin-left: 10px
+}
+
+.auth-sprite,#auth-email,#auth-email.email-active,#auth-mobile,#auth-mobile.mobile-active,#auth-identity,#auth-identity.identity-active,#auth-bankcard,#auth-bankcard.bankcard-active
+	{
+	background: url("../../img/icons/auth-s5daa3954d0.png"/*tpa=https://www.xinrong.com/s/img/icons/auth-s5daa3954d0.png*/) no-repeat
+}
+
+.auth {
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-right: 17px;
+	color: #0078b6;
+	padding-left: 30px
+}
+
+.auth.active {
+	color: #999999
+}
+
+#auth-email {
+	height: 12px;
+	line-height: 12px;
+	padding-left: 25px;
+	background-position: 0 -22px
+}
+
+#auth-email.email-active {
+	background-position: 0 0
+}
+
+#auth-mobile {
+	height: 18px;
+	line-height: 18px;
+	padding-left: 18px;
+	background-position: 0 -92px
+}
+
+#auth-mobile.mobile-active {
+	background-position: 0 -120px
+}
+
+#auth-identity {
+	background-position: 0 -44px
+}
+
+#auth-identity.identity-active {
+	background-position: 0 -68px
+}
+
+#auth-bankcard {
+	padding-left: 30px;
+	background-position: 0 -172px
+}
+
+#auth-bankcard.bankcard-active {
+	background-position: 0 -148px
+}
+
+.recent-invests {
+	height: 335px
+}
+
+.recent-invests h3 {
+	margin-bottom: 0;
+	border-color: #aeaeae
+}
+
+.income-stats {
+	padding-left:18px;
+	padding-right:18px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.income-stats .mod-title {
+	line-height: 14px;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-bottom: 12px;
+	border-bottom-style: dotted;
+	border-bottom-color: #dfdfdf
+}
+
+.income-stats .info {
+	position: absolute;
+	right: 18px;
+	top: 23px
+}
+
+.income-stats .summary {
+	height: 12px;
+	line-height: 12px;
+	padding: 20px 24px 17px
+}
+
+.income-stats table {
+	width: 100%
+}
+
+.income-stats th,.income-stats td {
+	text-align: left;
+	padding-left: 25px
+}
+
+.income-stats th {
+	width: 220px;
+	height: 27px;
+	background-color: #c6d7e6
+}
+
+.income-stats td {
+	height: 28px;
+	vertical-align: bottom
+}
+
+.all-invests {
+	min-height: 235px;
+	height: auto !important;
+	_height: 235px
+}
+
+.all-invests .search select {
+	margin-right: 45px
+}
+
+.wgt-dialog-loan-info {
+	position: relative;
+	width: 644px;
+	height: 344px;
+	line-height: 22px;
+	color: #333
+}
+
+.wgt-dialog-loan-info .loan-info {
+	padding: 24px 28px 0
+}
+
+.wgt-dialog-loan-info h3.loan-name {
+	font-size: 14px;
+	padding: 3px 42px;
+	border-bottom: none;
+	margin-bottom: 25px;
+	background: url("../../img/title.png-1350281384.png"/*tpa=https://www.xinrong.com/s/img/title.png?1350281384*/) no-repeat 4px center
+}
+
+.wgt-dialog-loan-info table.loan-summary {
+	width: 100%
+}
+
+.wgt-dialog-loan-info table.loan-summary td {
+	padding-right: 10px
+}
+
+.wgt-dialog-loan-info table.loan-summary span {
+	color: #f00
+}
+
+.wgt-dialog-loan-info .btn-invest {
+	text-align: right
+}
+
+.wgt-dialog-loan-info .ui-button {
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.wgt-dialog-loan-info .section {
+	border-top: 1px dotted #cfcfcf;
+	padding: 15px 0;
+	margin-top: 15px
+}
+
+.wgt-dialog-loan-info .company-intro {
+	margin-left: 20px
+}
+
+.wgt-dialog-loan-info .serve-intro {
+	border-top: 1px solid #cfcfcf;
+	background-color: #f5f5f5;
+	padding: 20px 28px 24px
+}
+
+.wgt-dialog-loan-info .serve-intro h4 {
+	font-weight: 700
+}
+
+.recharge-form,.deposit-form {
+	padding-bottom: 50px
+}
+
+.recharge-form .ui-form-input,.deposit-form .ui-form-input {
+	width: 104px
+}
+
+.recharge-form .ui-tip,.deposit-form .ui-tip {
+	padding-bottom: 1px
+}
+
+.recharge-form .info {
+	margin: 20px 0 0 65px
+}
+
+.recharge-form .banks {
+	height: auto;
+	margin-top: 85px
+}
+
+.recharge-form .banks .bank {
+	float: left;
+	width: 125px;
+	height: 20px;
+	margin: 0 85px 17px 0
+}
+
+.recharge-form .banks input,.recharge-form .banks img {
+	vertical-align: middle;
+	*float: left
+}
+
+.recharge-form .banks img {
+	margin-left: 5px
+}
+
+.recharge-form .banks-panel {
+	position: relative;
+	left: 65px;
+	top: -28px;
+	*top: -23px
+}
+
+.recharge-form .ui-button {
+	margin-left: 65px
+}
+
+.jump {
+	height: 24px;
+	line-height: 24px;
+	font-family: SimSun;
+	margin: 57px 0 0 148px;
+	padding-left: 30px;
+	color: #333;
+	background: url("../../img/loading.gif-1351065205.gif"/*tpa=https://www.xinrong.com/s/img/loading.gif?1351065205*/) no-repeat
+}
+
+.deposit-form .ui-form {
+	padding-left: 19px
+}
+
+.deposit-form .money {
+	height: 85px
+}
+
+.deposit-form .ui-form-line .info {
+	margin: 16px 0 0 65px
+}
+
+.deposit-form .ui-form-line .ui-button {
+	margin: 20px 0 0 61px
+}
+
+.deposit-form a.blue {
+	margin-left: 10px
+}
+
+.deposit-form .add-bank {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	background: url("../../img/add_bank.png-1351147107.png"/*tpa=https://www.xinrong.com/s/img/add_bank.png?1351147107*/) no-repeat
+}
+
+.deposit-form .add-bank:hover {
+	background: url("../../img/add_bank_hover.png-1351147108.png"/*tpa=https://www.xinrong.com/s/img/add_bank_hover.png?1351147108*/) no-repeat
+}
+
+.bankcard-info {
+	display: inline-block;
+	padding: 2px 7px;
+	border: 1px solid #d0d0d0;
+	background-color: #ffffff;
+	vertical-align: middle
+}
+
+.bankcard-info img {
+	vertical-align: middle
+}
+
+.account-info {
+	padding: 16px 19px;
+	line-height: 2.5em;
+	background-color: #f6f9fe
+}
+
+.account-info .ui-tip {
+	margin-top: 16px
+}
+
+.wgt-dialog-deposit .wgt-dialog-title {
+	padding-left: 25px
+}
+
+.recharge-result {
+	padding: 28px 0 0 72px
+}
+
+.recharge-result h3 {
+	margin-bottom: 0;
+	border-bottom: none
+}
+
+.recharge-result .ui-tip {
+	padding-left: 40px
+}
+
+.recharge-result .info {
+	margin: 37px 0 0 42px;
+	padding-left: 20px
+}
+
+.recharge-result .result {
+	color: #333;
+	padding-left: 40px
+}
+
+.recharge-result .u-can {
+	padding: 43px 0 0 42px
+}
+
+.recharge-result .ui-button {
+	margin-right: 10px
+}
+
+.my-consume .first {
+	width: 120px
+}
+
+.consume-form {
+	height: 470px
+}
+
+.authinfo-form h3.hd {
+	height: 26px;
+	line-height: 26px;
+	border-bottom: none;
+	padding: 0 0 0 17px;
+	margin-bottom: 1px;
+	font-size: 12px;
+	background-color: #f2f2f2
+}
+
+.authinfo-form .g-mod .bd {
+	padding-left: 33px
+}
+
+.authinfo-form .g-mod .bd p {
+	margin-top: 20px
+}
+
+.authinfo-form .g-mod .bd a.blue {
+	margin-left: 10px
+}
+
+.authinfo-form .g-mod .success {
+	color: #ffffff;
+	padding-bottom: 1px
+}
+
+.authinfo-form .g-mod .ui-button {
+	position: absolute;
+	right: 260px
+}
+
+#bankcard-auth-status {
+	text-indent: 1.7em;
+	color: #666;
+	margin-top: 10px
+}
+
+#bankcard-auth-status .ui-button1 {
+	position: static;
+	text-indent: 0;
+	margin-left: 10px
+}
+
+.user-auth-info {
+	padding: 2px 17px 20px;
+	background-color: #f6f9fe
+}
+
+.user-auth-info dt,.user-auth-info dd {
+	float: left;
+	margin-top: 18px
+}
+
+.user-auth-info span.progress-bar,.user-auth-info span.progress {
+	display: inline-block;
+	width: 100px;
+	height: 9px;
+	font-size: 0;
+	overflow: hidden
+}
+
+.user-auth-info .progress-bar {
+	border: 1px solid #bfbfbf;
+	margin-right: 6px
+}
+
+.user-auth-info .progress {
+	background: url("../../img/progress.png-1350525372.png"/*tpa=https://www.xinrong.com/s/img/progress.png?1350525372*/) repeat-x
+}
+
+.change-email-form label,.mobile-send-code label,.wgt-dialog-auth-bankcard label
+	{
+	width: 90px
+}
+
+.auth-email .ui-button {
+	top: 78px
+}
+
+.auth-mobile .ui-button {
+	top: 78px
+}
+
+.auth-identity .ui-button {
+	top: 115px
+}
+
+.auth-bankcard .ui-button {
+	top: 192px
+}
+
+.mobile-validate-code .ui-form-label {
+	width: 100px
+}
+
+.ui-step {
+	width: 100%;
+	border: 1px solid #aad2f0;
+	background-color: #def1fc
+}
+
+.ui-step .ui-step-item {
+	position: relative
+}
+
+.ui-step .ui-step-label {
+	position: relative;
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 30px;
+	color: #666
+}
+
+.ui-step .ui-step-angle {
+	position: absolute;
+	display: block;
+	width: 19px;
+	height: 18px;
+	top: 4px;
+	top: 0\0;
+	*top: 0;
+	right: -10px;
+	right: -7px \0;
+	*right: -12px;
+	border: 1px solid #b9dbf3;
+	border-width: 1px 1px 0 0;
+	font-size: 0;
+	background-color: #def1fc;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865475, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865475, SizingMethod='auto expand')";
+	filter: progid : DXImageTransform.Microsoft.Matrix ( M11 =  
+		0.7071067811865475, M12 =   -0.7071067811865477, M21 =  
+		0.7071067811865477, M22 =   0.7071067811865475, SizingMethod =  
+		'auto expand' )
+}
+
+:root .ui-step .ui-step-angle {
+	filter: none\9
+}
+
+.ui-step .ui-step-current {
+	font-weight: 700;
+	background-color: #aad2f0;
+	color: #333;
+}
+
+.ui-step .ui-step-current .ui-step-angle {
+	background-color: #aad2f0
+}
+
+:root .ui-step-angle {
+	top: 4px\0;
+	right: -10px \0
+}
+
+.wgt-dialog-auth-bankcard {
+	width: 570px;
+	height: 400px;
+	padding: 23px 36px 33px
+}
+
+.wgt-dialog-auth-bankcard .ui-form {
+	margin: 0;
+	width: auto
+}
+
+.wgt-dialog-auth-bankcard h3 {
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	border-color: #d0d0d0
+}
+
+.wgt-dialog-auth-bankcard h3 span {
+	margin-left: 25px;
+	color: #666666;
+	font-size: 12px;
+	font-weight: normal
+}
+
+.wgt-dialog-auth-bankcard .ui-form-label {
+	width: 112px
+}
+
+.wgt-dialog-auth-bankcard .ui-form-line {
+	margin-top: 12px
+}
+
+.wgt-dialog-auth-bankcard .ui-form-input {
+	width: 206px
+}
+
+.wgt-dialog-auth-bankcard .ui-tip {
+	margin-left: 7px
+}
+
+.ui-step-1 {
+	z-index: 4
+}
+
+.ui-step-1 .ui-step-item,.ui-step-1 .ui-step-current {
+	padding-left: 18px
+}
+
+.ui-step-2 {
+	z-index: 3
+}
+
+.ui-step-3 {
+	z-index: 2
+}
+
+.ui-step-4 {
+	z-index: 1
+}
+
+.bankcard-form .wgt-dialog-title {
+	margin: 32px 0 20px 138px
+}
+
+.bankcard-form .confirm-form {
+	padding-left: 78px
+}
+
+.bankcard-form .ui-form-action {
+	padding: 10px 0 0 116px
+}
+
+.bankcard-form .ui-button {
+	margin-right: 20px;
+	*vertical-align: middle
+}
+
+.bankcard-form .ui-form-number {
+	font-family: arial;
+	font-size: 16px
+}
+
+.bankcard-form .u-can .ui-button {
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	margin: 13px 12px 0 0
+}
+
+.bankcard-form .action-state {
+	margin-top: 10px
+}
+
+.bank-success {
+	margin-left: 150px
+}
+
+.bank-success .wgt-dialog-title {
+	margin-top: 95px;
+	margin-bottom: 0
+}
+
+.bank-success .ui-button {
+	margin: 40px 0 0 85px
+}
+
+.bankcard-step2 .ui-form {
+	padding-left: 0;
+	margin-left: 20px
+}
+
+.bankcard-step2 .bank-auth-fill-money {
+	margin: 39px 0 5px 30px
+}
+
+.bankcard-step2 .wgt-dialog-title {
+	margin-bottom: 30px;
+	margin-left: 0
+}
+
+.bankcard-step2 .ui-form-money {
+	padding-left: 10px
+}
+
+.bankcard-step2 .ui-form-money .ui-form-input {
+	width: 90px
+}
+
+.bankcard-step2 .ui-form-money .info {
+	margin-left: 20px;
+	color: #999
+}
+
+.bankcard-step2 .ui-form-money .error {
+	margin: 15px 0 0 113px
+}
+
+.bankcard-step2 .ui-form-action {
+	margin-top: 58px;
+	padding-left: 126px;
+	*padding-left: 100px
+}
+
+.bankcard-step2 .ui-form-action .ui-button {
+	margin-right: 10px
+}
+
+.bankcard-step2 .ui-form-action .ui-loading {
+	margin-top: 15px;
+	*margin-left: 30px
+}
+
+.bank-auth-finish {
+	margin: 24px 0 0 70px
+}
+
+.bank-auth-finish .wgt-dialog-title {
+	margin: 50px 0 0 26px
+}
+
+.bank-auth-finish .disabled,.bank-auth-finish .u-can-go {
+	padding-left: 68px
+}
+
+.bank-auth-finish .label-u-can {
+	margin-top: 63px
+}
+
+#bank-confirm-form .ui-form-line {
+	margin-top: 8px
+}
+
+#bank-confirm-form .ui-form-input {
+	width: 100px
+}
+
+.password-form p {
+	margin: 0 295px 10px 40px
+}
+
+.password-form .ui-tip-warn {
+	margin-bottom: 18px;
+	line-height: 1em
+}
+
+.password-form .ui-button {
+	width: 94px;
+	margin-left: 7px;
+	font-size: 12px;
+	font-weight: 400
+}
+
+.wgt-dialog-change-pwd {
+	width: 540px
+}
+
+.wgt-dialog-change-pwd .ui-form-input {
+	width: 180px
+}
+
+.wgt-dialog-change-pwd .ui-form-label {
+	width: 100px
+}
+
+.wgt-dialog-change-pwd .ui-form {
+	width: auto;
+	margin: 22px 0 0 50px
+}
+
+.wgt-dialog-change-pwd .ui-form em {
+	margin-left: 5px
+}
+
+.wgt-dialog-change-pwd .tips {
+	color: #666666;
+	height: auto
+}
+
+.wgt-dialog-change-pwd .tips .disabled {
+	padding-left: 102px
+}
+
+.wgt-dialog-change-pwd .ui-button {
+	margin-left: 103px
+}
+
+.auto-invest-step {
+	height: 63px;
+	padding: 20px 30px 28px;
+	background: #f6f9fd url("../../img/auto-invest-step.png-1353577676.png"/*tpa=https://www.xinrong.com/s/img/auto-invest-step.png?1353577676*/)
+		no-repeat 30px 52px
+}
+
+.auto-invest-setting {
+	height: 168px;
+	margin-bottom: 25px;
+	z-index: 2
+}
+
+.auto-invest-setting .hd {
+	height: 30px;
+	line-height: 30px;
+	background-color: #f2f2f2;
+	padding-left: 32px;
+	margin-bottom: 8px
+}
+
+.auto-invest-setting .hd h3 {
+	font-size: 12px;
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+	padding-left: 0;
+	display: inline
+}
+
+.auto-invest-setting .hd a.ui-tip {
+	color: #0078b6
+}
+
+.auto-invest-setting .bd {
+	overflow: visible
+}
+
+.auto-invest-setting .ui-form {
+	padding: 0;
+	margin-left: 32px
+}
+
+.auto-invest-setting select {
+	margin-right: 30px
+}
+
+.auto-invest-setting .ui-form-action {
+	padding-left: 100px
+}
+
+.auto-invest-setting .ui-tip {
+	margin-left: 15px
+}
+
+.auto-invest-setting .info {
+	color: #999
+}
+
+.auto-invest-setting .ui-form-input {
+	width: 100px
+}
+
+.auto-invest-inro {
+	line-height: 22px;
+	padding: 15px 30px;
+	background-color: #f5f5f5
+}
+
+.auto-invest-inro .answer {
+	padding: 5px 0 0 20px
+}
+
+#auto-invest-form span.hover {
+	position: relative;
+	display: inline-block !important;
+	width: 145px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #CCC;
+	border-bottom: none;
+	padding: 2px 0;
+	margin-right: 30px;
+	text-align: center;
+	background-color: #fff;
+	cursor: pointer;
+	z-index: 2
+}
+
+#auto-invest-form .ui-button {
+	margin-right: 20px
+}
+
+.status-open select,.status-open .ui-form-input,.status-open .ui-tip {
+	display: none !important
+}
+
+.status-open span {
+	display: inline-block;
+	width: 160px
+}
+
+.status-open span.label-money-limit {
+	display: inline !important;
+	width: auto !important
+}
+
+.status-close span {
+	display: none
+}
+
+.priority-panel {
+	position: absolute;
+	top: 25px;
+	top: 27px\9;
+	*top: 26px;
+	_top: 24px;
+	left: 99px;
+	*left: 105px;
+	_left: 103px;
+	width: 250px;
+	padding: 10px 10px 20px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	z-index: 1;
+	display: none
+}
+
+:root .priority-panel {
+	top: 26 px\9;
+	left: 98 px\9
+}
+
+.priority-panel.hover {
+	display: block !important
+}
+
+.priority-panel dt {
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px
+}
+
+.priority-panel dd {
+	height: 30px;
+	line-height: 30px
+}
+
+.priority-panel .g2 {
+	display: none
+}
+
+.priority-panel label {
+	display: inline-block;
+	width: 110px
+}
+
+.priority-panel input {
+	vertical-align: middle;
+	margin-right: 4px
+}
+
+.priority-panel .ui-button {
+	margin-top: 10px
+}
+
+.msg-header {
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	border-bottom: 1px solid #cfcfcf;
+	background-color: #f2f2f2
+}
+
+.msg-header h2 {
+	font-size: 14px;
+	font-weight: 700;
+	display: inline;
+	margin-right: 62px
+}
+
+.msg-list,.msg-read {
+	height: 400px
+}
+
+.msg-list input {
+	margin: 0 10px 0 13px;
+	vertical-align: middle
+}
+
+.msg-list li {
+	position: relative;
+	height: 32px;
+	line-height: 32px;
+	_height: 27px;
+	_padding-top: 5px;
+	border-bottom: 1px dotted #cccccc
+}
+
+.msg-list li.unread {
+	font-weight: 700
+}
+
+.msg-list li a {
+	color: #333;
+	font-family: Simsun
+}
+
+.msg-list li span {
+	position: absolute;
+	display: block;
+	right: 14px;
+	top: 0
+}
+
+.msg-list .wgt-pagination {
+	padding-right: 5px
+}
+
+.msg-list .wgt-pagination-info {
+	padding-left: 0
+}
+
+.msg-list .ui-button {
+	color: #333;
+	margin-right: 10px
+}
+
+.msg-title {
+	position: relative;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 16px;
+	background-color: #f3f8fc;
+	margin-top: 12px
+}
+
+.msg-title h1 {
+	font-weight: 700;
+	font-size: 14px
+}
+
+.msg-title span {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 19px
+}
+
+.msg-body a,.msg-action a {
+	color: #0278b6
+}
+
+.msg-body {
+	padding: 24px 0 71px 15px
+}
+
+.msg-body a {
+	margin-left: 10px
+}
+
+.msg-action {
+	padding-top: 9px;
+	border-top: 1px dotted #cccccc;
+	text-align: right
+}
+
+.msg-action .ui-button {
+	color: #333
+}
+
+.msg-action a {
+	margin-right: 16px
+}
+
+.all-invests a.order {
+	display: block;
+	padding-right: 12px;
+	color: #333;
+	background: url("../../img/order.png-1357553518.png"/*tpa=https://www.xinrong.com/s/img/order.png?1357553518*/) no-repeat left 4px;
+	background-position: 75px 4px;
+	
+}
+
+.all-invests a.order.asc {
+	background-position: 75px -37px
+}
+
+.all-invests a.order.desc {
+	background-position: 75px -16px
+}
+
+.all-invests a.order1 {
+	display: block;
+	padding-right: 12px;
+	color: #333;
+	background: url("../../img/order.png-1357553518.png"/*tpa=https://www.xinrong.com/s/img/order.png?1357553518*/) no-repeat left 4px;
+	background-position: 88px 4px;
+	
+}
+
+.all-invests a.order1.asc {
+	background-position: 88px -37px
+}
+
+.all-invests a.order1.desc {
+	background-position: 88px -16px
+}
+
+
+.vip-info {
+	position: absolute;
+	
+	padding-left: 2px;
+	color: #666;
+	background: url("../../img/vip.png"/*tpa=https://www.xinrong.com/s/img/vip.png*/) no-repeat; 
+}
+
+
+
+.vip-info span {
+	color: #c22900
+}

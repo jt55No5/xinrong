@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.rong-banner{ background:url("../../../images/action/rong360/banner.jpg"/*tpa=https://www.xinrong.com/s/images/action/rong360/banner.jpg*/) center no-repeat; height:567px;}
+.rong-td{ background:url("../../../images/action/rong360/bg01.jpg"/*tpa=https://www.xinrong.com/s/images/action/rong360/bg01.jpg*/);}
+.rong-td .td-icon{ position:absolute; left:50%; margin-left:-100px; top:-1px;}
+.rong-td .td-nav{ padding:108px 0 0 0; margin:0px; list-style:none;}
+.rong-td .td-nav li{ width:159px; height:299px; padding:0 29px 0 113px; float:left; font-size:14px; line-height:26px; text-align:center; color:#fff;}
+.rong-td .td-nav li h1{ font-size:20px; font-weight:normal; color:#fff;}
+.rong-td .td-nav li .navfont{ width:100%; text-align:center; display:block; position:relative; color:#fff; height:126px; line-height:53px; padding-top:33px; cursor:pointer; margin-bottom:13px;}
+.rong-td .td-nav li .navfont p{ font-size:18px;}
+.rong-td .td-nav li .navfont .pic01{ position:absolute; left:0px; top:0px;}
+.rong-td .td-nav li .navfont .pic01:hover{-webkit-animation:pic01 2s .5s linear infinite;
+-moz-animation:pic01 2s .5s linear infinite;
+-ms-animation:pic01 2s .5s linear infinite;
+-o-animation:pic01 2s .5s linear infinite;
+animation:pic01 2s .5s linear infinite;}
+@-webkit-keyframes pic01{0%{-webkit-transform:rotate(-360deg);}}
+@-moz-keyframes pic01{0%{-webkit-transform:rotate(-360deg);}}
+@-ms-keyframes pic01{0%{-webkit-transform:rotate(-360deg);}}
+@-o-keyframes pic01{0%{-webkit-transform:rotate(-360deg);}}
+@keyframes pic01{0%{-webkit-transform:rotate(-360deg);}}
+
+.rong-td .c239fff{ color:#239fff;}
+.rong-td .td-nav li .rongsize{ font-size:18px;}
+
+.rong-td .td-font{ width:100%; min-width:1000px; background:url("../../../images/action/rong360/bg02.jpg"/*tpa=https://www.xinrong.com/s/images/action/rong360/bg02.jpg*/);}
+.rong-td .td-font li{ height:80px; line-height:80px; padding-left:45px; width:285px; float:left; color:#fff; font-size:18px;}
+.rong-td .td-font li .rongsize01{ font-size:12px; display:inline-block; vertical-align:top; padding-right:8px;}
+.rong-td .td-font li .rongsize02{ font-size:24px;}
+
+.rong-bg{ width:100%; min-width:1000px; background:url("../../../images/action/rong360/bg.jpg"/*tpa=https://www.xinrong.com/s/images/action/rong360/bg.jpg*/);}
+.rong-bg .main{ background:#fff;}
+.rong-bg .main .rong-font{ padding:0 40px;}
+.rong-bg .main .rong-font h1{ color:#2d87cf; font-size:29px; line-height:31px;}
+.rong-bg .main .rong-font h1 span{ width:8px; height:31px; background:#2d87cf; display:inline-block; vertical-align:middle; margin-right:10px; margin-bottom:3px;}
+.rong-bg .main .rong-font .fontbox{ display:block; padding:45px; line-height:26px; font-size:16px;}
+.rong-bg .main .rong-font .fontsub{ text-align:center; display:block;}
+.rong-bg .main .rong-font .fontsub a{ width:197px; height:41px; line-height:41px; border:1px solid #0c7ecd; font-size:18px; color:#0c7ecd; text-decoration:none; display:inline-block;}
+.rong-bg .main .rong-font ul{ padding:70px 0 0 9px;}
+.rong-bg .main .rong-font ul li{ float:left; padding-left:20px;}
+.rong-bg .main .rong-video{ background:#f0f0f0; padding:62px 0 37px 135px;}
+.rong-bg .main .rong-video .videopic{ width:459px; height:393px; background:url("../../../images/action/rong360/11.jpg"/*tpa=https://www.xinrong.com/s/images/action/rong360/11.jpg*/) no-repeat; text-align:center; padding:18px 0 0 0;}
+.rong-bg .main .rong-video .videofont{ width:229px; font-size:16px; line-height:24px; padding-right:96px;}
+.rong-bg .main .rong-video .videofont h1{ color:#2d87cf; font-size:29px; line-height:31px; padding-left:18px; padding-top:47px;}
+.rong-bg .main .rong-video .videofont h1 span{ width:8px; height:31px; background:#2d87cf; display:inline-block; vertical-align:middle; margin-right:10px; margin-bottom:3px;}
+.rong-bg .main .rong-video .videofont h2{ padding:32px 0 10px 0;}
+
+.rong-bg .main .rong-sub{ padding:90px 0; text-align:center;}
+.rong-bg .main .rong-sub a{ width:373px; height:64px; line-height:64px; text-align:center; display:inline-block; background:#2f97de; color:#fff; font-size:28px; text-decoration:none;}
+
+

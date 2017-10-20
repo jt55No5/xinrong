@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.call-name{ margin-left:20px; padding:15px 0; border-bottom:1px solid #dddddd;}
+.call-name dt{ width:120px; text-align:center; line-height:25px; float:left; position:relative;}
+.call-name dt p{ width:120px; position:absolute; top:60px; left:0px;}
+.call-name dd{ width:644px; float:right; padding:5px 0 0 10px; line-height:24px;}
+.call-name h2{ font-size:22px; font-weight:normal;}
+.call-name dd .name-bottom{ padding-bottom:5px; border-bottom:1px solid #dddddd; display:block;}
+.call-name .name-add{ display:block; position:absolute; right:20px; top:22px;}
+.call-name .name-add .iconadd{ width:30px; height:30px; line-height:28px; background:#f60; color:#fff; border-radius:100%; display:inline-block; font-size:25px; text-align:center; text-decoration:none; vertical-align:middle;}
+.call-name .name-add .iconadd .tips{ padding:1px 4px; background:#f6f9fd; border:1px solid #cccccc; border-radius:2px; font-style:normal; vertical-align:middle; margin-right:8px; color:#999; line-height:16px; display:block; position:absolute; left:-80px; top:5px; font-size:12px;}
+/*.call-name .name-add .iconadd:hover .tips{ padding:1px 4px; background:#f6f9fd; border:1px solid #cccccc; border-radius:2px; font-style:normal; vertical-align:middle; margin-right:8px; color:#999; line-height:16px; display:block; position:absolute; left:-80px; top:0px; font-size:12px;}*/
+.call-name .name-add .tips b{ width:6px; height:6px; position:absolute; right:-6px; top:6px;}
+.call-name .t-font{ font-size:15px;}
+.call-name .t-font .orange{ font-size:18px;}
+.call-name .t-font a.blue{ font-size:14px; padding-left:8px;}
+
+.call-name dd h3{ height:24px; line-height:24px; font-size:16px; font-weight:normal; padding-top:10px;}
+.call-name dd h3 .point{ width:12px; height:12px; background:#66cf29; display:inline-block; margin:0 8px 0 0; vertical-align:middle;}
+.call-name dd .f-font{ display:inline-block; padding-right:20px; line-height:30px;}
+.call-name dd .f-font .Icon01{ width:15px; height:16px; display:inline-block; vertical-align:middle; background-position:-488px -234px; margin:0 5px 3px 0;}
+.call-name dd .f-font .tips{ font-size:12px; color:#aaa; background:#f6f9fd; line-height:16px; display:inline-block; vertical-align:middle; padding:0 5px; margin-left:5px;}
+
+.call-search{ padding:25px 0 25px 20px;}
+.call-text{ width:209px; height:26px; line-height:26px; border:1px solid #4c8bc5; border-radius:2px; box-shadow:inset 0 0 6px #dedede; font-size:13px; padding:0 5px; vertical-align:middle;}
+.call-search .searchsub{ width:26px; height:21px; background:#e1eaf2; display:inline-block; vertical-align:middle; text-align:center; padding-top:5px; position:relative; margin-left:-27px;}
+
+.call-tabs ul.tabs { height:33px; border-bottom:1px solid #99abbc; background:#f2f2f2; margin:0px; padding:0px 0 0 10px; list-style:none;}
+.call-tabs ul.tabs li { display: block; height: 26px; line-height: 26px; border: 1px solid #9AABBD; border-bottom: none; color:#0078B6; background-color: #F8F8F8; font-size:14px; text-align:center; float:left; position:relative; margin:6px 9px -1px 0; padding:0 15px; cursor:pointer;}
+.call-tabs ul.tabs li:hover { color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff; position:relative; margin-bottom:-1px;}
+.call-tabs ul.tabs li.current { color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff; position:relative; margin-bottom:-1px;}
+.call-tabs .tabscontent { width:100%; display:none; min-height:280px; font-size:13px;}
+
+.call-tabs .tabs-tips{ display:block; height:23px; line-height:23px; background:#c9f084; border:1px solid #9ccb3d; padding:0 5px; border-radius:3px; font-size:15px; position:absolute; right:20px; top:-30px;}
+.call-tabs .tabs-tips img{ vertical-align:middle; margin:0 5px 3px 0;}
+.call-tabs table th{ height:29px; line-height:29px; background:#d9d9d9; font-weight:normal; padding:0 10px;}
+.call-tabs table td{ padding:0 10px; line-height:36px;}
+.call-tabs .icon01{ width:15px; height:14px; display:inline-block; vertical-align:middle; background-position:-488px -213px; margin:0 5px 5px 15px;}
+.call-tabs .icon02{ width:15px; height:14px; display:inline-block; vertical-align:middle; background-position:-504px -213px; margin:0 5px 5px 15px;}
+.call-tabs .callinp{ width:71px; height:19px; line-height:19px; border:1px solid #bbbbbb; display:inline-block; text-decoration:none; padding:0 5px; text-align:center; overflow:hidden;}
+.call-tabs .call-font{ padding-top:65px; line-height:54px; text-align:center; font-size:15px;}
+
+.sub02{ width:100px; height:30px; line-height:30px; font-size:14px;}
+.callsw{ width:150px;}
+
+.call-data{ padding:20px;}
+.call-data dl{ width:100%;}
+.call-data dt{ width:142px; text-align:center; font-size:15px; line-height:36px; float:left;}
+.call-data dd{ width:588px; padding-left:35px; font-size:15px; line-height:30px; padding-top:10px; float:left;}
+.call-data dd h2{ height:50px; line-height:50px; border-bottom:1px solid #c4d6e6; font-size:24px; font-weight:normal; margin-bottom:5px;}
+.call-data dd h2 .point{ width:15px; height:15px; background:#66cf29; display:inline-block; margin:0 8px 0 0; vertical-align:middle;}
+.call-data dd .Icon01{ width:15px; height:16px; display:inline-block; vertical-align:middle; background-position:-488px -234px; margin:0 5px 3px 0;}
+.call-data dd .tips{ font-size:12px; color:#848484; background:#f6f9fd; line-height:16px; display:inline-block; vertical-align:middle; padding:0 5px; margin-left:5px;}
+
+.call-table{ padding:20px;}
+.call-table h2{ height:30px; line-height:30px; border-bottom:1px solid #cfcfcf; font-size:15px;}
+.call-table table th{ height:29px; line-height:29px; background:#ecf5fd; font-weight:normal; padding:0 10px;}
+.call-table table td{ padding:0 10px; line-height:36px;}
+
+.dialog-addcall .addcall-text{ padding-left:50px; padding-top:30px;}
+.dialog-addcall .addcall-sub{ padding-top:30px; text-align:center;}
+
+.dialog-addcall .dialog-callname{ padding:5px 10px; border-bottom:1px dotted #a0a0a0; line-height:25px;}
+.dialog-addcall .dialog-callname .fname{ display:inline-block; vertical-align:middle; width:42px; font-size:14px;}
+.dialog-addcall .dialog-callname .icon01{ width:16px; height:16px; line-height:16px; text-align:center; background:#f60; color:#fff; display:inline-block; font-size:12px; border-radius:2px; font-style:normal; vertical-align:middle;}
+.dialog-addcall .dialog-callname .icon02{ width:15px; height:14px; display:inline-block; vertical-align:middle; background-position:-488px -213px; margin:0px 2px;}
+.dialog-addcall .dialog-callname .text02{ width:90px; height:20px; line-height:20px; vertical-align:middle; background:url("../images/call03-1.png"/*tpa=http://www.xinrong.com/2.0/images/call03.png*/) left center no-repeat; padding-left:17px; border:0px;}
+.dialog-addcall .sub01{ position:absolute; right:10px; top:10px; width:74px; font-size:12px; color:#000;}
+
+.dialog-addcall .call-tips{ width:100%; border-top:1px dotted #a0a0a0; text-align:center; padding-top:10px;}
+.dialog-addcall .instruc{ padding:10px;}
+.dialog-addcall .instruc h2{ font-size:12px; font-weight:normal; line-height:28px;}
+.dialog-addcall .instruc .textarea01{ width:299px; height:100px; border:1px solid #c4d6e6; line-height:15px; color:#999;}
+.dialog-addcall .instruc .addcall-sub{ padding:15px 0px;}
+.dialog-addcall .send-font{ text-align:center; padding:90px 0; font-size:15px;}
+
+
+
+.dialog-copy{ width:100%; padding:20px 0;}
+.dialog-copy dl{ width:100%; clear:both; padding:30px 0 0 0;}
+.dialog-copy dt{ padding-left:50px; float:left;}
+.dialog-copy dt i.AllIcon{ width:32px; height:32px; display:inline-block; background-position:0 -247px;}
+.dialog-copy dd{ float:left; padding-left:10px; line-height:30px;}
+.dialog-copy dd h2{ font-size:14px;}
+
+.dialog-copy .dialogsub{ width:100%; text-align:center; padding:40px 0 0 0;}
+.dialog-copy .dialogsub .sub02{ width:120px; height:30px; line-height:30px; /* margin-left:25px; */ font-size:14px;}
+
+.call-tabs .AllIcon{ width:16px; height:16px; display: inline-block; vertical-align:middle; margin-right:9px;}
+.call-tabs .Icon12{ background-position:-291px -267px; height:18px;}
+

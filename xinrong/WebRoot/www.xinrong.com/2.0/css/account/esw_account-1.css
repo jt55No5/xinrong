@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*存管个人账户*/
+.esw_account_box{ border: 1px solid #e8e8e8;}
+.esw_account_box .accountr_nav{ height:46px; line-height:46px; background:#f2f2f2; border-bottom: 1px solid #e8e8e8;}
+.esw_account_box .accountr_nav li{ width:111px; font-size:15px; text-align:center; border-bottom:3px solid #f2f2f2; float:left;}
+.esw_account_box .accountr_nav li a{ height:43px; line-height:43px; text-decoration:none; color:#666; display:block;}
+.esw_account_box .accountr_nav li.cur{ border-bottom:3px solid #f60; font-weight:bold;}
+.esw_account_box .accountr_nav li.cur a{ color:#444;}
+
+.esw_account_box .f-info{ margin:0 10px; border-bottom: 1px solid #e8e8e8; padding:30px 0;}
+.esw_account_box .f-info dl{ padding-left:18px; width:499px; float:left;}
+.esw_account_box .f-info dt{ width:80px; padding-top:10px; float:left;}
+.esw_account_box .f-info dd{ font-size:13px; color:#666; line-height:28px; float:left;}
+.esw_account_box .f-info dd h2{ font-size:15px; color:#444;}
+.esw_account_box .f-info dd i{ width:27px; height:27px; display:inline-block; background:#c9c9c9 url("../../images/esw_images/esw06-1.png"/*tpa=http://www.xinrong.com/2.0/images/esw_images/esw06.png*/) no-repeat; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; margin:0 3px;}
+.esw_account_box .f-info dd .p-orange{ background:#f60 url("../../images/esw_images/esw06-1.png"/*tpa=http://www.xinrong.com/2.0/images/esw_images/esw06.png*/) no-repeat;}
+.esw_account_box .f-info dd .p-open{ background-position:-1px 0;}
+.esw_account_box .f-info dd .p-authorization{ background-position:-41px 0;}
+.esw_account_box .f-info dd .p-risk{ background-position:-82px 0;}
+
+.esw_account_box .f-info .info_balance{ width:251px; display:block; line-height:30px; float:left;}
+.esw_account_box .f-info .info_balance h2{ font-size:14px; color:#666; font-weight:normal;}
+.esw_account_box .f-info .info_balance .f-money{ font-size:26px; display:inline-block; vertical-align:middle; padding-right:10px;}
+.esw_account_box .f-info .info_balance .f_sub{ width:59px; height:21px; line-height:21px; border:1px solid #f60; color:#f60; border-radius:3px; display:inline-block; text-align:center; text-decoration:none; vertical-align:middle;}
+
+.esw_account_box .f-info .f-msg{ display:inline-block; vertical-align:middle; margin:0 0 0 5px; cursor:pointer; position:relative;}
+.esw_account_box .f-info .f-msg .msg_b{ display:none;}
+.esw_account_box .f-info .f-msg:hover .msg_b{ width:160px; background: #f6f9fd; border: 1px solid #999999; padding:0 10px; border-radius: 3px; display:block; position:absolute; left:-80px; top:26px; color:#999;}
+.esw_account_box .f-info .f-msg:hover .msg_b .bicon{ position:absolute; left:45%; top:-7px;}
+
+.esw_account_box .f-info .info_btn{ width:112px; float:right;}
+.esw_account_box .f-info .info_btn .sub02{ width:101px; height:33px; line-height:33px; font-size:14px; margin-bottom:10px;}
+.esw_account_box .f-info .info_btn .sub03{ width:101px; height:33px; line-height:33px; font-size:14px;}
+/*资金*/
+.esw_account_box .f-moneyl{ padding:10px 0 10px 20px;}
+.esw_account_box .f-moneyl li{ width:255px; height:46px; line-height:46px; font-size:14px; color:#666; float:left;}
+.esw_account_box .f-moneyl li .f-msg{ display:inline-block; vertical-align:middle; margin:0 0 3px 5px; cursor:pointer; line-height:20px; font-size:12px; position:relative;}
+.esw_account_box .f-moneyl li .f-msg .msg_b{ display:none;}
+.esw_account_box .f-moneyl li .f-msg:hover .msg_b{ width:160px; background: #f6f9fd; border: 1px solid #999999; padding:5px 10px; border-radius: 3px; display:block; position:absolute; left:-80px; top:26px; color:#999;}
+.esw_account_box .f-moneyl li .f-msg:hover .msg_b .bicon{ position:absolute; left:45%; top:-7px;}
+
+.esw_account_box .f-title{ margin:0 10px; background:#f2f2f2; font-size:14px; height:37px; line-height:37px; font-weight:normal; padding:0 10px;}
+
+.esw_account_box .record_box{ color:#666;}
+/*记录列表*/
+.esw_account_box .record_box ul.list li { list-style-type:none;}
+.esw_account_box .record_box ul.tabs { height:44px; background:#f2f2f2; border-bottom:1px solid #e8e8e8; padding-left:10px;}
+.esw_account_box .record_box ul.tabs li { width:162px; line-height:41px; font-size:14px; text-align:center; float:left; cursor:pointer; padding:4px 1px 0 1px;}
+.esw_account_box .record_box ul.tabs li.current { background:#fff; border:solid #e8e8e8; border-width:0 1px; border-top:3px solid #ff6200; padding:1px 0 0;}
+.esw_account_box .record_box .tabscontent { padding:0 0 10px 10px; display:none;}
+
+/*列表搜索*/
+.esw_account_box .list_search{ padding:15px 0px; line-height:27px; font-size:13px;}
+.esw_account_box .list_search .t-input{ width:100px; height:26px; line-height:26px; border:1px solid #e9e9e9; margin:0px; padding:0px; vertical-align:middle;}
+.esw_account_box .list_search .img_time{ position:relative; margin-left:-25px; margin-right:5px; vertical-align:middle;}
+.esw_account_box .list_search .sub02{ width:53px; height:28px; line-height:28px; font-size:13px; vertical-align:middle; margin:0 10px 0 5px;}
+.esw_account_box .list_search .f_select{ width:103px; height:25px; line-height:25px; display:inline-block; overflow:hidden; background:url("../../images/esw_images/esw09-1.jpg"/*tpa=http://www.xinrong.com/2.0/images/esw_images/esw09.jpg*/) right no-repeat; vertical-align:middle; margin-right:15px;}
+.esw_account_box .list_search .f_select select { background: transparent; width: 130px; font-size: 13px; border:1px solid #e9e9e9; height: 25px; line-height:22px; -webkit-appearance: none; font-family:"微软雅黑";}
+.esw_account_box .list_search p{ padding-top:10px;}
+
+.esw_account_box .search_nav{ padding:15px 0; line-height:27px; font-size:13px;}
+.esw_account_box .search_nav li{ float:left; padding:0 10px;}
+.esw_account_box .search_nav li.cur a{ color:#f60;}
+
+/*table列表*/
+.esw_account_box .record_box table{ line-height:24px; font-size:12px;}
+.esw_account_box .record_box table th{ padding:10px 0; background:#f2f2f2; font-weight:normal;}
+.esw_account_box .record_box table td{ padding:10px 0; border-bottom:1px solid #f3f3f3;}
+.esw_account_box .record_box .tz-font{ line-height:30px; font-size:13px;}
+
+/*认证信息*/
+.certification_list{ padding:20px 25px;}
+.certification_list h2{ font-size:14px; padding-bottom:10px;}
+.certification_list dl{ width:100%; clear:both; border-bottom:1px solid #f3f3f3; padding:12px 0; line-height:35px; font-size:13px;}
+.certification_list dt{ width:220px; float:left;}
+.certification_list dt i{ width:22px; background:url("../images/esw-1.png"/*tpa=http://www.xinrong.com/2.0/css/images/esw.png*/) no-repeat; display:inline-block; vertical-align:middle; margin:0 10px 2px 0;}
+.certification_list dt i.icon01{ height:19px; background-position:0 0;}
+.certification_list dt i.icon01_gray{ height:19px; background-position:-35px 0;}
+.certification_list dt i.icon02{ height:23px; background-position:0 -33px;}
+.certification_list dt i.icon02_gray{ height:23px; background-position:-35px -33px;}
+.certification_list dt i.icon03{ height:21px; background-position:0 -70px;}
+.certification_list dt i.icon03_gray{ height:21px; background-position:-35px -70px;}
+.certification_list dt i.icon04{ height:17px; background-position:0 -105px;}
+.certification_list dt i.icon04_gray{ height:17px; background-position:-35px -105px;}
+.certification_list dt i.icon05{ height:21px; background-position:0 -134px;}
+.certification_list dt i.icon05_gray{ height:21px; background-position:-35px -134px;}
+.certification_list dt i.icon06{ height:20px; background-position:0 -167px;}
+.certification_list dt i.icon06_gray{ height:20px; background-position:-35px -167px;}
+.certification_list dd{ width:622px; position:relative; float:left;}
+.certification_list dd .f-btn{ position:absolute; right:0px; top:0px;}
+
+/*自动投资*/
+.eswauto_font{ padding:90px 0; text-align:center; color:#999; font-size:18px; line-height:60px;}
+.eswauto_font h2{ font-size:30px; font-weight:normal; color:#444;}
+.eswauto_font h2 img{ vertical-align:middle; margin:0 15px 2px 0;}
+.eswauto_font .sub02{ width:204px; height:44px; line-height:44px; font-size:18px;}
+
+/*开户*/
+.bank_warp{ width:100%; background:#f5f5f5; padding:25px 0;}
+.bank_warp .main{ width:1002px; margin:0 auto; background:#fff; padding:25px 0;}
+.bank_warp .main .bank_pic{ text-align:center; padding-bottom:25px;}
+.bank_warp .main dl{ width:100%; padding-top:10px; clear:both; line-height:37px;}
+.bank_warp .main dt{ width:312px; text-align:right; float:left; font-size:14px; padding-right:5px;}
+.bank_warp .main dd{ width:630px; min-height:58px; line-height:20px; float:left; position:relative;}
+.bank_warp .main dd .t-input{ width:345px; height:34px; line-height:34px; border:1px solid #c4c4c4; margin:0px; padding:0px 5px; border-radius:2px; outline:none; font-size:14px; vertical-align:middle;}
+.bank_warp .main dd .t-input:focus{ border:1px solid #f60;}
+.bank_warp .main dd .t-font{ position:absolute; top:36px; right:270px;}
+.bank_warp .main dd .t-select{ width:357px; height:34px; line-height:34px; border:1px solid #c4c4c4; font-family:"微软雅黑";}
+.bank_warp .main dd .text01{ width:110px; margin-right:10px;}
+.bank_warp .main dd .text02{ width:230px;}
+.bank_warp .main dd .t-pic{ vertical-align:middle; display:inline-block; padding-left:5px;}
+.bank_warp .main dd .f-in{ display:inline-block; vertical-align:middle; padding-left:5px;}
+.bank_warp .main dd .sub01,.bank_warp .main dd .sub03{ width:107px; height:36px; line-height:36px; font-size:14px; vertical-align:middle; margin-left:5px;}
+.bank_warp .main dd .sub02{ width:354px; height:47px; line-height:47px; font-size:18px;}
+.bank_warp .main dd .f-xy{ display:inline-block; vertical-align:top; padding-left:5px;}
+
+.bank_warp .bank_tips{ text-align:center; line-height:20px; color:#666;}
+
+
+

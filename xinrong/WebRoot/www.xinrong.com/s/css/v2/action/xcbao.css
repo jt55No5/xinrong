@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"微软雅黑";}
+
+.xincunbaomain{ background:#fafafa; width:100%; min-width:1000px;}
+.xincunbaomain .xincunbaoleft{ width:433px;}
+.xincunbaomain .xincunbaoleft h1{ height:38px; line-height:38px; background:#e3e3e3; border:1px solid #d7d7d7; -webkit- border-top-left-radius:18px; -moz- border-top-left-radius:18px; border-top-left-radius:18px; -webkit-border-top-right-radius:18px; -moz-border-top-right-radius:18px; border-top-right-radius:18px; color:#4d4d4d; font-size:18px; text-align:center;}
+.xincunbaomain .xincunbaoleft ul{ margin:0px; padding:0px; list-style:none;}
+.xincunbaomain .xincunbaoleft ul li{ border:1px solid #d7d7d7; position:relative; margin-top:-1px; height:64px; line-height:64px; text-align:center; background:#fff; color:#8f8f8f;}
+.xincunbaomain .xincunbaoleft ul li.libg{ background:#fbfbfb;}
+.xincunbaomain .xincunbaoleft ul li .font01{ line-height:20px; padding-top:12px;}
+.xincunbaomain .xincunbaoleft ul li.borderal{ border:1px solid #bf8040; border-right:1px solid #d7d7d7;}
+.xincunbaomain .xincunbaocenter{ width:133px;}
+.xincunbaomain .xincunbaocenter h1{ height:38px; line-height:38px; background:#fafafa; border:1px solid #fafafa; -webkit- border-top-left-radius:18px; -moz- border-top-left-radius:18px; border-top-left-radius:18px; -webkit-border-top-right-radius:18px; -moz-border-top-right-radius:18px; border-top-right-radius:18px; color:#4d4d4d; font-size:18px; text-align:center;}
+.xincunbaomain .xincunbaocenter ul{ margin:0px; padding:0px; list-style:none;}
+.xincunbaomain .xincunbaocenter ul li{ border-top:1px solid #c2c2c2; border-bottom:1px solid #c2c2c2; position:relative; margin-top:-1px; height:64px; line-height:64px; text-align:center; background:#efefef; color:#4d4d4d; font-size:15px;}
+.xincunbaomain .xincunbaocenter ul li.borderal{ border:1px solid #bf8040; border-width:1px 0; background:url("../../../images/action/xcbao/02.jpg"/*tpa=https://www.xinrong.com/s/images/action/xcbao/02.jpg*/) no-repeat;}
+.xincunbaomain .xincunbaocenter ul li.borderal p{ padding:0 10px; line-height:31px; font-size:13px; text-align:left;}
+.xincunbaomain .xincunbaocenter ul li.borderal p.teright{ text-align:right;}
+.xincunbaomain .xincunbaoright{ width:433px;}
+.xincunbaomain .xincunbaoright h1{ height:38px; line-height:38px; background:#e5d8b9; border:1px solid #d7d7d7; -webkit- border-top-left-radius:18px; -moz- border-top-left-radius:18px; border-top-left-radius:18px; -webkit-border-top-right-radius:18px; -moz-border-top-right-radius:18px; border-top-right-radius:18px; color:#967049; font-size:18px; text-align:center;}
+.xincunbaomain .xincunbaoright ul{ margin:0px; padding:0px; list-style:none;}
+.xincunbaomain .xincunbaoright ul li{ border:1px solid #d4c5a3; position:relative; margin-top:-1px; height:64px; line-height:64px; text-align:center; background:#fff; color:#8f8f8f;}
+.xincunbaomain .xincunbaoright ul li.libg{ background:#fbfbfb;}
+.xincunbaomain .xincunbaoright ul li .font01{ line-height:20px; padding-top:12px;}
+.xincunbaomain .xincunbaoright ul li.borderal{ border:1px solid #bf8040; border-left:1px solid #d4c5a3;}
+
+.xincunbaomain .xincunbaoyuanli h1{ height:52px; line-height:52px; background:#efefef; font-weight:normal;}
+.xincunbaomain .xincunbaoyuanli h1 .title01{ width:139px; height:38px; line-height:38px; display:inline-block; background:#fff; border:1px solid #d7d7d7; border-bottom:1px solid #fff; position:relative; margin:12px 0 0px 20px; font-size:16px; text-align:center; z-index:3;}
+.xincunbaomain .xincunbaoyuanli .yuanlibox{border:1px solid #d7d7d7; padding:25px; background:#fff; position:relative; margin-top:-1px; z-index:2;}
+.xincunbaomain .xincunbaoyuanli .yuanlibox .boxfont{ text-align:right; padding-top:30px; font-size:14px;}
+.xincunbaomain .xincunbaosub{ text-align:center; padding:18px 0;}
+.xincunbaomain .xincunbaosub .subxcb{ width:122px; height:32px; line-height:32px; text-align:center; border:1px solid #ff6600; border-bottom:3px solid #ab4501; background:#ff6600; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; font-size:16px; color:#fff; text-decoration:none; display:inline-block;}
+.xincunbaomain .xincunbaofooter{ background:#fff; border:1px solid #d7d7d7;}
+.xincunbaomain .xincunbaofooter h1{ height:52px; line-height:52px; border-bottom:1px solid #d7d7d7; margin:0 6px; font-size:18px; font-weight:normal; padding-left:10px;}
+.xincunbaomain .xincunbaofooter .footerfont{ padding:0 19px; line-height:30px; font-size:14px;}
+.xincunbaomain .xincunbaofooter .footerfont .font01{ padding:14px 0; display:block;}
+.xincunbaomain .xincunbaofooter .footerfont .font01 h2{ font-weight:bold;}
+
+.gray{ color:#bababa;}
+
+

@@ -1,0 +1,588 @@
+@charset "utf-8";
+/*  banner  */
+.banner{
+  min-width: 1100px;
+  height: 405px;
+  background: #8032dd url("../images/vip/banner.jpg"/*tpa=https://www.xinrong.com/2.0/images/vip/banner.jpg*/) no-repeat center;
+}
+.banner>div{
+  position: relative;
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+.banner .button_box{
+  position: absolute;
+  left: 46px;
+  top: 240px;
+}
+.banner .button_box a{
+  display: inline-block;
+  width: 220px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #8032dd;
+  background-color: #f3da30;
+  border-radius: 5px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.banner .button_box p{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-left: 5px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #dbbdff;
+  vertical-align: middle;
+}
+/*  general  */
+.module_box{
+  width: 100%;
+  min-width: 1100px;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+}
+.module_box .module{
+  width: 1100px;
+  margin: 0 auto;
+}
+.module_box .module h1{
+  font-size: 23px;
+  font-weight: normal;
+  color: #ac9053;
+  text-align: center;
+}
+.module_box .module h1 span{
+  display: block;
+  padding: 2px 0 15px;
+  font-size: 17px;
+}
+.module_box .module h1 b{
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #ddd;
+}
+.module_box .module h1 b i{
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background-color: #ac9053;
+}
+/*  member rating  */
+.member_rating .module{
+  text-align: center;
+}
+.member_rating .module h4{
+  padding-left: 120px;
+  line-height: 50px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #999;
+  text-align: left;
+}
+.member_rating .module img{
+  padding: 20px 0;
+}
+/*  your privilege  */
+.your_privilege{
+  background-color: #f2f2f2;
+}
+.your_privilege .module .box{
+  display: none;
+  margin: 20px auto;
+}
+.your_privilege .module .login_box{
+  background-color: #fff;
+  text-align: center;
+}
+.your_privilege .module .login_box span{
+  display: block;
+  line-height: 120px;
+  color: #999;
+}
+.your_privilege .module .login_box a{
+  display: inline-block;
+  width: 190px;
+  margin: 10px 0 80px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #c1a567;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.your_privilege .module .vip_box>div, .your_privilege .module .normal_box>div{
+  line-height: 26px;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+.your_privilege .module .vip_box>div b{
+  color: #ac9053;
+}
+/*  privilege box  */
+.your_privilege .module .privilege_box{
+  display: none;
+  position: relative;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.your_privilege .module .privilege_box ul.privilege_list{
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.your_privilege .module .privilege_box ul.privilege_list>li{
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 183.33px;
+  text-align: center;
+}
+.your_privilege .module .privilege_box ul.privilege_list>li a{
+  display: block;
+  text-decoration: none;
+}
+.your_privilege .module .privilege_box ul.privilege_list>li img{
+  width: 50%;
+}
+.your_privilege .module .privilege_box ul.privilege_list>li span{
+  display: block;
+  line-height: 40px;
+  font-size: 14px;
+}
+.your_privilege .module .privilege_box .blur_left,.your_privilege .module .privilege_box .blur_right{
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background-color: #f2f2f2;
+  z-index: 9;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+.your_privilege .module .privilege_box .blur_left{
+  left: -10px;
+}
+.your_privilege .module .privilege_box .blur_right{
+  right: -10px;
+}
+/*  member privilege  */
+.member_privilege .module .tabsholder{
+  margin: 30px auto 0;
+}
+.member_privilege .module .tabsholder .tabs{
+  border-bottom: 2px solid #c1a567;
+}
+.member_privilege .module .tabsholder .tabs>li{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 140px;
+  line-height: 40px;
+  color: #666;
+  text-align: center;
+  cursor: pointer;
+}
+.member_privilege .module .tabsholder .tabs>li.current{
+  color: #fff;
+  background-color: #c1a567;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table{
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+  color: #666;
+  text-align: center;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table td{
+  line-height: 20px;
+  border: 1px solid #ddd;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table thead td{
+  padding: 15px 0;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table tbody td{
+  padding: 10px 0;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table tbody td:first-child{
+  text-align: left;
+  padding: 10px 15px;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table td+td{
+  padding: 10px 5px;
+  width: 8%;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table thead tr td{
+  font-size: 16px;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table thead tr td+td+td{
+  color: #ac9053;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table tbody{
+  font-size: 14px;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table tbody a{
+  color: #0078b6;
+}
+.member_privilege .module .tabsholder .contents .tabscontent table tbody i{
+  font-style: normal;
+  color: #999;
+}
+.member_privilege .module .tabsholder .notes{
+  line-height: 40px;
+  font-size: 12px;
+  color: #ccc;
+  text-align: right;
+}
+
+.member_privilege table{
+	border:1px solid #ddd;
+	border-collapse:collapse;
+	font-size:13px;
+	line-height:18px;
+	}
+.member_privilege table th{
+	border:1px solid #ddd;
+	padding:10px 5px;
+	font-size:15px;
+	font-weight:normal;
+	background-color: #f2f2f2;
+	}
+.member_privilege table	.vip{ 
+	color:#ac9053;
+	}
+.member_privilege table td{
+	border:1px solid #ddd;
+	padding:8px 5px;
+	}
+.member_privilege table td .f_gray{
+	color:#999; font-size:12px;
+	}
+
+
+/*  privilege rules  */
+.privilege_rules{
+  background-color: #f2f2f2;
+}
+.privilege_rules .module .rule_box{
+  margin: 20px auto 0;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.privilege_rules .module .rule_box h3{
+  padding-left: 15px;
+  line-height: 50px;
+  font-weight: normal;
+  color: #ac9053;
+  border-left: 5px solid #c1a567;
+  border-bottom: 1px solid #ddd;
+}
+.privilege_rules .module .rule_box .rules{
+  padding: 30px 0;
+  overflow: hidden;
+}
+.privilege_rules .module .rule_box .rules>li{
+  float: left;
+  width: 29%;
+}
+.privilege_rules .module .rule_box .rules>li+li{
+  width: 38%;
+}
+.privilege_rules .module .rule_box .rules>li+li+li{
+  width: 33%;
+}
+.privilege_rules .module .rule_box .rules>li p{
+  line-height: 24px;
+  font-size: 14px;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ddd;
+}
+.privilege_rules .module .rule_box .rules>li:first-child p{
+  border-left: 0;
+}
+.privilege_rules .module .rule_box .example{
+  padding: 0 20px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.privilege_rules .module .rule_box .example b{
+  font-weight: normal;
+  color: #ac9053;
+}
+.privilege_rules .module .rule_box .question{
+  display: none;
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #c1a567;
+  border-radius: 10px;
+  background-color: #fdfaf3;
+}
+.privilege_rules .module .rule_box .question .header{
+  position: relative;
+  padding-top: 20px;
+  line-height: 42px;
+}
+.privilege_rules .module .rule_box .question .header .title{
+  display: inline-block;
+  width: 185px;
+  height: 60px;
+  padding-left: 18px;
+  margin: 0 0 0 -10px;
+  font-size: 16px;
+  color: #fff;
+  background: url("../images/vip/question_icon.png"/*tpa=https://www.xinrong.com/2.0/images/vip/question_icon.png*/) no-repeat left top;
+}
+.privilege_rules .module .rule_box .question .header .note{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 12px;
+  color: #ac9053;
+}
+.privilege_rules .module .rule_box .question input[type=text]{
+  padding: 0 10px;
+  width: 90px;
+  height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+.privilege_rules .module .rule_box .question ul{
+  padding-left: 20px;
+}
+.privilege_rules .module .rule_box .question ul>li{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  line-height: 40px;
+}
+.privilege_rules .module .rule_box .question ul>li:first-child{
+  margin-right: 30px;
+}
+.privilege_rules .module .rule_box .question ul>li>span{
+  display: block;
+}
+.privilege_rules .module .rule_box .question .btn_box{
+  margin: 40px 0;
+  text-align: center;
+}
+.privilege_rules .module .rule_box .question .btn_box a{
+  display: inline-block;
+  width: 130px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #c1a567;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.privilege_rules .module .vip_upgrade{
+  margin: 20px auto 0;
+  padding-bottom: 20px;
+}
+.privilege_rules .module .vip_upgrade h3{
+  line-height: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ac9053;
+}
+.privilege_rules .module .vip_upgrade table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 24px;
+  border: 0;
+}
+.privilege_rules .module .vip_upgrade table td{
+  border: 1px solid #ddd;
+}
+.privilege_rules .module .vip_upgrade table td+td{
+  width: 9%;
+}
+.privilege_rules .module .vip_upgrade table thead td{
+  padding: 15px 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #c1a567;
+}
+.privilege_rules .module .vip_upgrade table tbody td{
+  padding: 10px 5px;
+  font-size: 14px;
+}
+.privilege_rules .module .vip_upgrade table tbody td:first-child{
+  text-align: left;
+  padding-left: 15px;
+}
+/*  common  */
+.common_ques .module h1{
+  margin-bottom: 40px;
+}
+.common_ques .module .ques{
+  margin: 20px auto 0;
+}
+.common_ques .module .ques h4{
+  padding-left: 20px;
+  line-height: 50px;
+  color: #444;
+  font-weight: normal;
+  background-color: #f2f2f2;
+}
+.common_ques .module .ques p{
+  padding: 25px 20px;
+  line-height: 30px;
+  color: #999;
+  border: 1px solid #ddd;
+}
+.common_ques .module .ques p b{
+  font-weight: normal;
+  color: #555;
+}
+/*  popup  */
+.popup_window{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("../images/vip/popup_bg.png"/*tpa=https://www.xinrong.com/2.0/images/vip/popup_bg.png*/) repeat;
+  z-index: 3000;
+}
+.popup_window>div{
+  position: absolute;
+  width: 580px;
+  height: 310px;
+  left: 50%;
+  top: 50%;
+  margin: -155px 0 0 -300px;
+  background-color: #fff;
+  box-shadow: #777 0 0 20px 4px;
+  overflow: hidden;
+}
+/*
+.popup_window .popup_close{
+  position: absolute;
+  display: block;
+  width: 23px;
+  height: 23px;
+  right: 20px;
+  top: 10px;
+  background: url(../images/vip/popup_close.png) no-repeat center;
+}
+*/
+.popup_window .popup_close{
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  right: 34px;
+  top: 10px;
+  cursor: pointer;
+}
+.popup_window .popup_close i,.popup_window .popup_close b{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 12px;
+  background-color: #999;
+  transition: all .3s linear;
+}
+.popup_window .popup_close:hover i{
+  transform: rotate(135deg);
+}
+.popup_window .popup_close:hover b{
+  transform: rotate(-135deg);
+}
+.popup_window .popup_ul{
+  width: 100%;
+  height: 100%;
+}
+.popup_window .popup_ul>li{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.popup_window .popup_ul>li .logo{
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+.popup_window .popup_ul>li .logo img{
+  position: absolute;
+  width: 110px;
+  left: 50%;
+  top: 50%;
+  margin: -55px 0 0 -55px;
+}
+.popup_window .popup_ul>li .explain{
+  display: inline-block;
+  width: 360px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999;
+  vertical-align: middle;
+}
+/*  回答问题弹层  */
+.pop_ques{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: url("../images/vip/popup_bg.png"/*tpa=https://www.xinrong.com/2.0/images/vip/popup_bg.png*/) repeat;
+  z-index: 3000;
+}
+.pop_ques .inner{
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  margin-top: -130px;
+  padding: 0 0 30px 0;
+  width: 400px;
+  background-color: #fff;
+}
+.pop_ques .inner h3{
+  text-align: left;
+  padding-left: 20px;
+  font-weight: normal;
+  line-height: 50px;
+  font-size: 22px;
+  color: #c1a567;
+  border-bottom: 1px solid #c1a567;
+}
+.pop_ques .inner span{
+  display: block;
+  line-height: 120px;
+  font-size: 18px;
+  color: #666;
+}
+.pop_ques .inner a{
+  display: inline-block;
+  width: 120px;
+  line-height: 35px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #c1a567;
+  text-decoration: none;
+}

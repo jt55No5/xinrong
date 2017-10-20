@@ -1,0 +1,275 @@
+/*
+*	登录
+*/
+body{ background-color: #fafafa;}
+
+.headerReg .login{
+	height: 33px;
+	margin: 24px 0 4px 20px;
+	padding: 0 20px;
+	font-size: 22px;
+	line-height: 33px;
+	border-left: 1px solid #c4c4c4;
+}
+/*
+* 	注册
+*/
+.headerReg .register{
+	float: right;
+	height: 33px;
+	margin: 24px 0 4px;
+	font-size: 14px;
+	line-height: 33px;
+}
+.headerReg .register a{
+ 	color: #f60;
+}
+/*
+*	headerLine
+*/
+.headerLine{
+	width: 100%;
+	min-width: 1000px;
+	height: 1px;
+	margin-top: 6px;
+	background-color: #bababa;
+	clear: both;
+}
+/*下方区域背景*/
+.content{
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 145px;
+	background-color: #fafafa;
+}
+/*
+* 扫码图片
+*/
+.loginContent .QRCon{
+	margin-top: 135px;
+}
+.loginContent .QRCon dl{
+	display: inline-block;
+}
+.loginContent .QRCon dt{
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑";
+	font-weight: 900;
+	font-size: 16px;
+	color: #5b5b5b;
+}
+.loginContent .QRCon img{
+	width: 159px;
+	height: 159px;
+}
+.loginContent #wechatQR{
+	margin-left: 60px;
+
+}
+.loginContent #mobileQR{
+	margin-left: 90px;
+}
+/*
+*	登录内容区域
+*/
+.loginContent{
+	position: relative;
+	width: 998px;
+	height: 648px;
+	margin: 0 auto;
+	border: 1px solid #bababa;
+	background-color: #fff;
+}
+/*登录表格*/
+.loginContent .loginForm{
+	position: absolute;
+	left: 585px;
+	top: 155px;
+}
+/*ie placeholder样式*/
+.loginContent .loginForm .iePlaceHolder{
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 11px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #a1a1a1;
+	pointer-events: none;
+	z-index: 9;
+}
+.loginContent .loginForm>div{
+	position: relative;
+	display: block;
+	height: 62px;
+}
+.loginContent .loginForm input{
+	width: 270px;
+	height: 36px;
+	outline: none;
+}
+.loginContent .loginForm .ui-form-label{
+    display: none;
+}
+/*输入框样式*/
+.loginContent .loginForm input[type="text"],.loginContent .loginForm input[type="password"]{
+	float: left;
+	padding: 0 0 0 10px;	
+	font-size: 14px;
+	line-height: 34px;
+	border: 1px solid #797979;
+}
+.loginContent .loginForm input[type="text"]:focus,.loginContent .loginForm input[type="password"]:focus{
+	border-color: #ff6600;
+}
+/*登录按钮*/
+.loginContent .loginForm .submit{
+	width: 280px;
+	height: 38px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 38px;
+	font-family: "宋体";
+	background-color: #f60;
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+/*错误提示*/
+.loginContent .loginForm .error{
+	display: block; 
+	height: 22px;
+	line-height: 20px;
+	color: #fe0326;
+	clear: both;
+	background-position:0 -1024px;
+	margin-left: -15px;
+}
+/*忘记密码按钮*/
+.loginContent .loginForm .forgetPwCon{
+	margin-top:-20px;
+	height:30px;
+	line-height: 30px;
+}
+.loginContent .loginForm .forgetPwCon .forgetPw{
+	float: right;
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 38px;
+	color: #4387c0 !important;
+}
+/*图片验证码*/
+.loginContent .loginForm .valiPicCon .valiPic{
+	width: 175px;
+}
+.loginContent .loginForm .valiPicCon #valiPicSrc{
+	width: 95px;
+	height: 32px;
+	margin: 3px 0 3px 10px;
+}
+/*
+*	第三方登录
+*/
+.loginContent .thirdLogin{
+	position: absolute;
+	left: 585px;
+	top: 410px;
+}
+/*
+*	第三方登录提示信息
+*/
+.loginContent .thirdLogin .title{
+	position: relative;
+	width: 280px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #a1a1a1;
+	text-align: center;
+}
+.loginContent .thirdLogin .title:before{
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 7px;
+	content: "";
+	width: 75px;
+	height: 1px;
+	background-color: #a1a1a1;
+}
+.loginContent .thirdLogin .title:after{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 7px;
+	content: "";
+	width: 75px;
+	height: 1px;
+	background-color: #a1a1a1;
+}
+/*qq登录按钮*/
+.loginContent .thirdLogin .qqLogin{
+	display: block;
+	width: 31px;
+	height: 31px;
+	margin-top: 15px;
+	margin-left: 122.5px;
+	border: 2px solid #34a2f8;
+	border-radius: 17.5px;
+	background: url("../images/login/qq.png"/*tpa=https://www.xinrong.com/2.0/images/login/qq.png*/) no-repeat;
+	background-position: center;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*qq登录按钮*/
+.loginContent .thirdLogin .qqLogin{
+	*width: 40px;
+	width: 40px\0;
+	*height: 38px;
+	height: 38px\0;
+	*margin-left: 120px;
+	margin-left: 120px\0;
+	*border: 0;
+	border: 0\0;
+	*background: url("../images/login/qqCircle.png"/*tpa=https://www.xinrong.com/2.0/images/login/qqCircle.png*/) no-repeat;
+	background: url("../images/login/qqCircle.png"/*tpa=https://www.xinrong.com/2.0/images/login/qqCircle.png*/) no-repeat\0;
+}
+/*登录页面信息*/
+.loginContent .info{
+	position: absolute;
+	left: 115px;
+	top: 390px;
+	width: 330px;
+	text-align: center;
+}
+.loginContent .info h1{
+	font-size: 22px;
+	font-weight: normal;
+	color: #ff6600;
+}
+.loginContent .info h2{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #a1a1a1;
+}
+.iconWX{
+	width: 23px;
+	height: 18px;
+	margin-right:2px;
+	vertical-align: middle;
+	display: inline-block;
+	background-position: -379px -314px;
+}
+.iconMP{
+	width: 18px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../images/login/icon_mobile.png"/*tpa=https://www.xinrong.com/2.0/images/login/icon_mobile.png*/) no-repeat;
+}

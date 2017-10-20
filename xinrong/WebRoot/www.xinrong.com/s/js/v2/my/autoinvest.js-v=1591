@@ -1,0 +1,385 @@
+/**
+ * 
+ */
+function load_data() {
+	AA.Api.async({
+		url : '/v2/member/get_auto_invest.jso',
+		type : 'GET',
+		success : function(result) {
+			if (result.state == 0) {
+				$('#btn_open').unbind('click').bind('click',function(){
+					show_dlg(1);
+				});
+				
+				if (result.data.status == 1) {
+					$('#top_btn').unbind('click').bind('click',function(){
+						close_dlg();
+					});
+					
+			        $('#xyc').attr( 'disabled',"disabled" )
+					
+					$('#show_status').html('已开启，我要关闭');
+					$('#status_show').html('已开启');
+					$('#status_show').removeClass('orange');
+					$('#status_show').addClass('Green');
+
+					$('#rate').val(result.data.rate);
+					$('#keep_money').val(AA.Helper.toFixed(result.data.keepMoney));
+					$('#invest_money').val(AA.Helper.toFixed(result.data.investMoney));
+					
+					var rt_arr = result.data.refundType.split(',');
+					initRefundType(rt_arr);
+					
+					var ds = result.data.deadline;
+					var ds_arr = ds.split(',');
+					initDeadLineData(ds_arr);
+
+					$('#status').val(result.data.status);
+
+					if (result.rank > 0) {
+						$('#rank').html(result.rank);
+					}
+				} else {
+					$('#top_btn').unbind('click').bind('click',function(){
+						show_dlg();
+					});
+					$('#xyc').removeAttr( 'disabled',"disabled")
+					$('#show_status').html('已关闭，我要开启');
+					$('#status_show').html('未开启');
+					$('#status_show').removeClass('Green');
+					$('#status_show').addClass('orange');
+					
+					if(result.data.rate==null||result.data.rate==undefined){
+						$('#rate').val("16.8%");
+					}else{
+						$('#rate').val(result.data.rate);
+					}
+					$('#keep_money').val(AA.Helper.toFixed(result.data.keepMoney));
+					$('#invest_money').val(AA.Helper.toFixed(result.data.investMoney));
+					
+					var rt_arr = result.data.refundType.split(',');
+					initRefundType(rt_arr);
+					
+					var ds = result.data.deadline;
+					var ds_arr = ds.split(',');
+					initDeadLineData(ds_arr);
+
+					$('#status').val(result.data.status);
+					$('#rank').html('—');
+				}
+			} else {
+				if(result.state==-1){
+					$('#show_status').html('已关闭，我要开启');
+					$('#status_show').html('未开启');
+					$('#status_show').removeClass('Green');
+					$('#status_show').addClass('orange');
+					
+					$('#status').val(0);
+					$('#rate').val("16.8");
+					$('#keep_money').val(0);
+					$('#invest_money').val(0);
+					initDeadLineData(null);
+					initRefundType([1,4,2]);
+					$('#rank').html('—');
+					
+					$('#top_btn').unbind('click').bind('click',function(){
+						show_dlg();
+					});
+				}else if (result.state == 1009) {
+					AA.RapidLogin.popup();
+				}
+			}
+		}
+	});
+}
+
+function init_checkbox(ds) {
+	for ( var i = 0; i < ds.length; i++) {
+		$('#d' + ds[i]).attr('checked', 'checked');
+	}
+}
+
+function initDeadLineData(ds) {
+	if(ds==null){
+		initDeadlineOption($('#deadline_begin'), 1);
+		initDeadlineOption($('#deadline_end'), 60);
+		return;
+	}
+	
+	if (ds.length > 1) {
+		initDeadlineOption($('#deadline_begin'), ds[0]);
+		initDeadlineOption($('#deadline_end'), ds[ds.length - 1]);
+	} else {
+		initDeadlineOption($('#deadline_begin'), ds[0]);
+		initDeadlineOption($('#deadline_end'), ds[0]);
+	}
+}
+
+function initDeadlineOption(select, selected) {
+	for ( var i = 0; i <= 60; i++) {
+		if((i>24 && i<36)||(i>36 && i<48)||(i>48 && i<60))
+		{
+		}
+		else
+		{
+			if (i == selected) {
+				$(select).append('<option value=' + i + ' selected="selected">' +i+ '个月</option>');
+			} else {
+				$(select).append('<option value=' + i + '>' + i + '个月</option>');
+			}
+		}
+	}
+}
+
+function initRefundType(ts) {
+	for ( var i = 0; i < ts.length; i++) {
+		$('#rt_' + ts[i]).attr('checked', 'checked');
+	}
+}
+
+function init_all_checkbox() {
+	for ( var i = 0; i < 7; i++) {
+		$('#d' + i).attr('checked', 'checked');
+	}
+}
+
+function init_alert(type) {
+	if (type == 1) {
+		$('#alert1').attr('checked', 'checked');
+	} else if (type == 2) {
+		$('#alert2').attr('checked', 'checked');
+	} else {
+		$('#alert3').attr('checked', 'checked');
+	}
+}
+
+function show_dlg(ty) {
+	var type=ty||0;
+	
+	if (check()) {
+		var ds = '';
+		var rt = '';
+
+		$("input[name='refund_type']").each(function() {
+			if ($(this).attr("checked") == true || $(this).attr("checked") == "checked") {
+				rt += $(this).val() + ",";
+			}
+		});
+		if (rt.length > 1) {
+			rt = rt.substr(0, rt.length - 1);
+		}
+
+		var b_ds = $('#deadline_begin').val();
+		var e_ds = $('#deadline_end').val();
+
+		for ( var i = parseInt(b_ds); i <= parseInt(e_ds); i++) {
+			ds += i + ",";
+		}
+
+		if (ds.length > 1) {
+			ds = ds.substr(0, ds.length - 1);
+		}
+
+		var status=$('#status').val()&&1;
+		
+		if(ty==1){
+			status=$('#status').val();
+		}
+		
+		conf({
+			deadline : ds,
+			remind : $("input[name='alert']:checked").val(),
+			keep : $('#keep_money').val(),
+			investMoney : $('#invest_money').val(),
+			status : status,
+			rate : $('#rate').val(),
+			refundType : rt,
+			loanType :"1,2,3"
+		}, function(result) {
+			if (result.state == 0) {
+				if (type == 0) {
+					$.alert({
+						title : '您的自动投资已开启！',
+						content : '',
+						txtBtn : '确 定',
+						init : function(dialog, btn) {
+							btn.click(function() {
+								dialog.close();
+								load_data();
+							});
+						}
+					});
+				} else if (type == 1) {
+					$.alert({
+						title : '您的自动投资设置已修改！',
+						content : '',
+						txtBtn : '确 定',
+						init : function(dialog, btn) {
+							btn.click(function() {
+
+								dialog.close();
+								load_data();
+							});
+						}
+					});
+				}
+			}
+		});
+	}
+}
+
+function close_dlg() {
+	var data = {};
+	var rt = '';
+	$("input[name='refund_type']").each(function() {
+		if ($(this).attr("checked") == true || $(this).attr("checked") == "checked") {
+			rt += $(this).val() + ",";
+		}
+	});
+	if (rt.length > 1) {
+		rt = rt.substr(0, rt.length - 1);
+	}
+	data.refundType = rt;
+	
+	var ds = '';
+	var b_ds = $('#deadline_begin').val();
+	var e_ds = $('#deadline_end').val();
+	for ( var i = parseInt(b_ds); i <= parseInt(e_ds); i++) {
+		ds += i + ",";
+	}
+	if (ds.length > 1) {
+		ds = ds.substr(0, ds.length - 1);
+	}
+	data.deadline = ds;
+	
+	if(BASEisNotFloat($('#rate').val())){
+		data.rate = '16.8';
+	}else{
+		data.rate = $.trim($('#rate').val());
+	}
+	
+	if(BASEisNotFloat($('#keep_money').val())){
+		data.keep = '0';
+	}else{
+		data.keep = $('#keep_money').val();
+	}
+	
+	if(BASEisNotFloat($('#invest_money').val())){
+		data.investMoney = '0';
+	}else{
+		data.investMoney = $('#invest_money').val();
+	}
+	
+	data.remind = $("input[name='alert']:checked").val();
+	data.status = 0;
+	
+	conf(data, function(result) {
+		if (result.state == 0) {
+			$.alert({
+				title : '您的自动投资已关闭！',
+				content : '如您再次需要启动自动投资，请重新开启！',
+				txtBtn : '确 定',
+				init : function(dialog, btn) {
+					btn.click(function() {
+						dialog.close();
+						load_data();
+					});
+				}
+			});
+		}
+	});
+}
+
+function conf(d, s) {
+	AA.Api.async({
+		url : '/v2/member/set_auto_invest.jso',
+		type : 'POST',
+		data : d,
+		success : s
+	});
+}
+
+function check() {
+	var rt = '';
+
+	$("input[name='refund_type']").each(function() {
+		if ($(this).attr("checked") == true || $(this).attr("checked") == "checked") {
+			rt += $(this).val() + ",";
+		}
+	});
+	$("#error").empty();
+	if (rt == '') {
+		$("#error").html("请选择回款方式");
+		return false;
+	}
+
+	if ($('#rate').val() == '' || Number($('#rate').val()) <= 0) {
+		$("#error").html("请填写年化率");
+		return false;
+	}
+
+	if (BASEisNotFloat($('#rate').val())) {
+		$("#error").html("年化率填写不正确");
+		return false;
+	}
+
+	if (BASEisNotFloat($('#keep_money').val())) {
+		$("#error").html("保留余额填写不正确");
+		return false;
+	}
+	if (typeof $('#xyc').attr("checked") == 'undefined'){
+		$("#errorx").html("*");
+		return false;
+		}
+	/*if (BASEisNotFloat($('#invest_money').val())) {
+		$("#error").html("单笔投资金额填写不正确");
+		return false;
+	}*/
+	
+	if(!moneyIsInteger()){
+		return false;
+	}
+
+	return true;
+}
+
+function BASEisNotFloat(theFloat) {
+	// 判断是否为浮点数
+	len = theFloat.length;
+	dotNum = 0;
+	if (len == 0)
+		return true;
+	for ( var i = 0; i < len; i++) {
+		oneNum = theFloat.substring(i, i + 1);
+		if (oneNum == ".")
+			dotNum++;
+		if (((oneNum < "0" || oneNum > "9") && oneNum != ".") || dotNum > 1)
+			return true;
+	}
+	if (len > 1 && theFloat.substring(0, 1) == "0") {
+		if (theFloat.substring(1, 2) != ".")
+			return true;
+	}
+	return false;
+}
+
+function moneyIsInteger(){
+	var money=$("#invest_money").val();
+	$("#error").empty();
+	if(isNaN(money)){
+		$("#error").html("单笔投资金额输入的必须是数字");
+		return false;
+	}
+	
+	if(money.indexOf(".")>=0){
+		$("#error").html("单笔投资金额必须是整数");
+		return false;
+	}
+	
+	if(money%100!=0){
+		$("#error").html("单笔投资金额必须为100的整数倍，如1100。");
+		return false;
+	}
+	
+	return true;
+}

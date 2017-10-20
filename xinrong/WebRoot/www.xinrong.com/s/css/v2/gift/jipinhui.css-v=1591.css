@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+.c828282{ color:#828282; text-decoration:underline;}
+.cc33605{ color:#c33605;}
+.c30808{ color:#c30808;}
+.black{color: black;}
+
+.JphLeftBox{ width:785px;}
+.JphRightBox{ width:301px;}
+
+.JphMy{ width:100%;}
+.JphMy h1{ background:#f2faff; height:30px; line-height:30px; padding:0 10px; font-size:14px; font-weight:bold; color:#006cb1;}
+.JphMy h1 a{ font-size:12px; font-weight:normal; float:right;}
+.JphMy h1 .JphMyH1{ width:260px; display:block;}
+.JphMy h1 .JphMyjf{ font-size:12px; font-weight:normal;}
+.JphMy .JphMyBox{ border:1px solid #bfb4ae; height:130px;}
+.JphMy .JphMyBox dl{ width:100%; clear:both; padding:10px 0;}
+.JphMy .JphMyBox dt{ width:166px; float:left; padding-left:10px;}
+.JphMy .JphMyBox dt img{ border:1px solid #e1e1e1;}
+.JphMy .JphMyBox dt.Boximg{ width:110px; padding-top:10px;}
+.JphMy .JphMyBox dt.Boximg img{ border:0px;}
+.JphMy .JphMyBox dd{ width:494px; float:right; position:relative; line-height:24px;}
+.JphMy .JphMyBox dd h2{ padding:13px 0 0 0; height:45px; line-height:45px; font-size:18px; font-family:"微软雅黑"; font-weight:bold;}
+.JphMy .JphMyBox dd .jphMySub{ width:91px; position:absolute; top:18px; right:0px;}
+.JphMy .JphMyBox dd .jphMySub .SubVip{ text-decoration:none;width: 118px;}
+.JphMy .JphMyBox dd .jphMySub .jphSub{ text-decoration:none;width: 75px; height:25px; line-height:25px; font-size:12px;}
+.JphMy .JphMyBox dd.w01{ width:498px;}
+.JphMy .JphMyBox dd.w01 h3 span{ font-weight:normal;}
+.JphMy .JphMyBox dd.w01 .Savejph{ width:290px; display:block;}
+.JphMy .JphMyBox dd.w01 .Savejph dl{ padding:0px;}
+.JphMy .JphMyBox dd.w01 .Savejph dt{ width:63px; float:left; font-weight:normal; padding:0px;}
+.JphMy .JphMyBox dd.w01 .Savejph dd{ width:186px; float:left; padding-top:7px;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spanBox{ width:180px; border: 1px #CCC solid; height: 12px; display:block; position:relative;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spanorange{ width:60%; height: 12px; background:url("../../../images/orange.png"/*tpa=https://www.xinrong.com/s/images/orange.png*/) repeat-x; display:block;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spanred{ width:60%; height: 12px; background:url("../../../images/red1.png"/*tpa=https://www.xinrong.com/s/images/red1.png*/) repeat-x; display:block;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spanyellow{ width:60%; height: 12px; background:url("../../../images/yellow.png"/*tpa=https://www.xinrong.com/s/images/yellow.png*/) repeat-x; display:block;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spangreen{ width:60%; height: 12px; background:url("../../../images/green.png"/*tpa=https://www.xinrong.com/s/images/green.png*/) repeat-x; display:block;}
+.JphMy .JphMyBox dd.w01 .Savejph dd .spanText01{ width:100%; height:12px; line-height:12px; text-align:center; position:absolute; top:0px; left:0px; display:block;}
+.JphMy .JphMyBox dd.w02{ width:556px; background:url("../../../images/jipinhui/Bx.jpg"/*tpa=https://www.xinrong.com/s/images/jipinhui/Bx.jpg*/) 229px repeat-y;}
+.JphMy .JphMyBox dd.w02 ul{ width:229px; float:left; padding-left:20px;}
+.JphMy .JphMyBox dd.w02 ul.ulbor{ width:220px; padding:0px;}
+.JphMy .JphMyBox dd.w02 ul h3{ height:28px; line-height:28px; color:#9e2c09; font-weight:normal; padding-bottom:5px;}
+.JphMy .JphMyBox dd.w02 ul li{ line-height:25px; background:url("../../../images/jipinhui/10.jpg"/*tpa=https://www.xinrong.com/s/images/jipinhui/10.jpg*/) left center no-repeat; padding-left:10px;}
+.JphMy .JphMyBox dd.w02 ul li a{ color:#666;}
+.JphMy .JphMyBox dd.w02 ul li a:hover{ color:#ff7700;}
+.JphMy .JphMyBox dd.w02 ul.ulbor li{ background:url("../../../images/jipinhui/09.jpg"/*tpa=https://www.xinrong.com/s/images/jipinhui/09.jpg*/) left center no-repeat;}
+
+.JphMy .JphMyBox dd .jphMySub01{ top:20px; right:0px; width:88px;}
+
+
+
+.JphList{ width:100%; height:514px;}
+/*切换*/
+.tabs-nav{ height:30px; border-bottom:1px solid #c1c1c1; margin:0px; padding:0px 0 0 10px; list-style:none; position:relative; z-index:7;}
+
+.tabs-nav li {
+    width: 80px;
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+.tabs-nav li.NavP{ width:16px; color:#c33605;}
+.tabs-nav li.TabTime{width: 240px; padding-left:94px; color:#666666;}
+.tabs-nav li.TabTime b{ color:#209804; font-family:"黑体"; font-size:18px; font-weight:normal;}
+.tabs-nav li.Tabfont{width: 190px; padding-right:10px; text-align:right; float:right; color:#666;}
+.tabs-nav a{ height:30px; line-height:30px; font-size:14px; color:#006cb1; display:block; text-decoration:none;}
+.tabs-nav .ui-state-active{}
+.tabs-nav .ui-state-active a{ color:#c33605; font-weight:bold; }
+.ui-tabs-hide{ display:none}
+/*************************************************/
+
+.jphListpic{ width:100%;}
+.jphListpic ul{ margin:0px; padding:0px; list-style:none;}
+.jphListpic ul li{ width:170px; padding:0px 0px 0px 0px; line-height:24px; float:left; cursor:pointer; height:263px; position:relative; border:1px solid #fff; position:relative; margin:-1px 12px 0 12px;}
+.jphListpic ul li .SubVip{ display:none;}
+.jphListpic ul li:hover{ border:1px solid #edebeb; -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.3); box-shadow: 0px 0px 10px rgba(0,0,0,0.3); position:relative; z-index:6;}
+.jphListpic ul li:hover .Fontbg{ background:#f8f8f8;}
+.jphListpic ul li .SubVip{ display:block; margin-right:10px;}
+.jphListpic ul li h2{ font-weight:bold; height:44px; line-height:20px; padding-top:4px;}
+.jphListpic ul li h2 span{ font-weight:normal;}
+.jphListpic ul li.paddingRight{ padding-right:0px;}
+.jphListpic ul li .Fontpic{ display:block; position:relative; z-index:5; padding-bottom:5px; background:#fff; }
+.jphListpic ul li .Fontpic span{ display:block; position:absolute; right:0px; top:0px; width:52px; height:26px; line-height:26px; background:#cccccc; text-align:center; display:none;}
+.jphListpic ul li .Fontpic .extraDiscount{position: absolute;  height: 59px;  width: 59px;  top: 0;left:0; background-image: url("../../../images/jipinhui/extraDiscount.png"/*tpa=https://www.xinrong.com/s/images/jipinhui/extraDiscount.png*/);}
+.jphListpic ul li .Fontpic .discountCover{ position: absolute; height: 132px;  width: 170px;  top: 0;  left: 0;  background-image: url("../../../images/jipinhui/coverDefault.png"/*tpa=https://www.xinrong.com/s/images/jipinhui/coverDefault.png*/);}
+.jphListpic ul li .Fontpic .discountCover i{font-style:normal}
+.jphListpic ul li .Fontpic .discountCover .title{ position: absolute;  bottom: 8px;  left: 3px; color: #fff; font-size: 14px; transform: rotate(-5deg);-ms-transform:rotate(-5deg); -moz-transform:rotate(-5deg);-webkit-transform:rotate(-5deg);  -o-transform:rotate(-5deg); }
+.jphListpic ul li .Fontpic .discountCover .price{ position: absolute;  bottom: 1px;  right: 3px;  font-size: 17px;  color: #f32d49;}
+.jphListpic ul li .Fontpic .discountCover .oriPrice{ position: absolute;  bottom: 11px;  right: 35px;  text-decoration: line-through;  font-size: 12px;  color: #fd3c3d;}
+.jphListpic ul li .Fontpic .discountCover .discount { position: absolute;  right: 10px;  top: 10px;  font-size: 12px;  color: #fff;}
+.jphListpic ul li .Fontbg{ padding:0 0 0px 9px; height:126px; display:block;}
+.jphListpic ul li .Fontbg p{ clear:both;}
+.jphListpic ul li .Fontbg .c999{ padding-bottom:3px;}
+.jphListpic ul li .SubVip{ width:40px; height:20px; line-height:20px; font-size:12px; text-decoration:none; margin-right:0px;}
+.jphListpic ul li .pink{ background: rgb(247, 90, 95) !important;}
+.jphListpic ul li .FontTit{ position:relative; z-index:8;}
+.jphListpic ul li .FontTit a{display:inline-block;}
+.jphListpic ul li .FontTit .FontHover{ display:none;} 
+.jphListpic ul li .FontTit:hover .FontHover{ position:absolute; top:26px; left:0px; display:block; width:173px; height:139px; border:1px solid #cccccc; background:#fff; padding:6px 10px 10px;}
+.jphListpic ul li .FontTit:hover .FontHover div{ color:#333;}
+.jphListpic ul li .FontTit:hover .FontHover table{ border-collapse:collapse; border:1px solid #cccccc; line-height:18px;}
+.jphListpic ul li .FontTit:hover .FontHover table td{ border:1px solid #cccccc; text-align:center; color:#333;}
+.jphListpic ul li .FontTit:hover .FontHover table tr.bg{ background:#f2f2f2;}
+
+
+
+.RightBox h2{ height:30px; line-height:30px; padding:0 10px; font-size:12px; border-bottom:1px solid #D4D4D4; font-weight:bold;}
+.RightBoxHeight{ height:162px;}
+
+.RightBox ul{ margin:0px; padding:5px 0 0 0; list-style:none;}
+.RightBox ul li{ height:24px; line-height:24px; padding-left:10px;}
+
+.RightBox .JipinhuiList li{ border-bottom:1px dotted #ddd; width:100%; clear:both; padding:12px 0; height:auto;}
+.RightBox .JipinhuiList li.Liborbot{ border-bottom:0;}
+.RightBox .JipinhuiList li .lifont{ width:201px; padding-left:10px; line-height:24px; float:left; display:block;}
+.RightBox .JipinhuiList li .lifont .c999{ padding-top:8px;}
+.RightBox .JipinhuiList li .lipic{ width:83px; float:right;}
+.RightBox .JipinhuiList li p{ height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+.RightBox dl{ border-bottom:1px solid #ddd; width:100%; clear:both; padding:6px 0;}
+.RightBox dt{ width:201px; padding-left:10px; line-height:18px; float:left;}
+.RightBox dt .c999{ padding-top:8px;}
+.RightBox dd{ width:83px; float:right;}
+.RightBox dl.borderBott{ border-bottom:0px;}
+
+.JphPic h1{ height:32px; line-height:32px; padding:0 10px; border-bottom:1px solid #b07f57; font-size:14px; font-weight:bold;}
+.JphPic h2{ line-height:28px;}
+.PicList01 ul li{ width:164px; margin:12px 10px 10px 11px; padding:0px; line-height:24px; float:left; height:231px; border:0px;}
+.PicList01 ul li:hover{ margin:0px; margin:12px 10px 10px 11px; border:0px; padding:0px;}
+.PicList01 ul li .SubVip{ margin-right:0px; font-weight:normal;}
+.PicList01 ul li.marginli{ margin-right:0px;}
+.PicList01 ul li .Fontpic{ padding:0px; text-align:center;}
+.PicList01 ul li .Fontbg{ padding:0px 5px 3px 8px; height:auto;}
+.PicList01 ul li .SubVip{ width:38px;}
+.PicList01 ul li .SubVip01{ width:40px; height: 22px; line-height: 22px; font-size: 12px; text-decoration: none; background: #40b107; color:#fff; display:inline-block; text-align:center; border-radius:2px; vertical-align:middle;}
+
+
+.JphPage{ text-align:right;}
+.JphPage a{ padding:0 2px;}
+
+.JphActivity h1{ line-height:45px; font-size:14px; font-weight:bold;}
+.JphActivity ul{ margin:0px; padding:0px; list-style:none;}
+.JphActivity ul li{ float:left; padding-right:15px;}
+.JphActivity ul li.lipadding{ padding-right:0px;}
+
+.jphNav{ background:none; border-bottom:0px; padding-top:10px; z-index:5;}
+.jphNav li.Jphwidth{ width:40px;}
+.jphNav li.NavP{ color:#000;}
+.jphNav li a{ font-size:12px; color:#000;outline: none;}
+.jphNav .ui-state-active a{ color:#000;}
+
+.JphDialog{ width:514px; padding:0 19px;}
+.JphDialog h2{ height:26px; line-height:26px; padding:20px 0px; border-bottom:1px solid #D4D4D4; font-weight:normal;}
+.JphDialog h2 .text01{ width:188px; height:22px; line-height:22px; border:1px solid #D4D4D4; vertical-align:middle;}
+.JphDialog h2 .SubVip{ text-decoration:none; height:24px; line-height:24px; vertical-align:middle; font-size:12px;}
+.JphDialog table{ line-height:31px;}
+.JphDialog .JphDialogF{ text-align:right; height:30px; line-height:30px;}
+
+.JphFy{ text-align:right;}
+.JphFy a{ padding:3px 5px; text-decoration:none;}
+.JphFy a:hover{ background:#ff7902; color:#fff;}
+.JphFy span{ padding:3px 5px; background:#ff7902; color:#fff;}
+

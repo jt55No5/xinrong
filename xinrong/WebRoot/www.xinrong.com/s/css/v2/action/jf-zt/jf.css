@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.ce10c00{ color:#e10c00;}
+
+.jf_content{ position:relative;}
+.jf_box{ width:1000px; margin:0 auto; position:relative;}
+
+/*第一屏*/
+.one_box{ background:#144f81; height:637px;}
+.one_box .onepic01{ position:absolute; top:45px; left:191px;}
+.one_box .onepic02{ position:absolute; top:341px; left:-80px;}
+.one_box .onepic03{ position:absolute; top:579px; left:96px;}
+.one_box .onepic04{ position:absolute; top:349px; right:-101px;}
+.one_box .onepic05{ position:absolute; top:514px; right:245px;}
+
+/*第二屏*/
+.two_box{ background:#ff9600 url("../../../../images/action/jf-zt/06.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/06.jpg*/) top repeat-x; height:431px;}
+.two_box .title_box{ position:absolute; left:0px; top:33px;}
+.two_box .twopic01{ position:absolute; left:129px; top:339px;}
+.two_box .twopic02{ position:absolute; left:166px; top:116px;}
+.two_box .twopic03{ position:absolute; left:332px; top:111px;}
+.two_box .twopic04{ position:absolute; right:254px; top:114px;}
+.two_box .twopic05{ position:absolute; right:118px; top:83px;}
+
+/*第三屏*/
+.three_box{ background:#fdd192 url("../../../../images/action/jf-zt/13.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/13.jpg*/) top repeat-x; height:404px;}
+.three_box .title_box{ position:absolute; left:0px; top:49px;}
+.three_box .threepic01{ position:absolute; left:124px; top:324px;}
+.three_box .threepic02{ position:absolute; right:161px; top:77px;}
+.three_box .threepic03{ position:absolute; left:178px; top:148px;}
+
+/*第四屏*/
+.four_box{ background:#ff9600 url("../../../../images/action/jf-zt/18.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/18.jpg*/) top repeat-x; height:429px;}
+.four_box .title_box{ position:absolute; left:0px; top:50px;}
+.four_box .fourpic01{ position:absolute; left:99px; top:331px;}
+.four_box .fourpic02{ position:absolute; left:146px; top:130px;}
+.four_box .fourpic03{ position:absolute; right:178px; top:114px;}
+
+/*第五屏*/
+.five_box{ background:#fdd192 url("../../../../images/action/jf-zt/13.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/13.jpg*/) top repeat-x; height:411px;}
+.five_box .title_box{ position:absolute; left:0px; top:50px;}
+.five_box .fivepic01{ position:absolute; left:171px; top:114px;}
+.five_box .fivepic02{ position:absolute; right:264px; top:104px;}
+.five_box .fivepic03{ position:absolute; right:95px; top:147px;}
+
+/*第六屏*/
+.six_box{ background:#144f81 url("../../../../images/action/jf-zt/27.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/27.jpg*/) top repeat-x; height:949px;}
+.six_box .title_box{ width:100%; text-align:center; padding-top:47px;}
+.six_box .six_list ul{ margin:0px; padding:0px; list-style:none;}
+.six_box .six_list ul li{ background:url("../../../../images/action/jf-zt/29.png"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/29.png*/) no-repeat; width:220px; height:244px; margin:48px 12px 0 12px; float:left;}
+.six_box .six_list ul li h1{ font-size:16px; font-weight:normal; color:#522400; padding-top:64px; text-align:center; line-height:20px;}
+.six_box .six_list ul li h2{ font-size:20px; color:#ee3a00; text-align:center; line-height:30px; font-weight:bold;}
+.six_box .six_list ul li h2 img{ vertical-align:middle; padding-right:3px; margin-bottom:4px;}
+.six_box .six_list ul li p{ text-align:center; color:#5c3303; line-height:33px;}
+.six_box .six_list ul li p span{ font-size:14px;}
+.six_box .six_font{ padding:48px 0 0 280px; line-height:22px; font-size:14px; color:#ffc572;}
+
+/*第七屏*/
+.seven_box{ background:#ff9600 url("../../../../images/action/jf-zt/06.jpg"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/06.jpg*/) top repeat-x; height:800px;}
+.seven_box .title_box{ text-align:center; padding:54px 0 0 0; width:100%;}
+.seven_box .seven_list{ width:100%; padding:27px 0 54px 0; margin:0px;}
+.seven_box .seven_list li{ background:url("../../../../images/action/jf-zt/32.png"/*tpa=https://www.xinrong.com/s/images/action/jf-zt/32.png*/) no-repeat; width:218px; height:192px; margin:0 15px; text-align:center; float:left;}
+.seven_box .seven_list li i{ color:#fff; font-size:24px; font-style:normal; width:44px; height:44px; line-height:42px; text-align:center; margin-left:4px; display:inline-block;}
+.seven_box .seven_list li .listfont{ display:block; padding:54px 0 0 56px; color:#613910; font-size:16px; line-height:22px; text-align:left;}
+.seven_box .seven_list li .listfont p{ font-size:12px; line-height:16px;}
+.seven_box .seven_list li .listfont h2{ font-weight:bold;}
+.seven_box .seven_pic{ width:100%; text-align:center;}
+.seven_box .seven_font{ padding:26px 0 0 187px;}
+.seven_box .seven_font span{ display:block; padding:20px 0 0 176px; font-size:14px; color:#5c3303; line-height:22px;}
+

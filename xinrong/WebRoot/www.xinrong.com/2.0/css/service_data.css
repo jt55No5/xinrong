@@ -1,0 +1,666 @@
+@charset "utf-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+}
+.sections{
+	min-width: 1100px;
+	opacity: 0;
+}
+.sections>.section{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	overflow: hidden;
+	-moz-transition: margin-top .4s ease;
+	-webkit-transition: margin-top .4s ease;
+	-o-transition: margin-top .4s ease;
+	transition: margin-top .4s ease;
+}
+.sections>.section>.content{
+	width: 1100px;
+	margin: 0 auto;
+}
+.sections>.section>.content .sec-tips{ padding-top:10px; text-align:right; display:block; color:#ffe26d; font-size:15px;}
+.sections>.section>.content>.title{
+	padding: 50px 0 50px 0;
+	font-size: 30px;
+	color: #666;
+	line-height: 55px;
+	text-align: center;
+	-moz-transition: margin-top .4s ease;
+	-webkit-transition: margin-top .4s ease;
+	-o-transition: margin-top .4s ease;
+	transition: padding 0.5s ease;
+}
+@media screen and (max-width: 1366px){
+.sections>.section>.content>.title{
+	padding: 10px 0 20px 0;
+}
+}
+.sections>.section>.content>.title>i{
+	display: inline-block;
+	width: 65px;
+	height: 3px;
+	background-color: #5fa5e4;
+}
+.sections>.section>.content h3.reminder{
+	font-size: 14px;
+	line-height: 50px;
+	color: #999;
+	font-weight: normal;
+}
+.sections>.section>.content h4.reminder{
+	font-size: 12px;
+	line-height: 40px;
+	color: #bfbfbf;
+	font-weight: normal;
+}
+.sections .section-1{
+	background-color: #3779d3;
+	background: url("../images/about/data/wave.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/data//wave.jpg*/) no-repeat center bottom,url("../images/about/data/square.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/data//square.jpg*/) repeat;
+}
+.sections .section-1>.content>.title{
+	color: #fff;
+}
+.sections .section-1>.content>.title>i{
+	background-color: #fff;
+}
+.sections .bgM1{
+	background-image: url("../images/about/data/moutain1.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/data//moutain1.jpg*/);
+}
+.sections .bgM2{
+	background-image: url("../images/about/data/moutain2.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/data//moutain2.jpg*/);
+}
+/*右侧导航菜单*/
+.section-select{
+	position: fixed;
+	right: 4%;
+	top: 40%;
+	width: 14px;
+}
+.section-select>li{
+	width: 14px;
+	height: 14px;
+	margin-top: 14px;
+	border-radius: 7px;
+	background-color: #999;
+	cursor: pointer;
+}
+.section-select>li.current{
+	background-color: #ff5719;
+}
+.section-select>li:hover{
+	background-color: #ff5719;
+}
+/*tabsholder*/
+.sections .section .tabsholder .tabs{
+	overflow: hidden;
+}
+.sections .section .tabsholder .tabs>li{
+	float: left;
+	width: 33.3%;
+	color: #333;
+	background-color: #f5f5f5;
+	font-size: 16px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+}
+.sections .section-9 .tabsholder .tabs>li{
+	width: 25%;
+}
+.sections .section .tabsholder .tabs>li.current{
+	color: #fff;
+	background-color: #56a0e2;
+}
+.sections .section .tabsholder .contents{
+	background-color: #fff;
+}
+.sections .section .tabsholder .contents .tabscontent{
+	overflow: hidden;
+	display: none;
+}
+.sections .section .tabsholder .contents .tabscontent.current{
+	display: block;
+	animation: show 1s ease;
+}
+@keyframes show{
+	0%{opacity: .1;}
+	100%{opacity: 1;}
+}
+/*tabsholder*/
+/*section-1*/
+.sections .section-1 ul{
+	overflow: hidden;
+}
+.sections .section-1 ul>li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.sections .section-1 ul>li+li+li+li{
+	margin-top: 40px;
+}
+.sections .section-1 ul>li>img{
+	margin-bottom: 10px;
+	-moz-transition: all .5s linear;
+	-webkit-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+.sections .section-1 ul>li>img:hover{
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.sections .section-1 ul>li>span{
+	display: block;
+	line-height: 34px;
+	font-size: 18px;
+	color: #fff;
+}
+.sections .section-1 ul>li span.unit{
+	font-size: 18px;
+}
+.sections .section-1 ul>li>span+span{
+	line-height: 16px;
+	font-size: 15px;
+	color: #b3dcff;
+}
+.sections .section-1 ul>li>span>span{
+	font-size: 30px;
+}
+.sections .section-1 ul>li>span>a{
+	color: #fff;
+}
+.sections .section-1 .operating_time{
+	margin-top: 70px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.sections .section-1 .operating_time>i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../images/about/data/section1_clock.png"/*tpa=https://www.xinrong.com/2.0/images/about/data//section1_clock.png*/) no-repeat;
+	vertical-align: middle;
+}
+.sections .section-1 .operating_time>span{
+	vertical-align: middle;
+}
+.sections .section-1 .operating_time .digit{
+	color: #ffe26d;
+	font-size: 22px;
+}
+/*section-2*/
+.sections .section-2 ul{
+	overflow: hidden;
+}
+.sections .section-2 ul>li{
+	float: left;
+	width: 260px;
+	height: 450px;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+}
+.sections .section-2 ul>li+li{
+	margin-left: 20px;
+}
+/*section-3*/
+.sections .section-3 .content .tabsholder .contents .tabscontent{
+	height: 410px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .data_select{
+	margin-left: 60px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .total_deal{
+	margin-left: 20px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data{
+	float: right;
+	margin: 0px 140px 0 0;
+	font-size: 14px;
+	background-color: #fdfdfd;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .product_month_data{
+	margin-top: 110px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .xcb_rate_data{
+	margin-top: 40px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data .orange{
+	font-size: 20px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data ul>li{	
+	padding: 10px 40px;
+	border-top: 1px solid #eee;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data ul>li:first-child{
+	border-top: 1px solid transparent;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data ul>li>span{
+	display: block;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data ul>li span.data_show{
+	color: #F60;font-size: 20px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .right_data ul>li span.unit{
+	color: #444;font-size: 14px;
+}
+.sections .section-3 .content .tabsholder .contents .tabscontent .chart_box{
+	float: left;
+	width: 600px;
+	height: 300px;
+	margin: 20px 0 0 60px;
+}
+/*section-4*/
+.sections .section-4 .user_data_box .user_data{
+	background-color: #fafafa;
+	overflow: hidden;
+}
+.sections .section-4 .user_data_box .user_data>li{
+	float: left;
+	width: 33.3%;
+	height: 100px;
+	overflow: hidden;
+}
+.sections .section-4 .user_data_box .user_data>li>img{
+	float: left;
+	margin: 21px 10px 0 47px;
+	-moz-transition: all .5s linear;
+	-webkit-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+.sections .section-4 .user_data_box .user_data>li>img:hover{
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.sections .section-4 .user_data_box .user_data>li>span{
+	display: inline-block;
+	padding: 20px 0 0 0;
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+}
+.sections .section-4 .user_data_box .user_data>li>span+span{
+	padding: 0 0 0 0;
+}
+.sections .section-4 .user_data_box .user_data_chart{
+	width: 100%;
+	height: 465px;
+	background-color: #fff;
+}
+/*section-5*/
+.sections .section-5 .tabsholder .tabs,.sections .section-6 .tabsholder .tabs{
+	width: 270px;
+	height: 40px;
+	margin: 0 auto;
+	border: 1px solid #56a0e2;
+	border-radius: 10px;
+}
+.sections .section-5 .tabsholder .tabs>li,.sections .section-6 .tabsholder .tabs>li{
+	width: 50%;
+	line-height: 40px;
+	background-color: #fff;
+}
+.sections .section-5 .tabsholder .contents .tabscontent{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.sections .section-5 .tabsholder .contents .tabscontent ul{
+	overflow: hidden;
+}
+.sections .section-5 .tabsholder .contents .tabscontent ul>li{
+	float: left;
+	width: 33.3%;
+	height: 420px;
+	/* margin-top: 30px; */
+}
+/*section-6*/
+.sections .section-6 .content .tabsholder .new_users{
+	color: #999;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left{
+	float: left;
+	width: 220px;
+	margin: 20px 0 0 80px;
+	font-size: 14px;
+	color: #444;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left h6{
+	padding-left: 5px;
+	line-height: 24px;
+	font-weight: normal;
+	background-color: #eee;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left ul>li{
+	position: relative;
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #eee;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left ul>li>b{
+	position: absolute;
+	left: 5px;
+	top: 0;
+	font-weight: normal;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left ul>li>b+b{
+	position: relative;
+	margin-left: 45px;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .left ul>li>span{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	color: #999;
+}
+.sections .section-6 .content .tabsholder .contents .tabscontent .right{
+	float: right;
+	width: 630px;
+	height: 550px;
+	margin-right: 80px;
+}
+/*section-7*/
+.sections .section-7 .view_box{
+	position: relative;
+	width: 100%;
+	height: 455px;
+	background-color: #fff;
+	background-image: url("../images/about/data/section7_center.png"/*tpa=https://www.xinrong.com/2.0/images/about/data//section7_center.png*/);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.sections .section-7 .view_box>div{
+	display: inline-block;
+	position: absolute;
+}
+.sections .section-7 .view_box>div img{
+	-moz-transition: all .5s linear;
+	-webkit-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+}
+.sections .section-7 .view_box>div img:hover{
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.sections .section-7 .view_box>div.view_1{
+	left: 280px;
+	top: 45px;
+}
+.sections .section-7 .view_box>div.view_2{
+	left: 640px;
+	top: 70px;
+}
+.sections .section-7 .view_box>div.view_3{
+	left: 150px;
+	top: 215px;
+}
+.sections .section-7 .view_box>div.view_4{
+	left: 664px;
+	top: 225px;
+}
+.sections .section-7 .view_box>div.view_5{
+	left: 450px;
+	top: 350px;
+}
+.sections .section-7 .view_box>div.view_1,.sections .section-7 .view_box>div.view_3{
+	text-align: right;
+	padding-right: 80px;
+}
+.sections .section-7 .view_box>div.view_2,.sections .section-7 .view_box>div.view_4,.sections .section-7 .view_box>div.view_5{
+	text-align: left;
+	padding-left: 80px;
+}
+.sections .section-7 .view_box>div.view_1>img,.sections .section-7 .view_box>div.view_3>img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.sections .section-7 .view_box>div.view_2>img,.sections .section-7 .view_box>div.view_4>img,.sections .section-7 .view_box>div.view_5>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.sections .section-7 .view_box>div>span{
+	display: block;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+}
+.sections .section-7 .view_box>div>span+span{
+	font-size: 30px;
+	color: #666;
+}
+.sections .section-7 .view_box>div>span a{
+	margin-left: 5px;
+	font-size: 12px;
+	color: #0078b6
+}
+/*section-8*/
+.sections .section-8 ul.view_box{
+	width: 100%;
+	height: 445px;
+	background-color: #f8f8f8;
+}
+.sections .section-8 ul.view_box>li{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+.sections .section-8 ul.view_box>li>div.data_box{
+	text-align: center;
+}
+.sections .section-8 ul.view_box>li>div.data_box>span{
+	display: inline-block;
+	margin-top: 15px;
+}
+.sections .section-8 ul.view_box>li>div.data_box>span>span{
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666;
+	text-align: right;
+}
+.sections .section-8 ul.view_box>li>div.data_box>span>span i{
+	display: inline-block;
+	position: relative;
+	left: -5px;
+	top: 2px;
+	width: 0;
+	height: 14px;
+	border-right: 7px solid #999;
+}
+.sections .section-8 ul.view_box>li>div.chart_box{
+	width: 100%;
+	height: 320px;
+	margin-top: 10px;
+}
+/*section-9*/
+.sections .section-9 .tabsholder{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.sections .section-9 .tabsholder .contents table thead tr th{
+	line-height: 50px;
+	font-size: 16px;
+	color: #444;
+	font-weight: normal;
+	text-align: center;
+	background-color: #d8edff;
+}
+.sections .section-9 .tabsholder .contents table tbody tr.bg{
+	background-color: #fafafa;
+}
+.sections .section-9 .tabsholder .contents table tbody tr td{
+	line-height: 49px;
+	font-size: 14px;
+	color: #444;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.sections .section-9 .tabsholder .contents .tabscontent{
+	position: relative;
+	height: 450px;
+	margin-top: 10px;
+}
+.sections .section-9 .tabsholder .contents .tabscontent .pagination{
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+	width: 100%;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+}
+.sections .section-9 .tabsholder .contents .tabscontent .pagination>a{
+	padding: 0 10px;
+	margin: 0 5px;
+	text-decoration: none;
+}
+.sections .section-9 .tabsholder .contents .tabscontent .pagination>span{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 0 5px;
+	background-color: #37b0e9;
+	border-radius: 12px;
+	color: #fff;
+}
+.sections .section-9 .tabsholder .contents .tabscontent .pagination>.c-font{
+	color: #aaa;
+}
+.title_animating{
+	animation: titleIn 1.2s ease;
+}
+@keyframes titleIn{
+	0% {margin-top: -160px;}
+	100%{margin-top: 0;}
+}
+.detail_animating{
+	animation: detailIn 1.2s ease;
+}
+@keyframes detailIn{
+	0% {margin-top: 100%;}
+	100%{margin-top: 0;}
+}
+
+/*  信融花花数据总计  */
+.sections .sec_huahua_sum .content .section_detail .info, .sections .sec_stage_sum .content .section_detail .info{
+	border-left: 10px solid #ccc;
+	line-height: 1;
+	font-size: 14px;
+	color: #999;
+}
+.sections .sec_huahua_sum .content .section_detail .info>span, .sections .sec_stage_sum .content .section_detail .info>span{
+	margin: 0 50px 0 10px;
+}
+.sections .sec_huahua_sum .content .section_detail .info>span>span, .sections .sec_stage_sum .content .section_detail .info>span>span{
+	color: #F60;
+}
+.sections .sec_huahua_sum .content .section_detail .overdue_rate_con{
+	margin-top: 10px;
+	background-color: #fafafa;
+}
+.sections .sec_huahua_sum .content .section_detail .overdue_rate_con .overdue_rate_box{
+	height: 430px;
+}
+.sections .sec_huahua_sum .content .section_detail .overdue_rate_con .reminder{
+	text-align: right;
+}
+/*  平台风险数据总计  */
+.sections .sec_stage_sum .content .section_detail .info{
+	position: relative;
+}
+.sections .sec_stage_sum .content .section_detail .info>i{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-style: normal;
+}
+.sections .sec_stage_sum .content .section_detail .info>i>i{
+	font-style: normal;
+	color: #f60;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con{
+	background-color: #fff;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .stage_data_box{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .stage_data_box>li{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .stage_data_box>li>div{
+	margin: 30px auto;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .explain{
+	padding-top: 20px;
+	text-align: right;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .explain a{
+	padding: 20px;
+	color: #999;
+	font-size: 14px;
+	line-height: 40px;
+	background: url("../images/about/data/icon_mark.png"/*tpa=https://www.xinrong.com/2.0/images/about/data/icon_mark.png*/) no-repeat left center;
+	background-size: 15px 15px;
+	padding-left: 18px;
+}
+.sections .sec_stage_sum .content .section_detail .stage_data_con .explain a:hover{
+	color: #37b0e9;
+}
+/*  circle  */
+.circliful{
+	position: relative;
+	margin: 0 auto;
+}
+.circle-text, .circle-info{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.circle-info{
+	font-size: 14px;
+	color: #999;
+	line-height: 18px!important;
+	padding-top: 140px;
+}
+.stage_data_box li .box_info_more{
+	display: block;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+}
+.stage_data_box li .circle-text, .stage_data_box li .box_info_more{
+	color: #4adbb0;
+}
+.stage_data_box li+li .circle-text, .stage_data_box li+li .box_info_more{
+	color: #f37370;
+}
+.stage_data_box li+li+li .circle-text, .stage_data_box li+li+li .box_info_more{
+	color: #7bc1ee;
+}

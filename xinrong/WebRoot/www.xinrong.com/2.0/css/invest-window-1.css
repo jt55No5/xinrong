@@ -1,0 +1,29 @@
+
+.dialogmain .dialogline{ padding: 10px 0 0 12px;}
+.dialogmain .dialogline h2{ font-size: 14px; color:#000;}
+.dialogmain .dialogline h2 span{ font-weight:normal;}
+.dialogmain .dialogline ul{ width:100%;}
+.dialogmain .dialogline ul li{ width:44%; float:left; line-height:29px; padding-top:10px;}
+.dialogmain .dialogline ul li.w01{ width:56%;}
+.dialogmain .dialogline ul li .f-font{ color:#666;}
+.dialogmain .dialogline dl{ clear:both; width:100%; padding-top:10px; line-height: 29px; font-size:13px;}
+.dialogmain .dialogline dt{ width:66px; text-align:right; float:left; padding-right:8px;}
+.dialogmain .dialogline dd{ float:left; width:80%;}
+.dialogmain .dialogline dd .text01{ width: 193px; height: 26px; line-height: 26px; padding: 1px 3px; border: 1px solid #bbb; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s;-o-transition-duration: 0.2s; transition-duration: 0.2s;  -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; vertical-align:middle;}
+.dialogmain .dialogline dd .sub01{ width:68px; height:30px; line-height:30px; vertical-align:middle; margin-left:5px; background:#4bc1e1;}
+.dialogmain .dialogline dd .font01{ font-size:12px; color:#999;}
+.dialogmain .dialogline dd .icon01{ width:14px; height:17px; background-position:-492px -85px; display:inline-block; vertical-align:middle; margin-right:4px;}
+.dialogmain .dialogline dd p.red{ font-size:12px; line-height:24px;}
+.dialogmain .dialogline dd .font02{ padding-left:10px;}
+.dialogmain .dialogline dd .pic{ vertical-align:middle; padding-left:5px; display:inline-block;}
+.dialogmain .dialogline dd .d_eye{ position:relative; margin-left:-30px; display:inline-block; vertical-align:middle;}
+.dialogmain .dialogline .icon02{ width:32px; height:32px; display:inline-block; background-position:0 -247px;}
+.dialogmain .dialogline dl.w01 dt{ width:32px;}
+.dialogmain .dialogline dl.w01 dd{ width:90%;}
+.dialogmain .dialogline dl.w01 dd h3{ font-size:16px; padding-bottom:10px;}
+.dialogmain .dialogline dl.w01 dd p{ font-size:12px;}
+.dialogmain .dialogline .subbg{ background:#4bc1e1; margin-left:10px;}
+.dialogmain .dialogline dd .ui-tip01{ position: absolute; left: 117px; top: 0px; font-style: normal; font-size:12px; color:#999;}
+.dialogmain .dialogline dl.do_sub dd{ width:100%; text-align:center;}
+.dialogmain .dialogline dl.do_sub dd .sub03{ width:160px; height:38px; line-height:38px;}
+

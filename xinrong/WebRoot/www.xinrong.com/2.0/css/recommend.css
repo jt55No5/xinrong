@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.recommend-box{ border: 1px solid #C4D6E6; width:100%;}
+.recommend-box h1{ background-color: #ECF5FD; padding: 0px; margin: 0px; height: 48px; border-bottom: solid 1px #CCC;}
+.recommend-box h1 .titleleft{ display: block; line-height: 48px; padding-left: 18px; font-size: 15px;}
+.recommend-box h1 .titleright{ display:block; padding-right:10px; padding-top:4px; color:#999; font-weight:normal; line-height:19px; text-align:right;}
+.recommend-box h1 .titleright .icon01{ width:29px; height:18px; display:inline-block; background-position:-49px -257px; vertical-align:middle; margin-right:5px;}
+.recommend-box h1 .titleright .red{ color:#a52b0a;}
+
+.recommend-box .share{ padding:20px;}
+.recommend-box .share .sharetext{ width:361px; height:82px; margin:0px; padding:15px 10px; border:1px solid #c2c2c2; border-radius:6px; color:#707070; line-height:20px; vertical-align:middle; overflow:hidden;}
+.recommend-box .share .sub02{ width:102px; height:28px; line-height:28px; margin-left:25px; font-size:14px;}
+.recommend-box .share p{ padding:10px 0; font-size:14px;}
+.recommend-box .share p span{ display:inline-block; padding-right:10px; vertical-align:middle;}
+.recommend-box .share p img{ padding:0 2px; vertical-align:middle;}
+.recommend-box .share .right span{ padding:0 1px; display:inline-block;}
+.recommend-box .share img{padding:0 8px; vertical-align:middle;}
+.recommend-box .share .img canvas{ width:110px; height:110px;vertical-align:middle; padding:0 0 0 10px;}
+
+
+.recommend-box .count{ padding:0 20px 20px;}
+.recommend-box .count h2{ height:35px; line-height:35px; background:#ecf5fd; padding:0 10px; font-size:14px;}
+.recommend-box .count ul{ padding:10px; border-bottom:1px solid #cccccc;}
+.recommend-box .count ul li{ width:100%; line-height:25px;}
+.recommend-box .count ul li .lifont{ width:240px; display:block; float:left;}
+.recommend-box .count ul.borno{ border:0px;}
+
+.recommend-box .count .recommendsub{ width:87px; height:25px; line-height:25px; text-align:center; border:1px solid #f6720d; border-radius:4px; color:#f6720d; font-weight:bold; display:inline-block; margin-top:8px; text-decoration:none;}
+
+.recommendtable{ width:100%;}
+.recommendtable h1{ font-size:14px; line-height:35px; padding:0 10px;}
+.recommendtable .tablesearch{ line-height:25px; background:#ececec; border-top:1px solid #cccccc; padding:0 10px 10px; margin-bottom:2px;}
+.recommendtable .tablesearch p{ padding:10px 0 0 0;}
+.recommendtable .tablesearch p select{ width:120px; height:25px; border:1px solid #b6c4cd; margin:0px; padding:0px;}
+.recommendtable .tablesearch .searchpadding{ padding-left:20px;}
+
+.recommendtable .tablesearch .searchtext{ height: 23px; padding: 0 3px; margin:0px; border:1px solid #b6c4cd; background: #fff url("../images/datePicker.png"/*tpa=https://www.xinrong.com/2.0/images/datePicker.png*/) no-repeat right center; vertical-align: middle;}
+.recommendtable .tablesearch .searchsub{ width: 50px; height: 25px; vertical-align: middle; margin-left:6px;}
+
+.recommendtable .font01{ text-align:center; padding:20px 0 40px 0;}
+
+

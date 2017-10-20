@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/*=======第一屏=====*/
+.cloud_01{-webkit-animation:cloud_01 15s .2s ease both infinite;
+	-moz-animation:cloud_01 15s .2s ease both infinite;
+	-ms-animation:cloud_01 15s .2s ease both infinite;
+	-o-animation:cloud_01 15s .2s ease both infinite;
+	animation:cloud_01 15s .2s ease both infinite;}
+@-webkit-keyframes cloud_01{0%{right:-44px;} 50%{right:140px;} 100%{right:-44px;}}
+@-moz-keyframes cloud_01{0%{right:-44px;} 50%{right:140px;} 100%{right:-44px;}}
+@-ms-keyframes cloud_01{0%{right:-44px;} 50%{right:140px;} 100%{right:-44px;}}
+@-o-keyframes cloud_01{0%{right:-44px;} 50%{right:140px;} 100%{right:-44px;}}
+@keyframes cloud_01{0%{right:-44px;} 50%{right:140px;} 100%{right:-44px;}}
+
+.cloud_02{-webkit-animation:cloud_02 13s .3s ease both infinite;
+-moz-animation:cloud_02 13s .3s ease both infinite;
+-ms-animation:cloud_02 13s .3s ease both infinite;
+-o-animation:cloud_02 13s .3s ease both infinite;
+animation:cloud_02 13s .3s ease both infinite;}
+@-webkit-keyframes cloud_02{0%{right:397px;}50%{right:0px;}100%{right:397px;}}
+@-moz-keyframes cloud_02{0%{right:397px;}50%{right:0px;}100%{right:397px;}}
+@-ms-keyframes cloud_02{0%{right:397px;}50%{right:0px;}100%{right:397px;}}
+@-o-keyframes cloud_02{0%{right:397px;}50%{right:0px;}100%{right:397px;}}
+@keyframes cloud_02{0%{right:397px;}50%{right:0px;}100%{right:397px;}}
+
+.erwpic01{ -webkit-animation:erwpic01 .6s .2s ease both;
+-moz-animation:erwpic01 .6s .2s ease both;
+-ms-animation:erwpic01 .6s .2s ease both;
+-o-animation:erwpic01 .6s .2s ease both;
+animation:erwpic01 .6s .2s ease both;}
+@-webkit-keyframes erwpic01{0%{opacity:0; top:55px;}100%{opacity:1; top:103px;}}
+@-moz-keyframes erwpic01{0%{opacity:0; top:55px;}100%{opacity:1; top:103px;}}
+@-ms-keyframes erwpic01{0%{opacity:0; top:55px;}100%{opacity:1; top:103px;}}
+@-o-keyframes erwpic01{0%{opacity:0; top:55px;}100%{opacity:1; top:103px;}}
+@keyframes erwpic01{0%{opacity:0; top:55px;}100%{opacity:1; top:103px;}}
+
+.erwpic02{ -webkit-animation:erwpic02 .6s .2s ease both;
+-moz-animation:erwpic02 .6s .2s ease both;
+-ms-animation:erwpic02 .6s .2s ease both;
+-o-animation:erwpic02 .6s .2s ease both;
+animation:erwpic02 .6s .2s ease both;}
+@-webkit-keyframes erwpic02{0%{opacity:0; top:105px;}100%{opacity:1; top:341px;}}
+@-moz-keyframes erwpic02{0%{opacity:0; top:105px;}100%{opacity:1; top:341px;}}
+@-ms-keyframes erwpic02{0%{opacity:0; top:105px;}100%{opacity:1; top:341px;}}
+@-o-keyframes erwpic02{0%{opacity:0; top:105px;}100%{opacity:1; top:341px;}}
+@keyframes erwpic02{0%{opacity:0; top:105px;}100%{opacity:1; top:341px;}}
+
+.con_box .iphone img{-webkit-animation:iphone1 .6s .3s ease both;
+-moz-animation:iphone1 .6s .3s ease both;
+-ms-animation:iphone1 .6s .3s ease both;
+-o-animation:iphone1 .6s .3s ease both;
+animation:iphone1 .6s .3s ease both;}
+@-webkit-keyframes iphone1{0%{ opacity:0}100%{ opacity:1;}}
+@-moz-keyframes iphone1{0%{ opacity:0}100%{ opacity:1;}}
+@-ms-keyframes iphone1{0%{ opacity:0}100%{ opacity:1;}}
+@-o-keyframes iphone1{0%{ opacity:0}100%{ opacity:1;}}
+@keyframes iphone1{0%{ opacity:0}100%{ opacity:1;}}
+
+.one_box .android img{-webkit-animation:android .6s .4s ease both;
+-moz-animation:android .6s .4s ease both;
+-ms-animation:android .6s .4s ease both;
+-o-animation:android .6s .4s ease both;
+animation:android .6s .4s ease both;}
+@-webkit-keyframes android{0%{ opacity:0}100%{ opacity:1;}}
+@-moz-keyframes android{0%{ opacity:0}100%{ opacity:1;}}
+@-ms-keyframes android{0%{ opacity:0}100%{ opacity:1;}}
+@-o-keyframes android{0%{ opacity:0}100%{ opacity:1;}}
+@keyframes android{0%{ opacity:0}100%{ opacity:1;}}
+
+.one_box .one_title{ -webkit-animation:title_box1 .6s .2s ease both;
+-moz-animation:title_box1 .6s .2s ease both;
+-ms-animation:title_box1 .6s .2s ease both;
+-o-animation:title_box1 .6s .2s ease both;
+animation:title_box1 .6s .2s ease both;}
+@-webkit-keyframes title_box1{0%{opacity:0; top:97px;}100%{opacity:1; top:107px;}}
+@-moz-keyframes title_box1{0%{opacity:0; top:97px;}100%{opacity:1; top:107px;}}
+@-ms-keyframes title_box1{0%{opacity:0; top:97px;}100%{opacity:1; top:107px;}}
+@-o-keyframes title_box1{0%{opacity:0; top:97px;}100%{opacity:1; top:107px;}}
+@keyframes title_box1{0%{opacity:0; top:97px;}100%{opacity:1; top:107px;}}
+
+.button_box dt img{ -webkit-animation:sealimg .6s .4s linear both;
+-moz-animation:sealimg .6s .4s linear both;
+-ms-animation:sealimg .6s .4s linear both;
+-o-animation:sealimg .6s .4s linear both;
+animation:sealimg .6s .4s linear both;}
+@-webkit-keyframes sealimg{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes sealimg{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-ms-keyframes sealimg{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-o-keyframes sealimg{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@keyframes sealimg{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+
+.two_animation,.three_animation,.four_animation,.five_animation,.six_animation { opacity:1;}
+
+/*===第二屏==*/
+
+.two_animation .two_pic01{-webkit-animation:two_pic01 2s 1.1s linear infinite;
+-moz-animation:two_pic01 2s 1.1s linear infinite;
+-ms-animation:two_pic01 2s 1.1s linear infinite;
+-o-animation:two_pic01 2s 1.1s linear infinite;
+animation:two_pic01 2s 1.1s linear infinite;}
+@-webkit-keyframes two_pic01{0%{top:157px;}50%{top:127px;}100%{top:157px;}}
+@-moz-keyframes two_pic01{0%{top:157px;}50%{top:127px;}100%{top:157px;}}
+@-ms-keyframes two_pic01{0%{top:157px;}50%{top:127px;}100%{top:157px;}}
+@-o-keyframes two_pic01{0%{top:157px;}50%{top:127px;}100%{top:157px;}}
+@keyframes two_pic01{0%{top:157px;}50%{top:127px;}100%{top:157px;}}
+
+.two_animation .two_pic02{-webkit-animation:two_pic02 2s .9s ease both infinite;
+-moz-animation:two_pic02 2s .9s ease both infinite;
+-ms-animation:two_pic02 2s .9s ease both infinite;
+-o-animation:two_pic02 2s .9s ease both infinite;
+animation:two_pic02 2s .9s ease both infinite;}
+@-webkit-keyframes two_pic02{0%{opacity:0;}80%{opacity:.5;}100%{opacity:0;}}
+@-moz-keyframes two_pic02{0%{opacity:0;}80%{opacity:.5;}100%{opacity:0;}}
+@-ms-keyframes two_pic02{0%{opacity:0;}80%{opacity:.5;}100%{opacity:0;}}
+@-o-keyframes two_pic02{0%{opacity:0;}80%{opacity:.5;}100%{opacity:0;}}
+@keyframes two_pic02{0%{opacity:0;}80%{opacity:.5;}100%{opacity:0;}}
+
+
+.two_animation .iphone{ -webkit-animation:two_phone 1s .5s ease both;
+-moz-animation:two_phone 1s .59s ease both;
+-ms-animation:two_phone 1s .5s ease both;
+-o-animation:two_phone 1s .5s ease both;
+animation:two_phone 1s .5s ease both;}
+@-webkit-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-moz-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-ms-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-o-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+
+.two_animation .two-bg{-webkit-animation:two-bg 1.1s .9s ease both;
+-moz-animation:two-bg 1.1s .9s ease both;
+-ms-animation:two-bg 1.1s .9s ease both;
+-o-animation:two-bg 1.1s .9s ease both;
+animation:two-bg 1.1s .9s ease both;}
+@-webkit-keyframes two-bg{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes two-bg{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes two-bg{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes two-bg{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes two-bg{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+/*===第三屏==*/
+
+.three_animation .iphone{-webkit-animation:three_phone 1.1s .9s ease both;
+-moz-animation:three_phone 1.1s .9s ease both;
+-ms-animation:three_phone 1.1s .9s ease both;
+-o-animation:three_phone 1.1s .9s ease both;
+animation:three_phone 1.1s .9s ease both;}
+@-webkit-keyframes three_phone{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes three_phone{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes three_phone{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes three_phone{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes three_phone{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+.three_animation .three-pic01{-webkit-animation:three-pic01 .9s .5s ease both;
+-moz-animation:three-pic01 .9s .5s ease both;
+-ms-animation:three-pic01 .9s .5s ease both;
+-o-animation:three-pic01 .9s .5s ease both;
+animation:three-pic01 .9s .5s ease both;}
+@-webkit-keyframes three-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes three-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes three-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes three-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes three-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+.three_animation .three-pic02{-webkit-animation:three-pic02 1.1s .9s ease both;
+-moz-animation:three-pic02 1.1s .9s ease both;
+-ms-animation:three-pic02 1.1s .9s ease both;
+-o-animation:three-pic02 1.1s .9s ease both;
+animation:three-pic02 1.1s .9s ease both;}
+@-webkit-keyframes three-pic02{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes three-pic02{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes three-pic02{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes three-pic02{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes three-pic02{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+.three_animation .three-pic03{-webkit-animation:three-pic03 1.8s 1.2s ease both;
+-moz-animation:three-pic03 1.8s 1.2s ease both;
+-ms-animation:three-pic03 1.8s 1.2s ease both;
+-o-animation:three-pic03 1.8s 1.2s ease both;
+animation:three-pic03 1.8s 1.2s ease both;}
+@-webkit-keyframes three-pic03{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes three-pic03{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes three-pic03{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes three-pic03{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes three-pic03{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+.three_animation .three-pic04{ -webkit-animation:three-pic04 2s 1.2s ease both;
+-moz-animation:three-pic04 2s 1.2s ease both;
+-ms-animation:three-pic04 2s 1.2s ease both;
+-o-animation:three-pic04 2s 1.2s ease both;
+animation:three-pic04 2s 1.2s ease both;}
+@-webkit-keyframes three-pic04{0%{ left:302px; top:162px; opacity:0;}100%{ left:-20px; top:350px; opacity:1;}}
+@-moz-keyframes three-pic04{0%{ left:302px; top:162px; opacity:0;}100%{ left:-20px; top:350px; opacity:1;}}
+@-ms-keyframes three-pic04{0%{ left:302px; top:162px; opacity:0;}100%{ left:-20px; top:350px; opacity:1;}}
+@-o-keyframes three-pic04{0%{ left:302px; top:162px; opacity:0;}100%{ left:-20px; top:350px; opacity:1;}}
+@keyframes three-pic04{0%{ left:302px; top:162px; opacity:0;}100%{ left:-20px; top:350px; opacity:1;}}
+
+
+/*===第四屏==*/
+.four_animation .iphone{ -webkit-animation:two_phone 1s .5s ease both;
+-moz-animation:two_phone 1s .59s ease both;
+-ms-animation:two_phone 1s .5s ease both;
+-o-animation:two_phone 1s .5s ease both;
+animation:two_phone 1s .5s ease both;}
+@-webkit-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-moz-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-ms-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@-o-keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+@keyframes two_phone{0%{left:0; opacity:0;}100%{left:199px; opacity:1;}}
+
+.four_animation .four-pic01{-webkit-animation:four-pic01 1.1s .9s ease both;
+-moz-animation:four-pic01 1.1s .9s ease both;
+-ms-animation:four-pic01 1.1s .9s ease both;
+-o-animation:four-pic01 1.1s .9s ease both;
+animation:four-pic01 1.1s .9s ease both;}
+@-webkit-keyframes four-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-moz-keyframes four-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-ms-keyframes four-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@-o-keyframes four-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+@keyframes four-pic01{0%{opacity:0; margin-top:-10px;}100%{opacity:1; margin-top:0px;}}
+
+
+

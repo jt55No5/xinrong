@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.dialogmain {
+	width:385px; height:264px;
+	position:relative;
+	background:url("../images/treasure/dia.png"/*tpa=https://www.xinrong.com/s/css/v2/action/images/treasure/dia.png*/) no-repeat;
+}
+
+.dialogmain .closea{
+	position:absolute;
+	display:block;
+	right:-6px;
+	margin-top:-6px;
+	top:0px;
+	font-size:14px;
+	background-image:url("../images/close.png"/*tpa=https://www.xinrong.com/s/css/v2/action/images/close.png*/);
+	background-repeat:no-repeat;
+	background-position:center top;
+	width:31px;
+	height:30px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+
+.popdialog{ padding: 10px 5px 0 40px;}
+.popdialog h2{ text-align:right; color:#825626; height:26px; line-height:26px; padding-right:23px; font-weight:normal;}
+.popdialog h3{ font-size:13px; color:#41110a;}
+.popdialog ul{ margin:0px; padding:0px; list-style:none;}
+.popdialog ul li{ height:29px; line-height:29px; color:#55261a;}
+
+.popsub{ text-align:center; padding:12px 0 0 0;}
+.popsub .treasub01{ width:77px; height:25px; line-height:25px; display:inline-block; text-align:center; background:#55261a; border-radius:3px; font-size:14px; color:#e0be8d;}
+.popsub .treasub02{ width:77px; height:25px; line-height:25px; display:inline-block; text-align:center; background:#a77746; border-radius:3px; font-size:14px; color:#e0be8d; margin-left:20px;}
+.popsub .treasub03{ width:77px; height:25px; line-height:25px; display:inline-block; text-align:center; background:#c70c0d; border-radius:3px; font-size:14px; color:#e0be8d; border:1px solid #961815;}
+
+.dialogfirst{ padding:90px 10px 0 45px; height:58px; line-height:29px; color:#41110a; font-size:15px; text-align:center;}
+.dialogfirst .red{ color:#c70c0c;}
+.dialogfirst .shibai .picfont{ display:inline-block; vertical-align:middle;}
+.dialogfirst .shibai .pic01{ padding:0px 10px 0 0; vertical-align:middle;}
+
+.dialoghl{ padding-top:80px;}
+.dialogseven{ padding:59px 30px 0 50px; color:#41110a; font-size:15px; height:auto; text-align:left; line-height:26px;}
+
+.chenggong{ text-align:center; padding-top:59px;}
+
+.dialog_table{ padding:40px 15px 0 40px;}
+.dialog_table table{ border:1px solid #e7c795; border-collapse:collapse; background:#c49050; color:#7d4c18; line-height:18px; font-size:14px;}
+.dialog_table th{ border:1px solid #e7c795; padding:10px 3px; background:#7d4c18; color:#e5c290;}
+.dialog_table td{ border:1px solid #e7c795; padding:10px 3px; font-size:13px;}
+
+
+
