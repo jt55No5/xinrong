@@ -1,0 +1,151 @@
+/**
+ * 
+ */
+
+function load_consume_invest_frist(lid){
+	
+	 if (!AA.Api.User.isAuth) {
+         AA.RapidLogin.popup();
+     }else{
+    	 
+    	 if (!G_ENV_VAR.IS_CHECKED_EMAIL) {
+             $.alert({
+                 title:'您的邮箱尚未经过验证！',
+                 content:'投资前请先完成验证，以便接受电子合同',
+                 txtBtn:'立即验证',
+                 url:'my/authinfo#email'
+             });
+             
+         } else if (!G_ENV_VAR.IS_CHECKED_MOBILE) {
+             $.alert({
+                 title:'您的手机号尚未经过认证！',
+                 content:'为了保护您的资金安全，请先完成手机认证后再投资',
+                 txtBtn:'立即认证',
+                 url:'my/authinfo#mobile'
+             });
+            
+         } else if (!G_ENV_VAR.IS_CHECKED_IDENTIFICATION) {
+             $.alert({
+                 title:'您尚未通过实名认证！',
+                 content:'为了确定您的电子合同主体，请先完成实名认证再投资',
+                 txtBtn:'立即认证',
+                 url:'my/authinfo#identity'
+             });
+             
+         } else if (!G_ENV_VAR.HAS_TRADE_PASSWORD) {
+             $.alert({
+                 title:'您尚未设置交易密码！',
+                 content:'为了您的资金安全，请先设置交易密码后再投资',
+                 txtBtn:'立即设置',
+                 url:'my/password#setsafe'
+             });
+            
+         } else {
+
+        	 var _html = $('#wgt-dialog-consume-invest-frist-wrapper').html();
+        	 
+        	 $.dialog({
+         		 'id':'invest_frist',
+     			 'title':'投资',
+     	         
+     	         'content':_html,
+     	         'initialize':function () {
+     	        	 
+     	        	var _dialog = this;
+     	        	 
+     	        	AA.Api.async({
+	        	 		 url:'loan/load_section_loan' ,
+	        	 		 data:{lid:lid},
+	        	         success:function (result) {
+	        	        	 
+	        	        	 
+	        	        	 var con=result.data.sn.substr(3,6);
+	        	        	 
+	        	        	 $('#consume_invest_frist_sn').html(con);
+	        	        	 
+	        	        	 var arr=AA.Helper.countLeftDeadline(new Date().getTime(),result.data.p_time);
+	
+							var days=arr[1];
+	
+							var months=arr[0];
+	
+							if(days>0){
+
+								$('#consume_invest_frist_deadline').text('('+months+'个月+'+days+')');
+							}else{
+								$('#consume_invest_frist_deadline').text('('+months+'个月)');
+							}
+							
+							
+							$('#consume_invest_frist_amount').html(AA.Helper.toFixed(result.data.money));
+							$('#consume_invest_frist_ramount').html(AA.Helper.toFixed(result.data.money));
+							
+							
+							$('#consume_invest_frist_sub').click(function(){
+								
+								 AA.Api.async({
+									 url:'loan/api_invest_frist',
+									 data:{lid:lid,money:result.data.money},
+							         success:function (rs) {
+							        	 
+							        	 if(rs.state==1){
+							        		 var lst=result.data.sn.substr(10,4);
+							        		 AA.doInvest && AA.doInvest(result.data.money,lid,result.data.loan_type,lst,2,result.data.s_time);
+							        		 _dialog.close();
+							        	 }else if(rs.error==401){
+												_dialog.close();
+												$.alert({
+									                title:'此项目已融资完，敬请期待下一项目！',
+									                content:'<p style="margin-top: 5px;">项目余额：<font color=red>0.00</font>元</p><p style="margin-top: 10px;">项目总金额：'+all_money+'</p>',
+									                txtBtn:'确定',
+									                init:function (d ,txtBtn) {
+									                	txtBtn.click(function () {
+									                    	 d.close();
+									                 	});
+									                 }
+									            });
+
+												
+											}else if(rs.error==402){
+												_dialog.close();
+												$.alert({
+									                title:'项目余额不足',
+									                content:'<p style="margin-top: 5px;">项目余额：<font color=red>'+result.money+'</font> 元</p><p style="margin-top: 10px;">投资总额：'+my+' 元</p>',
+													txtBtn:'按余额投资',
+									                txtBtn1:'重新设定',
+									                init:function (d ,txtBtn,txtBtn1) {
+														txtBtn.click(function(){
+															var mo=result.money;
+															AA.Api.async({
+   					    										 url:'loan/api_invest_frist',
+   					    										 data:{lid:ld,money:mo},
+   					    								         success:function (result) {
+   					    								        	 if(result.state==1){
+					    								        		    AA.doInvest && AA.doInvest(mo,ld,loan_type,$('#show_index').text(),d);
+					        												d.close();
+       					    								       		}		
+       					    								      }
+   					    								      });
+														});
+									                	txtBtn1.click(function () {
+									                    	 d.close();
+									                    	 load_do_frist(l);
+									                    	 
+									                 	});
+									                 }
+									            });
+											}
+							        	 
+							         }
+									 
+								});
+							});
+	        	         }
+     	        	});
+     	        	
+     	         }
+        	 });
+         }
+     }
+	
+}

@@ -1,0 +1,238 @@
+
+body {
+    font-family: "微软雅黑";
+}
+.red {
+    color: #f00;
+}
+.treasurebanner {
+    background:  url("../../../../images/action/treasure/treasure/banner.jpg"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/banner.jpg*/) no-repeat scroll center center;
+    height: 408px;
+    min-width: 1100px;
+    width: 100%;
+}
+.treasure_process {
+    background:  url("../../../../images/action/treasure/treasure/bg1.jpg"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/bg1.jpg*/) no-repeat scroll center center;
+    height: 313px;
+    min-width: 1100px;
+    width: 100%;
+}
+.treasure_process .liucheng {
+    padding: 114px 28px 0 0;
+    text-align: right;
+}
+.treasuremain {
+    background: #f2c369 url("../../../../images/action/treasure/treasure/bg2.jpg"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/bg2.jpg*/) no-repeat scroll center top;
+    min-width: 1100px;
+    width: 100%;
+}
+.treasuremain .treasure_box {
+    height: 629px;
+    padding-top: 0;
+}
+.treasuremain .treasure_box h1 {
+    left: 33px;
+    position: absolute;
+    top: 23px;
+}
+.treasuremain .treasure_box .xiangziall {
+    height: 141px;
+    position: absolute;
+    width: 171px;
+    z-index: 2;
+}
+.treasuremain .treasure_box .xz01 {
+    left: 344px;
+    top: 13px;
+}
+.treasuremain .treasure_box .xz02 {
+    left: 609px;
+    top: 88px;
+}
+.treasuremain .treasure_box .xz03 {
+    left: 899px;
+    top: 82px;
+}
+.treasuremain .treasure_box .xz04 {
+    left: 149px;
+    top: 202px;
+}
+.treasuremain .treasure_box .xz05 {
+    left: 425px;
+    top: 245px;
+}
+.treasuremain .treasure_box .xz06 {
+    left: 792px;
+    top: 262px;
+}
+.treasuremain .treasure_box .xz07 {
+    left: 174px;
+    top: 412px;
+}
+.treasuremain .treasure_box .xz08 {
+    left: 504px;
+    top: 431px;
+}
+.treasuremain .treasure_box .xz09 {
+    left: 812px;
+    top: 445px;
+}
+.treasuremain .treasure_box .zhangpic {
+    left: 4px;
+    position: absolute;
+    top: -8px;
+    z-index: 4;
+}
+.treasuremain .treasure_gift {
+    background:  url("../../../../images/action/treasure/treasure/bg4.png"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/bg4.png*/) no-repeat scroll center center;
+    height: 409px;
+    margin: 0 auto;
+    width: 1056px;
+}
+.treasuremain .treasure_gift h1 {
+    left: 15px;
+    position: absolute;
+    top: -11px;
+}
+.treasuremain .treasure_gift .treasureleft {
+    color: #541a08;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 64px 0 0 37px;
+    width: 433px;
+}
+.treasuremain .treasure_gift .treasureleft b {
+    font-size: 24px;
+}
+.treasuremain .treasure_gift .treasureleft .t-pic {
+    padding-top: 8px;
+    text-align: center;
+}
+.treasuremain .treasure_gift .treasureright {
+    margin: 15px 50px 0 0;
+    width: 348px;
+}
+.treasuremain .treasure_gift .treasureright h2 {
+    color: #61200e;
+    font-size: 26px;
+    font-weight: bold;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+}
+.treasuremain .treasure_gift .treasureright h2 img {
+    padding-right: 8px;
+    vertical-align: middle;
+}
+.treasuremain .treasure_gift .treasureright .rightbox {
+    margin: 0 auto;
+    padding: 18px 0 0 1px;
+    position: relative;
+    width: 320px;
+}
+.treasuremain .treasure_gift .treasureright .rightbox .boxtitle {
+    display: block;
+    left: -13px;
+    position: absolute;
+    top: 0;
+}
+.treasuremain .treasure_gift .treasureright .rightbox .boxfooter {
+    bottom: -13px;
+    display: block;
+    left: 1px;
+    position: absolute;
+}
+.treasuremain .treasure_gift .treasureright .rightbox table {
+    background: #f2c369 none repeat scroll 0 0;
+    color: #61200e;
+    line-height: 34px;
+}
+.treasuremain .treasure_gift .treasureright .rightbox table th {
+    background: #c0821f none repeat scroll 0 0;
+    color: #e1bd70;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.treasuremain .treasure_gift .treasureright .rightbox table td {
+    text-align: center;
+}
+.treasuremain .treasure_gift .treasureright .boxpage {
+    color: #d24307;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.treasuremain .treasure_gift .treasureright .boxpage a {
+    color: #d24307;
+    padding: 1px 3px;
+}
+.treasuremain .treasure_gift .treasureright .boxpage a.c61200e {
+    color: #61200e;
+}
+.treasuremain .treasure_gift .treasureright .boxpage span {
+    color: #d24307;
+    padding: 1px 3px;
+}
+.treasuremain .treasure_rule {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 1026px;
+}
+.treasuremain .treasure_rule .treasurefont {
+    color: #541a08;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 15px 0 0 15px;
+}
+.treasure_footpic {
+    background:  url("../../../../images/action/treasure/treasure/bg3.jpg"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/bg3.jpg*/) no-repeat scroll center center;
+    height: 168px;
+    min-width: 1100px;
+    width: 100%;
+}
+.my_prize {
+    bottom: 25%;
+    position: fixed;
+    right: 0;
+    z-index: 8;
+}
+@media screen and (min-width: 1270px) {
+.my_prize {
+    left: 50%;
+    margin-left: 580px;
+    right: 0;
+}
+}
+.CheckBoxClass, .RadioClass {
+    display: none;
+}
+.CheckBoxLabelClass {
+    background:  url("../../../../images/action/treasure/RUnCheck.png"/*tpa=https://www.xinrong.com/s/images/action/treasure/RUnCheck.png*/) no-repeat scroll 0 5px;
+    display: block;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    width: 317px;
+}
+.CheckBoxLabelClass:hover, .RadioLabelClass:hover {
+    text-decoration: none;
+}
+.LabelSelected {
+    background:  url("../../../../images/action/treasure/RCheck.png"/*tpa=https://www.xinrong.com/s/images/action/treasure/RCheck.png*/) no-repeat scroll 0 5px;
+}
+.RadioLabelClass {
+    background:  url("../../../../images/action/treasure/RUnCheck.png"/*tpa=https://www.xinrong.com/s/images/action/treasure/RUnCheck.png*/) no-repeat scroll 0 5px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 0;
+    width: 317px;
+}
+.RadioSelected {
+    background:  url("../../../../images/action/treasure/RCheck.png"/*tpa=https://www.xinrong.com/s/images/action/treasure/RCheck.png*/) no-repeat scroll 0 5px;
+}
+.hotbanner{ width:100%; min-width:1000px; background:url("../../../../images/action/treasure/treasure/11.jpg"/*tpa=https://www.xinrong.com/s/images/action/treasure/treasure/11.jpg*/) center top no-repeat; height:1129px; border-bottom:1px solid #e5e3e3;}
+.hotbanner .hotfont{ padding:463px 0 0 131px; line-height:31px; color:#541a08; font-size:15px;}
+.hotbanner .hotfont h1{ padding-left:9px;}

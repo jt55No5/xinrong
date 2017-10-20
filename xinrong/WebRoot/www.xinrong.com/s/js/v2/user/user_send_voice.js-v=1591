@@ -1,0 +1,134 @@
+/**
+ * 
+ */
+
+function send_voice_code() {
+
+	 var $mobile = $("#mobileNo"),
+     $pwd = $("#pwd"),
+     _dialog = this,
+     _form = $('#mobile-form'),
+     _btn_submit = _form.find('.ui-button[type="submit"]'),
+     _btn_voice_button=_form.find('.ui-button[type="button"]'),
+     _validate = AA.User.Setting.AuthInfo.validate;
+  
+	 var _mobile = $.trim($mobile.val()),
+	 _tip = $('#error_tip');
+	 
+	 $('.ui-loading').show();
+     AA.Helper.disabled(_btn_submit);
+     AA.Helper.disabled(_btn_voice_button);
+     
+     $('#sendType').val(1);
+     
+     AA.Api.Auth.Mobile.checkInfo(
+    		 _form.serialize() ,
+    		 function (result) {
+    			 
+    			 if (result.state == 1) {
+                     var $code = $("#code"),
+                         _btn_again = $('#btn-code-again'),
+                         count = 120,
+                         _code_tip = $code.next('.ui-tip');
+
+                     $('.mobile-send-code').hide();
+                     $('.mobile-validate-code').show();
+                     $code.focus();
+                     //倒计时
+                     AA.User.Setting.AuthInfo.countDown(count);
+                     _btn_again.click(function () {
+                     	//t_code:短信模板
+                     	//is_reSendSms=true;
+                     	//AA.User.Setting.AuthInfo.send_code_check(1,_mobile);
+                     	
+                     	AA.Api.Auth.Mobile.checkInfo({mobile:$mobile.val()},function(rs){
+                     		
+                     	});
+                         AA.User.Setting.AuthInfo.countDown(count);
+                     });
+
+                     $('.mobileno').html(_mobile);
+                     var btn_submit = $('#btn-code-submit');
+                     AA.Helper.enabled(btn_submit);
+                     btn_submit.click(function () {
+                         _code = $.trim($code.val());
+
+                         _input = $('#mobile-form:visible .ui-form-input');
+                         _input.each(function () {
+                             if (!_validate(this)) {
+                                 $(this).focus();
+                                 return false;
+                             }
+                         });
+
+                         //验证码
+                         if (AA.User.isValid) {
+                             AA.Helper.disabled(btn_submit);
+
+                             AA.Api.Auth.Mobile.validate(
+                                 {code:_code} ,
+                                 function (result) {
+                                     if (result.state == 1) {
+                                         $('.mobile-validate-code').hide();
+                                         $('.mobile-finish').show();
+                                     } else {
+                                         if (result.error == 1009) {
+                                             AA.RapidLogin.popup();
+                                         }
+                                         AA.User.warning(_code_tip ,AA.Helper.buildError(result.error));
+                                         AA.Helper.enabled(btn_submit);
+                                     }
+                                 }
+                             );
+                         }
+                     });
+                 } else {
+                 	
+                     if (result.error == 1009) {
+                         _dialog.close();
+                         AA.RapidLogin.popup();
+                     } else if (result.error == 2008) {
+                     	
+                         AA.User.warning(_tip ,AA.Helper.buildError(result.error));
+                         $pwd.val('');
+                     } else if (result.error == 2010) {
+                         AA.User.warning(_tip ,'验证码错误');
+                         AA.Api.User.captcha({t:4} ,function (result) {
+                             var _ph = $('#rapid-captcha-placeholder'), _seed = $('#rapid-seed');
+
+                             _ph.html(result.data.image);
+                             _seed.val(result.data.seed);
+                             _ph.click(function () {
+                                 AA.Api.User.captcha({t:4} ,function (result) {
+                                     _ph.html(result.data.image);
+                                     _seed.val(result.data.seed);
+                                 });
+                                 return false;
+                             });
+                         });
+                         $pwd.val('');
+                     }else if (result.error == 2012) {
+                         AA.User.warning(_tip ,'该手机号码已被占用');
+                         AA.Api.User.captcha({t:4} ,function (result) {
+                             var _ph = $('#rapid-captcha-placeholder'), _seed = $('#rapid-seed');
+
+                             _ph.html(result.data.image);
+                             _seed.val(result.data.seed);
+                             _ph.click(function () {
+                                 AA.Api.User.captcha({t:4} ,function (result) {
+                                     _ph.html(result.data.image);
+                                     _seed.val(result.data.seed);
+                                 });
+                                 return false;
+                             });
+                         });
+                         $pwd.val('');
+                     }else {
+                         AA.User.warning(_tip ,AA.Helper.buildError(result.error));
+                         //$mobile.val('');
+                     }
+                 }
+    		 }
+     );
+		 
+}

@@ -1,0 +1,252 @@
+/**
+ * 
+ */
+
+
+
+function change_near_refund_type(ty){
+	
+	
+	
+	if(ty==5){
+		
+		 var _stime = $.trim($('#s-time').val()),
+         _etime = $.trim($('#e-time').val());
+		 
+	     if (_stime != '') {
+	         $('#stime').val(AA.Helper.timespan(_stime + ' 00:00:00'));
+	     }
+	
+	     if (_etime != '') {
+	    	
+	    	 if(_stime!=_etime){
+	    		 var etime=AA.Helper.timespan(_etime + ' 23:59:59');
+	    	 }
+	    	
+	         $('#etime').val(etime);
+	     }
+	     
+	     
+		if($('#stime').val()==0){
+			
+			return;
+		}
+		
+		if($('#etime').val()==0){
+			
+			return;
+		}
+		
+		for(var i=1;i<=4;i++){
+			
+			
+				
+			$('#a-type-'+i).removeClass('selected'); 
+			
+		}
+		
+	}else{
+		
+		for(var i=1;i<=4;i++){
+			
+			if(i==ty){
+			
+				$('#a-type-'+i).addClass('selected');
+				
+			}else{
+				
+				$('#a-type-'+i).removeClass('selected'); 
+			}
+		}
+		
+	}
+	
+	
+	$('#type').val(ty);
+	
+	load_near_refund_list(1);
+}
+
+
+function load_near_refund_list(pindex){
+	
+	var psize=5;
+	var _caption = '投资记录';
+    var _displays =  ['回款日期','投资项目','投资时间','投资金额','期限','预期年化收益率','回款方式','回款金额','状态'];
+    var _fields = ['refund-day','invest-loan','invest-time','invest-money','deadline','rate','refund-type','refund-money','state'];
+	
+	 AA.Api.async({
+		 url:'v2/member/get_upcoming_refund_list.jso' ,
+         type:'POST' ,
+         data:{type:$('#type').val(),pageSize:psize,pageIndex:pindex,beginTime:$('#stime').val(),endTime:$('#etime').val()},
+         success:function(result){
+        	
+        	 if(typeof(result.data.startTime)!=undefined&&result.data.startTime!=null){
+        		 $('#s-time').val(result.data.startTime);
+        	 }
+        	 
+        	 if(typeof(result.data.endTime)!=undefined&&result.data.endTime!=null){
+        		 $('#e-time').val(result.data.endTime);
+        	 }
+        	 
+        	 
+        	 if(result.data.nextRefundDay==''){
+        		 $('#nextRefundDay').html('--');
+        	 }else{
+        		 $('#nextRefundDay').html(result.data.nextRefundDay);
+        	 }
+        	 
+        	 $('#nextRefundSum').html(AA.Helper.toCentHalfUp(result.data.nextRefundSum).toFixed(2));
+    	     
+        	 $(".wgt-datagrid").datagrid({
+        		 'caption':_caption ,
+                 'displays':_displays ,
+                 'fields':_fields ,
+                 "data":result ,
+                 "render":function (rows ,body) {
+                	 
+                	 var _body_html='';
+                	 
+                	 if(rows.length<=0){
+                		$('.wgt-pagination').hide();
+      					$('#show_stat').hide();
+                		 body.html('<tr><td colspan="9" class="wgt-datagrid-empty-row">没有符合条件的回款记录</td></tr>');
+                		 return;
+                	 }else{
+                		 $('#show_stat').show();
+                	 }
+                	 
+                	 $.each(rows ,function (index ,row) {
+                		 
+                		 var show_name=AA.Lang.PRODUCT_NAME;
+ 	                 	if(row.loanType==2){
+ 	                 		show_name='信<i class="g-dian">·</i>优企贷';
+ 	                 	}else if(row.loanType==3){
+ 	                 		show_name='信<i class="g-dian">·</i>赎楼贷';
+ 	                 	}else if(row.loanType==4||row.loanType==7||row.loanType==11){
+							var type_name=row.sn.substring(1,3);
+ 	                 		show_name='信<i class="g-dian">·</i>消费'+type_name;
+ 	                 	}else if(row.loanType==5){
+ 	                 		show_name='信<i class="g-dian">·</i>精选贷';
+ 	                 	}else if(row.loanType==6){
+ 	                 		show_name='信<i class="g-dian">·</i>质抵贷';
+ 	                 	}else if(row.loanType==8){
+ 	                 		show_name='品<i class="g-dian">·</i>融360';
+ 	                 	}else if(row.loanType==9){
+ 	                 		show_name='品<i class="g-dian">·</i>吉屋网';
+ 	                 	}else if(row.loanType==10){
+ 	                 		show_name='信<i class="g-dian">·</i>优资贷';
+ 	                 	}else if(row.loanType==12){
+ 	                 		show_name='品<i class="g-dian">·</i>保理贷';
+ 	                 	}else if(row.loanType==13){
+ 	                 		show_name='品<i class="g-dian">·</i>分期X';
+ 	                 	}else if(row.loanType==14){
+ 	                 		show_name='信<i class="g-dian">·</i>消费JS';
+ 	                 	}else if(row.loanType==15){
+ 	                 		show_name='品<i class="g-dian">·</i>票据贷';
+ 	                 	}else if(row.loanType==16){
+ 	                 		show_name='信<i class="g-dian">·</i>车贷';
+ 	                 	}
+ 	                 	
+ 	                 	var sn=AA.Helper.subInvestSn(row.sn);
+ 	                 	
+ 	                 	/*var l_href="/invest/detail/" + row.loanId;
+ 	                 	if(row.loanType==4||row.loanType==7){
+ 	                 		
+ 	                 		l_href="/invest/consume_detail/" + row.sectionId;
+ 	                 	}*/
+ 	                 	
+ 	                 	l_href='/2.0/detail.shtml?sid='+row.sectionId;
+ 	                 	
+ 	                 	var refundType='到期一次性';
+ 	                 	
+ 	                 	if(row.refundType==2){
+ 	                 		refundType='等额本息';
+ 	                 	}else if(row.refundType==3){
+ 	                 		refundType='等额本金';
+ 	                 	}else if(row.refundType==4){
+ 	                 		refundType='按月付息';
+ 	                 	}else if(row.refundType==5){
+ 	                 		refundType='到期一次性';
+ 	                 	}else if(row.refundType==6){
+ 	                 		refundType='等额本息';
+ 	                 	}else if(row.refundType==7){
+ 	                 		refundType='等额本金';
+ 	                 	}else if(row.refundType==8) {
+							refundType = '按月付息';
+						}else if(row.refundType==9){
+							refundType='到期一次性';
+ 	                 	}else if(row.refundType==10){
+							 refundType='等额本息';
+						 }else if(row.refundType==11){
+							 refundType='等额本金';
+						 }else if(row.refundType==12){
+							 refundType='按月付息';
+						 }
+                		 
+ 	                 	var loanStatus='收益中';
+ 	                 	
+ 	                 	if(row.status==5){
+ 	                 		loanStatus='正常回款';
+ 	                 	}else if(row.status==7){
+ 	                 		loanStatus='逾期中';
+ 	                 	}
+ 	                 	
+ 	                 	var show_refund_money=AA.Helper.toCentHalfUp(row.refundSum).toFixed(2);
+ 	                 	show_refund_money="<a href='javascript:AA.User.Invest.refund_plan_show("+row.loanId+","+row.sn.substr(3)+","+row.refundType+","+row.loanType+");'>"+AA.Helper.toCentHalfUp(row.refundSum).toFixed(2)+"</a>";
+                    	/*if(row.refundType==2){
+                    		
+                    		
+                    	}else if(row.refundType==4){
+                    		show_refund_money="<a href='javascript:AA.User.Invest.refund_plan_show("+row.loanId+","+row.sn.substr(3)+","+row.refund_type+","+row.loanType+");'>"+AA.Helper.toCentHalfUp(row.refundSum).toFixed(2)+"</a>";
+                    	}*/
+                    	
+                    	
+ 	                 	
+ 	                 	var i_time=row.investTime;
+ 	                 	
+                		 _body_html +=
+                             '<tr>\
+                               <td >'+row.refundDay+'</td>\
+                               <td ><a href="' + l_href + '" data-lid="' + row.lid + '" target="_blank">' + show_name + '-' + sn + '</a></td>\
+                               <td>'+i_time+'</td>\
+                               <td>'+AA.Helper.toCentHalfUp(row.investMoney).toFixed(2)+' 元</td>\
+                               <td>'+row.deadline+'</td>\
+                               <td>'+row.rate+'%</td>\
+                               <td>'+refundType+'</td>\
+                               <td>'+show_refund_money+' 元</td>\
+                               <td>'+loanStatus+'</td>\
+                            </tr>';
+                	 });
+                	 
+                	 body.html(_body_html);
+                	
+                	 if(result.data.total>psize){
+                		
+                		 $('.wgt-pagination').show();
+      					
+                		 
+     					$('.wgt-pagination').pagination({
+     		                		 'container':'.wgt-pagination',
+     		                         'pageSize':psize ,
+     		                         'total':result.data.total ,
+     		                         'pageIndex':pindex ,
+     		                         'callback':'load_near_refund_list'
+     		            });
+     					
+     					
+     				}else{
+     					$('.wgt-pagination').hide();
+     					
+     				}
+                	 
+                 var h='&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共 <strong class="g-out">'+result.data.total+'</strong> 笔回款，';
+                 	h=h+'合计<strong class="g-out">'+AA.Helper.toCentHalfUp(result.data.moneyAndRetain).toFixed(2)+'</strong> 元（本金合计<strong class="g-out">'+AA.Helper.toCentHalfUp(result.data.money).toFixed(2)+'</strong> 元，实收收益合计<strong class="g-out">'+AA.Helper.toCentHalfUp(result.data.retain).toFixed(2)+'</strong> 元，服务费合计<strong class="g-out">'+AA.Helper.toCentHalfUp(result.data.investManage).toFixed(2)+'</strong> 元）';
+                 	
+                 	$('#show_stat').html(h);
+                 }
+        	 });
+        	 
+         }
+	 });
+}

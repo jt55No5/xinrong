@@ -1,0 +1,55 @@
+/**
+ * @author    : aNd1coder
+ * @overview  : 省市区地址选择
+ * @update    : $Id: address.js 1126 2012-12-11 06:27:13Z and1coder $
+ */
+
+(function (AA) {
+    AA.Address = {
+        init:function (data) {
+            //获取省份
+            AA.Api.areaInfo({}, function (province) {
+                if (province.state == 1) {
+                    var _province_options = '<option value="" data-id="">请选择省份</option>';
+                    $.each(province.data, function (index, row) {
+                        _province_options += '<option value="' + row.name + '" data-id="' + row.id + '"' + (data && data.province && row.name == data.province ? ' selected="selected"' : '') + '>' + row.name + '</option>';
+                    });
+
+                    //初始化省市区值
+                    data && data.city ? $('#city').html('<option value="' + data.city + '">' + data.city + '</option>') : '';
+                    data && data.district ? $('#district').html('<option value="' + data.district + '">' + data.district + '</option>') : '';
+
+                    //获取城市
+                    $('#province').html('').append(_province_options).change(function () {
+                        var _pid = $('option:selected', this).data('id');
+
+                        AA.Api.areaInfo({pid:_pid}, function (city) {
+                            if (city.state == 1) {
+                                var _city_options = '<option value="" data-id="">请选择城市</option>';
+                                $.each(city.data, function (index, row) {
+                                    _city_options += '<option value="' + row.name + '" data-id="' + row.id + '">' + row.name + '</option>';
+                                });
+                                $('#district').html('').html('<option value="" data-id="">请选择地区</option>');
+
+                                //获取地区
+                                $('#city').html('').append(_city_options).change(function () {
+                                    var _pid = $('option:selected', this).data('id');
+
+                                    AA.Api.areaInfo({pid:_pid}, function (district) {
+                                        if (district.state == 1) {
+                                            var _district_options = '<option value="" data-id="">请选择地区</option>';
+                                            $.each(district.data, function (index, row) {
+                                                _district_options += '<option value="' + row.name + '" data-id="' + row.id + '">' + row.name + '</option>';
+                                            });
+                                            $('#district').html('').append(_district_options)
+                                        }
+                                    });
+                                });
+                            }
+                        });
+                    });
+                }
+            });
+        }
+    }
+})(AA);

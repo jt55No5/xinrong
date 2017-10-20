@@ -1,0 +1,350 @@
+.main {
+	font-family: Simsun
+}
+
+.banner {
+	height: 240px;
+	background: url("../../img/banner/vip_1000x240.jpg-1355796855.jpg"/*tpa=https://www.xinrong.com/s/img/banner/vip_1000x240.jpg?1355796855*/) no-repeat
+}
+
+.banner .vip-info {
+	position: absolute;
+	top: 15px;
+	right: 25px;
+	padding-left: 28px;
+	color: #666;
+	background: url("../../img/is_vip.png-1353402174.png"/*tpa=https://www.xinrong.com/s/img/is_vip.png?1353402174*/) no-repeat
+}
+
+.banner .vip-info span {
+	color: #c22900
+}
+
+.banner .bd {
+	position: relative;
+	padding: 138px 0 0 83px
+}
+
+.banner .bd p {
+	line-height: 18px;
+	padding-left: 8px
+}
+
+.banner .bd .ui-button {
+	margin-bottom: 10px
+}
+
+.banner .bd .ui-button-white {
+	padding: 0 5px;
+	font-weight: 400
+}
+
+.banner .bd i.hot {
+	position: absolute;
+	top: 125px;
+	left: 290px;
+	display: block;
+	width: 28px;
+	height: 20px;
+	background: url("../../img/hot.png-1353391631.png"/*tpa=https://www.xinrong.com/s/img/hot.png?1353391631*/) no-repeat
+}
+
+.banner .bd .invite {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	margin-left: 10px
+}
+
+.banner .bd td {
+	color: #884e3e;
+	vertical-align: top
+}
+
+.growth .bd {
+	position: relative;
+	height: 285px;
+	background: url("../../img/growth_min.png-1353660749.png"/*tpa=https://www.xinrong.com/s/img/growth_min.png?1353660749*/) no-repeat
+}
+
+.growth .ui-tip {
+	position: absolute;
+	bottom: 240px;
+	left: 10px
+}
+
+.growth .ui-tip,.growth {
+	color: #f28e00
+}
+
+.no_login_show{
+	color: #999;
+	background: url("../../img/icons/tip-sb4d5658e68.png"/*tpa=https://www.xinrong.com/s/img/icons/tip-sb4d5658e68.png*//*tpa=https://www.xinrong.com/s/img/icons/tip-sb4d5658e68.png*/) no-repeat;
+	padding-left: 20px;
+	line-height: 16px;
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.privilege table,.privilege th,.privilege td {
+	border: 1px solid #cfcfcf;
+	text-align: center
+}
+
+
+.privilege table {
+	width: 100%
+}
+
+.privilege th.first,.privilege td.first {
+	width: 116px;
+	text-align: left;
+	padding-left: 25px
+}
+
+.privilege th {
+	height: 27px;
+	font-weight: 700;
+	background-color: #f2f2f2
+}
+
+.privilege th.vip {
+	color: #f00
+}
+
+.privilege td {
+	height: 23px;
+	padding: 5px
+}
+
+.privilege td.first,.privilege td.last {
+	background-color: #f6fbff
+}
+
+.privilege td.last {
+	text-align: left;
+	padding: 19px 0 14px
+}
+
+.privilege td.last span {
+	padding-left: 25px
+}
+
+.privilege td.last .ui-tip {
+	margin-top: 5px;
+	padding-left: 0
+}
+
+.wgt-tab-trigger {
+	position: relative;
+	*zoom: 1
+}
+
+.wgt-tab-trigger:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-tab-trigger .item {
+	float: left;
+	display: block
+}
+
+.wgt-tab-container .item {
+	display: none
+}
+
+.wgt-tab-container .current {
+	display: block
+}
+
+.sns-sprite,.sns.s1,.sns.s2,.sns.s3,.sns.s4,.sns.s5,.sns.s6,.sns.s7,.sns.s8
+	{
+	background: url("../../img/icons/sns-se06f73df83.png"/*tpa=https://www.xinrong.com/s/img/icons/sns-se06f73df83.png*//*tpa=https://www.xinrong.com/s/img/icons/sns-se06f73df83.png*/) no-repeat
+}
+
+.sns {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 22px
+}
+
+.sns.s1 {
+	background-position: 0 -62px
+}
+
+.sns.s2 {
+	background-position: 0 0
+}
+
+.sns.s3 {
+	background-position: 0 -93px
+}
+
+.sns.s4 {
+	background-position: 0 -124px
+}
+
+.sns.s5 {
+	background-position: 0 -217px
+}
+
+.sns.s6 {
+	background-position: 0 -186px
+}
+
+.sns.s7 {
+	background-position: 0 -155px
+}
+
+.sns.s8 {
+	background-position: 0 -31px
+}
+
+.wgt-dialog-invite {
+	width: 570px;
+	height: auto
+}
+
+.wgt-dialog-invite .ui-button {
+	margin-left: 210px
+}
+
+.wgt-dialog-invite .wgt-dialog-title {
+	text-align: center;
+	padding-bottom: 32px
+}
+
+.wgt-dialog-invite .wgt-tab-trigger {
+	padding-left: 20px
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.item {
+	position: relative;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 15px;
+	margin: 1px 10px 0 0;
+	border: 1px solid #b5c2ca;
+	border-bottom: none;
+	text-align: center;
+	color: #333333;
+	z-index: 2;
+	background-color: #f6f6f6
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.item:hover {
+	text-decoration: none;
+	color: #0078b6
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.current {
+	border-color: #99abbc !important;
+	bottom: -1px;
+	height: 29px;
+	margin-top: 0;
+	font-weight: 700;
+	background-color: #FFF
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.current:hover {
+	color: #333
+}
+
+.wgt-dialog-invite .wgt-tab-container {
+	padding: 23px 15px 0;
+	border-top: 1px solid #99abbc
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content {
+	margin: 15px 0 20px 0;
+	padding: 15px;
+	background-color: #f5f5f5
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content p {
+	line-height: 22px
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content img {
+	vertical-align: middle
+}
+
+.wgt-dialog-invite .invite-share span.label-share,.wgt-dialog-invite .invite-share span.sns-share
+	{
+	display: inline-block;
+	visibility: top
+}
+
+.wgt-dialog-invite .invite-share span.label-share {
+	margin: 0 5px 0 45px
+}
+
+.wgt-dialog-invite .invite-share .sns-share {
+	width: 425px
+}
+
+.wgt-dialog-invite .invite-share .sns-share a {
+	width: 65px;
+	*width: 60px;
+	margin-bottom: 10px;
+	color: #333;
+	overflow: hidden
+}
+
+.wgt-dialog-opened-vip {
+	height: auto
+}
+
+.wgt-dialog-opened-vip .wgt-dialog-title {
+	padding: 0 0 10px 125px
+}
+
+.wgt-dialog-opened-vip input {
+	vertical-align: middle;
+	margin-right: 3px
+}
+
+.wgt-dialog-opened-vip .ui-form {
+	margin-top: 0
+}
+
+.wgt-dialog-opened-vip .ui-form-label {
+	width: 80px
+}
+
+.wgt-dialog-opened-vip .ui-form-input {
+	width: 120px
+}
+
+.wgt-dialog-opened-vip .ui-form-year {
+	height: 50px
+}
+
+.wgt-dialog-opened-vip .ui-form-year input {
+	margin-left: 10px
+}
+
+.wgt-dialog-opened-vip .ui-form-year input.first {
+	margin-left: 0
+}
+
+.wgt-dialog-opened-vip .ui-form-year input.last {
+	margin-left: 20px
+}
+
+.wgt-dialog-opened-vip p.ui-tip {
+	color: #999;
+	margin: 5px 0 0 84px
+}
+
+.wgt-dialog-opened-vip .ui-form-action {
+	padding-left: 85px
+}

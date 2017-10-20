@@ -1,0 +1,50 @@
+(function(a) {
+	a.fn.datagrid = function(b) {
+		a.fn.datagrid.defaults = {
+			caption : "",
+			headerSelecter : ".wgt-datagrid-header",
+			bodySelecter : ".wgt-datagrid-container",
+			tplName : "",
+			displays : [ "\u6295\u8d44\u9879\u76ee",
+					"\u6295\u8d44\u91d1\u989d", "\u6295\u8d44\u671f\u9650",
+					"\u5e74\u5316\u6536\u76ca\u7387", "\u72b6\u6001",
+					"\u64cd\u4f5c" ],
+			fields : [ "title", "money g-money", "deadline", "rate", "state",
+					"do" ],
+			data : {},
+			render : function() {
+			},
+			error : function() {
+			}
+		};
+		var b = a.extend({}, a.fn.datagrid.defaults, b);
+		return this
+				.each(function() {
+					var m = a(b.headerSelecter), c = a(b.bodySelecter), f = "", n = "", h = b.displays, d = h.length, g = b.data, i = b.render, l = b.error, j = h.length - 1;
+					a.each(h, function(q, o) {
+						var p = q == 0 ? " first" : (q == j ? " last" : "");
+						f += '<th class="' + b.fields[q] + p + '">' + o
+								+ "</th>"
+					});
+					m.html("<tr>" + f + "</tr>");
+					if (g.state == 1) {
+						i && i(g.data.rows, c);
+						c.find("tr:odd").addClass("odd")
+					} else {
+						if (g.error == 1009) {
+							AA.RapidLogin.popup()
+						} else {
+							var k = b.caption
+									.indexOf("\u656c\u8bf7\u671f\u5f85") != -1 ? b.caption
+									: "\u6682\u65e0" + b.caption, e = g.state == -2 ? k
+									: AA.Lang.Error[g.error + ""];
+							n = "<tr><td colspan=" + d
+									+ ' class="wgt-datagrid-empty-row">' + e
+									+ "</td></tr>";
+							c.html(n);
+							l && l()
+						}
+					}
+				})
+	}
+})(jQuery);

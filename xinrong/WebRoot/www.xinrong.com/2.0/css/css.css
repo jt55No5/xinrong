@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+/*investlist*/
+.investtopbox{ height:160px; border:1px solid #eaeaea;}
+.investtopbox h2{ height:49px; border-bottom:1px solid #eaeaea; background:#f7f7f7; padding:0 10px 0 25px; font-size:18px; font-weight:normal;}
+.investtopbox h2 .icon01{ width:30px; height:30px; background-position:-365px 0; display:inline-block; vertical-align:bottom; margin-right:10px;}
+.investtopbox h2 .icon02{ width:30px; height:30px; background-position:-449px 0; display:inline-block; vertical-align:bottom; margin-right:10px;}
+.investtopbox h2 .icon03{ width:30px; height:30px; background-position:-440px -42px; display:inline-block; vertical-align:bottom; margin-right:10px;}
+.investtopbox h2 .icon04{ width:30px; height:30px; background-position:-488px 0; display:inline-block; vertical-align:bottom; margin-right:10px;}
+.investtopbox h2 .icon05{ width:30px; height:30px; background-position:-401px -42px; display:inline-block; vertical-align:bottom; margin-right:10px;}
+.investtopbox h2 .left{ display:inline-block; padding-top:10px;}
+.investtopbox h2 .left span{ font-size:12px;}
+.investtopbox h2 .right{ display:inline-block; padding-top:10px; font-size:12px; line-height:40px;}
+.investtopbox h2 .progress{ float:right; font-size:12px; line-height:15px; padding:22px 0 0 0;}
+.investtopbox h2 .progress dt{ float:left;}
+.investtopbox h2 .progress dd{ float:left; position:relative; width:135px; height:13px; background:#e6e6e6;}
+.investtopbox h2 .progress dd .progressbg{ display:block; width:34%; height:13px; background:#ff6600;}
+.investtopbox h2 .progress dd .font01{ text-align:center; display:block; width:135px; height:13px; line-height:13px; position:absolute; left:0px; top:0px;}
+
+.investtopbox h2 .lifont{ color:#bababa; line-height:29px; display:inline-block; padding-top:4px;}
+.investtopbox h2 .lifont .icon02{ width:15px; height:15px; background-position:-293px 0; display:inline-block; vertical-align:middle; margin:0 5px 3px 0;}
+.investtopbox h2 .lifont01{ width:150px; color:#bababa; line-height:29px; font-size:14px; display:inline-block; padding-top:4px;}
+.investtopbox h2 .lifont01 span{ color:#72a56d;}
+.investtopbox h2 .lifont01 .icon03{ width:19px; height:21px; background-position:-245px 0; display:inline-block; vertical-align:middle; margin:0 5px 3px 0;}
+
+
+.investtopbox ul{ margin:0px; padding:0px; list-style:none;}
+.investtopbox ul li{ width:170px; padding:13px 6px 0 6px; float:left;}
+.investtopbox ul li h3{ text-align:center; color:#f78f48; font-size:16px; margin-bottom:10px;}
+.investtopbox ul li h3 span{ height:25px; line-height:25px; padding:0 6px; display:inline-block; border:1px solid #f78f48; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
+.investtopbox ul li .spanfont{ display:block; line-height:24px; padding-left:25px;}
+.investtopbox ul li.w01{ width:166px; padding:13px 10px 0 20px;}
+
+.investtopbox .topboxfont{ margin:0px; padding:8px 0 0 25px; list-style:none;}
+.investtopbox .topboxfont li{ width:344px; height:30px; line-height:30px; float:left; padding:0px;}
+.investtopbox .topboxfont li.w01{ width:131px; padding:0px;}
+.investtopbox .topboxfont li.w02{ width:177px;}
+.investtopbox .topboxsub{ position:absolute; right:0px; top:89px; width:112px;}
+.investtopbox .topboxsub .sub01{ width:100px; height:30px; line-height:30px;}
+.investtopbox .topboxsub .sub02{ width:100px; height:30px; line-height:30px;}
+
+/* tabbtn */
+.tabbtn { height:29px; border-bottom:2px solid #f78f48;}
+.tabbtn li { float:left; position:relative; margin:0px 15px 0 0px;}
+.tabbtn li a { display:block; height:29px; line-height:29px; overflow:hidden; padding:0 25px; text-align:center; font-size:14px; background:#e6e6e6; cursor:pointer; text-decoration:none;}
+.tabbtn li.current {}
+.tabbtn li.current a { background:#f78f48; color:#fff;}
+.tabbtn li .icon01{ width:20px; height:14px; line-height:11px; text-align:center; color:#fff; font-style:normal; display:inline-block; background-position:-195px 0; position:absolute; right:3px; top:-3px; font-size:9px;}
+
+/* tabcon */
+.tabcon {  position:relative;/*必要元素*/ }
+.tabcon .subbox { position:absolute;/*必要元素*/	left:0;	top:0;}
+.tabcon .sublist {}
+/* leftcon */
+#leftcon .subbox { width:9999em;}
+#leftcon .subbox .sublist {	float:left;}
+/* sublist */
+.sublist {}
+/* tabbtn end */
+
+.investbox{ border:1px solid #eaeaea;}
+.investbox ul{ margin:0px; padding:0px; list-style:none;}
+.investbox ul li{ margin:9px 0 0 7px; width:377px; height:175px; border:1px solid #eaeaea; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; position:relative; float:left;}
+.investbox ul li h2{ height:37px; line-height:37px; background:#f7f7f7; border-top-left-radius:4px; border-top-right-radius:4px; -webkit-border-top-left-radius:4px; -webkit-border-top-right-radius:4px; -moz-border-top-left-radius:4px; -moz-border-top-right-radius:4px; padding:0 10px; font-size:14px; font-weight:normal; margin-bottom:10px;}
+.investbox ul li h2 span.right{ display:inline-block; padding-top:12px;}
+.investbox ul li .lifont{ display:block; height:30px; line-height:30px; padding-left:10px;}
+.investbox ul li .lipos{ position:absolute; top:50px; right:10px; width:128px; text-align:center;}
+.investbox ul li .lipos .liposfont{ display:block; height:78px; line-height:28px; font-size:16px; color:#bababa; padding-top:2px;}
+.investbox ul li .lipos .liposfont p{ font-size:10px;}
+.investbox ul li .lipos .liposfont .icon02{ width:17px; height:19px; display:inline-block; background-position:-417px -3px; margin:0 4px 4px 0; vertical-align:middle;}
+.investbox ul li .lipos .sub01,.investbox ul li .lipos .sub04{ width:100px; height:30px; line-height:30px;}
+.investbox ul li .lipos .sub02{ width:100px; height:30px; line-height:30px;}
+.investbox ul li .lipos .liposfont01{ display:block; height:65px; padding:15px 0 0 0px;}
+
+.pagefont{ line-height:44px; padding:0 10px 0 0; text-align:right;}
+.pagefont a{ padding:2px 7px; color:#0078B6;}
+.pagefont a:hover{ background:#0078B6; color:#fff; text-decoration:none;}
+.pagefont span{ padding:2px 7px; background:#0078B6; color:#fff;}
+
+/*investlist end*/
+
+.investdetailfont{ border:1px solid #eaeaea; border-top:0px; padding:4px; line-height:24px;}
+.investdetailfont .detaillist{ margin:0px; padding:0px; list-style:none;}
+.investdetailfont .detaillist li{ width:300px; height:28px; line-height:28px; float:left;}
+.investdetailfont .detaillist li1{ width:100%; height:28px; line-height:28px; float:left;}
+.investdetailfont .detailfont{ display:block; padding:10px;}
+.investdetailfont .detailjkr{ margin:0px; padding:10px; list-style:none;}
+.investdetailfont .detailjkr li{ width:162px; float:left;}
+.investdetailfont .detailjkr li.lifont{ width:202px; float:left;}
+.investdetailfont .fontpic{ margin:0px; padding:10px 0 0 0px; list-style:none;}
+.investdetailfont .fontpic li{ width:150px; float:left; text-align:center; line-height:20px;}
+.investdetailfont .detailfont01{ display:block; padding:10px;}
+.investdetailfont .detailfont01 h3{ padding:12px 0 4px 0; height:26px; line-height:26px; font-size:13px;}
+.investdetailfont .detailfont01 h3 .iconbg{ width:24px; height:24px; line-height:24px; text-align:center; color:#fff; font-size:18px; background:#f78f48; display:inline-block; vertical-align:middle; border-radius:100%; -webkit-border-radius:100%; -moz-border-radius:100%; margin-bottom:4px; margin-right:6px; font-style:normal;}
+.investdetailfont .xxintable{ border:1px solid #eaeaea; border-collapse:collapse;}
+.investdetailfont .xxintable th{ border:1px solid #eaeaea; background:#f7f7f7; padding:0 10px; line-height:28px; text-align:left;}
+.investdetailfont .xxintable td{ border:1px solid #eaeaea; padding:6px 10px; line-height:27px;}
+.investdetailfont .xxintable .tablefont01{ width:100%;}
+.investdetailfont .xxintable .tablefont01 dt{ width:63px; float:left;}
+.investdetailfont .xxintable .tablefont01 dd{ width:108px; float:left;}
+.investdetailfont .xxintable .tablefont01 dd.w01{ width:80px;}
+.investdetailfont .xxintable .tablefont01 .icon01{ width:14px; height:14px; display:inline-block; background-position:-430px -85px; vertical-align:middle; margin:0 5px 5px 0;}
+.investdetailfont .xxintable .tablefont02{ width:100%;}
+.investdetailfont .xxintable .tablefont02 dt{ float:left;}
+.investdetailfont .xxintable .tablefont02 dd{ float:left; padding-left:17px;}
+
+.investdetailfont .jiekjilu{ border-collapse:collapse;}
+.investdetailfont .jiekjilu th{ height:28px; line-height:28px; background:#f7f7f7; margin:0px; padding:0px; padding:0 10px; font-weight:normal;}
+.investdetailfont .jiekjilu td{ line-height:39px; border-bottom:1px solid #f7f7f7; padding:0 10px;}
+
+.titleh2{ height:27px; line-height:27px; background:#f7f7f7; padding:0 10px;}
+
+.investjilu{ width:100%;}
+.investjilu h3{ height:29px; border-bottom:2px solid #f78f48; font-weight:normal;}
+.investjilu h3 span{ display:inline-block; padding:0 22px; background:#f78f48; height:29px; line-height:29px; color:#fff; font-size:14px; text-align:center;}
+.investjilu .jilulist{ border:1px solid #eaeaea; border-top:0px; padding:4px;}
+.investjilu .jilulist table{ border-collapse:collapse;}
+.investjilu .jilulist table th{ height:28px; line-height:28px; background:#ecf5fe; margin:0px; padding:0px; padding:0 10px; font-size:14px; font-weight:normal;}
+.investjilu .jilulist table td{ line-height:39px; border-bottom:1px solid #f7f7f7; padding:0 10px;}
+
+.nologinfont{ border:1px solid #eaeaea; border-top:0px;}
+.nologinfont .font02{ text-align:center; padding:60px 0; display:block;}
+.nologinbor{ border:0px;}
+/*investdetail end*/
+
+/********收益测算********/
+.invest_cs{ border:1px solid #eaeaea; margin-bottom:50px; position:relative;}
+.invest_cs .c8f5426{ color:#8f5426; font-weight:bold;}
+.invest_cs h2{ padding:0 15px; height:57px; line-height:57px; font-size:14px; color:#444; font-weight:normal;}
+.invest_cs .con-tips{ color:#cccccc; line-height:20px; padding:0 10px; position:absolute; left:0px; bottom:-40px;}
+.invest_cs .cs_table{ margin:0 5px; padding-bottom:10px;}
+.invest_cs .t-tips{ text-align:right; color:#cccccc; line-height:30px; padding:0 10px;}
+.invest_cs table{ border:1px solid #eaeaea; border-collapse:collapse; color:#444; line-height:28px;}
+.invest_cs table th{ border:1px solid #eaeaea; background:#f7f7f7; font-weight:normal; font-size:13px;}
+.invest_cs table td{ border:1px solid #eaeaea; color:#777;}
+.invest_cs table tr.bg{ background:#ffefd5;}
+.invest_cs table td.bgfc{ color:#8f5426; font-weight:bold;}
+.invest_cs table th.tdbg01{ color:#fff; background:#f0752e;}
+.invest_cs table td.tdbg02{ color:#fff; background:#ff9028;}
+.invest_cs table td.tdbg03{ color:#fff; background:#ffaf48;}
+.invest_cs table td.tdbg04{ color:#fff; background:#ffcc55;}
+
+.invest_cs .cs_qa{ width:100%; background:url("../images/invcs.jpg"/*tpa=https://www.xinrong.com/2.0/images/invcs.jpg*/) top repeat-x; border-top:1px solid #eaeaea;}
+.invest_cs .cs_qa .cs_qafont{ width:368px; padding:0 10px; padding-top:5px; border-right:1px solid #eaeaea; min-height:392px;}
+.invest_cs .cs_qa dl{ width:100%;}
+.invest_cs .cs_qa dt{ padding-left:28px; font-size:14px; color:#444; line-height:30px; position:relative;}
+.invest_cs .cs_qa dt i{ display:inline-block; width:19px; height:19px; line-height:19px; font-size:12px; text-align:center; background:#f78f48; color:#fff; font-style:normal; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; position:absolute; left:0px; top:5px;}
+.invest_cs .cs_qa dd{ padding-left:28px; font-size:12px; color:#777; line-height:22px; min-height:85px; position:relative;}
+.invest_cs .cs_qa dd i{ display:inline-block; width:19px; height:19px; line-height:19px; font-size:12px; text-align:center; background:#cccccc; color:#444; font-style:normal; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; position:absolute; left:0px; top:5px;}
+
+
+
+
+
+
+

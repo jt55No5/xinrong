@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>信融财富</title>
+<link href="../../css/basic.css" tppabs="https://www.xinrong.com/2.0/css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../../css/account/register.css" tppabs="https://www.xinrong.com/2.0/css/account/register.css" rel="stylesheet" type="text/css" />
+<link href="../../css/basic.css" tppabs="https://www.xinrong.com/2.0/css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../../css/dialog.css" tppabs="https://www.xinrong.com/2.0/css/dialog.css" rel="stylesheet" type="text/css" />
+<link href="../../css/global.css" tppabs="https://www.xinrong.com/2.0/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../../css/dialog-wbox.css" tppabs="https://www.xinrong.com/2.0/css/dialog-wbox.css" rel="stylesheet" type="text/css" />
+<!--<script>if(top.location!=self.location){top.location.replace(self.location);}</script>
+<script>if('https:' != location.protocol){location = location.href.replace('http:','https:');}</script>-->
+<!--[if IE 6]><script>document.execCommand("BackgroundImageCache", false, true);</script><![endif]-->
+<!-- <script type="text/javascript" src="/2.0/js/jquery-1.10.2.min.js"></script> -->
+<!-- <script type="text/javascript" src="../../js/jquery-1.4.2.js" tppabs="https://www.xinrong.com/2.0/js/jquery-1.4.2.js"></script> -->
+<script type="text/javascript" src="../../js/jquery-1.10.2.js" tppabs="https://www.xinrong.com/2.0/js/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+var G_ENV_VAR = {
+	WWW:'',
+	STATIC:'',
+	BBS:'',
+	UID:'',
+	UNAME:'',
+	MSG_NUM:'',
+	VIP: '0',
+	IS_CHECKED_EMAIL:'false',
+	IS_CHECKED_MOBILE: 'false',
+	HAS_TRADE_PASSWORD: 'false',
+	IS_CHECKED_IDENTIFICATION: 'false',
+	IS_CHECKED_BANKCARD: 'false'
+};
+</script>
+<script type="text/javascript" src="../../../s/vendor/artDialog/jquery.artDialog.js" tppabs="https://www.xinrong.com/s/vendor/artDialog/jquery.artDialog.js"></script>
+<script type="text/javascript" src="../../../s/vendor/artDialog/dialog_ex.js" tppabs="https://www.xinrong.com/s/vendor/artDialog/dialog_ex.js"></script>
+<script type="text/javascript" src="../../js/tytabs.jquery.new.js" tppabs="https://www.xinrong.com/2.0/js/tytabs.jquery.new.js"></script>
+<script type="text/javascript" src="../../js/jquery.imgscroll.min.js" tppabs="https://www.xinrong.com/2.0/js/jquery.imgscroll.min.js"></script>
+<script type="text/javascript" src="../../js/wbox.js" tppabs="https://www.xinrong.com/2.0/js/wbox.js"></script>
+<script type="text/javascript" src="../../js/AA.base-min.js" tppabs="https://www.xinrong.com/2.0/js/AA.base-min.js"></script>
+<script type="text/javascript" src="../../js/XR.base.js" tppabs="https://www.xinrong.com/2.0/js/XR.base.js"></script>
+<script type="text/javascript" src="../../js/mod/login.js" tppabs="https://www.xinrong.com/2.0/js/mod/login.js"></script>
+<script type="text/javascript" src="../../js/mod/phone.js" tppabs="https://www.xinrong.com/2.0/js/mod/phone.js"></script>
+<script type="text/javascript" src="../../js/rsa.js" tppabs="https://www.xinrong.com/2.0/js/rsa.js"></script>
+<script type="text/javascript" src="../../js/common.js" tppabs="https://www.xinrong.com/2.0/js/common.js"></script>
+<script type="text/javascript" src="../../js/api/common_api.js" tppabs="https://www.xinrong.com/2.0/js/api/common_api.js"></script>
+<script type="text/javascript" src="../../js/api/user_api.js" tppabs="https://www.xinrong.com/2.0/js/api/user_api.js"></script>
+<script type="text/javascript" src="../../js/channel.js" tppabs="https://www.xinrong.com/2.0/js/channel.js"></script>
+<script type="text/javascript" src="../../js/www/account/register4.0.js" tppabs="https://www.xinrong.com/2.0/js/www/account/register4.0.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+$(function(){
+    // 固定导航
+	$(document).scroll(function(){
+		t=$(document).scrollTop();
+		if(t>=0){
+			$("#hmenu_nav").removeClass("h_por").css("top","78px;");
+			}
+		if(t>78){
+			$("#hmenu_nav").addClass("h_por").css("top","0px;");
+			}
+		});
+});
+</script>
+<div class="hmenu_nav">
+  <div class="main PositionR">
+    <div class="logo left PositionR"><a href="../../../index.htm" tppabs="https://www.xinrong.com/index.shtml"><img src="../../images/logo.gif" tppabs="https://www.xinrong.com/2.0/images/logo.gif" /></a><a href="../about/shareholder.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/shareholder.shtml" class="logo_font">上市公司系</a></div>
+    <div class="right top_my"><a href="account_index.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/account/account_index.shtml" class="f-my" id="nav_my">我的账户</a> <a id="top_exit" href="javascript:AA.RapidLogin.loginout();" class="f_exit" style="display:none;">退出</a> <span class="h-login-reg h-login" style="display: none;"><i></i><a href="../../login2.0.html" tppabs="https://www.xinrong.com/2.0/login2.0.html" class="flogin">登录</a><a href="register4.0.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/account/register4.0.shtml" class="freg">注册</a></span></div>
+    <div class="clear"></div>
+  </div>
+  <div class="h_nav" id="hmenu_nav">
+    <div class="main PositionR">
+      <ul>
+        <li><a href="../../../index.shtml.htm" tppabs="https://www.xinrong.com/index.shtml" id="nav_index">首页</a></li>
+        <li><a href="../../../invest.shtml.htm" tppabs="https://www.xinrong.com/invest.shtml" id="nav_invest">投资<i class="arrow"></i></a>
+        <ul>
+        <li><a href="../../calculator.html#finvest" tppabs="https://www.xinrong.com/2.0/calculator.html#finvest" target="_blank">投资计算器</a></li>
+        </ul>
+        </li>
+        <li><a href="../../action/xr_huahua/huahua.shtml.htm" tppabs="https://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" id="nav_huahua">信融花花<i class="arrow"></i><b class="hh_icon"><img src="../../images/hh_icon.png" tppabs="https://www.xinrong.com/2.0/images/hh_icon.png" /></b></a>
+          <ul>
+          	<li><a href="../../action/xr_huahua/huahua.shtml.htm" tppabs="https://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" target="_blank">我要借款</a></li>
+            <li><a href="../../calculator.html" tppabs="https://www.xinrong.com/2.0/calculator.html" target="_blank">借款计算器</a></li>
+          </ul>
+        </li>
+        <li><a href="../about/invest_help.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/invest_help.shtml" id="nav_invest_help">新手指引<i class="arrow"></i></a>
+          <ul>
+          	<li><a href="../about/invest_help.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/invest_help.shtml" target="_blank">投资帮助</a></li>
+          	<li><a href="../about/risk.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/risk.shtml" target="_blank">风险控制</a></li>
+            <li><a href="../about/laws_regulations.shtml.htm#navLaws" tppabs="https://www.xinrong.com/2.0/views/about/laws_regulations.shtml#navLaws" target="_blank">法律法规</a></li>
+          </ul>
+        </li>
+        <li><a href="../about/about.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about">信息披露<i class="arrow"></i></a>
+          <ul>
+            <li><a href="../about/about.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about_index">公司简介</a></li>
+            <li><a href="../about/team.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/team.shtml">团队介绍</a></li>
+            <li><a href="../about/service_data.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/service_data.shtml">运营数据</a></li>
+            <li><a href="../about/partner.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/about/partner.shtml">合作机构</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav_r"><a href="../../vip.html" tppabs="https://www.xinrong.com/2.0/vip.html" id="nav_vip">VIP特权</a></div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<style type="text/css">
+.fengxian_dialog{ width:469px; height:315px; background:#ffffff; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.fengxian_dialog h1{ height:50px; line-height:50px; background:#ececec; color:#2c2c2c; font-size:18px; font-weight:normal; padding:0 10px; border-top-left-radius:5px; border-top-right-radius:5px; position:relative;}
+.fengxian_dialog h1 .close{ position:absolute; right:10px; top:0px; font-family:"宋体"; font-size:30px; color:#aeaeae; font-weight:normal; text-decoration:none;}
+.fengxian_dialog .fx_font{ padding:20px 30px; font-size:18px; line-height:30px;}
+.fengxian_dialog .fx_sub{ text-align:center; line-height:36px;}
+.fengxian_dialog .fx_sub .sub02{ font-size:18px; width:166px; height:45px; line-height:45px;}
+.fengxian_dialog .fx_sub p a{ color:#a1a1a1; font-size:15px;}
+</style>
+<script type="text/javascript" src="../../js/wbox.js" tppabs="https://www.xinrong.com/2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../css/dialog-wbox.css" tppabs="https://www.xinrong.com/2.0/css/dialog-wbox.css">
+<!--风险测评-->
+<div id="fxpc_dialog" style="display: none;">
+  <div class="fengxian_dialog">
+    <h1>温馨提示<a href="javascript:void(0)" class="close" id="close">×</a></h1>
+    <div class="fx_font"> 尊敬的用户，为了帮助您更好的了解自己的风险承受能力，请您花30秒的时间完成10道风险测试题。 网贷非存款，投资需谨慎，是否立即进行风险测评？ </div>
+    <div class="fx_sub"><a href="javascript:void(0)" class="sub02" id="goToAnswer">立即测评</a>
+      <p><a href="javascript:void(0)" id="afterAnswer">稍后再说</a></p>
+    </div>
+  </div>
+</div>
+<script>
+	
+	(function() {
+	
+	var channel=location.href;
+
+	var index=channel.lastIndexOf("/");
+	
+	var index1=channel.lastIndexOf(".");
+
+	if(index>0){
+		channel=channel.substring(index+1,index1);
+
+		if(channel==".com/"||channel==".com"){
+			$('#nav_index').parent().attr("class","cur");
+		}else if(channel=="xincunbao"){
+			$('#nav_my').addClass("cur");
+		}else if(channel=="invest_help"||channel=="risk"||channel=="security"){
+			$('#nav_invest_help').parent().attr("class","cur");			
+		}else if(channel=="help"||channel=="guide1"||channel=="guide2"||channel=="guide3"||channel=="guide4"){
+			$('#nav_invest_help').parent().attr("class","cur");
+			$('#nav_help').attr("class","cur");		
+		}else if(channel=="xr_call"){
+			$('#nav_duoduo').parent().attr("class","cur");
+		}else if(channel=="vip"){
+			$('#nav_vip').attr("class","cur");
+		}else{
+			$('#nav_'+channel).parent().attr("class","cur");	
+		}
+		
+	}
+})();
+
+$(document).ready(function(){
+	$(".h-login-reg a").mouseenter(function(){
+		if($(this).is(".flogin"))
+			{
+				$(".h-login-reg").addClass("h-login");
+				$(".h-login-reg").removeClass("h-reg");
+			}
+			else{
+				$(".h-login-reg").addClass("h-reg");
+				$(".h-login-reg").removeClass("h-login");
+				}
+		});
+	var isAnswered=sessionStorage.getItem('afterAnswer')||null;
+	if (location.href.indexOf('goAnswer=true') < 0) {
+		if (isAnswered =='null') {
+			$.ajax({
+				url:'https://www.xinrong.com/v2/login/in_session_data.jso',
+			    type:'GET' ,
+			    dataType:'json',
+			    success:function (result) {
+					if(result.state==0){
+						if (document.cookie.substring(document.cookie.indexOf("isAnswer=")+9,document.cookie.indexOf("isAnswer=")+10) =="N") {
+							showFXPCdialog();
+							
+							if (location.href.indexOf("account_settings.shtml")>-1) {
+								$('#wBox #goToAnswer').unbind('click').bind('click',function(){
+						        	$('#tp2').click();
+						        })
+							}
+						}
+					}
+				}
+			});
+		}
+	}
+	
+
+	function showFXPCdialog(){
+		wBox = $('#fxpc_dialog').wBox({
+                noTitle:true,
+                top:5,
+                html: $('#fxpc_dialog').html()
+            });
+        wBox.showBox(); 
+        $('#wBox #afterAnswer').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        });
+        $('#wBox #goToAnswer').unbind('click').bind('click',function(){
+        	location.href="account_settings.shtml-goAnswer=true.htm"/*tpa=https://www.xinrong.com/2.0/views/account/account_settings.shtml?goAnswer=true*/;
+        });
+        $('#wBox #close').unbind('click').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        })
+
+	}
+});
+
+</script> 
+
+<!--<div class="LineBorder"></div>-->
+<!--<div class="main headerNav headerReg">-->
+	<!--<div class="logo left" style=" position: relative; margin-top: -20px;"><a href="/index.shtml"><img src="/2.0/images/logo.gif" /></a></div>-->
+	<!--<div class="register left">注册</div>-->
+	<!--<div class="login">已有信融账号，<a href="/2.0/login2.0.html">立即登录 ></a></div>-->
+	<!--<div class="clear"></div>-->
+<!--</div>-->
+<!--<div class="headerLine"></div>-->
+<div class="content">
+	<div class="regContent">
+		<!--banner-->
+		<div class="banners">
+			<a class="banner1" href="javascript:void(0)"></a>
+			<a class="banner2" href="javascript:void(0)"></a>
+			<a class="banner3" href="javascript:void(0)"></a>
+		</div>
+		<form class="regForm" action="" method="">
+			<!--手机号填写-->
+			<div class="pNCon inputCon">
+				<input id="mobilephone" class="phoneNum" type="text" name="phoneNum" placeholder="请填写您的手机号码" onfocus="clearMobileMsg();" onblur="validPhone()"/>
+				<div class="error-wrapper">
+					<p id="mobile_msg" class="error"></p>
+				</div>
+			</div>
+			<!--图形验证码填写-->
+			<div  id="pic_captcha_view" class="valiPicCon inputCon">
+				<input  id="capacha" class="valiPic" type="text" name="valiPic" placeholder="输入图形验证码"  value="" onfocus="clearYzmMsg()" onblur="validCapacha()"/>
+				<input type="hidden" name="textfield" id="seed" value="" class="text01" />
+				<img id="img-captcha" src=""/>
+				<div id="resetPicSrc" onclick="getCaptcha();"><span>看不清楚？</span><span>换一张</span></div>
+				<div class="error-wrapper">
+					<p  id="yzm_length" class="error"></p>
+				</div>
+			</div>
+			<!--短信验证码填写-->
+			<div class="valiMesCon inputCon">
+				<input id="mobilecapacha" class="valiMes" type="text" name="valiMes" placeholder="输入验证码" onfocus="clearYyYzmMsg()" />
+				<span  id="sendCaptcha" class="fontbg"><a href="javascript:void(0)"  onclick='sendCaptcha()'>短信验证码</a></span>
+                <span  id="sendYuyinMsg" class="fontbg" style="display: none"><a href="javascript:void(0);" onclick="sendYuyin()">语音验证码</a></span>
+				<!--<div id="forMsgCaptcha">-->
+					<!--<p id="turnToVoiCap" class="hint">短信验证码无法接受，<a class="toValiVoi" href="javascript:void(0)">试试语音验证码 ></a></p>-->
+				<!--</div>-->
+				<!--&lt;!&ndash;语音验证码填写&ndash;&gt;-->
+				<!--<div id="forVoiCaptcha">-->
+					<!--<span class="fontbg" id="sendYuyinMsg"><a href="javascript:void(0);" onclick="sendYuyin()">语音验证码</a></span>-->
+					<!--<p id="turnToMsgCap" class="hint">返回<a class="toValiMes" href="javascript:void(0)">短信验证码 ></a></p>-->
+				<!--</div>-->
+				<!--<div class="error-wrapper">-->
+					<p id="turnToVoiCap" class="hint">短信验证码无法接受，<a class="toValiVoi" href="javascript:void(0)">试试语音验证码 ></a></p>
+                    <p id="turnToMsgCap" class="hint" style="display: none">返回<a class="toValiMes" href="javascript:void(0)">短信验证码 ></a></p>
+					<p id="yy_yzm_length" class="error" style="position: absolute"></p>
+				<!--</div>-->
+			</div>
+			<!--密码填写-->
+			<div id="passwordWrapper" class="pwCon inputCon" style="padding-top: 32px;">
+				<input id="password" class="password" type="password" name="password" onkeyup="pwdlever();" onblur="pwdlever();validPassword();" onfocus="clearPwdMsg();" placeholder="设置您的登录密码" />
+				<div class="pwLevel">
+					<!--<span>安全等级</span>-->
+					<ul>
+						<li id="easy">弱</li>
+						<li id="soso">中</li>
+						<li id="hard">强</li>
+					</ul>
+				</div>
+				<div class="error-wrapper">
+					<p id="show_msg_pwd" class="hint">6-12位字母，数字和符号的组合密码更为安全</p>
+				</div>
+			</div>
+			<!--推荐人填写按钮-->
+			<div class="recomCon">
+				<a class="recomBtn" href="javascript:void(0)">推荐人填写（选填）</a>
+			</div>
+			<!--推荐人手机号码填写-->
+			<div class="recomNumCon">
+				<input id="referee" class="recomNum" type="text" name="recomNum" placeholder="推荐人的账户名或手机号" />
+				<div class="error-wrapper">
+					<p class="error"></p>
+				</div>
+			</div>
+			<!--协议同意选择-->
+			<div class="agreeCon">
+				<input id="read_agree" class="agree" type="checkbox" name="agree"/>
+				<label for="agree">我已阅读并同意<a href="../../../about/agreement.htm" tppabs="https://www.xinrong.com/about/agreement" target="_blank">《信融财富服务协议》</a></label>
+                <div class="clear"></div>
+				<div class="error-wrapper">
+					<p id="agree_msg" class="error">请勾选已阅读并同意《信融财富服务协议》</p>
+				</div>
+			</div>
+			<!--表格提交按钮-->
+			<div class="submitCon">
+				<input id="submit" name="" type="button" onclick="registerCheck()" class="submit" value="立即注册" />
+			</div>
+			<!--客服热线-->
+			<div class="infoCon">
+				<p>如有疑问，请拨打客服热线 : 400-777-9888</p>
+			</div>
+		</form>
+	</div>
+</div>
+<!--center end-->
+<div  id="sidebar-login-box" style="display: none; ">
+<div class="wgt-dialog wgt-dialog-login" >
+    <fieldset class="ui-form">
+        <form id="rapid-login-form" method="post" action="https://www.xinrong.com/v2/login/login.jso">
+            <h3 class="wgt-dialog-title">信融财富用户登录</h3>
+            <div class="ui-form-line">
+                <label for="username" class="ui-form-label">账　号：</label>
+                <input type="text" name="username" id="rapid-userName" class="ui-form-input" maxlength="50" tabindex="1" placeholder="账户名 / Email / 手机号"/>
+                <a href="register4.0.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/account/register4.0.shtml" class="blue" target="_blank">注册账号</a>
+            </div>
+            <div class="ui-form-line">
+                <label for="password" class="ui-form-label">密　码：</label>
+                <input type="password" name="password" id="rapid-userPw" class="ui-form-input" maxlength="16" tabindex="2" placeholder="登录密码"/>
+                <a href="back_password.shtml.htm" tppabs="https://www.xinrong.com/2.0/views/account/back_password.shtml" class="blue" target="_blank">忘记账号/密码？</a>
+            </div>
+            <div class="ui-form-line ui-form-captcha" id="captcha_view" style="display:none">
+                <label for="rapid-captcha" class="ui-form-label">验证码：</label>
+                <input type="text" id="rapid-captcha" name="captcha" class="ui-form-input" autocomplete="off" maxlength="4" tabindex="3" placeholder="验证码"/>
+                <span id="rapid-captcha-placeholder" class="captcha-placeholder"><img src="" width='101' height='31' id='img-captcha' title='看不清楚？换一个' /></span>
+                <input type="hidden" id="rapid-seed" name="seed" value=""/>
+            </div>
+            <div class="ui-form-line ui-form-action">
+                <input  type="submit" class="ui-button ui-button-orange" style="width: 234px;height: 36px;line-height: 36px;" tabindex="4" value="登 录" />
+                
+                <em class="ui-tip"></em>
+                <img src="../../images/Connect_logo_7.png" tppabs="https://www.xinrong.com/2.0/images/Connect_logo_7.png" onclick=" AA.RapidLogin.qqClick();" style="cursor:pointer; margin-left:8px;"></img>
+            </div>
+            <style>
+            .login-succ{ margin:auto; width:290px; height:210px; position:fixed; left:0; right:0px; top:0px; bottom:0px; z-index:999; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000'); border-radius:8px; text-align:center;}
+            :root .login-succ{ filter:none; background-color:rgba(0,0,0,0.5);}
+            .login-succ h1{ font-size:24px; color:#fff; padding-top:60px; font-weight:normal; position:relative;}
+            .login-succ img{ vertical-align:middle;padding:0px 10px 0 0;}
+            .login-succ span{ vertical-align:middle; padding: 26px 0 0 0;  display: inline-block;}
+            </style>
+            <div id="login_suc_dialog" style="display: none;">
+            <div class="login-succ">
+            <h1><img src="../../images/c-login1.gif" tppabs="https://www.xinrong.com/2.0/images/c-login1.gif" width="68" height="93" /><span><i class="icondagou"></i>登录成功</span></h1>
+            </div>
+            </div>
+        </form>
+    </fieldset>
+</div> 
+
+</div>
+<script type="text/javascript" src="../../js/rsa.js" tppabs="https://www.xinrong.com/2.0/js/rsa.js"></script>
+<script type="text/javascript" src="../../../webapp2.0/js/wbox.js" tppabs="https://www.xinrong.com/webapp2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../css/dialog-wbox.css" tppabs="https://www.xinrong.com/2.0/css/dialog-wbox.css">
+<!--include file="/2.0/views/global/foot.shtml"-->
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+/**
+ * 
+ */
+(function (AA) {
+AA.User.Trans={
+	trans:function(lid,type,sn,dl){
+		if (!AA.Api.User.isAuth) {
+			AA.RapidLogin.popup();
+			return false;
+        }
+		
+    	var show_name=AA.Lang.PRODUCT_NAME;
+		var show_title='信·无忧贷-'+sn;
+    	if(type==2){
+    		show_name='信<i class="g-dian" >·</i>优企贷';
+    		show_title='信·优企贷-'+sn;
+    	}else if(type==3){
+    		show_name='信<i class="g-dian">·</i>赎楼贷';
+    		show_title='信·赎楼贷-'+sn;
+    	}else if(type==4||type==7||type==11){
+			var type_name=sn.substring(1,3);
+    		show_name='信<i class="g-dian">·</i>消费'+type_name;
+    		show_title='信·消费贷-'+sn;
+    	}else if(type==5){
+    		show_name='信<i class="g-dian">·</i>消费贷';
+    		show_title='信·消费贷-'+sn;
+      	}else if(type==6){
+      		show_name='信<i class="g-dian">·</i>质抵贷';
+    		show_title='信·质抵贷-'+sn;
+      	}else if(type==8){
+      		show_name='品<i class="g-dian">·</i>融360';
+    		show_title='品·融360-'+sn;
+      	}else if(type==9){
+      		show_name='品<i class="g-dian">·</i>吉屋网';
+    		show_title='品·吉屋网-'+sn;
+      	}else if(type==10){
+      		show_name='信<i class="g-dian">·</i>优资贷';
+    		show_title='信·优资贷-'+sn;
+      	}else if(type==12){
+      		show_name='品<i class="g-dian">·</i>保理贷';
+    		show_title='品·保理贷-'+sn;
+      	}else if(type==13){
+      		show_name='品<i class="g-dian">·</i>分期X';
+    		show_title='品·分期X-'+sn;
+      	}else if(type==14){
+      		show_name='信<i class="g-dian">·</i>消费JS';
+    		show_title='信·消费JS-'+sn;
+      	}else if(type==15){
+      		show_name='品<i class="g-dian">·</i>票据贷';
+    		show_title='品·票据贷-'+sn;
+      	}else if(type==16){
+      		show_name='信<i class="g-dian">·</i>车贷';
+    		show_title='信·车贷-'+sn;
+      	}else if(type==17){
+			show_name='品<i class="g-dian">·</i>明特';
+			show_title='品·明特-'+sn;
+		}
+    	
+    	var tt=show_name + '-' + sn;
+    	
+    	$.ajax({
+			url:AA.Helper.buildUrl('v2/transfer/transfer_score.jso'),
+			data:{loanId:lid},
+			type:'GET' ,
+	    	dataType:'json',
+	     	success:function (result) {
+	     		if(result.state==0){
+	        		AA.User.Trans.show_trans_dlg(lid,tt,result.data.deadline,result.data.scoremoney,dl,result.data.autoInvestStatus);
+	        	}else if(result.state==900){
+	        		$.alert({
+	        			tipCls:'info1' ,
+	        			title:result.msg,
+	        			content:result.msg+'<a href="'+"https://www.xinrong.com/2.0/views/about/help.shtml?tab=tab8&href=m2"+'" class="'+"blue"+'">'+"查看转让条件"+'</a>',
+	        			txtBtn:'确定' ,
+	        			init:function (d ,btn ) {
+	        				btn.click(function () {
+	        					d.close();
+	        				});
+	        			}
+	        		});
+	        	}else{
+	        		$.alert({
+	        			tipCls:'info1' ,
+	        			title:result.msg,
+	        			content:result.msg+'。',
+	        			txtBtn:'确定' ,
+	        			init:function (d ,btn ) {
+	        				btn.click(function () {
+	        					d.close();
+	        				});
+	        			}
+	        		});
+	        	}
+	       },
+	       error:function(err){
+	    	}
+    	});
+	},
+	show_trans_dlg:function(lid,tt,deadline,money,dl,autoInvestStatus){
+		var _html=$('#wgt-dialog-trans-wrapper').html();
+		
+		$.dialog({
+			'title':'转让申请',
+			'content':_html,
+			'initialize':function(){
+				var _dialog = this;
+				$('#show_title').html(tt+'转让');
+				$('#b_money').html(AA.Helper.toFixed(money));
+				$('#b_deadline').html(deadline);
+				$('#s_deadline').html(dl);
+				
+				if(autoInvestStatus==1){
+					$('#div_auto_invest').show();
+				}else{
+					$('#f_trans').css("height","285px");
+				}
+				
+				$('#btn_sub').click(function(){
+					var status="";
+					if($('#auto_close_invest').prop("checked")){
+						AA.User.Trans.close_auto_invest();
+						status=0;
+					}else{
+						status=autoInvestStatus;
+					}
+					
+					var _input=$('#ip_trade_pass');
+            		var _val = $.trim(_input.val());
+            		var _tip=$('#error_tip');
+            		if (_val == "") {
+                    	_tip.addClass('error').html('交易密码必须为6-16个字符');
+                    	_input.focus();
+                    	return false;
+            		} else if (_val.length < 6 || _val.length > 16) {
+            			_tip.addClass('error').html('交易密码必须为6-16个字符');
+            			_input.focus();
+            			return false;
+            		} else {
+                    	_tip.removeClass('error').html('');
+                    	 
+                    	$.ajax({
+            				url:AA.Helper.buildUrl('v2/transfer/creditor_transfer.jso'),
+            				data:{loanId:lid,pass:AA.Helper.encrypPw(_val),status:status},
+            				type:'GET' ,
+            				dataType:'json',
+            				success:function (result) {
+            					if(result.state==0){
+            						_dialog.close();
+            		        		
+            		        		$.alert({
+            		        			tipCls:'info1' ,
+            		        			title:'您已成功提交转让申请！',
+            		        			content:'工作人员在1~3个工作日内完成审核，请耐心等待。',
+            		        			txtBtn:'确定' ,
+            		        			init:function (d ,btn ,btn1) {
+            		        				btn.click(function () {
+            		        					_dialog.close();
+            		        					AA.User.Invest.load(1);
+            		        				});
+            		        			}
+            		        		});
+            		        	}else if(result.state==1009){
+            		        		AA.RapidLogin.popup();
+            		        		return false;
+            		        	}else{
+            		        		_tip.addClass('error').html(result.msg);
+                                	_input.focus();
+                                	return false;
+            		        	}
+            		         }
+            			});
+                     }
+				});
+				
+				$('#btn_cancal').click(function(){
+					_dialog.close();
+				});
+			}
+		});
+	},
+	close_auto_invest:function(){
+		$.ajax({
+			url:AA.Helper.buildUrl('v2/invest/edit_auto_invest.jso?status=0'),
+			type:'GET' ,
+			dataType:'json',
+			success:function (result) {
+			}
+		});
+	}
+}
+})(AA);

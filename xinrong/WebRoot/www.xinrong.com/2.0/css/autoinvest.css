@@ -1,0 +1,344 @@
+@charset "utf-8";
+.wrapper{
+    width: 100%;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+/**
+ *  general begin
+ */
+.block{
+    width: 910px;
+    margin-left: 1px;
+    margin-top: 0px;
+    border: 1px solid #e8e8e8;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+}
+.orange{
+    color: #f60;
+}
+.blue{
+    color: #5cbaf7;
+}
+/**
+ *  general begin
+ */
+/**
+ *  content begin
+ */
+.content{
+    position: relative;
+}
+/**
+ *  headMenu begin
+ */
+.content .headMenu{
+    height: 44px;
+    margin-top: 0;
+    border-bottom: 1px solid #f78f48;
+}
+.content .headMenu li{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 35px;
+    margin: 10px 20px 0;
+    padding: 0 25px;
+    line-height: 35px;
+}
+.content .headMenu li.current,.content .headMenu li:hover{
+    background-color: #f78f48;
+}
+.content .headMenu li a{
+    text-decoration: none;
+}
+.content .headMenu li.current a,.content .headMenu li:hover a{
+    color: #fff;
+}
+/**
+ *  headMenu end
+ */
+/**
+ *  general begin
+ */
+.item{
+    width: 865px;
+    margin: 0 auto;
+    color: #707274;
+}
+.item>.itemTitle{
+    width: auto;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #5d5858;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaeb;
+}
+.item>span{
+    display: block;
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+.item .labelCon{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    margin-right: 50px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.item .labelCon label{
+    cursor: pointer;
+}
+.item label>span{
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.moneyLimit input[type=radio],.moneyLimit input[type=checkbox],.projectLimit input[type=radio],.projectLimit input[type=checkbox]{
+    position: absolute;
+    left: -999999px;
+    top: 0;
+    width: 0;
+    height: 0;
+    margin: 0 ;
+    padding: 0;
+}
+.item .labelCon label>i{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+.item .labelCon label>i b{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 2px;
+    *margin: -8px 2px;
+    border-radius: 4px;
+    background-color: #ccc;
+}
+.item input[type=radio]:checked+i,.item input[type=checkbox]:checked+i{
+    border-color: #f60;
+}
+.item input[type=radio]:checked+i b,.item input[type=checkbox]:checked+i b{
+    background-color: #f60;
+}
+.item>span>.itemName{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.item .tips{
+    padding-left: 10px;
+    color: #999;
+}
+/**
+ *  general end
+ */
+/**
+ *  投资步骤 begin
+ */
+.content .procedure{
+    padding: 20px 0;
+    text-align: center;
+}
+.content .procedure>span{
+    display: inline-block;
+    vertical-align: top;
+}
+.content .procedure>.line{
+    width: 120px;
+    height: 2px;
+    margin: 14px 30px 0;
+    background-color: #fdd9c5;
+}
+.content .procedure>span>.square{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+    background-image: url("../images/autoinvest/square.png"/*tpa=https://www.xinrong.com/2.0/images/autoinvest/square.png*/);
+    background-position: center;
+}
+.content .procedure>span>.title{
+    line-height: 30px;
+    color: #707274;
+}
+/**
+ *  投资步骤 end
+ */
+/**
+ *  金额限制 begin
+ */
+.content .moneyLimit #availMoney{
+    padding-right: 3px;
+}
+.content .moneyLimit input[type=text]{
+    width: 175px;
+    height: 25px;
+    line-height: 25px;
+    padding:  0 0 0 5px;
+    outline: none;
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+    border-left: 1px solid #eaeaeb;
+    border-right: 0;
+    vertical-align: middle;
+}
+.content .moneyLimit .unit{
+    display: inline-block;
+    height: 25px;
+    width: 27px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+    border-right: 1px solid #eaeaeb;
+    border-left: 0;
+    vertical-align: middle;
+}
+/**
+ *  金额限制 end
+ */
+/**
+ *  项目限制 begin
+ */
+.content .projectLimit input[type=text]{
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    padding:  0 0 0 5px;
+    outline: none;
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+    border-left: 1px solid #eaeaeb;
+    border-right: 0;
+    vertical-align: middle;
+}
+::-webkit-input-placeholder{
+    color: #bcbdbe;
+}
+:-moz-placeholder{
+    color: #bcbdbe;
+}
+::-moz-placeholder{
+    color: #bcbdbe;
+}
+:-ms-input-placeholder{
+    color: #bcbdbe;
+}
+.content .projectLimit .unit{
+    display: inline-block;
+    height: 25px;
+    width: 27px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+    border-right: 1px solid #eaeaeb;
+    border-left: 0;
+    vertical-align: middle;
+}
+.content .projectLimit .separate{
+    padding: 0 10px;
+}
+.content .projectLimit select{
+    width: 80px;
+}
+/**
+ *  项目限制 end
+ */
+/**
+ *  当前状态 begin
+ */
+.content .curStatus input[type=checkbox]{
+    vertical-align: middle;
+}
+.content .curStatus .agreementLine{
+    vertical-align: middle;
+}
+.content .curStatus .btnLine{
+    padding: 20px 0;
+    text-align: center;
+}
+.content .curStatus .btnLine a{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 0 30px;
+    line-height: 40px;
+    background-color: #fd893c;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.content .curStatus .btnLine a.closeBtn{
+    background-color: #5cbaf7;
+}
+.content .curStatus .btnLine a.invalid{
+    background-color: #ccc;
+    cursor: default;
+}
+/**
+ *  当前状态 end
+ */
+/**
+ *  规则说明 begin
+ */
+.content .rule .tableCon{
+    margin: 30px 0 30px 10px;
+}
+.content .rule .tableCon table{
+    border-collapse: collapse;
+}
+.content .rule .tableCon table thead th{
+    padding: 0 20px;
+    white-space: nowrap;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #5d5c5c;
+    background-color: #fdf2ec;
+    text-align: center;
+}
+.content .rule .tableCon table tbody td{
+    line-height: 35px;
+    font-size: 12px;
+    color: #5d5c5c;
+    text-align: center;
+}
+.content .rule .tips{
+    padding: 0 0 30px 10px;
+    font-size: 13px;
+    line-height: 24px;
+}
+/**
+ *  规则说明 end
+ */
+/**
+ *  content end
+ */

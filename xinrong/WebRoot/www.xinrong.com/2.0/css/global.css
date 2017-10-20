@@ -1,0 +1,420 @@
+@CHARSET "UTF-8";
+
+fieldset{
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,img {
+	border: 0
+}
+
+form{
+	
+	display: block;
+margin-top: 0em;
+}
+
+
+.disabled,.tip {
+	color: #999;
+	cursor: default;
+	text-decoration: none
+}
+
+
+.ui-form .ui-form-line {
+	height: 28px;
+	line-height: 28px;
+	margin-top: 12px;
+	position: relative
+}
+
+.ui-form .ui-form-line .ui-tip {
+	padding-bottom: 1px
+}
+
+.ui-form .ui-form-input {
+	height: 24px;
+	line-height: 24px;
+	padding: 1px 3px;
+	border: 1px solid #b6c4cd;
+	*vertical-align: middle;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-timing-function: ease-in;
+	-o-transition-timing-function: ease-in;
+	transition-timing-function: ease-in
+}
+
+.ui-form .ui-form-input:focus {
+	border: 1px solid #4ba1f0;
+	outline: none;
+	-webkit-box-shadow: rgba(20, 20, 20, 0.2) 1px 1px 3px inset;
+	-moz-box-shadow: rgba(20, 20, 20, 0.2) 1px 1px 3px inset;
+	box-shadow: rgba(20, 20, 20, 0.2) 1px 1px 3px inset
+}
+
+.ui-form .ui-form-action {
+	margin-top: 30px;
+	height: 38px
+}
+
+
+.wgt-dialog {
+	position: relative;
+	width: 480px;
+	height: 260px
+}
+
+.wgt-dialog .wgt-dialog-title {
+	font-size: 14px;
+	font-weight: 700
+}
+
+.wgt-dialog .wgt-dialog-title a.blue {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 10px
+}
+
+.wgt-dialog .wgt-dialog-title.info {
+	height: 16px;
+	font-size: 12px !important;
+	color: #333
+}
+
+.wgt-dialog-alert {
+	width: 520px;
+	height: 230px
+}
+
+.wgt-dialog-alert .wgt-dialog-container {
+	padding-top: 10px
+}
+
+.wgt-dialog-alert .wgt-dialog-title,.wgt-dialog-alert .wgt-dialog-content
+	{
+	padding-left: 45px
+}
+
+.wgt-dialog-alert .wgt-dialog-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #333
+}
+
+.wgt-dialog-alert .wgt-dialog-content {
+	padding-top: 10px;
+	color: #666
+}
+
+.wgt-dialog-alert .wgt-dialog-buttons {
+	padding-top: 45px;
+	text-align: center
+}
+
+.wgt-dialog-alert .wgt-dialog-buttons .ui-button-white {
+	display: none
+}
+
+.wgt-dialog-alert .wgt-dialog-buttons .ui-button {
+	margin-right: 12px;
+	vertical-align: middle
+}
+
+.wgt-dialog-alert .extra-info {
+	margin: 30px 0px 0px 125px;
+	padding-left: 15px;
+	background: url("../../s/img/tip.png-1354071023"/*tpa=https://www.xinrong.com/s/img/tip.png?1354071023*/) no-repeat left center
+}
+
+.wgt-dialog-alert .extra-info a {
+	color: #0078b6
+}
+
+.wgt-dialog-alert.wgt-state-error .extra-info {
+	margin-left: 145px
+}
+
+.wgt-dialog-alert.wgt-state-error .ui-button {
+	padding: 0 5px
+}
+
+.wgt-dialog-safety-pay {
+	height: auto;
+	padding-bottom: 25px
+}
+
+.wgt-dialog-safety-pay .ui-form {
+	padding: 30px 0 0 90px
+}
+
+.wgt-dialog-safety-pay .wgt-dialog-title {
+	margin-bottom: 18px
+}
+
+
+
+
+.wgt-dialog-login .ui-form {
+	padding: 30px 0 0 55px
+}
+
+.wgt-dialog-login .wgt-dialog-title {
+	padding-left: 110px
+}
+
+.wgt-dialog-login .ui-form-input {
+	width: 227px
+}
+
+.wgt-dialog-login a.blue {
+	margin-left: 5px
+}
+
+.wgt-dialog-login .captcha-placeholder {
+	float: none
+}
+
+.wgt-dialog-login .ui-form-captcha .ui-form-input {
+	width: 115px
+}
+
+.wgt-dialog-login .ui-form-captcha img {
+	vertical-align: top;
+	height: 28px;
+	margin-left: 8px
+}
+
+.wgt-dialog-login .ui-button {
+	margin-left: 52px
+}
+
+.wgt-dialog-login .ui-tip {
+	position: absolute;
+	left: 52px;
+	top: -22px
+}
+
+
+.ui-button {
+	display: inline-block;
+	width: 98px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Simsun;
+	text-align: center;
+	border: 1px solid transparent;
+	cursor: pointer;
+	color: #FFF;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-ms-border-radius: 2px 2px 2px 2px;
+	-o-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px
+}
+
+.ui-button:hover {
+	text-decoration: none
+}
+
+.ui-button-orange {
+	border-color: #f15a00;
+	background: #ff8410;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff8410),
+		color-stop(100%, #f16000) );
+	background-image: -webkit-linear-gradient(#ff8410, #f16000);
+	background-image: -moz-linear-gradient(#ff8410, #f16000);
+	background-image: -o-linear-gradient(#ff8410, #f16000);
+	background-image: linear-gradient(#ff8410, #f16000);
+	color: #FFF !important;
+}
+
+.ui-btn-gray {
+	border-color: #7f7d7b;
+	background-image: url("../../s/img/gray/btn.jpg"/*tpa=https://www.xinrong.com/s/img/gray/btn.jpg*/);
+}
+
+.ui-button-orange:hover {
+	border-color: #de3300;
+	background: #fa6600;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fa6600),
+		color-stop(100%, #e34500) );
+	background-image: -webkit-linear-gradient(#fa6600, #e34500);
+	background-image: -moz-linear-gradient(#fa6600, #e34500);
+	background-image: -o-linear-gradient(#fa6600, #e34500);
+	background-image: linear-gradient(#fa6600, #e34500)
+}
+
+.ui-button-blue {
+	border-color: #2d7aac;
+	background: #6fb5e5;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6fb5e5),
+		color-stop(100%, #2778bc) );
+	background-image: -webkit-linear-gradient(#6fb5e5, #2778bc);
+	background-image: -moz-linear-gradient(#6fb5e5, #2778bc);
+	background-image: -o-linear-gradient(#6fb5e5, #2778bc);
+	background-image: linear-gradient(#6fb5e5, #2778bc)
+}
+
+.ui-button-blue:hover {
+	border-color: #1971aa;
+	background: #81bce5;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #81bce5),
+		color-stop(100%, #4387c0) );
+	background-image: -webkit-linear-gradient(#81bce5, #4387c0);
+	background-image: -moz-linear-gradient(#81bce5, #4387c0);
+	background-image: -o-linear-gradient(#81bce5, #4387c0);
+	background-image: linear-gradient(#81bce5, #4387c0)
+}
+
+.ui-button-white {
+	color: #333;
+	border-color: #b0c6da;
+	background: #fff;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff),
+		color-stop(100%, #f6f6f6) );
+	background-image: -webkit-linear-gradient(#ffffff, #f6f6f6);
+	background-image: -moz-linear-gradient(#ffffff, #f6f6f6);
+	background-image: -o-linear-gradient(#ffffff, #f6f6f6);
+	background-image: linear-gradient(#ffffff, #f6f6f6)
+}
+
+.ui-button-white:hover {
+	border-color: #6c8faf;
+	background: #fff;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff),
+		color-stop(100%, #e5e9ec) );
+	background-image: -webkit-linear-gradient(#ffffff, #e5e9ec);
+	background-image: -moz-linear-gradient(#ffffff, #e5e9ec);
+	background-image: -o-linear-gradient(#ffffff, #e5e9ec);
+	background-image: linear-gradient(#ffffff, #e5e9ec)
+}
+
+.ui-button-gray {
+	color: #333;
+	border-color: #b0c6da;
+	background: #fff;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff),
+		color-stop(100%, #e0e0e0) );
+	background-image: -webkit-linear-gradient(#ffffff, #e0e0e0);
+	background-image: -moz-linear-gradient(#ffffff, #e0e0e0);
+	background-image: -o-linear-gradient(#ffffff, #e0e0e0);
+	background-image: linear-gradient(#ffffff, #e0e0e0)
+}
+
+.ui-button-gray:hover {
+	border-color: #6c8faf;
+	background: #fff;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff),
+		color-stop(100%, #e5e9ec) );
+	background-image: -webkit-linear-gradient(#ffffff, #e5e9ec);
+	background-image: -moz-linear-gradient(#ffffff, #e5e9ec);
+	background-image: -o-linear-gradient(#ffffff, #e5e9ec);
+	background-image: linear-gradient(#ffffff, #e5e9ec)
+}
+
+
+.tip-sprite,.ui-tip.info,.ui-tip.help,.ui-tip.warn,.ui-tip.success,.ui-tip.error,.ui-tip.info1,.ui-tip.warn1,.ui-tip.success1,.ui-tip.error1
+	{
+	background: url("../../s/img/icons/tip-sb4d5658e68.png"/*tpa=https://www.xinrong.com/s/img/icons/tip-sb4d5658e68.png*/) no-repeat
+}
+
+.ui-tip {
+	line-height: 16px;
+	padding-left: 20px;
+	color: #999
+}
+
+.ui-tip .hl {
+	color: #f60
+}
+
+.ui-tip.info,.ui-tip.warn,.ui-tip.success,.ui-tip.error,.ui-tip.help {
+	font-size: 12px
+}
+
+.ui-tip.info1,.ui-tip.warn1,.ui-tip.success1,.ui-tip.error1 {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 40px;
+	color: #333
+}
+
+.ui-tip.info {
+	color: #666;
+	background-position: 0 0
+}
+
+.ui-tip.help {
+	color: #999;
+	padding-bottom: 1px;
+	background-position: 0 -66px;
+	cursor: pointer
+}
+
+.ui-tip.warn {
+	color: #f60;
+	background-position: 0 -592px
+}
+
+.ui-tip.success {
+	_display: inline-block;
+	background-position: 0 -526px
+}
+
+.ui-tip.error {
+	color: #dc3e00;
+	background-position: 0 -460px
+}
+
+.ui-tip.info1 {
+	background-position: 0 -296px
+}
+
+.ui-tip.warn1 {
+	background-position: 0 -132px
+}
+
+.ui-tip.success1 {
+	background-position: 0 -214px
+}
+
+.ui-tip.error1 {
+	background-position: 0 -378px
+}
+
+.ui-loading {
+	display: none;
+	height: 16px;
+	line-height: 16px;
+	padding: 1px 0 1px 20px;
+	color: #999;
+	background: url("../../s/img/icons/tip/loading.gif-1349688622"/*tpa=https://www.xinrong.com/s/img/icons/tip/loading.gif?1349688622*/) no-repeat
+}
+
+.ui-loading1 {
+	height: 24px;
+	line-height: 24px;
+	padding: 1px 0 1px 28px;
+	color: #999;
+	font-weight: 700;
+	background: url("../../s/img/loading.gif-1351065205"/*tpa=https://www.xinrong.com/s/img/loading.gif?1351065205*/) no-repeat
+}
+
+.ui-tip-warn {
+	padding: 10px 16px;
+	background-color: #fef3d7;
+	color: #666
+}

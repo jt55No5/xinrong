@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinrong.dao.NnderwritingcompanyMapper" >
+  <resultMap id="BaseResultMap" type="com.xinrong.bean.Nnderwritingcompany" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="companyName" property="companyname" jdbcType="VARCHAR" />
+    <result column="registeredCapital" property="registeredcapital" jdbcType="VARCHAR" />
+    <result column="establishDate" property="establishdate" jdbcType="DATE" />
+    <result column="businessScope" property="businessscope" jdbcType="VARCHAR" />
+    <result column="companyBrief" property="companybrief" jdbcType="VARCHAR" />
+    <result column="cretificatePhotoUrl" property="cretificatephotourl" jdbcType="VARCHAR" />
+    <result column="agreementUrl" property="agreementurl" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, companyName, registeredCapital, establishDate, businessScope, companyBrief, cretificatePhotoUrl, 
+    agreementUrl
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from underwritingcompany
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from underwritingcompany
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinrong.bean.Nnderwritingcompany" >
+    insert into underwritingcompany (id, companyName, registeredCapital, 
+      establishDate, businessScope, companyBrief, 
+      cretificatePhotoUrl, agreementUrl)
+    values (#{id,jdbcType=INTEGER}, #{companyname,jdbcType=VARCHAR}, #{registeredcapital,jdbcType=VARCHAR}, 
+      #{establishdate,jdbcType=DATE}, #{businessscope,jdbcType=VARCHAR}, #{companybrief,jdbcType=VARCHAR}, 
+      #{cretificatephotourl,jdbcType=VARCHAR}, #{agreementurl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinrong.bean.Nnderwritingcompany" >
+    insert into underwritingcompany
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="companyname != null" >
+        companyName,
+      </if>
+      <if test="registeredcapital != null" >
+        registeredCapital,
+      </if>
+      <if test="establishdate != null" >
+        establishDate,
+      </if>
+      <if test="businessscope != null" >
+        businessScope,
+      </if>
+      <if test="companybrief != null" >
+        companyBrief,
+      </if>
+      <if test="cretificatephotourl != null" >
+        cretificatePhotoUrl,
+      </if>
+      <if test="agreementurl != null" >
+        agreementUrl,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="companyname != null" >
+        #{companyname,jdbcType=VARCHAR},
+      </if>
+      <if test="registeredcapital != null" >
+        #{registeredcapital,jdbcType=VARCHAR},
+      </if>
+      <if test="establishdate != null" >
+        #{establishdate,jdbcType=DATE},
+      </if>
+      <if test="businessscope != null" >
+        #{businessscope,jdbcType=VARCHAR},
+      </if>
+      <if test="companybrief != null" >
+        #{companybrief,jdbcType=VARCHAR},
+      </if>
+      <if test="cretificatephotourl != null" >
+        #{cretificatephotourl,jdbcType=VARCHAR},
+      </if>
+      <if test="agreementurl != null" >
+        #{agreementurl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinrong.bean.Nnderwritingcompany" >
+    update underwritingcompany
+    <set >
+      <if test="companyname != null" >
+        companyName = #{companyname,jdbcType=VARCHAR},
+      </if>
+      <if test="registeredcapital != null" >
+        registeredCapital = #{registeredcapital,jdbcType=VARCHAR},
+      </if>
+      <if test="establishdate != null" >
+        establishDate = #{establishdate,jdbcType=DATE},
+      </if>
+      <if test="businessscope != null" >
+        businessScope = #{businessscope,jdbcType=VARCHAR},
+      </if>
+      <if test="companybrief != null" >
+        companyBrief = #{companybrief,jdbcType=VARCHAR},
+      </if>
+      <if test="cretificatephotourl != null" >
+        cretificatePhotoUrl = #{cretificatephotourl,jdbcType=VARCHAR},
+      </if>
+      <if test="agreementurl != null" >
+        agreementUrl = #{agreementurl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinrong.bean.Nnderwritingcompany" >
+    update underwritingcompany
+    set companyName = #{companyname,jdbcType=VARCHAR},
+      registeredCapital = #{registeredcapital,jdbcType=VARCHAR},
+      establishDate = #{establishdate,jdbcType=DATE},
+      businessScope = #{businessscope,jdbcType=VARCHAR},
+      companyBrief = #{companybrief,jdbcType=VARCHAR},
+      cretificatePhotoUrl = #{cretificatephotourl,jdbcType=VARCHAR},
+      agreementUrl = #{agreementurl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinrong.dao.PlatformstableMapper" >
+  <resultMap id="BaseResultMap" type="com.xinrong.bean.Platformstable" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="totalTransactions" property="totaltransactions" jdbcType="DOUBLE" />
+    <result column="amountMoney" property="amountmoney" jdbcType="DOUBLE" />
+    <result column="totalRevenue" property="totalrevenue" jdbcType="DOUBLE" />
+    <result column="userNum" property="usernum" jdbcType="INTEGER" />
+    <result column="totalTradeNum" property="totaltradenum" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, totalTransactions, amountMoney, totalRevenue, userNum, totalTradeNum
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from platformstable
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from platformstable
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinrong.bean.Platformstable" >
+    insert into platformstable (id, totalTransactions, amountMoney, 
+      totalRevenue, userNum, totalTradeNum
+      )
+    values (#{id,jdbcType=INTEGER}, #{totaltransactions,jdbcType=DOUBLE}, #{amountmoney,jdbcType=DOUBLE}, 
+      #{totalrevenue,jdbcType=DOUBLE}, #{usernum,jdbcType=INTEGER}, #{totaltradenum,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinrong.bean.Platformstable" >
+    insert into platformstable
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="totaltransactions != null" >
+        totalTransactions,
+      </if>
+      <if test="amountmoney != null" >
+        amountMoney,
+      </if>
+      <if test="totalrevenue != null" >
+        totalRevenue,
+      </if>
+      <if test="usernum != null" >
+        userNum,
+      </if>
+      <if test="totaltradenum != null" >
+        totalTradeNum,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="totaltransactions != null" >
+        #{totaltransactions,jdbcType=DOUBLE},
+      </if>
+      <if test="amountmoney != null" >
+        #{amountmoney,jdbcType=DOUBLE},
+      </if>
+      <if test="totalrevenue != null" >
+        #{totalrevenue,jdbcType=DOUBLE},
+      </if>
+      <if test="usernum != null" >
+        #{usernum,jdbcType=INTEGER},
+      </if>
+      <if test="totaltradenum != null" >
+        #{totaltradenum,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinrong.bean.Platformstable" >
+    update platformstable
+    <set >
+      <if test="totaltransactions != null" >
+        totalTransactions = #{totaltransactions,jdbcType=DOUBLE},
+      </if>
+      <if test="amountmoney != null" >
+        amountMoney = #{amountmoney,jdbcType=DOUBLE},
+      </if>
+      <if test="totalrevenue != null" >
+        totalRevenue = #{totalrevenue,jdbcType=DOUBLE},
+      </if>
+      <if test="usernum != null" >
+        userNum = #{usernum,jdbcType=INTEGER},
+      </if>
+      <if test="totaltradenum != null" >
+        totalTradeNum = #{totaltradenum,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinrong.bean.Platformstable" >
+    update platformstable
+    set totalTransactions = #{totaltransactions,jdbcType=DOUBLE},
+      amountMoney = #{amountmoney,jdbcType=DOUBLE},
+      totalRevenue = #{totalrevenue,jdbcType=DOUBLE},
+      userNum = #{usernum,jdbcType=INTEGER},
+      totalTradeNum = #{totaltradenum,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

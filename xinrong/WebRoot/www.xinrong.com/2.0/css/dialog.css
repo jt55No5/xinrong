@@ -1,0 +1,130 @@
+body{_margin:0;_height:100%}.d-outer{text-align:left;padding:6px;padding:0\9;background-color:rgba(114,114,114,0.6);filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#99727272', EndColorStr = '#99727272');filter:none\0}:root .d-outer{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#00000000', EndColorStr = '#00000000')}:root .d-outer{padding:6px\0}.d-border,.d-dialog{border:0 none;margin:0;border-collapse:collapse;width:auto}.d-nw,.d-n,.d-ne,.d-w,.d-c,.d-e,.d-sw,.d-s,.d-se,.d-header,.d-main,.d-footer{padding:0}.d-header,.d-button{font:12px/1.11 "Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti;_font-family:Tahoma, Arial, Helvetica, STHeiti;-o-font-family:Tahoma, Arial}.d-title{overflow:hidden;text-overflow:ellipsis;cursor:default;font-family:Simsun}.d-close{display:block;position:absolute;text-decoration:none;outline:none;_cursor:pointer}.d-close:hover{text-decoration:none}.d-main{text-align:center;vertical-align:middle;min-width:9em;background-color:#fff}.d-content{display:inline-block;display:block\0 ;display:inline-block\9\0;*zoom:1;*display:inline;text-align:left;border:0 none}.d-content h3{font-weight:700}.d-content.d-state-full{display:block;width:100%;margin:0;padding:0 !important;height:100%}.d-loading{width:96px;height:32px;text-align:left;text-indent:-999em;overflow:hidden;background: url("../../s/img/icons/tip/loading.gif-1349688622.gif"/*tpa=https://www.xinrong.com/s/img/icons/tip/loading.gif?1349688622*/) no-repeat center}.d-buttons{padding:8px 16px;text-align:right;white-space:nowrap;display:none}.d-button{margin-left:10px;padding:1px 15px;*padding:3px 15px;cursor:pointer;display:inline-block;min-height:2.1em;text-align:center;letter-spacing:2px;font-family:Tahoma,Arial/9 !important;width:auto;overflow:visible;*width:1;border-radius:2px;color:#333;border:1px solid #b0c6da;background:white;background:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f6f6f6));background-image:-webkit-linear-gradient(#ffffff,#f6f6f6);background-image:-moz-linear-gradient(#ffffff,#f6f6f6);background-image:-o-linear-gradient(#ffffff,#f6f6f6);background-image:linear-gradient(#ffffff,#f6f6f6)}.d-button:hover{background:#fff;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e5e9ec));background-image:-webkit-linear-gradient(#ffffff,#e5e9ec);background-image:-moz-linear-gradient(#ffffff,#e5e9ec);background-image:-o-linear-gradient(#ffffff,#e5e9ec);background-image:linear-gradient(#ffffff,#e5e9ec)}.d-button[disabled]{cursor:default;color:#666;background:#ddd;border:1px solid #999;filter:alpha(opacity=50);opacity:.5;box-shadow:none}.d-state-highlight{color:#fff;border-color:#f15a00;background:#ff8410;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff8410), color-stop(100%, #f16000));background-image:-webkit-linear-gradient(#ff8410,#f16000);background-image:-moz-linear-gradient(#ff8410,#f16000);background-image:-o-linear-gradient(#ff8410,#f16000);background-image:linear-gradient(#ff8410,#f16000);color:#fff !important}.d-state-highlight:hover{border-color:#de3300;background:#fa6600;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fa6600), color-stop(100%, #e34500));background-image:-webkit-linear-gradient(#fa6600,#e34500);background-image:-moz-linear-gradient(#fa6600,#e34500);background-image:-o-linear-gradient(#fa6600,#e34500);background-image:linear-gradient(#fa6600,#e34500)}.d-mask{background:#000;filter:alpha(opacity=26);opacity:.26}.d-outer,.d-inner{border:1px solid #0078b5}.d-outer{border:none}.d-nw,.d-ne,.d-sw,.d-se{width:8px;height:8px;width:6px\0;height:6px\0;*width:6px;*height:6px}.d-nw,.d-n,.d-ne,.d-w,.d-e,.d-sw,.d-s,.d-se{font-size:0;background:#000\9  !important;filter:alpha(opacity=25)}.d-titleBar{position:relative;height:100%}.d-title{height:30px;line-height:30px;padding:0 28px 0 10px;color:#fff;font-family:Tahoma,Arial/9 !important;background:#74b4e2;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74b4e2), color-stop(100%, #3d8fca));background-image:-webkit-linear-gradient(#74b4e2,#3d8fca);background-image:-moz-linear-gradient(#74b4e2,#3d8fca);background-image:-o-linear-gradient(#74b4e2,#3d8fca);background-image:linear-gradient(#74b4e2,#3d8fca)}.d-state-focus .d-title{color:#fff;font-weight:700;cursor:move}.d-state-drag .d-titleBar{box-shadow:none}.d-close{padding:0;top:4px;right:4px;width:21px;height:21px;line-height:21px;font-size:25px;_font-size:20px;color:#fff;text-align:center;font-family:Helvetica, STHeiti;_font-family:Tahoma, '\u9ed1\u4f53', 'Book Antiqua', Palatino}.d-content{color:#666;background-color:#fff}.d-state-focus .d-content{color:#000}.d-buttons{background-color:#f2f2f2;border-top:1px solid #DADEE5}.d-state-lightbox{padding:8px}.d-state-lightbox .d-title{display:none}.d-state-lightbox .d-close{top:0;right:0;background-color:rgba(114,114,114,0.3);filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#4D727272', EndColorStr = '#4D727272')}:root .d-state-lightbox .d-close{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#00000000', EndColorStr = '#00000000')}.d-state-lightbox .d-nw,.d-state-lightbox .d-ne,.d-state-lightbox .d-sw,.d-state-lightbox .d-se{width:8px;height:8px}.d-state-lightbox .d-inner{border:none}.d-state-lightbox .d-content img{display:block}:root .d-state-lightbox{padding:8px\0}@media screen and (min-width: 0){.d-nw,.d-n,.d-ne,.d-w,.d-e,.d-sw,.d-s,.d-se{display:none}.d-inner{border-color:#0078b5}.d-outer{border:0 none}}.wgt-dialog{position:relative;width:480px;height:260px}.wgt-dialog .wgt-dialog-title{font-size:14px;font-weight:700}.wgt-dialog .wgt-dialog-title a.blue{font-size:12px;font-weight:normal;margin-left:10px}.wgt-dialog .wgt-dialog-title.info{height:16px;font-size:12px !important;color:#333}.wgt-dialog-alert{width:520px;height:230px}.wgt-dialog-alert .wgt-dialog-container{padding-top:10px}.wgt-dialog-alert .wgt-dialog-title,.wgt-dialog-alert .wgt-dialog-content{padding-left:45px}.wgt-dialog-alert .wgt-dialog-title{font-size:14px;font-weight:700;color:#333}.wgt-dialog-alert .wgt-dialog-content{padding-top:10px;color:#666}.wgt-dialog-alert .wgt-dialog-buttons{padding-top:45px;text-align:center}.wgt-dialog-alert .wgt-dialog-buttons .ui-button-white{display:none}.wgt-dialog-alert .wgt-dialog-buttons .ui-button{margin-right:12px;vertical-align:middle}.wgt-dialog-alert .extra-info{margin:30px 0px 0px 125px;padding-left:15px;background: url("../../s/img/tip.png-1354071023.png"/*tpa=https://www.xinrong.com/s/img/tip.png?1354071023*/) no-repeat left center}.wgt-dialog-alert .extra-info a{color:#0078b6}.wgt-dialog-alert.wgt-state-error .extra-info{margin-left:145px}.wgt-dialog-alert.wgt-state-error .ui-button{padding:0 5px}.wgt-dialog-safety-pay{height:auto;padding-bottom:25px}.wgt-dialog-safety-pay .ui-form{padding:30px 0 0 90px}.wgt-dialog-safety-pay .wgt-dialog-title{margin-bottom:18px}.pay-confirm-form .ui-form-label,.error-form .ui-form-label{width:85px}.pay-confirm-form .ui-form-line{margin-top:0}.pay-confirm-form .ui-form-safe-pwd{height:55px;padding-top:5px}.pay-confirm-form .ui-form-safe-pwd .ui-form-input{width:125px}.pay-confirm-form .ui-form-safe-pwd .ui-tip{position:absolute;top:35px;left:88px}.pay-confirm-form .ui-form-action{padding-left:90px}.pay-confirm-form .ui-loading{margin-left:20px}.error-form{width:300px;padding-left:60px}.error-form .ui-form-line{margin-top:6px}.error-form .wgt-dialog-title{margin-bottom:30px}.error-form .ui-form-action{padding-top:20px}.error-form .ui-button{margin-left:40px}
+
+.borrowingdialog{ width:100%;}
+.borrowingdialog dl{ width:100%; clear:both; padding:10px 0 0 0; line-height:29px;}
+.borrowingdialog dt{ width:25%; float:left; text-align:right;}
+.borrowingdialog dd{ width:65%; float:left;}
+.borrowingdialog dd .text01{ width:128px; height:27px; line-height:27px; /* text-align:center; */ border:1px solid #b6c4cd; padding:0px; margin:0px;}
+.borrowingdialog .icon01{ width:15px; height:15px; display:inline-block; background-position:-293px 0px; vertical-align:middle; margin:0 0 4px 5px; cursor:pointer; position:relative;}
+.borrowingdialog .icon01 .infobox{ display:none;}
+.borrowingdialog .icon01:hover .infobox{ display:inline-block; width:168px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:20px; top:-16px; padding:8px; line-height:18px; font-style:normal;}
+.borrowingdialog .icon01:hover .infobox b{ display:inline-block; position:absolute; left:-6px; top:15px;}
+.borrowingdialog .selectw01{ width:158px; height:27px; line-height:27px; border:1px solid #b6c4cd;}
+.borrowingdialog .textarea01{ width:337px; height:61px; border:1px solid #b6c4cd; padding:10px;}
+.borrowingdialog .Icon02{ width:14px; height:14px; display:inline-block; background-position:-492px -85px; vertical-align:middle; margin-right:5px;}
+
+.borrowingdialog .infofont{ padding:5px 0 0 53px; line-height:20px; color:#999;}
+.borrowingdialog .infofont h2{ font-size:14px; font-weight:normal; color:#333;}
+
+.borrowingdialog .dialoglist{ width:100%; margin:0px; padding:20px 0 0 0px; list-style:none;}
+.borrowingdialog .dialoglist li{ padding-left:118px; height:35px; line-height:35px;}
+.borrowingdialog .dialoglist input{ vertical-align:middle;}
+
+.borrowingdialog .text02{ width:129px; height:27px; line-height:27px; border:1px solid #b6c4cd; padding:0px 5px; margin:0px;}
+.borrowingdialog .listsub{ display:block; padding:30px 0 20px 138px;}
+.borrowingdialog .titlecuss{ text-align:center; padding:38px 0 20px 0; font-size:15px;}
+.borrowingdialog .titlecuss img{ vertical-align:middle; padding-right:8px;}
+.borrowingdialog .cussfont{ display:block; width:450px; margin:0 auto; line-height:24px;}
+.borrowingdialog .cusssub{ display:block; text-align:center; padding:40px 0 0 0;}
+.borrowingdialog .cusssub .accsub01{ margin-left:10px;}
+
+.borrowingdialog .weicuss{ display:block; padding:30px 0 26px 10px; font-size:14px;}
+.borrowingdialog .weitable{ border-top:1px solid #d1d1d1; padding-top:3px;}
+.borrowingdialog .AccFontPage{ height:40px; line-height:40px;}
+
+.borrowingdialog .jiekuan{ padding:0 25px;}
+.borrowingdialog .jiekuan h2{ line-height:60px; font-size:14px;}
+.borrowingdialog .jiekuan ul{ width:100%; padding:37px 0 88px 0;}
+.borrowingdialog .jiekuan ul li{ width:172px; text-align:center; height:3px; background:#58a2d6; border:1px solid #fff; border-width:0 1px; line-height:0px; font-size:0px; float:left; position:relative;}
+.borrowingdialog .jiekuan ul li .libox{ display:block; position:absolute; left:0; top:-37px; width:175px;}
+.borrowingdialog .jiekuan ul li .icon01{ width:71px; height:71px; background:#fff; border:2px solid #58a2d6; border-radius:100%;}
+.borrowingdialog .jiekuan ul li .icon01 img{ padding:15px 0 0 0;}
+.borrowingdialog .jiekuan ul li .iconpadd img{ padding-top:20px;}
+.borrowingdialog .jiekuan ul li h3{ font-weight:normal; line-height:19px; font-size:12px;}
+.borrowingdialog .jiekuan ul li p{ line-height:19px; font-size:12px; color:#717171;}
+
+.borrowingdialog .jiekuan ul li.libg01{ background:#fd0000; color:#fd0000;}
+.borrowingdialog .jiekuan ul li.libg01 .icon01{ border-color:#fd0000;}
+.borrowingdialog .jiekuan ul li.libg01 .icon01 img{ padding-top:12px;}
+
+.borrowingdialog .jiekuan ul li.libg02{ background:#89bc10;}
+.borrowingdialog .jiekuan ul li.libg02 .icon01{ border-color:#89bc10;}
+.borrowingdialog .jiekuan ul li.libg02 .icon01 img{ padding-top:18px;}
+
+.borrowingdialog .jiekuan ul li.libg03{ background:#f97409;}
+.borrowingdialog .jiekuan ul li.libg03 .icon01{ border-color:#f97409;}
+.borrowingdialog .jiekuan ul li.libg03 .icon01 img{ padding-top:20px;}
+
+.borrowingdialog .jiekuan h4{ background:#f5f5f5; height:39px; line-height:39px; margin-top:15px; padding:0 10px; font-weight:normal;}
+.borrowingdialog .jiekuan h4 .left{ padding-right:30px;}
+
+.borrowingdialog .jiekuantitle{ line-height:51px; padding:0 25px; font-size:14px;}
+.borrowingdialog .jiekuantitle .fontsize{ font-size:12px; font-weight:normal;}
+
+.borrowingdialog .IntegralBox table th{ padding:0 5px;}
+.borrowingdialog .IntegralBox table td{ padding:0 5px;}
+.borrowingdialog .IntegralBox table td .orange{ text-decoration:none;}
+.borrowingdialog .jiekuanbox{ position:relative; width:100%; cursor:pointer;}
+.borrowingdialog .jiekuanbox .infobox{ display:none;}
+.borrowingdialog .jiekuanbox:hover .infobox{ display:inline-block; width:283px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:-140px; top:22px; padding:8px; line-height:18px; font-style:normal; text-align:left; z-index:99;}
+.borrowingdialog .jiekuanbox:hover .infobox b{ display:inline-block; position:absolute; left:180px; top:-7px;}
+.borrowingdialog .jiekuanbox:hover .infobox .c999{ color:#999; padding-right:8px;}
+
+.borrowingdialog .jiekuaninfo{ padding:15px 25px;}
+.borrowingdialog .jiekuaninfo .AllIcon{width:15px; height:15px; display:inline-block; background-position:-293px 0px; vertical-align:middle; margin:0 5px 4px 0;}
+
+
+
+
+.recommend-dialog{ width:100%; padding:20px 0;}
+.recommend-dialog dl{ width:100%; clear:both; padding:30px 0 0 0;}
+.recommend-dialog dt{ padding-left:50px; float:left;}
+.recommend-dialog dt i{ width:32px; height:32px; display:inline-block; background-position:0 -247px;}
+.recommend-dialog dd{ float:left; padding-left:10px; line-height:30px;}
+.recommend-dialog dd h2{ font-size:14px;}
+
+.recommend-dialog .dialogsub{ width:100%; text-align:center; padding:40px 0 0 0;}
+.recommend-dialog .dialogsub .sub02{ width:120px; height:30px; line-height:30px; margin-left:25px; font-size:14px;}
+
+
+
+.dialog_vip{ width:518px;}
+.dialog_vip h2{ font-weight:bold; font-size:16px; padding:20px 0 0 33px; line-height:38px;}
+.dialog_vip dl{ width:100%; line-height:35px; clear:both; font-size:13px;}
+.dialog_vip dt{ width:140px; text-align:right; padding:0 0 0 33px; float:left;}
+.dialog_vip dd{ float:left;}
+.dialog_vip dd .paddingleft{ padding-left:25px;}
+.dialog_vip p{ line-height:20px;}
+.dialog_vip .inputtext{ width:160px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_vip .inputtext01{ width:260px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_vip .inputtext02{ width:100px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_vip dd .sub02{ width:120px; height:36px; line-height:36px; font-size:14px; margin-top:15px;}
+
+.dialog_vip .dialogsub{ padding:25px 0; text-align:center;}
+.dialog_vip .dialogsub .sub02,.dialog_vip .dialogsub .sub04{ width:120px; height:36px; line-height:36px; font-size:14px;}
+
+.dialog_sucfont{ padding:30px 0;}
+.dialog_sucfont h3{ font-size:15px; line-height:30px; padding-bottom:15px;}
+.dialog_sucfont dl{ line-height:20px; padding-bottom:20px; font-size:12px;}
+.dialog_sucfont dt{ width: 102px; text-align: right; padding: 0 0 0 33px; float: left;}
+.dialog_sucfont dt .icondagou{ width:35px; height:35px; background:url("../images/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/2.0/images/tip-s5a01e083c6.png*/) 0 -39px no-repeat; display:inline-block; vertical-align:middle; margin:0 10px 3px 3px; display:inline-block;}
+.dialog_sucfont dd{ float:left;}
+
+.borrowingdialog .repayment{ padding:20px 30px; font-size:14px; line-height:24px; color:#999; display:block;}
+.borrowingdialog .repaylist{ margin:0px; padding:0px 30px;}
+.borrowingdialog .repaylist li{ width:100%; height:26px; line-height:26px; font-size:12px;}
+.borrowingdialog .repaymentsub{ text-align:center; padding:20px 0;}
+.borrowingdialog .repaymentsub .paddingleft{ padding-left:20px;}
+
+
+/*scroll*/
+.scroll::-webkit-scrollbar { width: 4px; height: 4px; background-color: #d8d8d8;}  
+.scroll::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3); border-radius: 0px; background-color: #d8d8d8;}  
+.scroll::-webkit-scrollbar-thumb { border-radius: 0px; -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.3); background-color: #4d8bc6;}
+
+.borrowin_shouquan{ margin:10px 0 0; height:482px; border-bottom:1px solid #d8d8d8; box-shadow:inset 0px -3px 5px #e7e7e7; padding-right:10px;}
+.borrowin_shouquan .shouquan_font{ height:452px; padding:10px 20px 0 30px; font-size:13px; line-height:21px; overflow:hidden; overflow-y:scroll;}
+
+
+
+

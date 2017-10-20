@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+.more{ color:#b6b6b6;}
+.more:hover{ color:#f60; text-decoration:none;}
+.h-announcement{ width:100%; min-width:1100px; background:#f5f5f5; font-size:15px;}
+.h-announcement .t-m{ position:absolute; left:0px; top:8px;}
+.h-announcement li{ width:100%; clear:none; height:39px; line-height:39px; color:#444; overflow:hidden;}
+.h-announcement li a{ color:#444; padding-left:40px; float:left;}
+.h-announcement .f-time{ float:right; padding-right:60px;}
+.h-announcement .more{ position:absolute; right:0px; top:0px; display:inline-block; line-height:39px;}
+#h_announcement{ height:39px; overflow:hidden;}
+
+.h_summary{ padding:42px 0 27px 0;}
+.h_summary li{ width:270px; height:197px; text-align:center; color:#777; line-height:24px; font-size:14px; padding:10px 0; float:left; position:relative;}
+.h_summary li:hover { box-shadow: 1px 1px 10px 2px #f6f6f6; position:relative; margin-top:-3px;}
+.h_summary li i{ width:91px; height:73px; display:inline-block; background:url("../images/i-sum.png"/*tpa=https://www.xinrong.com/2.0/images/i-sum.png*/) no-repeat; -webkit-transition: all 0s ease-in; -moz-transition: all 0s ease-in; transition: all 0s ease-in;}
+
+.h_summary li i.icon01{ background-position:0 0;}
+.h_summary li i.icon02{ background-position:-119px 0;}
+.h_summary li i.icon03{ background-position:-239px 0;}
+.h_summary li i.icon04{ background-position:-359px 0;}
+.h_summary li a{ color:#777; text-decoration:none;}
+.h_summary li h2{ height:50px; line-height:50px; font-size:24px; font-weight:normal; color:#444;}
+
+.h_summary dl{ width:265px; float:left;}
+.h_summary dl a{ display:block;}
+.h_summary dl.w01{ width:305px;}
+.h_summary dt{ width:83px; float:left;}
+.h_summary dt i{ width:78px; height:78px; display:inline-block; background:url("../images/h-10.png"/*tpa=https://www.xinrong.com/2.0/images/h-10.png*/) no-repeat; -webkit-transition: .6s; transition: .6s;}
+.h_summary dl:hover i{ background:url("../images/h-11.png"/*tpa=https://www.xinrong.com/2.0/images/h-11.png*/) no-repeat; -webkit-transform: rotateY(180deg); transform: rotateY(180deg);}
+.h_summary dt i.icon01{ background-position:0 0;}
+.h_summary dt i.icon02{ background-position:-83px 0;}
+.h_summary dt i.icon03{ background-position:-167px 0;}
+.h_summary dt i.icon04{ background-position:-249px 0;}
+.h_summary dd{ padding:0 0 0 10px; float:left; font-size:13px; color:#666; line-height:21px;}
+.h_summary dd h2{ color:#444; font-size:20px; font-weight:normal; height:30px;}
+.h_summary dl:hover dd{ color:#f60;}
+.h_summary dl a:hover{ color:#f60;}
+
+.h_s_data{ width:100%; min-width:1100px; background:url("../images/h-01.jpg"/*tpa=https://www.xinrong.com/2.0/images/h-01.jpg*/) center no-repeat; height:171px;}
+.h_s_data ul{ padding:40px 0 0 0;}
+.h_s_data li{ width:270px; color:#f60; text-align:center; font-size:24px; line-height:32px; float:left;}
+.h_s_data li .f_size{ font-size:13px;}
+.h_s_data li h2{ font-size:14px; color:#666; font-weight:normal;}
+.h_s_data .more{ text-align:center; line-height:70px; font-size:14px; color:#666;}
+.h_s_data .more i{ width:17px; height:14px; background-position:-356px -279px; display:inline-block; vertical-align:middle; margin:0 5px 2px 0;}
+
+.h_product{ width:100%; min-width:1100px; background:#f5f5f5;}
+.h_title{ border-bottom:2px solid #e0e0e0; height:3px; position:relative; text-align:center; padding:50px 0 0px 0; margin-bottom:50px; font-size:32px; font-weight:normal; line-height:32px;}
+.h_title span{ display:inline-block; background:#f5f5f5; position:relative; margin-top:-12px; padding:0 10px;}
+.h_title p{ font-size:13px; color:#a6a6a6;}
+
+.h_product .h_pro_xcb{ background:#fff;}
+.h_product .h_pro_xcb .xcb_left{ background:url("../images/h-02.jpg"/*tpa=https://www.xinrong.com/2.0/images/h-02.jpg*/) repeat-x; width:177px; text-align:center; line-height:26px; color:#fff; font-size:16px;}
+.h_product .h_pro_xcb .xcb_left .l_pic{ background:url("../images/h-03.png"/*tpa=https://www.xinrong.com/2.0/images/h-03.png*/) bottom center no-repeat; display:block; height:273px;}
+.h_product .h_pro_xcb .xcb_left h2{ border-bottom:1px solid #f38d04; font-size:28px; text-align:center; color:#fff; height:50px; line-height:50px; padding-top:20px; font-weight:normal;}
+.h_product .h_pro_xcb .xcb_left h2 span{ font-size:13px; vertical-align:text-top; display:inline-block; line-height:15px; padding-left:4px; margin-top:-3px;}
+.h_product .h_pro_xcb .xcb_left p{ padding-top:20px;}
+.h_product .h_pro_xcb .xcb_right{ width:900px; padding-right:12px;}
+.h_product .h_pro_xcb .xcb_right h2{ font-size:14px; border-bottom:1px dotted #dedede; height:46px; line-height:46px; padding:0 10px; font-weight:normal;}
+.h_product .h_pro_xcb .xcb_right .xcb_data{ width:500px;}
+.h_product .h_pro_xcb .xcb_right .xcb_data h3{ font-weight:normal; font-size:14px; color:#999; line-height:48px; padding:0 10px;}
+.h_product .h_pro_xcb .xcb_right .xcb_data .data_box{ display:block; padding-left:53px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font{ width:400px; padding:17px 0 0 0; line-height:50px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font h3{ height:53px; line-height:53px; font-weight:normal; font-size:20px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font p{ color:#999; font-size:16px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font i.icon01{ width:21px; height:24px; display:inline-block; background-position:-387px -279px; vertical-align:middle; margin:0 5px 2px 0;}
+.h_product .h_pro_xcb .xcb_right .xcb_font i.icon02{ width:27px; height:25px; display:inline-block; background-position:-422px -279px; vertical-align:middle; margin:0 5px 2px 30px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font i.icon03{ width:25px; height:20px; display:inline-block; background-position:-460px -279px; vertical-align:middle; margin:0 5px 2px 30px;}
+.h_product .h_pro_xcb .xcb_right .xcb_font .xcb_sub{ display:block; padding:30px 55px 0 0; text-align:center;}
+.h_product .h_pro_xcb .xcb_right .xcb_font .xcb_sub .sub02{ width:252px; height:40px; line-height:40px; font-size:16px;}
+
+.h_product .h_prolist{ background:#fff;}
+.h_product .h_prolist .h_p_left{ background:url("../images/h-05.jpg"/*tpa=https://www.xinrong.com/2.0/images/h-05.jpg*/) repeat-x; width:177px; text-align:center; line-height:28px; color:#fff; font-size:16px;}
+.h_product .h_prolist .h_p_left .l_pic{ background:url("../images/h-06.png"/*tpa=https://www.xinrong.com/2.0/images/h-06.png*/) bottom right no-repeat; display:block; height:424px;}
+.h_product .h_prolist .h_p_left .double{ position:absolute; left:30px; top:230px; display:block;}
+.h_product .h_prolist .h_p_left .double{ -webkit-animation:double 2.4s .5s ease both infinite;
+-moz-animation:double 2.4s .5s ease both infinite;
+-ms-animation:double 2.4s .5s ease both infinite;
+-o-animation:double 2.4s .5s ease both infinite;
+animation:double 2.4s .5s ease both infinite;}
+@-webkit-keyframes double{0%{ top:200px;}50%{ top:230px;}100%{ top:200px;}}
+@-moz-keyframes double{0%{ top:200px;}50%{ top:230px;}100%{ top:200px;}}
+@-ms-keyframes double{0%{ top:200px;}50%{ top:230px;}100%{ top:200px;}}
+@-o-keyframes double{0%{ top:200px;}50%{ top:230px;}100%{ top:200px;}}
+@keyframes double{0%{ top:200px;}50%{ top:230px;}100%{ top:200px;}}
+.h_product .h_prolist .h_p_left h2{ border-bottom:1px solid #f74f24; font-size:28px; text-align:center; color:#fff; height:50px; line-height:50px; padding-top:20px; font-weight:normal;}
+.h_product .h_prolist .h_p_left p{ padding-top:20px;}
+.h_product .h_prolist .h_p_left .p_time{ position:absolute; left:0px; bottom:0px; height:78px; text-align:center; line-height:22px; width:100%;}
+.h_product .h_prolist .h_p_left .p_time i{ width:27px; height:29px; display:inline-block; vertical-align:middle; background-position:-492px -279px; margin-right:8px;}
+.h_product .h_prolist .h_p_left .p_time span{ display:inline-block; vertical-align:middle;}
+.h_product .h_prolist .h_p_left .p_time .c-f{ color:#fff100; font-weight:normal;}
+
+.h_product .h_prolist .h_p_right{ width:922px; overflow:hidden;}
+.h_product .h_prolist .h_p_right ul.tabs {width:100%; height:68px; line-height:68px; overflow:hidden; position:relative;}
+.h_product .h_prolist .h_p_right ul.tabs li { width:166px; height:68px; line-height:68px; text-align:center; display:inline-block; font-size:16px; cursor:pointer; position:relative;}
+.h_product .h_prolist .h_p_right ul.tabs li.current { color:#f60; font-weight:bold;}
+.h_product .h_prolist .h_p_right ul.tabs li i{ color:#e9e6e4; font-style:normal; position:absolute; right:0px; font-weight:normal;}
+.h_product .h_prolist .h_p_right ul .more{ position:absolute; right:10px; top:0px; display:inline-block; font-size:14px;}
+.h_product .h_prolist .h_p_right .contents{ width:922px; overflow:hidden; position:relative;}
+.h_product .h_prolist .h_p_right .tabscontent { width:925px; border-top:1px solid #ebebeb; position:relative; height:355px; overflow:hidden; display:none;}
+.h_product .h_prolist .h_p_right .tabscontent .px_prev,.h_product .h_prolist .h_p_right .tabscontent .px_next{ display:none;}
+.h_product .h_prolist .h_p_right .tabscontent:hover .px_prev{ width:40px; height:70px; position:absolute; left:0px; top:20%; margin-top:-10px; display:block; background:rgba(0,0,0,0.05); z-index:9; display:block;}
+.h_product .h_prolist .h_p_right .tabscontent:hover .px_next{ width:40px; height:70px; position:absolute; left:885px; top:20%; margin-top:-10px; display:block; background:rgba(0,0,0,0.05); z-index:9; display:block;}
+
+.h_product .h_prolist .h_p_right .tabscontent dl{ width:277px; padding:0 15px; border-right:1px solid #ebebeb; height:355px; float:left; cursor: pointer; }
+.h_product .h_prolist .h_p_right .tabscontent dt{ border-bottom:1px dotted #dedede; color:#9c9c9c; font-size:13px; line-height:18px; text-align:center; padding-bottom:15px;}
+.h_product .h_prolist .h_p_right .tabscontent .p_day{ width:89px; height:43px; line-height:38px; display:block; text-align:center; background:url("../images/h-07.png"/*tpa=https://www.xinrong.com/2.0/images/h-07.png*/) no-repeat; color:#fff; font-size:16px;}
+.h_product .h_prolist .h_p_right .tabscontent .p_day span{ font-size:14px;}
+.h_product .h_prolist .h_p_right .tabscontent dt h2{ line-height:40px; font-size:42px; color:#f60; font-weight:normal; text-align:center; padding-top:40px;}
+.h_product .h_prolist .h_p_right .tabscontent dt h2 span{ font-size:24px;}
+.h_product .h_prolist .h_p_right .tabscontent dt h2 span.f-raise{ width:57px; height:29px; line-height:20px; display:inline-block; background:url("../images/raise.png"/*tpa=https://www.xinrong.com/2.0/images/raise.png*/) no-repeat; vertical-align:top; color:#fff100; font-size:14px; text-align:center;}
+.h_product .h_prolist .h_p_right .tabscontent dd{ padding:22px 0 0 0; line-height:28px; color:#999; font-size:13px; position:relative;}
+.h_product .h_prolist .h_p_right .tabscontent dd .t-f{ position:absolute; right:0px; top:22px; text-align:right;}
+.h_product .h_prolist .h_p_right .tabscontent dd .p_pic{ height:28px;}
+.h_product .h_prolist .h_p_right .tabscontent dd .sub03,.h_product .h_prolist .h_p_right .tabscontent dd .sub02,.h_product .h_prolist .h_p_right .tabscontent dd .sub01{ font-size:16px; width:252px; height:40px; line-height:40px; margin:20px 0 0 10px;}
+.h_product .t-msg{ font-size:14px; color:#999; text-align:center; line-height:78px;}
+.h_product #botton-scroll { height:355px;}
+
+
+.h_brand{ width:100%; min-width:1100px; background:url("../images/h-07.jpg"/*tpa=https://www.xinrong.com/2.0/images/h-07.jpg*/) center no-repeat; height:476px;}
+
+.h_voice{ width:100%; min-width:1100px; background:#f5f5f5;}
+.h_voice .media_box{ background:#fff; width:698px; height:300px;}
+.h_voice h2{ border-bottom:1px solid #e8e8e8; height:42px; line-height:42px; padding-top:10px; font-weight:normal; font-size:20px; position:relative;}
+.h_voice h2 span{ display:inline-block; line-height:41px; border-bottom:2px solid #f60; padding:0 15px;}
+.h_voice h2 .more{ position:absolute; right:10px; top:10px; font-size:13px;}
+
+.h_voice .xrvideo { position: relative; width: 264px; height: 186px; overflow: hidden; text-align: left; background: white; padding:34px 0 0 17px;}
+.h_voice .xrvideo .pic img { width: 264px; height:186px; display: block;}
+.h_voice .xrvideo .txt-bg {	position: absolute;	bottom: 0; z-index: 3; height: 38px; width: 100%; background: #4b4a49; overflow: hidden;}
+.h_voice .xrvideo .txt { position: absolute; bottom: 0;	z-index: 3;	height: 38px; width: 100%; overflow: hidden;}
+.h_voice .xrvideo .txt li {	height: 38px; line-height: 38px; position: absolute; bottom: -38px;}
+.h_voice .xrvideo .txt li a { display: block; color: white;	padding: 0 0 0 10px; font-size: 12px; text-decoration: none;}
+.h_voice .xrvideo .num { position: absolute; z-index: 4; bottom: 48px; right: 8px;}
+.h_voice .xrvideo .num li {	float: left; position: relative; width: 18px; height: 15px;	line-height: 15px; overflow: hidden; text-align: center; margin-right: 4px; cursor: pointer;}
+.h_voice .xrvideo .num li a, .xrvideo .num li span { position: absolute; z-index: 2; display: block; color: white;	width: 100%; height: 100%; top: 0; left: 0;	text-decoration: none;}
+.h_voice .xrvideo .num li span { z-index: 1; background: black;	filter: alpha(opacity=50); opacity: 0.5;}
+.h_voice .xrvideo .num li.on a, .xrvideo .num a:hover { background: #f60;}
+
+.h_voice .media_list{ width:396px; padding-top:13px;}
+.h_voice .media_list dl{ width:100%; clear:both; height:37px; line-height:37px; font-size:13px;}
+.h_voice .media_list dt{ float:left; width: 307px; height: 37px; overflow: hidden;}
+.h_voice .media_list dt i{ font-style:normal; color:#dedede; padding-right:8px;}
+.h_voice .media_list dd{ float:right; padding-right:10px; color:#999;}
+
+.h_voice .monthly_box{ width:373px; height:300px; background:#fff; overflow:hidden;}
+.h_voice .monthly_box ul.tabs{ width:100%; border-bottom: 1px solid #e8e8e8; height: 42px; line-height: 42px; padding-top: 10px; font-weight: normal; font-size: 20px; position: relative;}
+.h_voice .monthly_box ul.tabs li{ display: inline-block; line-height: 41px; border-bottom: 1px solid #e8e8e8; padding:1px 15px 0 15px; float:left; cursor:pointer;}
+.h_voice .monthly_box ul.tabs li.current{ border-bottom: 2px solid #f60;}
+
+.h_voice .monthly_box .tabscontent{ width:100%; position:relative;}
+.h_voice .monthly_box .tabscontent .more{ position:absolute; right:10px; top:-20px; font-size:13px; display:block; z-index:9;}
+.h_voice .monthly_box .tabscontent .fc_pic{ text-align:center; padding-top:20px;}
+
+
+.h_voice .monthly_box #monthlypic { height: 300px; width:373px; position:relative; margin-top:-14px;}
+.h_voice .monthly_box #monthlypic .feature { position:absolute; top:0px; left:0px; border:3px solid white; cursor:pointer;}
+.h_voice .monthly_box #monthlypic .feature > div { position:absolute; bottom:0px; left:0px; background-color:black; width:100%;}
+.h_voice .monthly_box #monthlypic .feature > div p { margin:0; padding:5px; font-weight:bold; font-size:12px; color:white;}
+
+.h_partner .h_title span{ background:#fff;}
+.h_partner ul{ padding:20px 0;}
+.h_partner ul li{ width:270px; text-align:center; padding:30px 0; float:left;}
+.h_partner ul li.wp{ width:290px;}
+
+.h-toolbar{ position: fixed; bottom: 25%; right:0px; z-index:8;}
+@media screen and (min-width : 1270px){.h-toolbar{ right:0px; left: 50%; margin-left: 580px;}}
+.h-toolbar ul{ margin:0px; padding:0px; list-style:none;}
+.h-toolbar ul li{ width:52px; padding-bottom:1px; line-height:20px; position:relative;}
+.h-toolbar ul li a{ width:52px; height:50px; background:#c9c9c9; text-align:center; color:#fff; display:block;}
+.h-toolbar ul li a:hover{ text-decoration:none; background:#ff802b;}
+.h-toolbar ul li a.cur{ text-decoration:none; background:#ff802b;}
+.h-toolbar ul li .toolfont{ display:none;}
+.h-toolbar ul li:hover .toolfont{ width:52px; height:50px; line-height:50px; font-size:14px; background:#ff802b; display:block; position:absolute; left:0px; top:0px; margin-left:-52px;}
+.h-toolbar ul li:hover .toolfont{ -webkit-animation:toolfont .2s .1s ease both;
+-moz-animation:toolfont .2s .1s ease both;
+-ms-animation:toolfont .2s .1s ease both;
+-o-animation:toolfont .2s .1s ease both;
+animation:toolfont .2s .1s ease both;}
+@-webkit-keyframes toolfont{0%{margin-left:0px;}100%{margin-left:-52px;}}
+@-moz-keyframes toolfont{0%{margin-left:0px;}100%{margin-left:-52px;}}
+@-ms-keyframes toolfont{0%{margin-left:0px;}100%{margin-left:-52px;}}
+@-o-keyframes toolfont{0%{margin-left:0px;}100%{margin-left:-52px;}}
+@keyframes toolfont{0%{margin-left:0px;}100%{margin-left:-52px;}}
+
+.h-toolbar ul li i{ background:url("../images/toolbar.png"/*tpa=https://www.xinrong.com/2.0/images/toolbar.png*/) no-repeat;}
+.h-toolbar ul li i.icon01{ width:25px; height:26px; background-position:0 0; display:inline-block; margin-top:5px;}
+.h-toolbar ul li i.icon02{ width:31px; height:26px; background-position:0 -43px; display:inline-block; margin-top:5px;}
+.h-toolbar ul li i.icon03{ width:14px; height:26px; background-position:0 -87px; display:inline-block; margin-top:5px;}
+.h-toolbar ul li i.icon04{ width:21px; height:26px; background-position:0 -134px; display:inline-block; margin-top:5px;}
+.h-toolbar ul li i.icon05{ width:30px; height:30px; background-position:0 -172px; display:inline-block; margin-top:10px;}
+.h-toolbar ul li i.icon06{ width:23px; height:35px; background-position:0 -215px; display:inline-block; margin-top:8px;}
+.h-toolbar ul li i.icon07{ width:41px; height:27px; background-position:0 -266px; display:inline-block; margin-top:5px;}
+
+.h-toolbar ul li i.icon08{ width:36px; height:29px; background-position:0 -315px; display:inline-block; margin-top:10px;}
+.h-toolbar ul li i.icon09{ width:22px; height:23px; background-position:-47px 0; display:inline-block; margin:0 5px 3px 0; vertical-align:middle;}
+.h-toolbar ul li i.icon10{ width:22px; height:23px; background-position:-47px -43px; display:inline-block; margin:0 5px 3px 0; vertical-align:middle;}
+.h-toolbar ul li i.icon11{ background:url("../images/dd.jpg"/*tpa=https://www.xinrong.com/2.0/images/dd.jpg*/) no-repeat; height:53px; width:53px; display:inline-block; border-radius:6px;}
+.h-toolbar ul li i.icon12{ width:40px; height:29px; background-position:-47px -73px; display:inline-block; margin:10px 0 0 3px;}
+.h-toolbar ul li i.icon13{ width:37px; height:27px; background-position:-47px -113px; display:inline-block; margin-top:12px;}
+.h-toolbar ul li i.icon14{ width:34px; height:34px; background-position:-47px -152px; display:inline-block; margin-top:8px;}
+
+.h-toolbar ul li .toolbar-box{ display:none;}
+.h-toolbar ul li:hover .toolbar-box{ width:137px; background:#fff; border:1px solid #c4c4c4; text-align:center; display:block; position:absolute; left:-143px; top:0; margin-top:-190px;}
+.h-toolbar ul li:hover .toolbar-box h3{ line-height:30px; font-weight:normal;}
+.h-toolbar ul li:hover .toolbar-box h3.b-bor{ border-bottom:1px dotted #c4c4c4;}
+.h-toolbar ul li:hover .toolbar-box .pimg{ padding-top:13px;}
+.h-toolbar ul li:hover .toolbar-box b{ display:block; position:absolute; right:-6px; top:50%; margin-top:-8px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+.h-toolbar ul li:hover .toolbar-box h2{ font-size:14px; font-weight:normal; text-align:left; line-height:45px;}
+.h-toolbar ul li:hover .toolbar-box h2.b-bg{ background:#f6f6f6; border-top:1px dotted #c4c4c4;}
+.h-toolbar ul li:hover .toolbar-box h2 a{ width:119px; height:45px; line-height:45px; display:block; padding:0 0 0 18px; background:none; color:#444; text-align:left;}
+.h-toolbar ul li:hover .tool-top{ margin-top:-20px;}
+
+.h-toolbar ul li.recharge{ position:relative;}
+.h-toolbar ul li.recharge a b{ background:url("../images/news01.png"/*tpa=https://www.xinrong.com/2.0/images/news01.png*/) no-repeat; width:28px; height:32px; display:inline-block; position:absolute; left:-3px; top:-2px;}
+.h-toolbar ul li.recharge a:hover b{ background:url("../images/news02.png"/*tpa=https://www.xinrong.com/2.0/images/news02.png*/) no-repeat;}
+
+.indexd-mask { background: #000; filter: alpha(opacity=36); opacity: .36; z-index: 2020; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden;}
+.index-diabox{width:666px;height:412px;position: fixed;left:50%;top:50%;margin:-206px 0 0 -333px;-webkit-animation: picint .8s;animation: picint .8s;z-index: 2021;}
+.index-diabox .close{ position:absolute; right:-33px; top:-33px;}
+
+.qq_diabox{ width:100%; text-align:center;}
+.qq_diabox p{ height:30px; line-height:18px; font-size:18px; color:#999;}
+
+/*弹层动画*/
+@-webkit-keyframes picint{
+	0%{
+		transform: scale(.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+@-moz-keyframes picint{
+	0%{
+		transform: scale(.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+@-o-keyframes picint{
+	0%{
+		transform: scale(.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+@keyframes picint{
+	0%{
+		transform: scale(.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+/*动画 end*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+.tabledetail{ border:1px solid #eaeaea; border-collapse:collapse; line-height:39px;}
+.tabledetail td{ border:1px solid #eaeaea; padding:0 10px}
+.FengXian{ line-height:23px;}
+.FengXian h2{ height:37px; line-height:37px; font-size:14px; padding:0 17px; color:#F60;}
+.FengXian p{ text-indent:2em; padding:0 17px;}
+.FengXian h3{ height:25px; line-height:25px; background:#f2f2f2; padding-left:17px;}
+.FXlist{ display:block; padding:0 17px;}
+.FengXian dl{ width:100%; padding:13px 0 24px 0; border-bottom: 1px dotted #CFCFCF; float:left;}
+.FengXian dt{ width:69px; padding-top:8px; float:left;}
+.FengXian dt i{ width:52px; height:52px; display:inline-block; vertical-align:middle; background:url("../../images/icon001.png"/*tpa=https://www.xinrong.com/2.0/images/icon001.png*/) no-repeat;}
+.FengXian dt .Icon01{ background-position: 0px -1px;}
+.FengXian dt .Icon02{ background-position: -59px -1px;}
+.FengXian dt .Icon03{ background-position:-117px -1px;}
+.FengXian dt .Icon04{ background-position:0 -59px;}
+.FengXian dt .Icon05{ background-position:-59px -59px;}
+.FengXian dt .Icon06{ background-position:-117px -59px;}
+.FengXian dt .Icon07{ background-position:-177px -1px;}
+.FengXian dt .Icon08{ background-position:-177px -59px;}
+.FengXian dd{ width:568px; line-height:22px; float:left;}
+.FengXian dd h4{ line-height:28px;}
+.FengXian dd a{ color:#0078b6;}
+
+.contentbg{ border:1px solid #e5e3e3; padding:10px 0 120px 30px; position:relative;}
+.contentbg dl{ width:100%; clear:both;}
+.contentbg dt{ line-height:49px; padding-top:53px; width:85px; font-size:16px; float:left;}
+.contentbg dd{ width:450px; padding-left:25px; padding-top:59px; float:left;}
+.contentbg dd .fontbox{ display:block; width:350px; height:38px; line-height:38px; border:1px solid #c8c7c7; padding:0 10px; font-size:13px; -webkit-border-radius:13px; -moz-border-radius:13px; border-radius:13px; -moz-box-shadow:1px 3px 3px #dfdfdf; -webkit-box-shadow:1px 3px 3px #dfdfdf; box-shadow:1px 3px 3px #dfdfdf;}
+.contentbg dd.font01{ width:43px; height:43px; background:#a6d688; border:3px solid #fff; position:relative; z-index:7; padding:0px; margin-top:53px; -webkit-border-radius:100%; -moz-border-radius:100%; border-radius:100%; -moz-box-shadow:1px 1px 1px #999; -webkit-box-shadow:1px 1px 1px #999; box-shadow:1px 1px 1px #999;}
+.contentbg dd.font01 .icon01{ width:26px; height:25px; display:inline-block; background-position:-91px -265px; margin:9px 0 0 10px;}
+.contentbg dd.font01 .icon02{ width:24px; height:28px; display:inline-block; background-position:-129px -265px; margin:7px 0 0 10px;}
+.contentbg dd.font01 .icon03{ width:23px; height:28px; display:inline-block; background-position:-166px -265px; margin:7px 0 0 10px;}
+.contentbg dd.font01 .icon04{ width:26px; height:26px; display:inline-block; background-position:-206px -265px; margin:7px 0 0 10px;}
+.contentbg dd.boxbg{ background:#f78f48;}
+.contentbg dd.boxbg01{ background:#bfbfbf;}
+
+.contentbg .fontbg{ width:8px; height:491px; background:#e6e6e6; display:block; position:absolute; left:137px; top:10px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; -moz-box-shadow:1px 1px 1px #999 inset; -webkit-box-shadow:1px 1px 1px #999 inset; box-shadow:1px 1px 1px #999 inset; }
+.contentbg .fontbg span{ display:block; width:8px; height:282px; background:#a6d688; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; -moz-box-shadow:1px 1px 1px #999 inset; -webkit-box-shadow:1px 1px 1px #999 inset; box-shadow:1px 1px 1px #999 inset;}
+
+.investtopbor{border:1px solid #eaeaea; padding:7px;}
+.investtopbor .topborleft{ width:747px;}
+.investtopbor .topborleft h2{ height:49px; line-height:49px; border-bottom:1px solid #eaeaea; padding:0 10px 0 5px; font-size:18px; font-weight:normal; margin-left:5px;}
+.investtopbor .topborleft h2 .icon02{ width:30px; height:30px; background-position:-449px 0; display:inline-block; vertical-align:top; margin:8px 10px 0 0;}
+
+.investtopbor .topborleft .topboxfont{ margin:0px; padding:8px 0 0 11px; list-style:none;}
+.investtopbor .topborleft .topboxfont li{ width:220px; height:35px; line-height:35px; float:left; padding:0px; font-size:14px; color:#656565;white-space: nowrap;}
+.investtopbor .topborleft .topboxfont li.w01{ width:205px; padding:0px;}
+.investtopbor .topborleft .topboxfont li.w02{ width:310px;}
+
+.investtopbor .topborleft .topboxfont li .t-font{ font-size:12px; padding-left:10px; cursor:pointer; position:relative;}
+.investtopbor .topborleft .topboxfont li .t-font b{ display:none;}
+.investtopbor .topborleft .topboxfont li .t-font:hover b{ display:block; font-weight:normal; position:absolute; left:28px; top:-10px; width:168px;}
+
+.lefttopbox{ width:303px; height:199px; border:1px solid #eaeaea;}
+.lefttopbox .toptitle{ height:38px; background:#f7f7f7; border-bottom:1px solid #eaeaea; font-weight:normal;}
+.lefttopbox .toptitle .right{ display:inline-block; font-size:12px; line-height:38px; padding-right:20px;}
+.lefttopbox .toptitle .lifont{ color:#bababa; line-height:29px; display:inline-block; padding-top:4px;}
+.lefttopbox .toptitle .lifont .icon02{ width:15px; height:15px; background-position:-293px 0; display:inline-block; vertical-align:middle; margin:0 5px 3px 0;}
+.lefttopbox .toptitle .lifont01{ width:150px; color:#bababa; line-height:29px; font-size:14px; display:inline-block; padding-top:4px;}
+.lefttopbox .toptitle .lifont01 span{ color:#72a56d;}
+.lefttopbox .toptitle .lifont01 .icon03{ width:19px; height:21px; background-position:-245px 0; display:inline-block; vertical-align:middle; margin:0 5px 3px 0;}
+
+.lefttopbox .toptitle .progress{ width:188px; float:right; font-size:12px; line-height:15px; padding:13px 0 0 0;}
+.lefttopbox .toptitle .progress dt{ float:left; width:38px; padding:0px;}
+.lefttopbox .toptitle .progress dd{ float:left; position:relative; width:135px; height:13px; background:#e6e6e6;}
+.lefttopbox .toptitle .progress dd .progressbg{ display:block; width:34%; height:13px; background:#ff6600;}
+.lefttopbox .toptitle .progress dd .font01{ text-align:center; display:block; width:135px; height:13px; line-height:13px; position:absolute; left:0px; top:0px;}
+
+
+.lefttopbox dl{ padding:7px 0; width:100%; clear:both; line-height:25px; color:#6f6f6f; font-size:13px; position:relative;}
+.lefttopbox dt{ width:65px; padding-left:14px; float:left;}
+.lefttopbox dd{ width:222px; float:left; position:relative;}
+.lefttopbox dd .inputtext{ width:202px; height:25px; line-height:25px; border:1px solid #dadada; padding:0 5px; color:#6f6f6f;}
+.lefttopbox dd .font01{ position:absolute; right:12px; top:0px; display:block;}
+.lefttopbox dd .fontbox{ width:212px; display:block; height:6px; border:1px solid #dadada; background:#e6e4e4; position:relative; margin-top:-1px;}
+.lefttopbox dd .fontbox .boxorange{ width:100%; height:6px; background:#f60; display:block; position:relative;}
+.lefttopbox dd .fontbox .boxorange .icon01{ width:10px; height:20px; display:inline-block; position:absolute; right:-2px; top:-9px; background-position:-30px -287px; cursor:pointer;}
+.lefttopbox .boxfont{ position:absolute; right:10px; bottom:5px;}
+.lefttopbox .boxsub{ padding:0 10px;}
+.lefttopbox .boxsub .sub02,.lefttopbox .boxsub .sub04,.lefttopbox .boxsub .sub01{ width:100%; height:30px; line-height:30px; font-size:16px;}
+.lefttopbox .transfer_tip{ position:absolute; left:0px; bottom:-13px; font-size:12px;padding-left:14px;}
+
+.lefttopbox .topfont{ text-align:right; line-height:24px; padding-right:10px;}
+
+.lefttopbox .boxtable th{ background:#f7f7f7; padding:0 0 0 15px; border-bottom:1px solid #d3d3d3; line-height:25px; font-weight:normal;}
+.lefttopbox .boxtable td{ border-bottom:1px dotted #dcdcdc; padding:0 0 0 15px; line-height:29px;}
+.lefttopbox .boxtable .content { height: 150px; overflow:hidden;}

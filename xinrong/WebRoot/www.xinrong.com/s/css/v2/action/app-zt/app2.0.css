@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.con_box{opacity:0; -webkit-transition: all 0.2s ease-in;-moz-transition: all 0.2s ease-in;-ms-transition: all 0.2s ease-in;-o-transition: all 0.2s ease-in;transition: all 0.2s ease-in;}
+
+/****************************/
+
+.appcon{ position:relative;}
+
+.con_box{ width:1000px; margin:0 auto; position:relative;}
+.con_box .iphone{ background:url("../../../../images/action/app2.0-zt/02.png"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/02.png*/) no-repeat; width:195px; height:380px; padding:66px 0 0 23px; position:absolute;}
+
+/*第一屏*/
+.one_box{ background:#7fbed6 url("../../../../images/action/app2.0-zt/b01.jpg"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/b01.jpg*/) center no-repeat; height:872px;}
+.one_box .con_box{ opacity:1}
+.one_box .one-bg{ width:100%; background:url("../../../../images/action/app2.0-zt/01.png"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/01.png*/) right no-repeat; height:503px; position:absolute; right:-44px; top:203px; z-index:1;}
+.one_box .iphone{ top:0px; left:248px; margin:242px 0 0 17px; z-index:2;}
+.one_box .android{ margin:192px 0 0 14px; position:absolute; top:49px; left:140px; width:212px; height:375px; background:url("../../../../images/action/app2.0-zt/03.png"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/03.png*/) no-repeat; padding:45px 0 0 7px; z-index:1;}
+
+.cloud_01{ position:absolute; top:450px; right:0px; z-index:0;}
+.cloud_02{ position:absolute; top:87px; right:397px;}
+.cloud_03{ position:absolute; top:50px; left:-66px; z-index:3;}
+
+.erwpic01{ position:absolute; top:103px; left:-72px; z-index:2;}
+.erwpic02{ position:absolute; top:341px; left:-72px; z-index:1;}
+
+/*第二屏*/
+.two_box{  background:#fccd89 url("../../../../images/action/app2.0-zt/b02.jpg"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/b02.jpg*/) center no-repeat; height:804px; }
+.two_box .two-bg{ width:100%; height:369px; position:absolute; left:-36px; top:157px; padding-left:36px;}
+.two_box .iphone{ top:143px; left:199px;}
+
+.two_pic01{ position:absolute; right:219px; top:157px;}
+.two_pic02{ position:absolute; left:447px; top:188px;}
+
+/*第三屏*/
+.three_box{  background:#9ef2be url("../../../../images/action/app2.0-zt/b03.jpg"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/b03.jpg*/) center no-repeat; height:674px; }
+.three_box .iphone{ top:103px; left:199px; z-index:5;}
+.three_box .three-pic01{ position:absolute; top:299px; right:-60px;}
+.three_box .three-pic02{ position:absolute; top:395px; left:445px;}
+.three_box .three-pic03{ position:absolute; top:110px; left:556px;}
+.three_box .three-pic04{ position:absolute; top:350px; left:-20px; z-index:1;}
+
+/*第四屏*/
+.four_box{ background:#7fbedd url("../../../../images/action/app2.0-zt/b04.jpg"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/b04.jpg*/) center no-repeat; height:699px; }
+.four_box .iphone{ top:143px; left:199px;}
+.four_box  .four-pic01{ width:100%; position:absolute; top:193px; left:-62px; padding-right:80px; background:url("../../../../images/action/app2.0-zt/16.png"/*tpa=https://www.xinrong.com/s/images/action/app2.0-zt/16.png*/) no-repeat; height:334px;}
+

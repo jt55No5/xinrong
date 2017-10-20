@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.help_center{ width:100%; min-width:1000px; background:#f5f5f5;}
+.help_center .main{ background:#fff url("../images/about/l-bg.jpg"/*tpa=https://www.xinrong.com/2.0/images/about/l-bg.jpg*/) left repeat-y;}
+.help_left{ width:188px;}
+.help_left ul.tabs { width:100%; overflow:hidden; margin-top:20px;}
+.help_left ul.tabs li { list-style-type:none; display:block; cursor:pointer; line-height:43px; font-size:16px; color:#666;}
+.help_left ul.tabs li.l-mar{ margin-bottom:10px;}
+.help_left ul.tabs li a{ display:block; padding-left:43px; background:#f5f5f5; border-left:5px solid #f5f5f5; color:#717171; text-decoration:none; position:relative;}
+.help_left ul.tabs li a.current{ background:#ffede4; border-left:5px solid #f60; color:#fd6702;}
+
+.help_left ul.tabs li i.arrow{ position:absolute; right:10px; top:0px; font-style:normal; font-family:"宋体"; font-size:16px; font-weight:bold;}
+.help_left ul.tabs li h2{ padding-left:43px; font-weight:normal; position:relative; background:#f5f5f5; border-left:5px solid #f5f5f5; color:#717171;}
+.help_left ul.tabs li h2 a{ padding:0px; margin:0px; border:none; background:none;}
+.help_left ul.tabs li h2 i.arrow{ -webkit-transform: rotate(90deg); transform: rotate(90deg); -webkit-transition: all 0.5s; transition: all 0.5s;}
+.help_left ul.tabs li h2.f_cur i.arrow{ -webkit-transform: rotate(270deg); transform: rotate(270deg); -webkit-transition: all 0.5s; transition: all 0.5s;}
+.help_left ul.tabs li h2.cur{ background:#ffede4; border-left:5px solid #f60;}
+.help_left ul.tabs li h2.cur a{ color:#fd6702;}
+
+.help_left ul.tabs li.h_cur ul{ display:block;}
+.help_left ul.tabs li ul li{ line-height:50px;}
+.help_left ul.tabs li ul li a{ background:none; border-left:0px; color:#666; border-left:5px solid #fff;}
+.help_left ul.tabs li ul li a i{ display:none;}
+.help_left ul.tabs li ul li a.current{ color:#fd6702; background:none; border-left:5px solid #fff;}
+.help_left ul.tabs li ul li a.current i{ display:block;}
+
+.help_right{ width:896px;}
+.help_right .search_box{ padding:25px 35px;}
+.help_right .search_box .inputtext{ width:276px; height:38px; line-height:38px; border:1px solid #dcdcdc; margin:0px; padding:0px 10px; outline:none; font-size:14px;}
+.help_right .search_box .inputbutton{ width:45px; height:40px; line-height:40px; text-align:center; border:0px; background:#c4c4c4 url("../images/about/p-03.png"/*tpa=https://www.xinrong.com/2.0/images/about/p-03.png*/) center no-repeat; outline:none; margin-left:-40px; position:relative;}
+.help_right .search_box .search_font{ padding-left:25px; font-size:14px; color:#bbb; line-height:40px;}
+.help_right .search_box .search_font a{ color:#4bc1e1; text-decoration:none; padding:0 7px; cursor:pointer; font-size:16px;}
+.help_right .search_box .search_font b{ color:#666; font-weight:normal; font-size:16px;}
+
+.help_center .tabscontent { padding:8px 0 0 0; display:none; width:100%;}
+.help-list{ padding:5px 35px; font-size:15px; display:none;}
+.help-list h1{ background:#f5f5f5; position:relative; font-weight:normal; padding:0 15px;}
+.help-list h1 a{ display: block; height:40px; line-height:40px; position: relative; color: #444; text-decoration:none;}
+.help-list h1 i{ font-family:"宋体"; position:absolute; right:13px; top:6px;font-style:normal; color:#999; font-weight:normal; -webkit-transform: rotate(90deg); transform: rotate(90deg); font-size:18px; font-weight:bold; cursor:pointer;}
+.help-list h1.curbg{ background:#FFEDE4;}
+.help-list h1.curbg a{ color:#f60;}
+.help-list h1.curbg i{ -webkit-transform: rotate(270deg); transform: rotate(270deg); -webkit-transition: all 0.5s; transition: all 0.5s; color:#f60;}
+
+.help-list h1 .n_num{ display:none;}
+
+.help-list dl{ width:100%; position:relative; display:none; font-size:13px; padding:10px 0 0 0;}
+.help-list dt{ position:absolute; left:0px; top:10px; padding:0px 0 0 10px;}
+.help-list dt i{ color:#f60; font-style:normal; display:inline-block;}
+.help-list dd{ padding:0px 10px 10px 35px; line-height:22px; color:#666;}
+.help-list dd p.tindent{ text-indent:1.6em;}
+
+#font_no{ text-align:center; line-height:30px; font-size:14px; color:#999;}
+
+.guide_right{ width:896px;}
+.guide_right ul.tabs { width:753px; margin:0 auto; overflow:hidden; padding-top:15px;}
+.guide_right ul.tabs li { text-align:center; float:left;}
+.guide_right ul.tabs li.Pic{ width:45px; height:47px; padding-top:13px;}
+.guide_right ul.tabs li a{ display:block; width: 152px; height: 58px; text-align: center; border: 1px solid #DDD; float: left; color: #666; background:url("../images/about/step.png"/*tpa=https://www.xinrong.com/2.0/images/about/step.png*/) repeat-x; text-decoration:none;}
+.guide_right ul.tabs li a h2{ margin: 5px 0 4px 0; font-size: 18px; color:#333;}
+.guide_right ul.tabs li a:hover { background-position:0 -58px; border: 1px solid #96AABC; color:#F60;}
+.guide_right ul.tabs li a:hover h2{ color:#f60;}
+.guide_right ul.tabs li a.current { background-position:0 -58px; border: 1px solid #96AABC; color:#F60;}
+.guide_right ul.tabs li a.current h2{ color:#f60;}
+.guide_right .tabscontent { padding:8px 0 0 0; display:none; width:100%;}
+
+.guide_con{ width:100%;}
+.guide_con h2{ padding-left:15px; height:40px; line-height:40px; font-weight:bold; font-size:14px;}
+/*切换*/
+.guide_right .tabs-nav{ height:30px; border-bottom:0px solid #99abbc; background:#f2f2f2; margin:0px; padding:0px 0 0 10px; list-style:none;}
+.guide_right .tabs-nav li{ height:30px; line-height:30px; text-align:center; padding:0px 13px; margin:0px; color:#999; font-family:"宋体"; float:left;}
+.guide_right .tabs-nav a{ font-size:12px; height:30px; line-height:30px; color:#0278B6; display:block; text-decoration:none; font-family:"微软雅黑"}
+.guide_right .tabs-nav .ui-state-active{ position:relative; margin:0px;}
+.guide_right .tabs-nav .ui-state-active a{ border:1px solid #99abbc; border-bottom:1px solid #fff; color:#F60;}
+.guide_right .tabs-nav .ui-state-active-a{ color:#F60;}
+.guide_right .tab-img{ text-align:center; display:none;}
+.guide_right .ui-tabs-show{ display:block}
+
+.help-list .h_table{ border: 1px solid #e8e8e8; border-collapse: collapse; font-size: 13px; line-height: 32px;}
+.help-list .h_table th{ border: 1px solid #e8e8e8; background: #f2f6fa;}
+.help-list .h_table td{ border: 1px solid #e8e8e8;}
+
+
+
+
+

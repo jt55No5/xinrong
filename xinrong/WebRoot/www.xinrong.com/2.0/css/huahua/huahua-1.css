@@ -1,0 +1,649 @@
+@charset "utf-8";
+.wrapper{
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+/*  借款管理  */
+.AccountRight .borrow_info{
+  color: #666;
+  border: 1px solid #e8e8e8;
+}
+.AccountRight .borrow_info>h1{
+  padding: 0 10px;
+  font-weight: normal;
+  line-height: 39px;
+  background-color: #ecf5fd;
+  border-bottom: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.AccountRight .borrow_info>h1 span{
+  float: left;
+  font-size: 16px;
+}
+.AccountRight .borrow_info>h1 a{
+  float: right;
+  font-size: 14px;
+  color: #0075b3;
+}
+.AccountRight .borrow_info .info_box{
+  padding: 30px 20px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.AccountRight .borrow_info .info_box .procedure{
+  padding-bottom: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.AccountRight .borrow_info .info_box .procedure>li{
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 100px;
+  margin-left: 60px;
+}
+.AccountRight .borrow_info .info_box .procedure>li:first-child{
+  margin-left: 0;
+}
+.AccountRight .borrow_info .info_box .procedure>li a{
+  display: inline-block;
+  text-decoration: none;
+}
+.AccountRight .borrow_info .info_box .procedure>li a:hover{
+  color: #58b4e3;
+}
+.AccountRight .borrow_info .info_box .procedure>li a:hover i{
+  background-color: #58b4e3;
+}
+.AccountRight .borrow_info .info_box .procedure>li i{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c8c8c8;
+  background-image: url("../../images/xr_huahua/index/procedure_1-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/procedure_1.png*/);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.AccountRight .borrow_info .info_box .procedure>li+li i{
+  background-image: url("../../images/xr_huahua/index/procedure_2-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/procedure_2.png*/);
+}
+.AccountRight .borrow_info .info_box .procedure>li+li+li i{
+  background-image: url("../../images/xr_huahua/index/procedure_3-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/procedure_3.png*/);
+}
+.AccountRight .borrow_info .info_box .procedure>li+li+li+li i{
+  background-image: url("../../images/xr_huahua/index/procedure_4-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/procedure_4.png*/);
+}
+.AccountRight .borrow_info .info_box .procedure>li.finished i{
+  background-color: #58b4e3;
+}
+.AccountRight .borrow_info .info_box .procedure>li.finished a{
+  color: #58b4e3;
+  cursor: default;
+}
+.AccountRight .borrow_info .info_box .procedure>li span{
+  display: block;
+  line-height: 30px;
+}
+.AccountRight .borrow_info .info_box .procedure>li b{
+  display: inline-block;
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  right: -50px;
+  top: 16px;
+  background-image: url("../../images/xr_huahua/index/arrow_grey-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/arrow_grey.png*/);
+}
+.AccountRight .borrow_info .info_box .procedure>li.finished b{
+  background-image: url("../../images/xr_huahua/index/arrow_blue-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/arrow_blue.png*/);
+}
+.AccountRight .borrow_info .info_box .credit{
+  position: relative;
+  float: left;
+  width: 460px;
+  /*border-right: 1px solid #e8e8e8;*/
+  /*overflow: hidden;*/
+  margin-left: 40px;
+}
+.AccountRight .borrow_info .info_box .credit .credit_total{
+  position: absolute;
+  display: block;
+  width: 140px;
+  left: 20px;
+  top: 50px;
+  text-align: center;
+}
+.AccountRight .borrow_info .info_box .credit .auditingCredit ul>li span{
+  color: #f60;
+  font-size: 18px;
+}
+.AccountRight .borrow_info .info_box .credit .auditingCredit{
+  max-width:230px;float:right;margin-top: 11px;margin-right: 30px;
+  /*overflow: hidden;*/
+}
+.AccountRight .borrow_info .info_box .credit .credit_total span{
+  color: #f60;
+  font-size: 18px;
+}
+.AccountRight .borrow_info .info_box .credit dl{
+  float: right;
+  margin-right: 20px;
+}
+.AccountRight .borrow_info .info_box .credit dl>dd{
+  margin-top: 10px;
+  text-align: left;
+}
+.AccountRight .borrow_info .info_box .credit dl>dd span{
+  color: #f60;
+}
+.AccountRight .borrow_info .info_box .credit .button{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #f60;
+  text-align: center;
+  text-decoration: none;
+}
+.AccountRight .borrow_info .info_box .credit .button:hover{
+  background-color: #e34500;
+}
+.AccountRight .borrow_info .info_box .credit .button#refund_btn{
+  margin-left: 5px;
+  background-color: #58b4e3;
+}
+.AccountRight .borrow_info .info_box .credit .button#refund_btn:hover{
+  background-color: #0075b3;
+}
+.AccountRight .borrow_info .info_box .invite{
+  position: relative;
+  float: right;
+  width: 300px;
+  padding: 10px 0;
+}
+.AccountRight .borrow_info .info_box .invite .logo{
+  vertical-align: top;
+  margin-top: 10px;
+}
+.AccountRight .borrow_info .info_box .invite .info{
+  display: inline-block;
+  line-height: 24px;
+}
+.AccountRight .borrow_info .info_box .invite .info a{
+  color: #58b4e3;
+}
+.AccountRight .borrow_info .info_box .invite .get_recommend_link{
+  /*display: none;*/
+  margin-top: 30px;
+}
+.AccountRight .borrow_info .info_box .invite .get_recommend_link a{
+  display: block;
+  width: 320px;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+.AccountRight .borrow_info .info_box .invite .get_recommend_link img{
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+.AccountRight .borrow_info .info_box .invite .recommend_link{
+  padding-top: 5px;
+  line-height: 30px;
+}
+.AccountRight .borrow_info .info_box .invite .recommend_link input[type="text"]{
+  border: 0;
+  padding: 0 10px;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f2f2f2;
+  outline: none;
+}
+.AccountRight .borrow_info .info_box .invite .recommend_link .qrcode{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 15px 15px 5px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  border-radius: 5px;
+}
+.AccountRight .borrow_info .info_box .invite .recommend_link .qrcode canvas{
+  width: 92px;
+  height: 92px;
+}
+.AccountRight .borrow_info .info_box .invite .recommend_link .qrcode span{
+  display: block;
+  line-height: 30px;
+  font-size: 12px;
+}
+/*  查询  */
+.AccountRight .query{
+  margin: 15px 0;
+  border: 1px solid #e8e8e8;
+}
+.AccountRight .query .tabs{
+  height: 40px;
+  line-height: 39px;
+  font-size: 16px;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: #f2f2f2;
+}
+.AccountRight .query .tabs>li{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.AccountRight .query .tabs>li.current{
+  color: #f60;
+  background-color: #fff;
+  border-top: 4px solid #f60;
+}
+.AccountRight .query .contents .tabscontent{
+  display: none;
+  padding: 20px 0;
+}
+.AccountRight .query .contents .notice .questions{
+  padding: 0 20px;
+}
+.AccountRight .query .contents .notice .questions>li{
+  margin: 0 0 20px 20px;
+}
+.AccountRight .query .contents .notice .questions>li i{
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  left: -24px;
+  text-align: center;
+  font-family: "微软雅黑";
+  line-height: 16px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  background-color: #ff8d4f;
+  border-radius: 2px;
+}
+.AccountRight .query .contents .notice .questions>li h4{
+  position: relative;
+  line-height: 40px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333;
+}
+.AccountRight .query .contents .notice .questions>li h4 i{
+  top: 12px;
+  *top: 4px;
+  background-color: #58b4e3;;
+}
+.AccountRight .query .contents .notice .questions>li p{
+  position: relative;
+  line-height: 24px;
+  font-size: 14px;
+  color: #666;
+}
+.AccountRight .query .contents .notice .questions>li p i{
+  top: 4px;
+}
+.AccountRight .query .contents .tabscontent .select_line{
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.AccountRight .query .contents .tabscontent .select_line>*{
+  vertical-align: middle;
+}
+.AccountRight .query .contents .tabscontent .select_line input[type="text"]{
+  width: 100px;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  border: 1px solid #e8e8e8;
+  outline-color: #f60;
+  background: #fff url("../../images/xr_huahua/index/datePicker-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/datePicker.png*/) no-repeat 100px center!important;
+}
+.AccountRight .query .contents .tabscontent .select_line .query_btn{
+  display: inline-block;
+  width: 55px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #f60;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.AccountRight .query .contents .tabscontent .select_line .query_btn:hover{
+  background-color: #e34500;
+}
+.AccountRight .query .contents .tabscontent .select_line .select{
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dt{
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+  background: #fff url("../../images/xr_huahua/index/icon_05-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/icon_05.png*/) no-repeat right center;
+  padding-left: 10px;
+  cursor: pointer;
+  width: 92px;
+  padding-right: 26px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+  border-radius: 4px;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dt.cur{
+  border: 1px solid #f60;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dd{
+  position: absolute;
+  left: 0;
+  top: 32px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  display: none;
+  z-index: 1;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dd ul{
+  padding: 4px;
+  width: 120px;
+  max-height: 250px;
+  overflow: auto;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dd ul li a{
+  line-height: 28px;
+  display: block;
+  padding: 0 8px;
+  text-decoration: none;
+}
+.AccountRight .query .contents .tabscontent .select_line .select dd ul li a:hover{
+  color: #fff;
+  background-color: #58b4e3;
+}
+.AccountRight .query .contents .tabscontent .select_line .duration{
+  float: right;
+  *margin-top: -30px;
+}
+.AccountRight .query .contents .tabscontent .select_line .duration>li{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 10px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.AccountRight .query .contents .tabscontent .select_line .duration>li:hover,.AccountRight .query .contents .tabscontent .select_line .duration>li.current{
+  color: #f60;
+}
+.AccountRight .query .contents .tabscontent table{
+  width: 98%;
+  margin: 20px 1% 0;
+  line-height: 40px;
+  font-size: 14px;
+  border: 0;
+}
+.AccountRight .query .contents .tabscontent table td{
+  text-align: center;
+}
+.AccountRight .query .contents .tabscontent table td.emphasis{
+  color: #ff0000;
+}
+.AccountRight .query .contents .tabscontent table thead tr{
+  background-color: #f2f2f2;
+}
+.AccountRight .query .contents .tabscontent table tbody tr td{
+  line-height: 50px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.AccountRight .query .contents .tabscontent table tbody tr td a.detail{
+  display: inline-block;
+  width: 22px;
+  height: 21px;
+  background: url("../../images/xr_huahua/index/icon_03-1.png"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/icon_03.png*/) no-repeat;
+}
+.AccountRight .query .contents .tabscontent .pagination{
+  float: right;
+  margin: 20px 20px 0 0;
+  line-height: 26px;
+  font-size: 14px;
+}
+.AccountRight .query .contents .tabscontent .pagination a{
+  display: inline-block;
+  padding: 0 8px;
+  margin-left: 10px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.AccountRight .query .contents .tabscontent .pagination a:hover{
+  color: #f60;
+  border: 1px solid #f60;
+}
+.AccountRight .query .contents .tabscontent .pagination span{
+  display: inline-block;
+  padding: 0 8px;
+  margin-left: 10px;
+  color: #f60;
+  border: 1px solid #f60;
+  border-radius: 4px;
+}
+.AccountRight .query .contents .tabscontent .pagination .c-font{
+  color: #ccc;
+}
+.AccountRight .query .contents .tabscontent .info_return{
+  padding: 20px 0 0 20px;
+  font-size: 14px;
+  line-height: 30px;
+  clear: both;
+}
+.AccountRight .query .contents .tabscontent .info_return b{
+  color: #f60;
+  font-weight: normal;
+}
+.AccountRight .query .contents .tabscontent .tips_return{
+  padding-left: 20px;
+  font-size: 14px;
+}
+.AccountRight .query .contents .tabscontent .tips_return img{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.AccountRight .query .contents .tabscontent .tips_return span{
+  vertical-align: middle;
+}
+.AccountRight .query .contents .content2{
+  position: relative;
+}
+.AccountRight .query .contents .content2 .return_next{
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  right: 0;
+  top: -40px;
+  font-size: 14px;
+}
+.AccountRight .query .contents .content2 .return_next span{
+  margin-right: 20px;
+  color: #ff0000;
+}
+.AccountRight .query .contents .tabscontent .no_record_tips{
+  padding: 130px 0;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  color: #bbb;
+  display: none;
+}
+.AccountRight .query .contents .tabscontent .no_record_tips img{
+  vertical-align: middle;
+}
+.AccountRight .query .contents .tabscontent .no_record_tips span{
+  margin-left: 10px;
+  vertical-align: middle;
+}
+/** tooltip **/
+.AccountRight .infobox1{ }
+.AccountRight .infobox1{  display: inline-block;  width: 142px;  background: #f6f9fd;  border: 1px solid #999999;  border-radius: 3px;  position: absolute;  left: -20px;  top: 32px;  padding: 4px;  line-height: 18px;  font-style: normal;  color: #5c5c5c !important;  z-index: 9991;}
+.AccountRight .infobox1 b{ display:inline-block; position:absolute; left:50%; top:-7px; margin-left:-6px;}
+/**  vip等级显示  **/
+.borrow_info .info_box .lv_box{
+  display: none;
+  position: relative;
+  float: right;
+  margin: 20px 50px 0 0;
+  width: 186px;
+  height: 108px;
+  background-size: cover;
+  overflow: hidden;
+}
+.borrow_info .info_box .lv_box.vip{
+  background: url("../../images/xr_huahua/index/lv_vip-1.jpg"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/lv_vip.jpg*/) no-repeat;
+}
+.borrow_info .info_box .lv_box.nor{
+  background: url("../../images/xr_huahua/index/lv_nor-1.jpg"/*tpa=http://www.xinrong.com/2.0/images/xr_huahua/index/lv_nor.jpg*/) no-repeat;
+}
+.borrow_info .info_box .lv_box p{
+  display: inline-block;
+  margin: 20px 0 0 70px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+}
+.borrow_info .info_box .lv_box p a{
+  display: block;
+  margin-top: 6px;
+  color: #f60;
+  cursor: pointer;
+  text-decoration: none;
+}
+.borrow_info .info_box .lv_box.nor p{
+  margin-top: 10px;
+  color: #999;
+}
+.borrow_info .info_box .lv_box .lv_show{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffd425;
+  -o-transform: translate(30px,10px)rotate(45deg);
+  -ms-transform: translate(30px,10px)rotate(45deg);
+  -moz-transform: translate(30px,10px)rotate(45deg);
+  -webkit-transform: translate(30px,10px)rotate(45deg);
+  transform: translate(30px,10px)rotate(45deg);
+}
+.borrow_info .info_box .lv_box.nor .lv_show{
+  font-size: 12px;
+  color: #aaa;
+  background-color: #fff;
+}
+
+/*  轮播 begin*/
+.carousel{
+  display: none;
+  position: relative;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.carousel>ul.carousel_list{
+  position: relative;
+  height: 90px;
+}
+.carousel>ul.carousel_list>li{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.carousel>ul.carousel_list>li.active{
+  display: block;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+}
+@-moz-keyframes fadeIn{
+  0%{opacity: .2};
+  100%{opacity: 1};
+}
+@-webkit-keyframes fadeIn{
+  0%{opacity: .2};
+  100%{opacity: 1};
+}
+@-o-keyframes fadeIn{
+  0%{opacity: .2};
+  100%{opacity: 1};
+}
+@keyframes fadeIn{
+  0%{opacity: .2};
+  100%{opacity: 1};
+}
+.carousel>ul.carousel_list>li>a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.carousel>ul.carousel_sel{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 5px;
+  text-align: center;
+}
+.carousel>ul.carousel_sel>li{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 4px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .3);
+}
+.carousel>ul.carousel_sel>li.active{
+  background-color: rgba(255, 102, 0, .7);
+}
+.carousel .arrow{
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.carousel .arrow_left{
+  left: 0;
+  background-image: url("../../images/b-left-1.png"/*tpa=http://www.xinrong.com/2.0/images/b-left.png*/);
+}
+.carousel .arrow_right{
+  right: 0;
+  background-image: url("../../images/b-right-1.png"/*tpa=http://www.xinrong.com/2.0/images/b-right.png*/);
+}
+/*  轮播 end*/

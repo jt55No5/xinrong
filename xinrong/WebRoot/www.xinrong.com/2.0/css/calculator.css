@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#f3f3f3;}
+
+/*外框*/
+.calculator_wrap{ background:#fff; border:1px solid #e8e8e8;}
+/*标题*/
+.cal_title{ height:40px; line-height:40px; background:#f7f7f7; font-size:18px; color:#444; font-weight:normal;}
+.cal_title span{ display:inline-block; line-height:40px; border-left:4px solid #f60; padding-left:10px;}
+
+/*计算器*/
+.calculator_input{ padding:40px 0;}
+.calculator_input dl{ width:550px; float:left; color:#444; padding-top:20px;}
+.calculator_input dt{ width:175px; text-align:right; padding-right:5px; float:left; line-height:39px; font-size:16px;}
+.calculator_input dd{ width:370px; position:relative; float:left;}
+.calculator_input dd .t-f{ width:42px; height:37px; line-height:37px; text-align:center; font-size:14px; position:absolute; right:107px; top:2px; background:#fff; border-left:1px solid #dedede; display:block;}
+.calculator_input .c_input{ width:248px; height:39px; line-height:39px; border:1px solid #dedede; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin:0px; padding:0 8px; font-size:13px;}
+.calculator_input dd .f-tips{visibility: hidden; color:#666;}
+.calculator_input .c_sub{ text-align:center; padding:30px 0 0;}
+.calculator_input .c_sub .sub02{ width:230px; height:41px; line-height:41px; font-size:18px;}
+.calculator_input .c_sub .sub02.disabled{background: #888 !important;}
+
+/* select */
+.calculator_input .select{ width:248px; position:relative; margin:0 0px; float:none; padding:0px; z-index:9;}
+.calculator_input .select dt{ width:248px; height:39px; line-height:39px; display:inline-block; border:1px solid #dedede; background:#fff url("../images/js-01.png"/*tpa=https://www.xinrong.com/2.0/images/js-01.png*/) no-repeat right center; cursor:pointer; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; position:relative; z-index:99;-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin:0px; padding:0 8px; font-size:13px; text-align:left;}
+.data_select .select dt:hover,.select dt.cur{ border:1px solid #dedede; box-shadow:0 0 3px #409DFE;}
+.calculator_input .select dd{ width:264px; position:absolute; left:0; top:35px; border:1px solid #d4d4d4; background:#fff; display:none;}
+.calculator_input .select dd ul{ padding:4px; width:256px; max-height:250px; overflow:auto;}
+.calculator_input .select dd ul li a{ line-height:28px; display:block; padding:0 8px; text-decoration:none; font-size:14px;}
+.calculator_input .select dd ul li a:hover{ background:#f5f5f5;}
+/****************************************************/
+
+/*借款计算结果*/
+.cal_borrowing h1{ position:relative; cursor:pointer;}
+.cal_borrowing h1 i{ font-family:"宋体"; position:absolute; right:10px; top:0px; font-style:normal; color:#f60; font-weight:normal; -webkit-transform: rotate(90deg); transform: rotate(90deg); font-size:23px; font-weight:bold;}
+.cal_borrowing h1.curbg i{ -webkit-transform: rotate(270deg); transform: rotate(270deg); -webkit-transition: all 0.5s; transition: all 0.5s;}
+
+/*收益计算结果*/
+.cal_earnings{ padding-top:35px;}
+
+/*结果内容*/
+.calculator_box{ width:778px; margin:0 auto; padding:20px 0 0 0;}
+.calculator_box .box_results{ border:1px solid #dedede; color:#666;}
+.calculator_box .box_results h2{ height:29px; line-height:29px; font-size:14px; color:#444; background:#f5f5f5; border-bottom:1px solid #dedede; padding:0 10px; font-weight:normal; position:relative;}
+.calculator_box .box_results h2 .f-tips{ display:block; position:absolute; right:10px; top:0px; font-size:12px; color:#888;}
+.calculator_box .box_results h2 .f-tips select{ margin-top:5px;}
+.calculator_box .box_results h3{ border-bottom:1px solid #dedede; font-size:24px; color:#ff8049; line-height:24px; text-align:center; padding:20px 0;}
+.calculator_box .box_results h3 p{ font-size:14px; color:#666; font-weight:normal;}
+.calculator_box .box_results ul{ width:100%; padding:15px 0;}
+.calculator_box .box_results ul li{ width:49%; text-align:center; color:#ff8049; line-height:24px; font-size:24px; font-weight:bold; border-right:1px solid #dedede; padding:10px 0; float:left;}
+.calculator_box .box_results ul li p{ font-size:14px; color:#666; font-weight:normal; font-weight:normal;}
+.calculator_box .box_results ul li.bor{ border:0px;}
+.calculator_box .f-tips{ line-height:30px; color:#999; display:inline-block;}
+.calculator_box .f-tips .icon01{ display: inline-block;  width: 16px;  height: 16px;  background: url("../images/js-02.png"/*tpa=https://www.xinrong.com/2.0/images/js-02.png*/);  vertical-align: middle;  margin: 0 0px 3px 1px;cursor:pointer; vertical-align:middle; margin:0 0 4px 5px; position:relative; z-index:999;}
+/**额外提示**/
+.calculator_box .f-tips .infobox{ display:none;}
+.calculator_box .f-tips .icon01:hover .infobox{ display:inline-block; width:142px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:25px; top:-30px; padding:8px; line-height:18px; font-style:normal;}
+.calculator_box .f-tips .icon01:hover .infobox b{ display:inline-block; position:absolute; left:-6px; top:30px;}
+.calculator_box .box_results table{ border-collapse:collapse; line-height:32px; font-size:13px;}
+.calculator_box .box_results table th{ border-bottom:1px solid #dedede; text-align:center; font-weight:normal;}
+.calculator_box .box_results table td{ text-align:center;}
+.calculator_box .box_results table tr.bg{ background:#f7f9fa;}
+
+/*常见问题*/
+.calculator_faq{ padding:35px 0;}
+.calculator_faq dl{ width:884px; margin:0 auto; padding-top:20px; line-height:24px;}
+.calculator_faq dl i{ display: inline-block; width: 16px; height: 16px; line-height: 16px; text-align: center; font-size: 12px;color: #fff; border-radius: 2px; font-style:normal; position:absolute; left:0px; top:4px;}
+.calculator_faq dt{ font-size:14px; color:#444; padding-left:25px; position:relative; font-weight:bold;}
+.calculator_faq dt i{ background-color: #58b4e3; font-weight:normal;}
+.calculator_faq dd{ font-size:13px; color:#666; padding-left:25px; position:relative;}
+.calculator_faq dd i{ background-color: #ff8d4f;}
+.calculator_faq dd a{ text-decoration:underline;}
+
+

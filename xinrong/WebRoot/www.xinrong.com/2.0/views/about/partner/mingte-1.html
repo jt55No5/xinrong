@@ -1,0 +1,617 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ä¿¡èè´¢å¯Œ</title>
+<link href="../../../css/basic-1.css" tppabs="http://www.xinrong.com/2.0/css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/about-1.css" tppabs="http://www.xinrong.com/2.0/css/about.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/pic-box-1.css" tppabs="http://www.xinrong.com/2.0/css/pic-box.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/dialog-1.css" tppabs="http://www.xinrong.com/2.0/css/dialog.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/global-1.css" tppabs="http://www.xinrong.com/2.0/css/global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../../js/var-1.js" tppabs="http://www.xinrong.com/2.0/js/var.js"></script>
+<script type="text/javascript" src="../../../js/jquery-1.10.2.min-1.js" tppabs="http://www.xinrong.com/2.0/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../../../../s/js/AA.base-min-2.js" tppabs="http://www.xinrong.com/s/js/AA.base-min.js"></script>
+<script type="text/javascript" src="../../../js/XR.base-1.js" tppabs="http://www.xinrong.com/2.0/js/XR.base.js"></script>
+<script type="text/javascript" src="../../../../s/vendor/artDialog/jquery.artDialog-1.js" tppabs="http://www.xinrong.com/s/vendor/artDialog/jquery.artDialog.js"></script>
+<script type="text/javascript" src="../../../../s/vendor/artDialog/dialog_ex-2.js" tppabs="http://www.xinrong.com/s/vendor/artDialog/dialog_ex.js"></script>
+<script type="text/javascript" src="../../../js/mod/login-1.js" tppabs="http://www.xinrong.com/2.0/js/mod/login.js"></script>
+<script type="text/javascript" src="../../../js/mod/phone-1.js" tppabs="http://www.xinrong.com/2.0/js/mod/phone.js"></script>
+</head>
+
+<body>
+<!--header-->
+<script type="text/javascript">
+$(function(){
+    // å›ºå®šå¯¼èˆª
+	$(document).scroll(function(){
+		t=$(document).scrollTop();
+		if(t>=0){
+			$("#hmenu_nav").removeClass("h_por").css("top","78px;");
+			}
+		if(t>78){
+			$("#hmenu_nav").addClass("h_por").css("top","0px;");
+			}
+		});
+});
+</script>
+<div class="hmenu_nav">
+  <div class="main PositionR">
+    <div class="logo left PositionR"><a href="../../../../index.htm" tppabs="http://www.xinrong.com/index.shtml"><img src="../../../images/logo-1.gif" tppabs="http://www.xinrong.com/2.0/images/logo.gif" /></a><a href="../shareholder-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/shareholder.shtml" class="logo_font">ä¸Šå¸‚å…¬å¸ç³»</a></div>
+    <div class="right top_my"><a href="../../account/account_index-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/account_index.shtml" class="f-my" id="nav_my">æˆ‘çš„è´¦æˆ·</a> <a id="top_exit" href="javascript:AA.RapidLogin.loginout();" class="f_exit" style="display:none;">é€€å‡º</a> <span class="h-login-reg h-login" style="display: none;"><i></i><a href="../../../login2.0-1.html" tppabs="http://www.xinrong.com/2.0/login2.0.html" class="flogin">ç™»å½•</a><a href="../../account/register4.0-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/register4.0.shtml" class="freg">æ³¨å†Œ</a></span></div>
+    <div class="clear"></div>
+  </div>
+  <div class="h_nav" id="hmenu_nav">
+    <div class="main PositionR">
+      <ul>
+        <li><a href="../../../../index.htm" tppabs="http://www.xinrong.com/index.shtml" id="nav_index">é¦–é¡µ</a></li>
+        <li><a href="../../../../invest-1.shtml.htm" tppabs="http://www.xinrong.com/invest.shtml" id="nav_invest">æŠ•èµ„<i class="arrow"></i></a>
+        <ul>
+        <li><a href="../../../calculator-1.html#finvest" tppabs="http://www.xinrong.com/2.0/calculator.html#finvest" target="_blank">æŠ•èµ„è®¡ç®—å™¨</a></li>
+        </ul>
+        </li>
+        <li><a href="../../../action/xr_huahua/huahua-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" id="nav_huahua">ä¿¡èèŠ±èŠ±<i class="arrow"></i><b class="hh_icon"><img src="../../../images/hh_icon-1.png" tppabs="http://www.xinrong.com/2.0/images/hh_icon.png" /></b></a>
+          <ul>
+          	<li><a href="../../../action/xr_huahua/huahua-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/xr_huahua/huahua.shtml" target="_blank">æˆ‘è¦å€Ÿæ¬¾</a></li>
+            <li><a href="../../../calculator-1.html" tppabs="http://www.xinrong.com/2.0/calculator.html" target="_blank">å€Ÿæ¬¾è®¡ç®—å™¨</a></li>
+          </ul>
+        </li>
+        <li><a href="../../../action/zt_call/xr_call-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/action/zt_call/xr_call.shtml" id="nav_duoduo">æœµæœµæ¥ç”µ</a></li>
+        <li><a href="../invest_help-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/invest_help.shtml" id="nav_invest_help">æ–°æ‰‹æŒ‡å¼•<i class="arrow"></i></a>
+          <ul>
+          	<li><a href="../invest_help-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/invest_help.shtml" target="_blank">æŠ•èµ„å¸®åŠ©</a></li>
+          	<li><a href="../risk-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/risk.shtml" target="_blank">é£é™©æ§åˆ¶</a></li>
+            <li><a href="../laws_regulations-1.shtml.htm#navLaws" tppabs="http://www.xinrong.com/2.0/views/about/laws_regulations.shtml#navLaws" target="_blank">æ³•å¾‹æ³•è§„</a></li>
+            <li><a href="../help-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml" id="nav_help" target="_blank">é—®é¢˜ç­”ç–‘</a></li>
+          </ul>
+        </li>
+        <li><a href="../about-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about">ä¿¡æ¯æŠ«éœ²<i class="arrow"></i></a>
+          <ul>
+            <li><a href="../about-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" id="nav_about_index">å…¬å¸ç®€ä»‹</a></li>
+            <li><a href="../team-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/team.shtml">å›¢é˜Ÿä»‹ç»</a></li>
+            <li><a href="../service_data-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/service_data.shtml">è¿è¥æ•°æ®</a></li>
+            <li><a href="../xr_announcement-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_announcement.shtml">å¹³å°å…¬å‘Š</a></li>
+            <li><a href="../partner-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/partner.shtml">åˆä½œæœºæ„</a></li>
+            <li><a href="../contact-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/contact.shtml">è”ç³»æˆ‘ä»¬</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav_r"><a href="../../../vip-1.html" tppabs="http://www.xinrong.com/2.0/vip.html" id="nav_vip">VIPç‰¹æƒ</a> | <a href="javascript:if(confirm('http://www.xinrong.com/gift  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ·şÎñÆ÷±¨¸æ¸ÃÎÄ¼şÎ´ÕÒµ½¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.xinrong.com/gift'" tppabs="http://www.xinrong.com/gift" id="nav_gift">ç§¯å“æ±‡</a></div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<style type="text/css">
+.fengxian_dialog{ width:469px; height:315px; background:#ffffff; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.fengxian_dialog h1{ height:50px; line-height:50px; background:#ececec; color:#2c2c2c; font-size:18px; font-weight:normal; padding:0 10px; border-top-left-radius:5px; border-top-right-radius:5px; position:relative;}
+.fengxian_dialog h1 .close{ position:absolute; right:10px; top:0px; font-family:"å®‹ä½“"; font-size:30px; color:#aeaeae; font-weight:normal; text-decoration:none;}
+.fengxian_dialog .fx_font{ padding:20px 30px; font-size:18px; line-height:30px;}
+.fengxian_dialog .fx_sub{ text-align:center; line-height:36px;}
+.fengxian_dialog .fx_sub .sub02{ font-size:18px; width:166px; height:45px; line-height:45px;}
+.fengxian_dialog .fx_sub p a{ color:#a1a1a1; font-size:15px;}
+</style>
+<script type="text/javascript" src="../../../js/wbox-1.js" tppabs="http://www.xinrong.com/2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../../css/dialog-wbox-1.css" tppabs="http://www.xinrong.com/2.0/css/dialog-wbox.css">
+<!--é£é™©æµ‹è¯„-->
+<div id="fxpc_dialog" style="display: none;">
+  <div class="fengxian_dialog">
+    <h1>æ¸©é¦¨æç¤º<a href="javascript:void(0)" class="close" id="close">Ã—</a></h1>
+    <div class="fx_font"> å°Šæ•¬çš„ç”¨æˆ·ï¼Œä¸ºäº†å¸®åŠ©æ‚¨æ›´å¥½çš„äº†è§£è‡ªå·±çš„é£é™©æ‰¿å—èƒ½åŠ›ï¼Œè¯·æ‚¨èŠ±30ç§’çš„æ—¶é—´å®Œæˆ10é“é£é™©æµ‹è¯•é¢˜ã€‚ ç½‘è´·éå­˜æ¬¾ï¼ŒæŠ•èµ„éœ€è°¨æ…ï¼Œæ˜¯å¦ç«‹å³è¿›è¡Œé£é™©æµ‹è¯„ï¼Ÿ </div>
+    <div class="fx_sub"><a href="javascript:void(0)" class="sub02" id="goToAnswer">ç«‹å³æµ‹è¯„</a>
+      <p><a href="javascript:void(0)" id="afterAnswer">ç¨åå†è¯´</a></p>
+    </div>
+  </div>
+</div>
+<script>
+	
+	(function() {
+	
+	var channel=location.href;
+
+	var index=channel.lastIndexOf("/");
+	
+	var index1=channel.lastIndexOf(".");
+
+	if(index>0){
+		channel=channel.substring(index+1,index1);
+
+		if(channel==".com/"||channel==".com"){
+			$('#nav_index').parent().attr("class","cur");
+		}else if(channel=="xincunbao"){
+			$('#nav_my').addClass("cur");
+		}else if(channel=="invest_help"||channel=="risk"||channel=="security"){
+			$('#nav_invest_help').parent().attr("class","cur");			
+		}else if(channel=="help"||channel=="guide1"||channel=="guide2"||channel=="guide3"||channel=="guide4"){
+			$('#nav_invest_help').parent().attr("class","cur");
+			$('#nav_help').attr("class","cur");		
+		}else if(channel=="xr_call"){
+			$('#nav_duoduo').parent().attr("class","cur");
+		}else if(channel=="vip"){
+			$('#nav_vip').attr("class","cur");
+		}else{
+			$('#nav_'+channel).parent().attr("class","cur");	
+		}
+		
+	}
+})();
+
+$(document).ready(function(){
+	$(".h-login-reg a").mouseenter(function(){
+		if($(this).is(".flogin"))
+			{
+				$(".h-login-reg").addClass("h-login");
+				$(".h-login-reg").removeClass("h-reg");
+			}
+			else{
+				$(".h-login-reg").addClass("h-reg");
+				$(".h-login-reg").removeClass("h-login");
+				}
+		});
+	var isAnswered=sessionStorage.getItem('afterAnswer')||null;
+	if (location.href.indexOf('goAnswer=true') < 0) {
+		if (isAnswered =='null') {
+			$.ajax({
+				url:'../../../../v2/login/in_session_data-1.jso'/*tpa=http://www.xinrong.com/v2/login/in_session_data.jso*/,
+			    type:'GET' ,
+			    dataType:'json',
+			    success:function (result) {
+					if(result.state==0){
+						if (document.cookie.substring(document.cookie.indexOf("isAnswer=")+9,document.cookie.indexOf("isAnswer=")+10) =="N") {
+							showFXPCdialog();
+							
+							if (location.href.indexOf("account_settings.shtml")>-1) {
+								$('#wBox #goToAnswer').unbind('click').bind('click',function(){
+						        	$('#tp2').click();
+						        })
+							}
+						}
+					}
+				}
+			});
+		}
+	}
+	
+
+	function showFXPCdialog(){
+		wBox = $('#fxpc_dialog').wBox({
+                noTitle:true,
+                top:5,
+                html: $('#fxpc_dialog').html()
+            });
+        wBox.showBox(); 
+        $('#wBox #afterAnswer').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        });
+        $('#wBox #goToAnswer').unbind('click').bind('click',function(){
+        	location.href="../../account/account_settings-1.shtml.htm"/*tpa=http://www.xinrong.com/2.0/views/account/account_settings.shtml?goAnswer=true*/;
+        });
+        $('#wBox #close').unbind('click').bind('click',function(){
+        	sessionStorage.setItem('afterAnswer',true);
+        	wBox.close();
+        })
+
+	}
+});
+
+</script> 
+
+<!--header end-->
+<div class="LineBorder ConMain"></div>
+<!--center-->
+<div class="about_banner"></div>
+<div class="main">
+  <script type="text/javascript">
+/*function GetUrlParam (name)
+	{
+	
+		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"); //æ„é€ ä¸€ä¸ªå«æœ‰ç›®æ ‡å‚æ•°çš„æ­£åˆ™è¡¨è¾¾å¼å¯¹è±¡
+	
+		var r = window.location.search.substr(1).match(reg);  //åŒ¹é…ç›®æ ‡å‚æ•°
+	
+		if (r!=null) return decodeURIComponent(r[2]); return null; //è¿”å›å‚æ•°å€¼
+	
+	}*/
+$(document).ready(function(){
+		//var hrefId=GetUrlParam('href');
+	
+		$(".h_cur h2").click(clickH1);
+		slideDownByHash();
+/*		$("a[default='true']").click();
+		if(hrefId!=null){
+			$("#"+hrefId).click();
+		}*/
+		
+		
+		var url = window.location.pathname;
+		
+		$(".h_cur .f_show li").each(function(){
+			var url = window.location.pathname;
+			 var li_obj = $(this);
+			 var a_obj = li_obj.find('a');
+			 if(a_obj.attr('href')==url){
+				a_obj.parent().parent().parent().children("h2").click();
+			 }
+		});
+		
+		
+	});
+	function clickH1(){
+			if($(this).next().is(":hidden"))
+			{
+				$(".h_cur .f_show").slideUp();
+				$(".h_cur h2").removeClass("curbg");
+				$(this).next().slideDown();
+				$(this).addClass("curbg");
+			}
+			else{
+				$(".h_cur .f_show").slideUp();
+				$(".h_cur h2").removeClass("curbg");
+				}
+		}
+	function slideDownByHash()
+		{
+			var hash=location.hash;
+			$(hash).click();
+		}
+
+</script>
+<div class="sidebar_a left">
+    <div class="side_nav PositionR">
+      <h1><img src="../../../images/about/01-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/01.jpg" width="187" height="137" /></h1>
+      <ul>
+        <li class="h_cur"><h2 id="fabout">å…¬å¸ç®€ä»‹<i class="h_img">></i></h2>
+          <ul class="f_show">
+            <li id="side_nav_index"><a href="../about-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml">ä¿¡èç®€ä»‹</a></li>
+            <li id="side_nav_shareholder"><a href="../shareholder-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/shareholder.shtml">è‚¡ä¸œä¿¡æ¯</a></li>
+            <li id="side_nav_structure"><a href="../structure-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/structure.shtml">å…¬å¸æ¶æ„</a></li>
+            <li id="side_nav_xrhistory"><a href="../xr_history-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_history.shtml">å‘å±•å†ç¨‹</a></li>
+            <li id="side_nav_xrmien"><a href="../xr_mien-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_mien.shtml">å…¬å¸é£é‡‡</a></li>
+            <li id="side_nav_certificate"><a href="../xr_certificate-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_certificate.shtml">å…¬å¸è¯ä»¶</a></li>
+          </ul>
+        </li>
+        <li class="h_cur"><h2>å›¢é˜Ÿä»‹ç»<i class="h_img">></i></h2>
+        <ul class="f_show">
+        <li id="side_nav_team"><a href="../team-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/team.shtml">æ ¸å¿ƒå›¢é˜Ÿä»‹ç»</a></li>
+        <li id="side_nav_employee"><a href="../employee_info-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/employee_info.shtml">å‘˜å·¥ä¿¡æ¯</a></li>
+        </ul>
+        </li>
+        <li id="side_nav_data" class=""><a href="../service_data-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/service_data.shtml" target="_blank">è¿è¥æ•°æ®</a></li>
+        <li id="side_nav_xrreport"><a href="../xr_report-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_report.shtml">ä¿¡èå¹´æŠ¥</a></li>
+        <li class="h_cur"><h2>é£é™©æ§åˆ¶<i class="h_img">></i></h2>
+        <ul class="f_show">
+        <li id="side_nav_technical_safety"><a href="../technical_safety-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/technical_safety.shtml">å¹³å°æŠ€æœ¯å®‰å…¨</a></li>
+        <li><a href="../risk-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/risk.shtml" target="_blank">é£æ§æ¨¡å¼</a></li>
+        </ul>
+        </li>
+        <li class="h_cur"><h2>ç½‘è´·è¯¾å ‚<i class="h_img">></i></h2>
+        <ul class="f_show">
+        <li id="risk_education"><a href="../risk_education-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/risk_education.shtml">é£é™©æ•™è‚²æ´»åŠ¨</a></li>
+        <li id="loan_knowledge"><a href="../loan_knowledge-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/loan_knowledge.shtml">ç½‘è´·çŸ¥è¯†</a></li>
+        </ul>
+        </li>
+        <li id="side_nav_laws" class=""><a href="../laws_regulations-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/laws_regulations.shtml">æ³•å¾‹æ³•è§„</a></li>
+        <li class="h_cur"><h2>å…³äºæˆ‘ä»¬<i class="h_img">></i></h2>
+          <ul class="f_show">
+          <li id="side_nav_partner" class=""><a href="../partner-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/partner.shtml">åˆä½œæœºæ„</a></li>
+          <li id="side_nav_credit" class=""><a href="../xr_credit-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_credit.shtml">èµ„è´¨è£èª‰</a></li>
+          <li id="side_nav_media" class=""><a href="../media_report-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/media_report.shtml">åª’ä½“æŠ¥é“</a></li>
+          <li id="side_nav_announcement" class=""><a href="../xr_announcement-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_announcement.shtml">å¹³å°å…¬å‘Š</a></li>
+          <li id="side_nav_activitysum"><a href="../activitysum-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/activitysum.shtml">ä¿¡èä¸“é¢˜</a></li>
+          <li id="side_nav_xrmonthly"><a href="../xr_monthly-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_monthly.shtml">ä¿¡èæœˆåˆŠ</a></li>
+          <li id="side_nav_contact" class=""><a href="../contact-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/contact.shtml">è”ç³»æˆ‘ä»¬</a></li>
+          </ul>
+        </li>
+        <!--
+        <li id="" class=""><a href="/about/index#about">ä¿¡èè´¢å¯Œç®€ä»‹</a></li>
+        <li id="" class=""><a href="/about/activitysum">ä¿¡èç‚¹æ»´</a></li>
+        <li id="" class=""><a href="/about/index#culture">ä¼ä¸šæ–‡åŒ–</a></li>
+        <li id="" class=""><a href="/about/index#team">å›¢é˜Ÿä»‹ç»</a></li>
+        <li id="" class=""><a href="/about/index#partner">åˆä½œä¼™ä¼´</a></li>
+        <li id="" class=""><a href="/about/honor">å…¬å¸è£èª‰</a></li>
+        <li id="" class=""><a href="/about/media_report">åª’ä½“æŠ¥é“</a></li>
+        <li id="" class=""><a href="/about/index#contact">è”ç³»æˆ‘ä»¬</a></li>
+        -->
+        
+        
+        
+      </ul>
+    </div>
+  </div> 
+  <!--left end-->
+  <div class="sidebar_b right">
+  <div class="black10"></div>
+  <div class="partner_font">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="214" align="center" class="bg"><span class="picbg"><img src="../../../images/about/partner/mingte-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/partner/mingte.jpg" height="40" /></span></td>
+    <td height="300" valign="top">
+    <h1>æ˜ç‰¹å•†ä¸šä¿ç†æœ‰é™å…¬å¸</h1>
+    <dl>
+    <dt>æ€§è´¨</dt>
+    <dd>æ•°æ®é©±åŠ¨ç­–ç•¥å‹é‡‘èå¹³å°</dd>
+    <div class="clear"></div>
+    </dl>
+    <dl>
+    <dt>ä¸»è¥ä¸šåŠ¡</dt>
+    <dd>å¯¹å®¢æˆ·è¿›è¡Œä¿¡ç”¨æ•°æ®åˆ†æ ä¸ºå®¢æˆ·è¿›è¡Œé‡‘èæ’®åˆæœåŠ¡</dd>
+    <div class="clear"></div>
+    </dl>
+    <dl>
+    <dt>ç»è¥èŒƒå›´</dt>
+    <dd>æ•°æ®åˆ†æã€æŠ€æœ¯æœåŠ¡ã€ä¸å•†ä¸šä¿ç†ç›¸å…³çš„å’¨è¯¢ç­‰</dd>
+    <div class="clear"></div>
+    </dl>
+    <dl>
+    <dt>å…¬å¸ç®€ä»‹</dt>
+    <dd>
+      <p>æ˜ç‰¹å•†ä¸šä¿ç†æœ‰é™å…¬å¸æ˜¯åŒ—äº¬æ˜ç‰¹é‡åŒ–ä¿¡æ¯æŠ€æœ¯æœ‰é™å…¬å¸çš„å…¨èµ„å­å…¬å¸ï¼Œæ˜¯ä¸€ä¸ªåˆ©ç”¨å¤§æ•°æ®å’Œæœºå™¨å­¦ä¹ æ¥è¿›è¡Œæ•°æ®é©±åŠ¨ç­–ç•¥å‹çš„é‡‘èç§‘æŠ€ä¼ä¸šï¼Œä¸»è¦é€šè¿‡æ•°æ®æ¥é£é™©å®šä»·ç»™äºˆä½ä¿¡ç”¨æˆ–æ— ä¿¡ç”¨åˆ†æ•°äººç¾¤ä»·æ ¼æ›´å¥½çš„æ¶ˆè´¹é‡‘èäº§å“ï¼Œæé«˜ä»–ä»¬çš„ä¿¡ç”¨åˆ†æ•°å’Œé¢åº¦è€Œè¿›å…¥åˆ°ä¼ ç»Ÿæ¶ˆè´¹é‡‘èå¸‚åœºã€‚æ˜ç‰¹ä¿¡æ¯è‡ª2015å¹´æˆç«‹ä»¥æ¥ï¼Œå·²è·å¾—å¤šå®¶æµ·å†…å¤–çŸ¥åVCçš„æ•°åƒä¸‡å…ƒçš„Aè½®èèµ„ï¼Œå…¶ä¸­åŒ…æ‹¬æŠ•èµ„Netflix, å¥‡è™360ç­‰çŸ¥åå…¬å¸çš„ç¡…è°·è‘—åVCçº¢ç‚¹åˆ›æŠ•å’Œä¸­å›½çš„æ´ªæ³°åŸºé‡‘ã€‚</p>
+<p>å…¬å¸åˆ›å§‹äººå‘˜æ¯•ä¸šäºäººæ°‘å¤§å­¦ï¼Œå—äº¬å¤§å­¦ï¼Œåº·å¥ˆå°”å¤§å­¦ï¼Œå®¾å¤•æ³•å°¼äºšå¤§å­¦ç­‰å›½å†…å¤–è‘—åé«˜æ ¡ï¼Œå¹¶æ›¾å°±èŒäºç‘å£«ä¿¡è´·ï¼Œç¬¬ä¸€èµ„æœ¬é“¶è¡Œï¼ŒèŠ±æ——é“¶è¡Œï¼Œå›½é™…è´§å¸åŸºé‡‘ç»„ç»‡ï¼ŒFacebook, äºšé©¬é€Šï¼Œäººæ°‘é“¶è¡Œï¼Œå¤–æ±‡ç®¡ç†å±€ï¼Œä¸­å›½é“¶è¡Œï¼Œæ°‘ç”Ÿé“¶è¡Œç­‰å›½å†…å¤–ä¸€æµé‡‘èæœºæ„å’Œäº’è”ç½‘å…¬å¸ã€‚å…¬å¸å®šä½ä¸ºå…¨çƒåŒ–çš„é‡‘èç§‘æŠ€å…¬å¸ï¼Œè‡´åŠ›äºæ‰“é€ å…¨çƒåŒ–çš„çº¿ä¸Šæ¶ˆè´¹åˆ†æœŸäº§å“ã€‚ç›®å‰ï¼Œå·²æœ‰äº§å“åœ¨ç¾å›½å¸‚åœºæŠ•æ”¾ï¼Œå¹¶å–å¾—äº†è‰¯å¥½çš„å¸‚åœºåå“ã€‚</p>
+    </dd>
+    <div class="clear"></div>
+    </dl>
+    <dl>
+    <dt>å…¬å¸è¯ç…§</dt>
+    <dd><ul>
+      <li><a class="example-image-link" href="../../../images/about/paper/75-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/75.jpg" data-lightbox="example-9"><img class="example-image" src="../../../images/about/paper/75-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/75.jpg" height="180" title="ä¼ä¸šæ³•äººè¥ä¸šæ‰§ç…§" /></a></li>
+      </ul></dd>
+    <div class="clear"></div>
+    </dl>
+    <dl>
+    <dt>æˆ˜ç•¥åè®®</dt>
+    <dd><ul>
+      <li><a class="example-image-link" href="../../../images/about/paper/76-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/76.jpg" data-lightbox="example-10"><img class="example-image" src="../../../images/about/paper/76-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/76.jpg" height="180" /></a></li>
+      <li><a class="example-image-link" href="../../../images/about/paper/77-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/77.jpg" data-lightbox="example-11"><img class="example-image" src="../../../images/about/paper/77-1.jpg" tppabs="http://www.xinrong.com/2.0/images/about/paper/77.jpg" height="180" /></a></li>
+      </ul></dd>
+    <div class="clear"></div>
+    </dl>
+    </td>
+  </tr>
+</table>
+</div>
+  </div>
+  <!--right end-->
+  <div class="black20"></div>
+</div>
+<!--center end--> 
+<!--footer--> 
+<div class="footer_box">
+<div class="footer_fnav">
+<div class="main">
+<div class="footer_about left">
+<ul>
+<li><h2><a href="../about-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" target="_blank">å…³äºæˆ‘ä»¬</a></h2><p><a href="../team-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/team.shtml" target="_blank">å›¢é˜Ÿä»‹ç»</a></p><p><a href="../xr_history-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_history.shtml" target="_blank">å‘å±•å†ç¨‹</a></p><p><a href="../xr_credit-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_credit.shtml" target="_blank">èµ„è´¨è£èª‰</a></p><p><a href="../partner-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/partner.shtml" target="_blank">åˆä½œæœºæ„</a></p></li>
+<li><h2><a href="../help-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml" target="_blank">å¸®åŠ©ä¸­å¿ƒ</a></h2><p><a href="../guide/guide1-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/guide/guide1.shtml" target="_blank">æ–°æ‰‹æŒ‡å¼•</a></p><p><a href="../help-2.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml?tab=tab1" target="_blank">é—®é¢˜ç­”ç–‘</a></p><p><a href="../help-3.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/help.shtml?tab=tab10" target="_blank">æŠ•èµ„æ”»ç•¥</a></p><p><a href="javascript:if(confirm('http://bbs.xinrong.com/forum-49-1.html  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://bbs.xinrong.com/forum-49-1.html'" tppabs="http://bbs.xinrong.com/forum-49-1.html" target="_blank">æ„è§åé¦ˆ</a></p></li>
+<li><h2><a href="../about-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/about.shtml" target="_blank">ä¿¡æ¯ä¸­å¿ƒ</a></h2><p><a href="../xr_announcement-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/xr_announcement.shtml" target="_blank">å¹³å°å…¬å‘Š</a></p><p><a href="../media_report-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/media_report.shtml" target="_blank">åª’ä½“æŠ¥é“</a></p><p><a href="../activitysum-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/about/activitysum.shtml" target="_blank">ä¿¡èç‚¹æ»´</a></p><p><a href="javascript:if(confirm('http://bbs.xinrong.com/forum.php  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://bbs.xinrong.com/forum.php'" tppabs="http://bbs.xinrong.com/forum.php" target="_blank">ç¤¾ åŒº</a></p></li>
+<li><h2>äº§å“ä½“ç³»</h2><p><a href="../../../vip-1.html" tppabs="http://www.xinrong.com/2.0/vip.html" target="_blank">VIPç‰¹æƒ</a></p><p><a href="javascript:if(confirm('http://www.xinrong.com/gift  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ·şÎñÆ÷±¨¸æ¸ÃÎÄ¼şÎ´ÕÒµ½¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.xinrong.com/gift'" tppabs="http://www.xinrong.com/gift" target="_blank">ç§¯å“æ±‡</a></p><p><a href="../../../../action/jf.htm" tppabs="http://www.xinrong.com/action/jf" target="_blank">æŠ½å¥–</a></p></li>
+</ul>
+</div>
+<div class="footer_contact left">
+<h2>ç½‘è´·æœ‰é£é™©    æŠ•èµ„éœ€è°¨æ…</h2>
+<h3><span ><i class="AllIcon"></i>400-777-9888</span></h3>
+<p>å‘¨ä¸€è‡³å‘¨äº”9:00 - 18:30</p>
+<p class="gray">å®˜æ–¹QQç¾¤ï¼š167877489</p>
+<div class="con_pic">
+<ul>
+<li class="fb01"><a href="javascript:void(0)"><i class="AllIcon icon01"></i></a>
+<ul class="weix_box"><b></b><li><img src="../../../../s/img/w02-1.jpg" tppabs="http://www.xinrong.com/s/img/w02.jpg" width="100"><h4>å…³æ³¨æœåŠ¡å·</h4></li><li><img src="../../../../s/img/w05-1.jpg" tppabs="http://www.xinrong.com/s/img/w05.jpg" width="100"><h4>å…³æ³¨è®¢é˜…å·</h4></li><li><img src="../../../../s/img/w06-1.jpg" tppabs="http://www.xinrong.com/s/img/w06.jpg" width="100"><h4>å¾®ä¿¡å®¢æœ-å°è–‡</h4></ul>
+</li>
+<li class="fb02"><a href="javascript:if(confirm('http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5'" tppabs="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007779888&f=1&ty=1&aty=0&a=&from=5" title="åœ¨çº¿å’¨è¯¢" target="_blank"><i class="AllIcon icon02"></i></a>
+<ul class="weix_box qq_box">
+<li><b></b><img src="../../../images/qq-1.png" tppabs="http://www.xinrong.com/2.0/images/qq.png" width="120"><h4>QQå·ï¼š4007779888</h4></li>
+</ul></li>
+<li class="fb03"><a href="javascript:if(confirm('http://weibo.com/u/2719695463?profile_ftype=1&is_all=1  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://weibo.com/u/2719695463?profile_ftype=1&is_all=1#_0'" tppabs="http://weibo.com/u/2719695463?profile_ftype=1&is_all=1#_0" target="_blank" title="å¾®åš"><i class="AllIcon icon03"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="footer_app right">
+  <img src="../../../../s/img/w07-1.jpg" tppabs="http://www.xinrong.com/s/img/w07.jpg" width="122" class="bimg" /><h2>ä¸‹è½½æ‰‹æœºå®¢æˆ·ç«¯<i class="AllIcon icon01"></i> <i class="AllIcon icon02"></i></h2> </div>
+<div class="black10"></div>
+</div>
+</div><!--end-->
+<div class="clear"></div>
+<div class="footer_pic">
+<ul>
+<li><a target="_blank" href="javascript:if(confirm('http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86'" tppabs="http://szcert.ebs.org.cn/33a832e2-fa27-42e2-b593-f8eca324fd86" title="æ·±åœ³å¸‚å¸‚åœºç›‘ç£ç®¡ç†å±€ä¼ä¸šä¸»ä½“èº«ä»½å…¬ç¤º"><i class="icon01"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN'" tppabs="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf%2Fsplash.fdf&sap=&dn=www.xinrong.com&zoneoff=&lang=zh_CN" title="ä¿¡èè´¢å¯Œæ˜¯ä¸­å›½é¦–æ‰¹å¼•å…¥VeriSign 256ä½SSLåŠ å¯†çš„èèµ„ç†è´¢å¹³å°ã€‚æ‚¨çš„éšç§åŠä¸ªäººèµ„æ–™å®‰å…¨å·²å—æœ€é«˜çº§åˆ«çš„ä¿æŠ¤ã€‚"><i class="icon03"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401'" tppabs="http://www.itrust.org.cn/home/index/rz_certifi/wm/RZ2017082401" title="ä¸­å›½ä¿¡ç”¨ä¼ä¸š"><i class="icon02"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('https://search.szfw.org/cert/l/CX20140805008628008716  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://search.szfw.org/cert/l/CX20140805008628008716'" tppabs="https://search.szfw.org/cert/l/CX20140805008628008716" title="è¯šä¿¡ç½‘ç«™"><i class="icon04"></i></a></li>
+<li><a title="è…¾è®¯äº‘å®‰å…¨è®¤è¯"><i class="icon05"></i></a></li>
+<li><a target="_blank" href="javascript:if(confirm('http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business'" tppabs="http://v.pinpaibao.com.cn/authenticate/cert/?site=www.xinrong.com&at=business" title="å®‰å…¨è”ç›Ÿè®¤è¯ç½‘ç«™"><i class="icon06"></i></a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="footer_font main"><p> <a href="javascript:if(confirm('http://www.xinrong.com/about/privacy  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ·şÎñÆ÷±¨¸æ¸ÃÎÄ¼şÎ´ÕÒµ½¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.xinrong.com/about/privacy'" tppabs="http://www.xinrong.com/about/privacy" target="_blank">éšç§ä¿æŠ¤ç”³æ˜</a> ã€€|ã€€ <a href="javascript:if(confirm('http://www.xinrong.com/about/agreement  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ·şÎñÆ÷±¨¸æ¸ÃÎÄ¼şÎ´ÕÒµ½¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.xinrong.com/about/agreement'" tppabs="http://www.xinrong.com/about/agreement" target="_blank">æœåŠ¡åè®®</a>ã€€ |ã€€ ç²¤ICPå¤‡12020226å·</p>Copyright Xinrong.com All Rights Reserved   ä¿¡èè´¢å¯ŒæŠ•èµ„ç®¡ç†æœ‰é™å…¬å¸</div>
+</div>
+
+<style>
+.d-dialog{ border: 1px solid #0078b5; background:#fff;}
+.d-dialog h1{ height: 30px; line-height: 30px; padding: 0 28px 0 10px; color: #fff; background: #74b4e2; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74b4e2), color-stop(100%, #3d8fca) ); background-image: -webkit-linear-gradient(#74b4e2, #3d8fca); background-image: -moz-linear-gradient(#74b4e2, #3d8fca); background-image: -o-linear-gradient(#74b4e2, #3d8fca); background-image: linear-gradient(#74b4e2, #3d8fca); position:relative; font-size:14px;}
+.d-dialog h1 .d-close { padding: 0; position:absolute; top: 4px; right: 4px; width: 21px; height: 21px; line-height: 21px; font-size: 25px; _font-size: 20px; color: #fff; text-align: center; font-family: Helvetica, STHeiti; _font-family: Tahoma, '\u9ed1\u4f53', 'Book Antiqua', Palatino;text-decoration: none; display:block;outline: none;}
+
+.d-dialog .call_font{ padding:50px 40px 20px 40px; line-height:24px; font-size:16px;width:350px}
+.d-dialog .call_sub{ padding:20px 0 0 0; text-align:center;}
+.d-dialog .call_sub .sub01{ width:156px; height:45px; line-height:43px; text-align:center; background:#15a32c; font-size:20px;}
+.d-dialog .call_sub .sub02{ width:156px; height:45px; line-height:43px; text-align:center; background:#c8c8c8; font-size:20px;}
+.d-dialog .c_font{ text-align:center; padding-left:0px; padding-right: 0px;}
+</style>
+<script>
+$(function(){
+	//å…è´¹å’¨è¯¢ç”µè¯
+	/*$('.ftel').click(function(){
+		$.dialog({
+			id:'tel',
+			content:$('#free_tel_box').html(),
+			initialize:function(){
+				var _dialog = this;
+				$('.d-dialog #free_tel_btn').click(function(){
+					$.ajax({
+						url:'../../../../v2/communication/free_consulation-1.jso'/*tpa=http://www.xinrong.com/v2/communication/free_consulation.jso*/,
+						type:'post',
+						dataType:'json',
+						success:function(result){
+							if(result.state == 0){
+								$('.d-dialog #free_tel_btn').removeClass().addClass('sub02').html('è¯·æ¥å¬');
+								$('.d-dialog #free_tel_btn').unbind('click').click(function(){
+									_dialog.close();
+								});
+							}else if(result.state == 1009){
+								_dialog.close();
+								AA.RapidLogin.popup();
+							}else{
+								_dialog.close();
+								$.dialog({
+									id:'tel_msg',
+									content:$('#free_tel_msg_box').html(),
+									initialize:function(){
+										var _dialog = this;
+										$('.d-dialog #msg_view').html(result.msg);
+										$('.d-dialog #free_tel_msg_btn').click(function(){
+											_dialog.close();
+										});
+									}
+								});
+							}
+						}
+					});
+				});
+			}
+		});
+	});*/
+});
+</script>
+<div id="free_tel_box" style="display:none;">
+<div class="call_font" >
+ç‚¹å‡»é€šè¯ï¼Œ<font  >è‡´ç”µç»™ä¿¡èè´¢å¯Œ</font>ï¼Œ
+ç¨åæ‚¨å°†æ¥åˆ°å›æ‹¨ç”µè¯ï¼Œæ­¤æ¬¡é€šè¯å¯¹æ‚¨<span class="blue">å®Œå…¨å…è´¹</span>ï¼Œè¯·æ”¾å¿ƒæ¥å¬ï¼
+</div>
+<div class="call_sub"><a id="free_tel_btn" href="javascript:void(0)" class="sub01">é€šè¯</a></div>
+<div class="black20"></div>
+</div>
+<div id="free_tel_msg_box" style="display:none;">
+<div class="call_font c_font" id="msg_view">
+</div>
+<div class="call_sub"><a id="free_tel_msg_btn" href="javascript:void(0)" class="sub01">ç¡®å®š</a></div>
+<div class="black20"></div>
+</div>
+
+<script type="text/javascript" src="../../../js/channel-1.js" tppabs="http://www.xinrong.com/2.0/js/channel.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var agent=navigator.userAgent;
+
+	if(agent.indexOf('android')==-1&&agent.indexOf('Android')==-1){
+		var hm = document.createElement("script");
+		hm.src = "../../../../../hm.baidu.com/hm-1.js"/*tpa=http://hm.baidu.com/hm.js?a5ef11ea1e672f6b504ec7fe5a92cf30*/;
+		 var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	}
+})();
+</script>
+<script>
+(function() {
+	$.ajax({
+		url:'../../../../v2/login/in_session_data-1.jso'/*tpa=http://www.xinrong.com/v2/login/in_session_data.jso*/,
+	    type:'GET' ,
+	    dataType:'json',
+	    success:function (result) {
+	    	if(result.state==0){
+	    		G_ENV_VAR.IS_CHECKED_EMAIL=result.isAuthEmail==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_MOBILE=result.isAuthMobile==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_IDENTIFICATION=result.isAuthIden==0?false:true;
+	    		G_ENV_VAR.IS_CHECKED_BANKCARD=result.isAuthBankCard==0?false:true;
+	    		G_ENV_VAR.UNAME=result.uname;
+	    		G_ENV_VAR.UID=result.uid;
+	    		G_ENV_VAR.VIP=result.vip;
+
+	    		if(G_ENV_VAR.UID!=''&&G_ENV_VAR.UID>0){
+	    			$('#top_exit').show();
+					
+	    		}
+
+	    	}else if(result.state == 1009){
+				$('.h-login-reg').show();
+				}
+
+	    }
+	});
+
+})();
+</script>
+<!--footer end-->
+ 
+<!--footer end--> 
+<div  id="sidebar-login-box" style="display: none; ">
+<div class="wgt-dialog wgt-dialog-login" >
+    <fieldset class="ui-form">
+        <form id="rapid-login-form" method="post" action="http://www.xinrong.com/v2/login/login.jso">
+            <h3 class="wgt-dialog-title">ä¿¡èè´¢å¯Œç”¨æˆ·ç™»å½•</h3>
+            <div class="ui-form-line">
+                <label for="username" class="ui-form-label">è´¦ã€€å·ï¼š</label>
+                <input type="text" name="username" id="rapid-userName" class="ui-form-input" maxlength="50" tabindex="1" placeholder="è´¦æˆ·å / Email / æ‰‹æœºå·"/>
+                <a href="../../account/register4.0-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/register4.0.shtml" class="blue" target="_blank">æ³¨å†Œè´¦å·</a>
+            </div>
+            <div class="ui-form-line">
+                <label for="password" class="ui-form-label">å¯†ã€€ç ï¼š</label>
+                <input type="password" name="password" id="rapid-userPw" class="ui-form-input" maxlength="16" tabindex="2" placeholder="ç™»å½•å¯†ç "/>
+                <a href="../../account/back_password-1.shtml.htm" tppabs="http://www.xinrong.com/2.0/views/account/back_password.shtml" class="blue" target="_blank">å¿˜è®°è´¦å·/å¯†ç ï¼Ÿ</a>
+            </div>
+            <div class="ui-form-line ui-form-captcha" id="captcha_view" style="display:none">
+                <label for="rapid-captcha" class="ui-form-label">éªŒè¯ç ï¼š</label>
+                <input type="text" id="rapid-captcha" name="captcha" class="ui-form-input" autocomplete="off" maxlength="4" tabindex="3" placeholder="éªŒè¯ç "/>
+                <span id="rapid-captcha-placeholder" class="captcha-placeholder"><img src="" width='101' height='31' id='img-captcha' title='çœ‹ä¸æ¸…æ¥šï¼Ÿæ¢ä¸€ä¸ª' /></span>
+                <input type="hidden" id="rapid-seed" name="seed" value=""/>
+            </div>
+            <div class="ui-form-line ui-form-action">
+                <input  type="submit" class="ui-button ui-button-orange" style="width: 234px;height: 36px;line-height: 36px;" tabindex="4" value="ç™» å½•" />
+                
+                <em class="ui-tip"></em>
+                <img src="../../../images/Connect_logo_7-1.png" tppabs="http://www.xinrong.com/2.0/images/Connect_logo_7.png" onclick=" AA.RapidLogin.qqClick();" style="cursor:pointer; margin-left:8px;"></img>
+            </div>
+            <style>
+            .login-succ{ margin:auto; width:290px; height:210px; position:fixed; left:0; right:0px; top:0px; bottom:0px; z-index:999; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000'); border-radius:8px; text-align:center;}
+            :root .login-succ{ filter:none; background-color:rgba(0,0,0,0.5);}
+            .login-succ h1{ font-size:24px; color:#fff; padding-top:60px; font-weight:normal; position:relative;}
+            .login-succ img{ vertical-align:middle;padding:0px 10px 0 0;}
+            .login-succ span{ vertical-align:middle; padding: 26px 0 0 0;  display: inline-block;}
+            </style>
+            <div id="login_suc_dialog" style="display: none;">
+            <div class="login-succ">
+            <h1><img src="../../../images/c-login1-1.gif" tppabs="http://www.xinrong.com/2.0/images/c-login1.gif" width="68" height="93" /><span><i class="icondagou"></i>ç™»å½•æˆåŠŸ</span></h1>
+            </div>
+            </div>
+        </form>
+    </fieldset>
+</div> 
+
+</div>
+<script type="text/javascript" src="../../../js/rsa-1.js" tppabs="http://www.xinrong.com/2.0/js/rsa.js"></script>
+<script type="text/javascript" src="../../../../webapp2.0/js/wbox-1.js" tppabs="http://www.xinrong.com/webapp2.0/js/wbox.js"></script>
+<link rel="stylesheet" href="../../../css/dialog-wbox-1.css" tppabs="http://www.xinrong.com/2.0/css/dialog-wbox.css">
+
+<script src="../js/pic-box-2.6.min-1.js" tppabs="http://www.xinrong.com/2.0/views/about/js/pic-box-2.6.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".headerNav ul li").each(function(){
+		var _li = $(this);
+		var _a = _li.find("a");
+
+		if(_a.html()=="ä¿¡æ¯æŠ«éœ²"){
+			_li.addClass('navhome');
+			_a.addClass('cur');
+		}else{
+			_li.removeClass();
+			_a.removeClass();
+		}
+	});
+	
+	$("#side_nav_partner").each(function(){
+     $("#side_nav_partner").addClass("cur"); 
+ });
+ 
+});
+
+	</script>
+
+</body>
+</html>

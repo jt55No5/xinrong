@@ -1,0 +1,659 @@
+@charset "utf-8";
+/* CSS Document */
+/*FinanceDetail*/
+.FinanceTop{ width:100%; background:#f6f2e7;}
+.FinanceTop h1{ width:621px; margin:0 auto; border-bottom:1px dotted #d1d1d1; height:39px; line-height:30px; padding-top:13px; font-size:16px; color:#8d5e3b;}
+.FinanceTop h1 .Fonth1{ width:30px; height:39px; display: inline-block; background-position:-68px -50px; vertical-align:middle; margin-right:6px;}
+.FinanceTop h1 a{ float:right; color:#0078b6; font-size:12px; font-weight:normal; line-height:39px;}
+.FinanceTop .TopFont{ margin:0px; padding:7px 0; list-style:none;}
+.FinanceTop .TopFont{ width:100%;}
+.FinanceTop .TopFont li{ width:184px; height:30px; line-height:30px; color:#8c5d3a; float:left;}
+.FinanceTop .TopFont li.w01{ width:143px; padding-left:27px;}
+.FinanceTop .TopFont li.w02{ width:295px;}
+.FinanceTop .TopFont li b{ color:#ff6600;}
+.FinanceTop .TopFont li b i{ font-size:14px; font-family:Arial, Helvetica, sans-serif; font-style:normal;}
+.FinanceTop .TopFont li a{ color:#0078b6;}
+.FinanceTop .TopSub{ position:absolute; right:35px; top:78px;}
+
+.FinanceTab{ width:100%;}
+
+/*切换*/
+.tabs-nav{ height:30px; border-bottom:1px solid #99abbc; background:#f2f2f2; margin:0px; padding:0px 0 0 10px; list-style:none;}
+.tabs-nav li{ width:105px; text-align:center; float:left; position:relative; margin-bottom:-1px; padding-top:5px; margin-right:8px;}
+.tabs-nav a{ height:24px; line-height:24px; font-size:14px; color:#000; border:1px solid #99abbc; background:#f6f6f6; display:block; text-decoration:none;}
+.tabs-nav .ui-state-active{ position:relative; margin-bottom:-1px;}
+.tabs-nav .ui-state-active a{ color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff;}
+.ui-tabs-hide{ display:none}
+/*************************************************/
+
+.FinanceTab .TabFontUl li{ width:225px; float:left; line-height:25px;}
+.FinanceTab .TabFont{ padding-left:10px; line-height:25px;}
+.FinanceTab .TabFont h1{ line-height:25px;}
+.FinanceTab .TabFontPic li{ width:100px; border-bottom:1px solid #f2f2f2; float:left; display:inline; padding:10px 33px 0 14px;}
+.FinanceTab .TabFontPic li span{ display:block; line-height:39px; text-align:center;}
+.FinanceTab .TabFontPic li img{ border:1px solid #cccccc; padding:2px;}
+.FinanceTab .TabFontImg{ margin:0px; padding:9px 0 0 12px; list-style:none; background:#eaf2f6;}
+.FinanceTab .TabFontImg li{width:100px; padding-right:10px; float:left;}
+.FinanceTab .TabFontImg li img{ border:1px solid #cccccc; padding:2px; background:#fff;}
+.FinanceTab .TabFontImg li img:hover{ border:2px solid #ff6600; padding:1px; background:#fff;}
+.FinanceTab .TabFontImg li span{ display:block; line-height:33px; text-align:center; color:#666666;}
+.FinanceTab .FontImg{ display:block; text-align:right; padding-top:7px; line-height:18px;}
+.FinanceTab .FontImg a{ margin-right:17px; color:#999999;}
+.FinanceTab .FontImg a.C0078b6{ color:#0078b6;}
+
+.FinanceTab .FinanceTable{ border-collapse:collapse; margin-top:5px;}
+.FinanceTab .FinanceTable th{ height:27px; line-height:27px; background:#d9d9d9; font-weight:normal; border-top:1px solid #bdbcbc;}
+.FinanceTab .FinanceTable tr{ border-bottom:1px solid #f1f1f1;}
+.FinanceTab .FinanceTable tr.BorderNo{ border:0;}
+.FinanceTab .FinanceTable td{ line-height:36px;}
+.FinanceTab .FinanceTable td span{ color:#666666;}
+.FontPage{ display:block; text-align:right; padding-top:7px; line-height:18px; color:#0078b6;}
+.FontPage a{ margin:0 8px; color:#0078b6;}
+.FontPage span{ padding:0 5px; color:#fff; background:#74b3da;}
+
+.FinanceXm{ width:100%;}
+.FinanceTitle{ height:26px; line-height:26px; border-bottom:1px solid #cccccc; background:#f2f2f2; padding-left:20px;}
+.FinanceXm .XmFont{ border-bottom:1px dotted #cfcfcf; padding:8px 0 8px 10px; line-height:25px; display:block;}
+.FinanceXm .XmFont a{ color:#0078b6;}
+.FinanceXm .XmText{ line-height:25px; padding:5px 0 5px 10px; display:block;}
+.FinanceXm .FontPic li{ width:100px; float:left; display:inline; padding:10px 33px 0 14px;}
+.FinanceXm .FontPic li span{ display:block; line-height:39px; text-align:center;}
+.FinanceXm .FontPic li img{ border:1px solid #cccccc; padding:2px;}
+
+.FinanceBz{ width:100%; line-height:25px;}
+.FinanceBz h2{ padding-top:3px; line-height:25px; padding-left:10px;}
+.FinanceBz h2 .Ico01{ width:17px; height:19px; background-position:-158px -48px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.FinanceBz h2 .Ico02{ width:17px; height:19px; background-position:-158px -77px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.FinanceBz h2 .Ico03{ width:17px; height:19px; background-position:-158px -106px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.FinanceBz h2 .Ico04{ width:17px; height:19px; background-position:-158px -132px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.FinanceBz p{ padding-left:10px;}
+
+/*Project*/
+.ProjectLogo{ height:59px; line-height: 59px; padding:24px 0 0 23px; font-family:"微软雅黑"; font-size:22px; color:#666666; font-weight:bold;}
+.ProjectTitle{ height:31px; line-height:31px; border-bottom:1px solid #51836f; font-size:16px; color:#333333;}
+.ProjectTitle .Icon01{ width:14px; height:20px; background-position:-0px -87px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.ProjectTitle .Icon02{ width:14px; height:20px; background-position:-0px -115px; display: inline-block; vertical-align:middle; margin-right:8px;}
+.ProjectTitle .Icon03{ width:14px; height:20px; background-position:-0px -143px; display: inline-block; vertical-align:middle; margin-right:8px;}
+
+
+.ProjectList{ width:100%; padding-top:25px;}
+.ProjectList dl{ width:313px; float:left;}
+.ProjectList dt{ background:url("../../../images/action/P01.jpg"/*tpa=https://www.xinrong.com/s/images/action/P01.jpg*/) center no-repeat; height:41px; line-height:41px; text-align:center; font-size:16px; color:#333; font-weight:bold;}
+.ProjectList dd{ padding-top:18px; text-align:center; line-height:24px;}
+
+.ProjectFont{ width:473px; border-right:1px dotted #c7c5c5; margin-top:13px; padding-left:24px;}
+.ProjectFont .FontLi{ width:428px; display:block; padding-bottom:6px; line-height:24px;}
+.ProjectFont .FontLi h2{ height:36px; line-height:36px; font-size:14px;}
+
+.ProjectFontBor{ width:450px; border:0px; padding-left:50px;}
+
+.ProjectTable{ width:428px; padding:13px 0 0 29px;}
+.ProjectTable h2{ height:36px; line-height:36px; font-size:14px;}
+
+.ProjectTable table{ border:1px solid #d6d6d6; border-collapse:collapse;}
+.ProjectTable table th{ border:1px solid #d6d6d6; background:#eff7fb; line-height:40px; font-size:14px; font-weight:normal;}
+.ProjectTable .c666{ color:#666;}
+.ProjectTable table td{ border:1px solid #d6d6d6; padding:34px 0; line-height:24px;}
+.ProjectTable table td span{ display:block; text-align:left; padding-left:28px;}
+
+.TablePo{ position:absolute; left:49.9%; top:145px; width:33px; height:32px; background:url("../../../images/action/icon.png"/*tpa=https://www.xinrong.com/s/images/action/icon.png*/) -68px -95px no-repeat;}
+
+.ProjectTable01{ width:491px; padding:13px 0 0 48px;}
+.ProjectTable01 h2{ height:36px; line-height:36px; font-size:14px;}
+.ProjectTable01 table{ border:1px solid #d6d6d6; border-collapse:collapse;}
+.ProjectTable01 table th{ border:1px solid #d6d6d6; background:#eff7fb; line-height:40px; font-size:12px; font-weight:normal;}
+.ProjectTable01 table td{ border:1px solid #d6d6d6; height:46px; line-height:23px;}
+
+.ProjectText{ padding-left:23px; line-height:28px; color:#999;}
+
+.ProCommonProblems h1{ height:31px; line-height:31px; padding-left:10px; border-bottom:1px solid #d4d4d4; font-size:14px;}
+.ProCommonProblems h1 a{ float:right; font-size:12px; color:#1983bf; font-weight:normal; margin-right:10px;}
+
+.ProCommonProblems .ProblemsList{ width:206px; padding-left:26px;}
+.ProCommonProblems .ProblemsList h2{ height:44px; line-height:44px;}
+.ProCommonProblems .ProblemsList li{ height:24px; line-height:24px; position:relative; margin-left:-3px;}
+.ProCommonProblems .UlW01{ width:249px;}
+
+/*Finance*/
+.ConLeftSave h1{ width:100%; height:29px; line-height:29px; background:#f2f2f2; border:1px solid #f2f2f2; overflow:hidden;}
+.ConLeftSave h1 .Savefe6702{ font-size:14px; color:#fe6702; padding-top:1px; float:left;}
+.ConLeftSave h1 .Savefe6702 img{ float:left; padding:2px 5px 0 14px;}
+.ConLeftSave h1 .Save666{ padding-left:21px; font-weight:normal; float:left;}
+.ConLeftSave h1 .SaveTime{ padding-left:56px; font-weight:normal; float:left;}
+.ConLeftSave h1 .SaveTime b{ color:#209804; font-size:18px; font-weight:bold;}
+.ConLeftSave h1 .SaveI{ padding-left:75px; background-position: -105px -12px; color:#999999; font-weight:normal; display:block; float:left;}
+.ConLeftSave .SaveBox{ width:100%; border:1px solid #cbcaca;}
+.ConLeftSave .SaveBox .SaveBoxFont{ display:block; padding:7px 0 2px 18px; line-height:24px;}
+.ConLeftSave .SaveBox ul{ margin:0px; padding:0px 0 0 18px; list-style:none;}
+.ConLeftSave .SaveBox ul li{ width:164px; height:24px; line-height:24px; float:left;}
+.ConLeftSave .SaveBox ul li.w01{ width:224px;}
+.ConLeftSave .SaveBox ul li.w02{ width:274px;}
+.ConLeftSave .SaveBox ul li span{ background:#f3f8fd; padding:4px; position:relative; margin-left:-4px;}
+.ConLeftSave .SaveBox ul li b{ color:#fd6e0e;}
+.ConLeftSave .SaveBoxSub{ position:absolute; left:483px; top:15px;}
+
+.ConLeftProject{ width:100%;}
+.ConLeftProject h1{ height:26px; line-height:26px; font-size:14px; padding-left:10px;}
+.ConLeftProject h1 .right{ width:450px; font-size:12px; display:block;}
+.ConLeftProject h1 .right a{ color:#f00;}
+
+.ConTable th{ line-height:29px; border-top:1px solid #bebebe; background:#d9d9d9; font-weight:normal; padding:0 10px;}
+.ConTable td{ padding:8px 10px; line-height:23px;}
+.ConTable td a{ color:#333; text-decoration:underline;}
+.ConTable td a:hover{ color:#f00;}
+.ConTable td .ico{width: 28px; display: inline-block; height: 21px; margin-left: 3px; vertical-align: middle; background-position: 0 -53px;}
+.ConTable tr.bg{ background:#f3f8fd;}
+
+.FinanceIH1 h1{ font-size:23px; font-family:"微软雅黑"; font-weight:normal;}
+.FinanceIH1 h1 b{ font-size:14px; font-weight:normal;}
+.FinanceIH1 h1 a{ font-family:"宋体";}
+.FinanceIH1 .FontLi{ display:block; padding-left:72px;}
+.FinanceIH1 .FontLi ul{ width:202px; margin:0px; padding:0px; list-style:none; float:left;}
+.FinanceIH1 .FontLi ul h2{ font-size:16px; font-family:"微软雅黑"; line-height:28px; color:#8c5d3a;}
+.FinanceIH1 .FontLi ul h2 .Icon01{ width:14px; height:15px; background-position: 0 -187px; margin-right:3px; display:inline-block; vertical-align:middle;}
+.FinanceIH1 .FontLi ul h2 .Icon02{ width:16px; height:15px; background-position: -22px -187px; margin-right:3px; display:inline-block; vertical-align:middle;}
+.FinanceIH1 .FontLi ul h2 .Icon03{ width:15px; height:15px; background-position: -49px -187px; margin-right:3px; display:inline-block; vertical-align:middle;}
+.FinanceIH1 .FontLi ul li{ height:22px; line-height:22px; color:#8c5d3a; background:url("../../../images/action/L01.jpg"/*tpa=https://www.xinrong.com/s/images/action/L01.jpg*/) 4px center no-repeat; padding-left:17px;}
+
+/*Service*/
+.ServiceSub h1 a{height:26px; line-height:26px; color:#333; margin-top:6px; width:90px;}
+
+.ServiceTab{ width:100%;}
+.ServiceTab .STabNav{ background:none;}
+.ServiceTab .STabNav li{ padding-top:1px;}
+.ServiceTab .STabNav li a{ height:28px; line-height:28px;}
+.ServiceTab .YuanLi{ line-height:23px;}
+.ServiceTab .YuanLi h2{ height:37px; line-height:37px; font-size:14px; padding:0 17px;}
+.ServiceTab .YuanLi p{ text-indent:2em; padding:0 17px;}
+.ServiceTab .YuanLi h3{ line-height:23px; padding-top:6px; margin:0 17px;}
+.ServiceTab .YuanLi h3 i{ width:20px; height:23px; margin-right:4px; display:inline-block; vertical-align:middle;}
+.ServiceTab .YuanLi h3 .Icon01{ background-position: -0px -210px;}
+.ServiceTab .YuanLi h3 .Icon02{ background-position: -26px -210px;}
+.ServiceTab .YuanLi h3 .Icon03{ background-position: -50px -210px;}
+.ServiceTab .YuanLi .LiBorder{ font-size:0px; margin:0px; padding:0px; border-bottom:1px solid #cfcfcf; height:4px; margin:0 17px;}
+.ServiceTab .YuanLi h4{ height:25px; line-height:25px; background:#f2f2f2; padding-left:17px;}
+.ServiceTab .YuanLi .YLlist{ width:100%; padding:0px 0 15px 0; display:block; background:#f3f8fd;}
+.ServiceTab .YuanLi .YLlist li{ width:293px; padding:15px 0 0 35px; float:left;}
+.ServiceTab .YuanLi .YLlist li span{ display:block; font-weight:bold;}
+.ServiceTab .YuanLi table{ border-collapse:collapse;}
+.ServiceTab .YuanLi table th{ height: 29px; border-top: 1px solid #dedede; background-color: #f7f7f7; padding:0 18px; font-weight:normal;}
+.ServiceTab .YuanLi table td{ height:35px; padding:0 18px;}
+.ServiceTab .YuanLi .Icon04{ width:10px; height:10px; background:url("../../../images/action/rank.png"/*tpa=https://www.xinrong.com/s/images/action/rank.png*/) -2px -2px no-repeat; margin:0 2px; display:inline-block; vertical-align:middle;}
+.ServiceTab .YuanLi .Icon05{ width:10px; height:10px; background:url("../../../images/action/rank.png"/*tpa=https://www.xinrong.com/s/images/action/rank.png*/) -2px -16px no-repeat; margin:0 2px; display:inline-block; vertical-align:middle;}
+
+.ServiceTab .FengXian{ line-height:23px;}
+.ServiceTab .FengXian h2{ height:37px; line-height:37px; font-size:14px; padding:0 17px; color:#F60;}
+.ServiceTab .FengXian p{ text-indent:2em; padding:0 17px;}
+.ServiceTab .FengXian h3{ height:25px; line-height:25px; background:#f2f2f2; padding-left:17px;}
+.ServiceTab .FXlist{ display:block; padding:0 17px;}
+.ServiceTab .FengXian dl{ width:100%; padding:13px 0 24px 0; border-bottom: 1px dotted #CFCFCF; float:left;}
+.ServiceTab .FengXian dt{ width:69px; padding-top:8px; float:left;}
+.ServiceTab .FengXian dt i{ width:52px; height:52px; display:inline-block; vertical-align:middle;}
+.ServiceTab .FengXian dt .Icon01{ background-position:0 -242px;}
+.ServiceTab .FengXian dt .Icon02{ background-position:-59px -242px;}
+.ServiceTab .FengXian dt .Icon03{ background-position:-117px -242px;}
+.ServiceTab .FengXian dt .Icon04{ background-position:0 -300px;}
+.ServiceTab .FengXian dt .Icon05{ background-position:-59px -300px;}
+.ServiceTab .FengXian dt .Icon06{ background-position:-117px -300px;}
+.ServiceTab .FengXian dt .Icon07{ background-position:-117px -185px;}
+.ServiceTab .FengXian dd{ width:568px; line-height:22px; float:left;}
+.ServiceTab .FengXian dd h4{ line-height:28px;}
+.ServiceTab .FengXian dd a{ color:#0078b6;}
+
+.ServiceTab .Xiangxi{ line-height:23px;}
+.ServiceTab .Xiangxi h2{ height:25px; line-height:25px; background:#f2f2f2; padding-left:17px;}
+.ServiceTab .Xiangxi .TopList{ margin:0px; padding:0px 0 0 17px; list-style:none;}
+.ServiceTab .Xiangxi .TopList li{ width:180px; background:#f3f8fd; height:80px; -moz-border-radius:5px; -webkit-border-radius:5px; margin-top:15px; line-height:20px; color:#888; float:left;}
+.ServiceTab .Xiangxi .TopList li.ListXi{ width:25px; padding:25px 7px 0 7px; height:22px; background:none;}
+.ServiceTab .Xiangxi .TopList li.ListWidth{ width:193px;}
+.ServiceTab .Xiangxi .TopList li h3{ height:20px; line-height:20px; padding:5px 0; font-family:"微软雅黑"; color:#444; font-weight:normal;}
+.ServiceTab .Xiangxi .TopList li h3 i{ width:18px; height:18px; display:inline-block; vertical-align:middle; margin:0 6px;}
+.ServiceTab .Xiangxi .TopList li h3 .Icon01{ background-position:0 -367px;}
+.ServiceTab .Xiangxi .TopList li h3 .Icon02{ background-position:-21px -367px;}
+.ServiceTab .Xiangxi .TopList li h3 .Icon03{ background-position:-42px -367px;}
+.ServiceTab .Xiangxi .TopList li h3 .Icon04{ background-position:-63px -367px;}
+.ServiceTab .Xiangxi .TopList li h3 .Icon05{ background-position:-84px -367px;}
+.ServiceTab .Xiangxi .TopList li span{ display:block; padding-left:10px;}
+.ServiceTab .Xiangxi .TopList li span b{ font-weight:normal; padding-right:2px;}
+.ServiceTab .Xiangxi p{ padding:0 17px;}
+.ServiceTab .Xiangxi dl{ width:100%; line-height:23px;}
+.ServiceTab .Xiangxi dt{ font-weight:bold; padding:15px 0 0 17px;}
+.ServiceTab .Xiangxi dd{ margin:0 17px; padding-bottom:15px;}
+.ServiceTab .Xiangxi dd span{ display:block; padding-top:10px;}
+.ServiceTab .Xiangxi dd.borderBott{ border-bottom:1px dotted #cfcfcf;}
+
+.ServiceTab .ZhengCe{ line-height:23px;}
+.ServiceTab .ZhengCe .TopFont{ display:block; padding-left:17px;}
+.ServiceTab .ZhengCe .TopFont p{ text-indent:2em;}
+.ServiceTab .ZhengCe .TopFont h2{ height:33px; line-height:33px; color:#ff6600; font-size:14px;}
+.ServiceTab .ZhengCe h3{ height:25px; line-height:25px; background:#f2f2f2; padding-left:17px;}
+.ServiceTab .ZhengCe dl{ margin:0 17px; border-bottom:1px dotted #cfcfcf; padding-bottom:5px;}
+.ServiceTab .ZhengCe dl.BorderB{ border-bottom:0px;}
+.ServiceTab .ZhengCe dt{ width:100%; padding-top:17px; height:20px; line-height:20px; font-weight:bold;}
+.ServiceTab .ZhengCe dd{ line-height:23px;}
+.ServiceTab .ZhengCe dd p{ padding:8px 0;}
+/*Service end*/
+
+/*Security*/
+
+.SafetyFont{ line-height:28px;}
+.SafetyFont h1{ height:34px; line-height:34px; font-size:14px;}
+
+.SafetyList{ width:398px; padding-top:15px;}
+.SafetyList a{ width:398px; height:109px; border:1px solid #d6e1ec; background:#f6f9fd; text-decoration:none; display:block;}
+.SafetyList a h2{ padding:7px 0 0 15px; height:28px; line-height:28px;}
+.SafetyList a span{ display:block; line-height:22px; padding-left:15px;}
+.SafetyList a:hover{ color:#333; background:#ebf3fc; border:1px solid #98bee2;}
+
+.PrivacyTitle{ height:37px; line-height:37px; border-bottom:1px solid #cfcfcf; padding-left:11px; font-size:14px;}
+.PrivacyFont{ width:100%; background:url("../../../images/action/P02.jpg"/*tpa=https://www.xinrong.com/s/images/action/P02.jpg*/) right repeat-y;}
+.PrivacyFont .FontBg{ background:url("../../../images/action/pic/20.png"/*tpa=https://www.xinrong.com/s/images/action/pic/20.png*/) 656px 68px no-repeat; line-height:22px;}
+.PrivacyFont .FontBg p{ padding:5px 0 5px 11px;}
+.PrivacyFont .FontBg h2{ height:30px; line-height:30px; padding:10px 0 0 11px;}
+.PrivacyFont .FontBg span{ display:block; padding-left:10px;}
+.PrivacyFont .FontBg p.FontC{ color:#999999;}
+.PrivacyFont .FontBg p a{ color:#0278b5;}
+/*Security end*/
+
+/*About*/
+.AboutFont{ line-height:23px;}
+.AboutFont h1{ height:30px; line-height:30px; padding-top:6px; font-size:14px;}
+.AboutFont p{ padding:8px 0;}
+.AboutFont a{ text-decoration:underline; padding-right:10px;}
+
+.CultureList{ width:100%; margin:0px; padding:2px 0 0 0; list-style:none;}
+.CultureList li{ width:176px; float:left; text-align:center; line-height:23px; padding-right:32px;}
+.CultureList li.Lipadding{ padding:0px;}
+
+.TeamList{ width:100%;}
+.TeamList h1{ height:30px; line-height:30px; background-color:#F2F2F2; padding-left:15px; font-size:14px;}
+.TeamList dl{ width:100%; float:left; border-bottom:1px solid #F2F2F2; padding:20px 0;}
+.TeamList dt{ width:139px; float:left;}
+.TeamList dt img{ border:1px solid #F2F2F2; padding:3px;}
+.TeamList dd{ width:660px; line-height:20px; float:right; font-size:13px;}
+.TeamList dd h2{ font-size:14px;}
+.TeamList dd h2 i{ width:6px; height:6px; background:#666; display:inline-block; margin-right:6px; margin-bottom:3px; vertical-align:middle;}
+.TeamList dl.W01{ border:0px; border-bottom:1px dashed #F2F2F2;}
+.TeamList dl.W01 dd{ width:100%;}
+.TeamList dl.BorderBo{ border:0px;}
+
+.PartnerList{ width:100%;}
+.PartnerList h1{ height:30px; line-height:30px; background-color:#F2F2F2; padding-left:15px; font-size:14px;}
+.PartnerList li{ padding:20px 83px 20px 22px; float:left;}
+
+.ContactFont{ padding-left:69px; line-height:28px;}
+.ContactFont p{ padding-left:40px;}
+
+.PDTitle{ padding: 0 0 6px 0px; border-bottom: 1px solid #CCC; font-weight: 600; font-size: 14px;}
+.PDTitle a{ font-size:12px; font-weight:normal; color:#0078B6;}
+.PHZTable{ border-collapse:collapse;}
+.PHZTable, .PHZTable th, .PHZTable td { border: 1px solid #B6C4CB; text-align: center;line-height: 22px;}
+.PHZTable th{ font-weight: 700; background-color: #F2F2F2; padding: 5px 10px;}
+.PHZTable td{ padding: 10px;}
+
+.HuaZhenFont{ padding-top:10px; line-height:22px;}
+.HuaZhenFont h2{ font-size:14px; font-weight:bold; line-height:25px;}
+.HuaZhenFont p{ padding:8px 0;}
+.HuaZhenFont p img{ border: 1px solid #EEE;}
+.HuaZhenFont p.caption{ padding:0px; position:relative; margin-top:-10px;}
+.HuaZhenFont p.caption span{ display:block; float:left; width:260px; text-align:center; font-weight:bold; padding-right:10px; color: #666;}
+.HuaZhenFont p.PHZPic a{ margin-right:16px;}
+
+/*About end*/
+/*vip*/
+.VipBabnner{ position:absolute; top:155px; left:83px; color:#884E3E;}
+.VipBabnner a{ text-decoration:none;}
+.VipBabnner .SubVipFont{ display:block; line-height:20px; padding-top:9px; color:#999;}
+.VipBabnner .SubVipFont .VipIcon{ width:14px; height:20px; background-position: -161px -19px; display:inline-block; vertical-align:middle;}
+.VipBabnner .SubVipFont a{color: #0578B9;}
+
+.VipLeft{ width:674px;}
+.VipTitle{ line-height:25px; border-bottom:1px solid #cfcfcf; padding-left:10px; font-size:14px;font-weight: bold;}
+.PositionR{ position:relative;}
+
+.VipLeft .VipSystem{background:white; position:absolute; width:330px; left:5px; top:5px; border: 1px solid #e8e8e8; -moz-box-shadow:0px 0px 4px #ddd; -webkit-box-shadow:0px 0px 4px #ddd; box-shadow:0px 0px 4px #ddd; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.VipLeft .VipSystem .VipSystemBr{}
+.VipLeft .VipSystem .VipSystemLeft{ position:absolute; left:0px; bottom:0px;}
+.VipLeft .VipSystem .VipSystemRight{ position:absolute; right:0px; bottom:0px; font-size:0px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemFont{ width:299px; margin-left:20px; border-bottom:1px dotted #e5e5e4; display:block; line-height:28px; color:#c22900; font-size:13px; font-weight:bold; padding-top:12px;}
+.VipLeft .VipSystem .VipSystemBr dl{ width:100%; clear:both; line-height:16px; padding-top:16px;}
+.VipLeft .VipSystem .VipSystemBr dt{ width:60px; padding-left:20px; color:#000; float:left;}
+.VipLeft .VipSystem .VipSystemBr dd{ width:244px; float:left;}
+.VipLeft .VipSystem .VipSystemBr dd .VipData{ display:block; width:184px; border:1px solid #d2d2d0; height:14px; position:relative;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataValue{ width:30%; height:14px; background:url("../../../images/action/V06.jpg"/*tpa=https://www.xinrong.com/s/images/action/V06.jpg*/) repeat-x; display:block;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataFont{ width:184px; display:block; position:absolute; left:0px; top:0px; line-height:14px; text-align:center; color:#000;}
+.VipLeft .VipSystem .VipSystemBr dd .VipWidth{ width:168px;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataPic{ width:170px; display:block; position:absolute; left:0px; top:-20px; text-align:center;}
+.VipLeft .VipSystem .VipSystemBr dd .VipNoFont{ display:block; padding-left:8px;}
+.VipLeft .VipSystem .VipSystemBr dd .VipNoFont a{ color:#0578b9;}
+.VipLeft .VipSystem .VipSystemBr dl.VipNo{ padding:25px 0 35px 0;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText{ padding-left:20px; display:block; height:28px; padding-top:19px; color:#666666;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText img{ float:left; padding-right:5px; padding-top:2px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText span{}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a{ color:#0578b9; position:relative;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a .VipFont{ display:none;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont{ display:block; background:url("../../../images/action/V09.png"/*tpa=https://www.xinrong.com/s/images/action/V09.png*/) no-repeat; width:214px; height:98px; position:absolute; left:-22px; top:13px;text-decoration:none;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont span{ display:block; padding:14px 0 0 36px; line-height:22px; color:#333;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont span p{position: relative; margin-left: -4px;}
+
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin{ margin-left:20px; display:block; line-height:41px; color:#c22900; font-size:13px; font-weight:bold; padding-top:10px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin input{ width:60px; height:24px; border:1px solid #b3c8db; background:#fff; background:-webkit-linear-gradient(#ffffff,#f6f6f6); -moz-border-radius:2px; -webkit-border-radius:2px; cursor:pointer;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin input:hover{ border:1px solid #6c8faf; background:-webkit-linear-gradient(#ffffff,#e6eaed);}
+.VipLeft .VipSystem .VipSystemBr .VipLoginText{ display:block; height:28px; padding:10px 0 19px 20px; color:#666666;}
+.VipLeft .VipSystem .VipSystemBr .VipLoginText img{ float:left; padding-right:5px; padding-top:2px;}
+
+.VipRight{ width:314px;}
+.VipRight .VipRightList{ width:100%; height:208px;}
+.VipRight .VipRightList ul{ margin:0px; padding:5px 0 0 0; list-style:none;padding-top: 10px;}
+.VipRight .VipRightList ul li{ width:100%; clear:both; height:20px; line-height:28px; color:#000;}
+.VipRight .VipRightList ul li .Vtime{ width:120px; padding-left:5px; display:block; float:left;}
+.VipRight .VipRightList ul li .Vfont{ width:80px; display:block; float:left;}
+.VipRight .VipRightList ul li .VPast{ width:105px; display:block; float:left;}
+
+.VipTitBorder{ border-bottom:0px;}
+.VipTable{ border-collapse:collapse; border:1px solid #CFCFCF;}
+.VipTable th{ border:1px solid #CFCFCF;text-align: center;height: 27px;font-weight: 700;background-color: #F2F2F2;}
+.VipTable td{ border:1px solid #CFCFCF;text-align: center;height: 23px;padding: 5px;}
+.VipTable td.first{ width: 116px; text-align: left; padding-left: 25px; line-height:18px; background-color: #F6FBFF;}
+.VipTable td .blue{ color: #0078B6;}
+.VipTable td .ui-tip{ padding:0px; color:#999;}
+.VipTable td.Two{ padding-left:0px;}
+.VipTable td .FirstLeft{ padding-left:25px;}
+
+.VipbottomFont{ line-height:30px; padding-top:10px;}
+.VipbottomFont .Font01{ border-top:1px solid #ddd; color:#999; padding-top:8px;}
+
+/*FeedBack*/
+.FeedBackBg{ width:100%; min-width:1000px; padding-bottom: 34px; background: #FEEDB5 url("../../../images/action/pic/bg.jpg"/*tpa=https://www.xinrong.com/s/images/action/pic/bg.jpg*/) no-repeat bottom center;}
+.ActivityTime{position: absolute;top:0px;right: 25px;color: #999; font-family: "微软雅黑"; z-index:9;}
+.ActivityCountdown{position: absolute;top: -2px;right: 0;width: 253px;height: 18px;line-height: 18px;color: #FFF000;font-family: SimSun;background: url("../../../images/action/T01.png"/*tpa=https://www.xinrong.com/s/images/action/T01.png*/) no-repeat;text-align: center;z-index: 2;}
+
+.FeedBackBg .FBConMain{ height: 726px; padding: 20px 25px 0 23px; background: #E60 url("../../../images/action/pic/FBbg.jpg"/*tpa=https://www.xinrong.com/s/images/action/pic/FBbg.jpg*/) no-repeat;}
+.FeedBackBg .FBConLeft{width: 609px; border: 1px solid #BC5200; background-color: #FEF8E2; padding: 20px 25px 16px 17px;}
+
+.FeedBackBg .FBTitle{line-height: 14px; padding:1px 0 4px 0px; font-size: 14px;}
+.FeedBackBg .FBTitle .Icon01{ width:12px; height:19px; background-position:-19px -397px; display:inline-block; vertical-align:middle; margin-right:10px;}
+.FeedBackBg .FBTopFont{padding: 10px 0 12px 20px; margin-bottom: 10px; border-bottom: 1px dotted #CFCFCF; display:block;}
+.FeedBackBg .FBTopFont ul{margin-top: 14px;}
+.FeedBackBg .FBTopFont li{ width:62px; height:45px; line-height:45px; background:url("../../../images/action/auth.jpg"/*tpa=https://www.xinrong.com/s/images/action/auth.jpg*/) 0 0 no-repeat; text-align:center; padding-top:8px;font-size: 16px; color: #9E5225; font-weight:bold; float:left;}
+.FeedBackBg .FBTopFont li span{ font-family:Arial, Helvetica, sans-serif; padding-right:6px;}
+.FeedBackBg .FBTopFont li.W01{ width:39px; height:53px; background:url("../../../images/action/auth.jpg"/*tpa=https://www.xinrong.com/s/images/action/auth.jpg*/) -62px 0 no-repeat;}
+.FeedBackBg .FBTopFont li.W02{ width:155px; float:right; background:none; padding-top: 12px;}
+.FeedBackBg .FBTopFont li.W02 a{ text-decoration:none;}
+.FeedBackBg .FBTopFont li .SubVip{width: 110px; height: 36px; line-height: 36px; font-size: 16px;}
+.FeedBackBg .FBTopFont li .FBLi a{ font-size:12px; font-weight:normal; color: #0078B6;}
+.FeedBackBg .FBTopFont li .FBLi a:hover{ text-decoration:underline;}
+.FeedBackBg .FBTopFont ul.Martop{margin-top: 0px;}
+.FeedBackBg .FBTopFont li.liFont{font-weight: normal;vertical-align: middle; height:16px; line-height:16px; font-size:12px; font-weight:normal; background:none; padding-top:3px;}
+.FeedBackBg .FBTopFont li.W03{ width:120px; padding-left:9px;}
+.FeedBackBg .FBTopFont li.W04{ width:86px;}
+.FeedBackBg .FBTopFont li.W05{ width:116px;}
+
+.FeedBackBg .FBFont{ display:block; padding: 2px 0 5px 20px; margin-bottom: 10px; border-bottom: 1px dotted #CFCFCF;}
+.FeedBackBg .FBFont b{font-size: 30px;font-family: Arial;color: #C00;}
+.FeedBackBg .Font01{ border-bottom:none; line-height:18px;}
+
+.FeedBackBg .FBConRight{ width:288px;}
+.FeedBackBg .FBConRight .FBRightBox{ border: 1px solid #BC5200; background-color: #FEF8E2; padding: 10px 11px 10px 10px;}
+.FeedBackBg .FBConRight .FBRightBox h1{ padding-bottom: 6px; border-bottom: 1px solid #CFCFCF;}
+.FeedBackBg .FBConRight .FBRightBox h1 a{ font-weight:normal;}
+.FeedBackBg .FBConRight .FBList{ margin-top:5px;}
+.FeedBackBg .FBConRight .FBList ul li{ width:100%; clear:both; height:24px; line-height:24px; color:#000;}
+.FeedBackBg .FBConRight .FBList ul li span{ display:block; float:left; padding-right:6px;}
+.FeedBackBg .FBConRight .FBList ul li span.VPast{ padding:0px;}
+.FeedBackBg .FBConRight .FBRRightFont{ height:123px; overflow:hidden; padding-top:8px;}
+.FeedBackBg .FBConRight .FBRRightFont li{ height:24px; line-height:24px;}
+
+.FeedBackBg .FontT{ font-weight: 700; font-size: 14px; border-bottom: 1px solid #FA9E42; margin: 10px 0 5px 0; padding:0 0 5px 18px; color:#FFDE90;line-height: 22px;}
+.FeedBackBg .FontFooter li{ line-height:22px; padding-left:18px; color:#FFDE90;}
+.FeedBackBg .FontFooter li a{ color:#FFDE90; text-decoration:underline;}
+/*FeedBack end*/
+/*JiFen*/
+.JiFenBg{background: #660109 url("../../../images/action/pic/JFbg.jpg"/*tpa=https://www.xinrong.com/s/images/action/pic/JFbg.jpg*/) no-repeat top center;}
+.JiFenCD{ background:url("../../../images/action/T02.png"/*tpa=https://www.xinrong.com/s/images/action/T02.png*/) no-repeat;}
+.JiFenBg .JiFenCon{ background:url("../../../images/action/pic/JFbg01.jpg"/*tpa=https://www.xinrong.com/s/images/action/pic/JFbg01.jpg*/) no-repeat; height:856px; padding-top:7px;}
+
+.JiFenBg .JiFenLeft{ width: 666px; height: 386px; padding: 7px; margin-left: 10px; border: 1px solid #DA0900; background:#760811;}
+.JiFenBg .LeftPrize li.cur{ background:url("../../../images/action/pic/38hover.png"/*tpa=https://www.xinrong.com/s/images/action/pic/38hover.png*/) no-repeat; z-index:9;}
+.JiFenBg .LeftPrize li{ width:134px; height:78px; background:url("../../../images/action/pic/38.png"/*tpa=https://www.xinrong.com/s/images/action/pic/38.png*/) no-repeat; float:left; position:relative; margin:-1px 0 0 -1px;}
+.JiFenBg .LeftPrize li.Prize01{ background-position:0 0;}
+.JiFenBg .LeftPrize li.Prize02{ background-position:-133px 0;}
+.JiFenBg .LeftPrize li.Prize03{ background-position:-266px 0;}
+.JiFenBg .LeftPrize li.Prize04{ background-position:-399px 0;}
+.JiFenBg .LeftPrize li.Prize05{ background-position:-532px 0; width:134px;}
+.JiFenBg .LeftPrize li.Prize06{ width:134px; height:232px;}
+.JiFenBg .LeftPrize li span{ background:url("../../../images/action/pic/38.png"/*tpa=https://www.xinrong.com/s/images/action/pic/38.png*/) no-repeat; display:block;}
+.JiFenBg .LeftPrize li span.cur{ background:url("../../../images/action/pic/38hover.png"/*tpa=https://www.xinrong.com/s/images/action/pic/38hover.png*/) no-repeat; z-index:9;}
+.JiFenBg .LeftPrize li .Prize07,.JiFenBg .LeftPrize li.cur .Prize07{ background-position: 0px -77px; width:134px; height:78px; position:relative;}
+.JiFenBg .LeftPrize li .Prize08,.JiFenBg .LeftPrize li.cur .Prize08{ background-position: 0px -154px; width:134px; height:78px; position:relative; margin-top:-1px;}
+.JiFenBg .LeftPrize li .Prize16,.JiFenBg .LeftPrize li.cur .Prize16{ background-position: 0px -231px; width:134px; height:78px; position:relative; margin:-1px 0;}
+.JiFenBg .LeftPrize li .Prize09,.JiFenBg .LeftPrize li.cur .Prize09{ background-position: -532px -77px; width:134px; height:78px; position:relative;}
+.JiFenBg .LeftPrize li .Prize10,.JiFenBg .LeftPrize li.cur .Prize10{ background-position: -532px -154px; width:134px; height:78px; position:relative; margin-top:-1px;}
+.JiFenBg .LeftPrize li .Prize17,.JiFenBg .LeftPrize li.cur .Prize17{ background-position: -532px -231px; width:134px; height:78px; position:relative; margin:-1px 0;}
+.JiFenBg .LeftPrize li.Prize07{ width:400px; height:110px; padding-top:80px; text-align:center; background:none; position:relative;}
+.JiFenBg .LeftPrize li.Prize07 .spanfont{ width:212px; height:22px; line-height:22px; margin:16px 0 0 93px; background:#700e07; border:1px solid #600b06; color:#fff1b1;}
+.JiFenBg .LeftPrize li.Prize07 .spanfont b{ font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#ffc000;}
+.JiFenBg .LeftPrize li.Prize07 .spanUs{ position:absolute; right:33px; top:80px; line-height:50px; background:none;}
+.JiFenBg .LeftPrize li.Prize07 .spanUs a{ text-decoration:underline; color:#fff224;}
+.JiFenBg .LeftPrize li.Prize11{ background-position:0 -308px;}
+.JiFenBg .LeftPrize li.Prize12{ background-position:-133px -308px;}
+.JiFenBg .LeftPrize li.Prize13{ background-position:-266px -308px;}
+.JiFenBg .LeftPrize li.Prize14{ background-position:-399px -308px;}
+.JiFenBg .LeftPrize li.Prize15{ background-position:-532px -308px; width:134px;}
+.JiFenBg .LeftPrize li.paddingTop{ padding-top:87px;}
+
+.JiFenBg .LeftPrize01 li{ background:url("../../../images/action/pic/39.png"/*tpa=https://www.xinrong.com/s/images/action/pic/39.png*/) no-repeat; float:left;}
+.JiFenBg .LeftPrize01 li span{ background:url("../../../images/action/pic/39.png"/*tpa=https://www.xinrong.com/s/images/action/pic/39.png*/) no-repeat;}
+
+
+.JFSub{ width:213px; height:56px; background:url("../../../images/action/btn-lottery.png"/*tpa=https://www.xinrong.com/s/images/action/btn-lottery.png*/) 0 -56px no-repeat; border:0px; cursor:pointer;}
+.JFSub:hover{ background-position:0 -112px;}
+.JFSub01{ width:213px; height:56px; background:url("../../../images/action/btn-lottery.png"/*tpa=https://www.xinrong.com/s/images/action/btn-lottery.png*/) 0 0px no-repeat; border:0px; cursor:pointer;}
+.JFSub02{ width:213px; height:56px; background:url("../../../images/action/btn-lottery.png"/*tpa=https://www.xinrong.com/s/images/action/btn-lottery.png*/) 0 -168px no-repeat; border:0px; cursor:pointer;}
+.JFSub03{ width:213px; height:56px; background:url("../../../images/action/btn-lottery.png"/*tpa=https://www.xinrong.com/s/images/action/btn-lottery.png*/) 0 -224px no-repeat; border:0px; cursor:pointer;}
+
+.JiFenRight{width: 290px; margin-right: 10px;}
+.JiFenRight .JiFenBox{ padding: 14px 12px 0 12px; background-color: #FEF0E2; border: 1px solid #DA0900; height:193px;}
+
+.JiFenRightNav{ height:26px; background:none; border-bottom:1px solid #cccccc; padding-left:0px;}
+.JiFenRightNav li{ width:auto; margin:0px; padding:0px; text-align:left;}
+.JiFenRightNav li.Wbx{ width:20px; line-height:26px; text-align:center; color:#b6b6b6;}
+.JiFenRightNav a{ height:26px; line-height:26px; border:0px; background:none; font-size:12px;}
+.JiFenRightNav .ui-state-active{ margin:0px;}
+.JiFenRightNav a{ height:26px; line-height:26px; border:0px; background:none; font-size:12px; padding:0 2px 0 3px;}
+.JiFenRightNav a.Wfont{ padding:0px;}
+.JiFenRightNav .ui-state-active{ margin:0px;}
+.JiFenRightNav .ui-state-active a{ border:0px; background:none; padding:0px;}
+.JiFenRight .JiFenBox .JiFenList li{ height:29px; line-height:29px;}
+.JiFenRight .JiFenBox .JiFenList li span{ display:block; float:left; padding-right:6px;font-family: Simsun;}
+.JiFenRight .JiFenBox h2{ font-weight:normal; height:21px; line-height:19px; padding-top:3px;}
+.JiFenRight .BoxHeight{ height:167px;}
+.JiFenRight .JiFenBox .Icon01{ width:16px; height:19px; display:inline-block; vertical-align:middle; background-position:-40px -397px; margin-right:6px;}
+.JiFenRight .JiFenBox .Icon02{ width:14px; height:19px; display:inline-block; vertical-align:middle; background-position:-62px -398px; margin-left:6px;}
+.JFTextarea{width: 250px;padding: 8px 7px 11px 6px;line-height: 22px;height: 58px; border: 1px solid #B6C4CD; color: #999; font-family: Simsun;}
+.JiFenRight .SubVip{ text-decoration:none; margin-right:0px;}
+.JiFenPadding{ padding-left:10px;}
+
+.JiFenFont{ font-size: 14px; border-top: 2px solid #9E0B0E; line-height: 30px; color: #e7af80; padding:8px 0 0 20px;}
+.JiFenFont ul{ margin-top:3px;}
+.JiFenFont li{ padding-left:17px; line-height: 24px;}
+/*JiFen end*/
+
+/*RegInvite*/
+.RegInviteSub{ position:absolute; right:115px; top:176px;}
+.RegInviteSub .SubVip{width: 118px;height: 34px;line-height: 34px; text-decoration:none; font-size:16px;}
+
+.RegIRight{width: 304px;}
+.RegIRight .RegInvieBox{ padding: 12px 9px 0 9px; border: 1px solid #E9E9E9;}
+.RegIRight .RegInvieBox h1{padding: 0 0 8px 6px; border-bottom: 1px solid #E9E9E9;}
+.RegIRight .RegInvieBox .RegIList{ margin-top:5px;}
+.RegIRight .RegInvieBox .RegIList li{ height:29px; line-height:29px;}
+.RegIRight .RegInvieBox .RegIList li span{ display:block; float:left; padding-right:6px;}
+
+.RegIRight .RegIBox{ height: 167px; overflow: hidden; background-color: whiteSmoke; padding: 12px 9px 0 9px;}
+.RegIRight .RegIBox h2{ font-weight:normal; height:21px; line-height:19px; padding-top:3px;}
+.RegIRight .RegIBox .Icon01{ width:16px; height:19px; display:inline-block; vertical-align:middle; background-position:-40px -397px; margin-right:6px;}
+.RegIRight .RegIBox .Icon02{ width:14px; height:19px; display:inline-block; vertical-align:middle; background-position:-62px -398px; margin-left:6px;}
+.RegIRight .SubVip{ text-decoration:none; margin-right:0px;}
+.RiTextarea{width: 268px; height: 65px;}
+
+.RegILeft{ width:682px;}
+.RegILeft .RegILeftTop{ background:url("../../../images/action/step.jpg"/*tpa=https://www.xinrong.com/s/images/action/step.jpg*/) no-repeat; height:48px;}
+.RegILeft .RegILeftTop span{ width:227px; line-height:48px; text-align:center; color: #666; font-size: 14px; font-weight:bold; display:block; float:left;}
+.RegILeft .RegInviteTitle{ height:35px; line-height:26px; padding-left: 12px; font-size:14px;}
+.RegILeft .RegInvieTable{ border-collapse:collapse; border: 1px solid #CFCFCF;}
+.RegILeft .RegInvieTable th,.RegILeft .RegInvieTable td{border: 1px solid #CFCFCF; text-align: center;}
+.RegILeft .RegInvieTable th{ height: 42px; background-color: #F2F2F2; color: #666; font-weight:normal;}
+.RegILeft .RegInvieTable td{ height:79px;}
+.RegILeft .RegInvieTable td.first { background-color: #F6FBFF;}
+.RegILeft .RegInvieTable td label{ color: #C00;}
+
+.RegIFont h2{ height:34px; line-height:34px; font-size: 14px; font-weight: 600; border-bottom: 1px solid #EBEBEB; padding: 0 0 0px 12px;}
+.RegIFont ul{ margin-left:12px;}
+.RegIFont ul li{ line-height:22px;}
+/*RegInvite end*/
+
+/*Register*/
+.RegisterPadding{ padding-left: 126px;}
+.RegisterList dl{ width:100%; padding-top:15px; clear:both; line-height:32px;}
+.RegisterList dt{ width:60px; text-align:right; float:left;}
+.RegisterList dd{ width:805px; float:left; padding-left:3px;}
+.RegisterList dd .Font01{ line-height:16px; padding-left:6px;}
+.RegisterList dd .strengF{ width:102px; background:url("../../../images/action/streng.png"/*tpa=https://www.xinrong.com/s/images/action/streng.png*/) no-repeat; height:12px; display:block; margin-top:2px;}
+.RegisterList dd .strengF01{ background-position:0 -12px;}
+.RegisterList dd .strengF02{ background-position:0 -24px;}
+.RegisterList dd .strengF03{ background-position:0 -36px;}
+.RegisterList dd .ReIcon01{ background-position:-162px -357px; padding:2px 0 2px 18px;}
+.RegisterList dd .ReIcon02{ background-position:-162px -382px; padding:2px 0 2px 18px;}
+.RegisterList dd .ReIcon03{ background-position:-162px -405px; padding:2px 0 2px 18px;}
+.RText{width: 226px; height: 28px; line-height: 28px; vertical-align: middle; padding: 1px 3px; border: 1px solid #B6C4CD; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.RText01{ width:93px;}
+
+/*Register end*/
+
+/*Applyfor*/
+.ApplyforLeft{ width:515px;}
+.ApplyforTitle{ height: 30px; line-height: 30px; font-size: 12px; padding-bottom: 0; background-color:#F2F2F2; border-bottom: none; padding-left: 15px;}
+.ApplyforLeft p{ padding:14px 0 14px 14px; line-height:24px;}
+
+.ApplyforRight{ width:470px;}
+.ApplyforRight ul{ padding:16px 0 0 20px;}
+.ApplyforRight ul li{ line-height:26px;}
+.ApplyforRight dl{ width:100%; clear:both; line-height: 28px; padding-top: 12px;}
+.ApplyforRight dt{ width:78px; text-align:right; float:left;}
+.ApplyforRight dd{ width:376px; float:left; padding-left:4px;}
+
+.AText{ width: 105px; height: 24px; line-height: 24px; vertical-align: middle; padding: 1px 3px; border: 1px solid #B6C4CD; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.AText01{ width:155px;}
+.ATextarea01{ border: 1px solid #B6C4CD; width: 365px; height: 40px; padding: 3px; vertical-align: middle; -moz-border-radius:2px; -webkit-border-radius:2px;}
+
+.ApplyforRight .Font01{ margin-left:20px; padding:2px 0 2px 20px; background:url("../../../images/action/icon.png"/*tpa=https://www.xinrong.com/s/images/action/icon.png*/) -161px -19px no-repeat;}
+/*Applyfor end*/
+
+
+@charset "utf-8";
+.draw_info{
+    position: relative;
+    width: 980px;
+    height: 155px;
+    background: url("../../../images/lottery/draw_bg.png"/*tpa=https://www.xinrong.com/s/images/lottery/draw_bg.png*/) repeat center;
+}
+.draw_info .info{
+    /*position: absolute;*/
+    float: left;
+    padding-right: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.draw_info .info_big{
+    left: 50px;
+    top: 10px;
+    font-size: 26px;
+    color: #fff;
+    /*background: url(../../../images/lottery/draw_icon.png) no-repeat right 20px;*/
+    /*background-size: 28px 29px;*/
+}
+.draw_info .info_big .detail{
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 36px;
+    color: #fee36d;
+}
+.draw_info .info_big .detail i{
+    display: inline-block;
+    margin: 0 10px;
+    width: 60px;
+    height: 100px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.draw_info .info_big img{
+    max-width: 80px;
+    height: 85px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.draw_info #phy_big_prize_list_wrapper{
+    height: 90px !important;
+	padding-left:30px;
+}
+.draw_info .detail span{
+    font-size: 26px;
+}
+.draw_info .info_phy{
+    width:100% !important;
+}
+.draw_info .draw_icon{
+    width: 28px;
+    height: 29px;
+    position: absolute;
+    background: url("../../../images/lottery/draw_icon.png"/*tpa=https://www.xinrong.com/s/images/lottery/draw_icon.png*/) no-repeat;
+}
+.draw_info .info_s{
+    margin-left: 30px;
+    margin-top: 2px;
+    padding: 0 20px;
+    font-size: 16px;
+    width:415px;
+    height: 55px;
+    line-height: 55px;
+    background-color: #b51e16;
+    border-radius: 20px;
+    border: 1px solid #951610;
+}
+.draw_info .info_s i{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-top: -6px;
+    margin-left: 10px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.draw_info .info_s i.draw{
+    position: relative;
+    background: url("../../../images/lottery/draw.png"/*tpa=https://www.xinrong.com/s/images/lottery/draw.png*/) no-repeat center;
+}
+.draw_info .info_s i.draw span{
+    position: absolute;
+    top: 8px;
+    color: #fee36d;
+}
+.draw_info .info_s i.draw span.left_2_digit{
+    left: 10px;
+}
+.draw_info .info_s i.draw span.left_3_digit{
+    left: 6px;
+}
+.draw_info .info_s i.draw span.left_4_digit{
+
+}
+.draw_info .date{
+    margin-left: 28px;
+    font-size: 14px;
+    color: #ef8d89;
+}
+.draw_info .info_s .date{
+    margin-left: 30px;
+    font-size: 13px;
+}

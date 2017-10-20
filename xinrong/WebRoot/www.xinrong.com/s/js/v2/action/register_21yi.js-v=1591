@@ -1,0 +1,110 @@
+/**
+ * 
+ */
+var dd_register_success=null;
+
+var dd_invest_success=null;
+
+function show_register_success(){
+	
+	if(dd_register_success!=null&&dd_register_success!=undefined){
+		dd_register_success.visible();
+		return;
+	}
+	
+	var drd= $.popup1({
+        title:'' ,
+        width:'341',
+        padding:'0',
+        content:'<div class="dialogbox" style="width:339px;"><div class="boxbg">\
+        <h1>提示<span class="closepo"><a href="javascript:close_register_yi();"><img src="/s/images/action/close.png" width="11" height="11" /></a></span></h1>\
+        <div class="boxbgfont">\
+        恭喜您<span class="red">获得1000积分</span>，<br />\
+        积分可用来参加抽奖活动！\
+        <p><a href="/action/jf" class="dialogsub">立即抽奖！</a></p>\
+        </div>\
+        </div>\
+        </div>',
+       
+        init:function (d ) {
+     	   
+        }
+			 
+	});
+	
+	
+
+	dd_register_success=drd;
+}
+
+function close_register_yi(){
+	
+	dd_register_success.hidden();
+}
+
+function show_invest_success(invest_money,money,time,deadline){
+	
+	if(dd_invest_success!=null&&dd_invest_success!=undefined){
+		dd_invest_success.visible();
+		return;
+	}
+	
+	 AA.Api.async({
+		 url:'/v2/stat/invest_all.jso' ,
+         success:function (result) {
+        
+        	var acc_all=result.investAllMoney;
+
+        	var last_all_num=toDecimal((acc_all%100000000)/10000);
+				
+			last_all_num=parseInt(last_all_num*10000);
+        	 
+        	 var drd= $.popup1({
+        	        title:'' ,
+        	        width:'341',
+        	        padding:'0',
+        	        content:'<div class="dialogbox" style="width:475px;">\
+        	        	<div class="boxbg">\
+        	        <h1>投资成功<span class="closepo"><a href="javascript:close_invest_yi();"><img src="/s/images/action/close.png" width="11" height="11" /></a></span></h1>\
+        	        <div class="boxbgfont01">\
+        	        <img src="/s/images/action/duig.png" width="32" height="32" style="vertical-align:middle; padding-right:10px;" />您本次投资<span class="red">金额<font id="dlg_invest_success_invest_money"></font></span><br />\
+        	        <p class="padding01">目前平台累计投资金额 <span class="red">19</span>亿 <span class="red" id="dlg_success_wan"></span> 元</p>\
+        	        <p class="padding02">到期本息：<font id="dlg_invest_success_money"></font>元，回款日期：<font id="dlg_invest_success_time"></font>，计息时长：<font id="dlg_invest_success_ptime"></font></p>\
+        	        <span class="fontbg01">感谢您参与<span>【信融20亿，诚信为本】</span>满20亿的全过程！</span>\
+        	        </div>\
+        	        </div>\
+        	        </div>',
+        	       
+        	        initialize:function (d) {
+        	     	   
+        	        	$('#dlg_success_wan').html(last_all_num+Number(invest_money));
+        	        	
+        	        	$('#dlg_invest_success_invest_money').html(invest_money+"元");
+        	        	
+        	        	$('#dlg_invest_success_money').html(money);
+        	        	
+        	        	$('#dlg_invest_success_time').html(time);
+        	        	
+        	        	$('#dlg_invest_success_ptime').html(deadline);
+        	        }
+        				 
+        	});
+        	 
+        	 dd_invest_success=drd;
+        	 
+         }
+	 });
+	
+	
+	
+}
+
+function close_register_yi(){
+	
+	dd_register_success.hidden();
+}
+
+function close_invest_yi(){
+	
+	dd_invest_success.hidden();
+}

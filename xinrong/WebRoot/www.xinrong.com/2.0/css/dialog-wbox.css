@@ -1,0 +1,274 @@
+/*********************************************************************************/
+#wBox .wBox_b { background:rgba(255,255,255,0.1); width:6px;}
+#wBox { position: absolute; top: 0; left: 0; z-index: 100; text-align: left; display:none;}
+#wBox .wBox_popup { position: relative;}
+#wBox table { border-collapse: collapse; border-spacing: 0;}
+#wBox td { border-bottom: 0;}
+#wBox .wBox_body { background-color:#ffffff;}
+#wBox img { border: 0; margin: 0;}
+#wBox .wBox_title { height:32px; color:#fff; width:100%; background:#4A98D0;}
+#wBox .wBox_title .wBox_itemTitle{ padding-left:12px; overflow:hidden; font-size:14px;}
+#wBox .wBox_title .wBox_close{ background:url("../images/close1.png"/*tpa=https://www.xinrong.com/2.0/images/close1.png*/) no-repeat; height:11px; width:12px; overflow:hidden; cursor:pointer;	padding-right:10px;}
+#wBox .wBox_title .on{ background-position:0 0px;}
+#wBox .wBox_tl, #wBox .wBox_tr, #wBox .wBox_bl, #wBox .wBox_br { background:rgba(255,255,255,0.1); width:6px; height: 6px;}
+#wBox #wBoxContent{	padding:0px;}
+#wBox_overlay { position: absolute; top: 0px; left: 0px; height:100%; width:100%;}
+#wBox .wBox_load{ width:270px;}
+.wBox_hide { z-index:-100;}
+.wBox_overlayBG { background-color: #000; z-index: 99;}
+#wBox #wBox_loading{ width:32px; height:32px; margin:0 auto;}
+
+/*********************************************************************************/
+.dialogsub{ padding:25px 0; text-align:center;}
+.dialogsub .sub01,.dialogsub .sub02,.dialogsub .sub03{ width:120px; font-size:14px; height:39px; line-height:39px;}
+
+.dialog_wbox{ width:518px;}
+.dialog_wbox h2{ font-size:16px; font-weight:normal; padding:20px 0 0 33px; line-height:38px;}
+.dialog_wbox dl{ width:100%; line-height:35px; clear:both; font-size:13px;}
+.dialog_wbox dl.t_top{ padding-top:10px;}
+.dialog_wbox dt{ width:72px; text-align:right; padding:0 0 0 33px; float:left;}
+.dialog_wbox dd{ float:left;}
+.dialog_wbox .inputtext{ width:160px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_wbox .inputtext01{ width:260px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_wbox .inputtext02{ width:100px; height:33px; line-height:33px; border:1px solid #d6d6d6; border-radius:6px; margin:0px; padding:0px 6px; vertical-align:middle;}
+.dialog_wbox dd .autosub{ width:94px; height:35px; line-height:35px; font-size:14px; border-bottom-width:0px; margin-left:10px;}
+.dialog_wbox dd p{ line-height:20px;}
+.dialog_wbox dd .code{ display:inline-block; vertical-align:middle;}
+.dialog_wbox dd select{ vertical-align:middle; height:25px;}
+
+.dialog_wbox .invest_user{ padding:30px 15px 0 15px;}
+.dialog_wbox .invest_user ul{ border-top:1px solid #e1e1e1; padding:10px 0 0 33px;}
+.dialog_wbox .invest_user li{ width:100%; line-height:28px; font-size:14px; float:left;}
+.dialog_wbox .invest_user li .gray{ font-size:12px;}
+
+.dialog_wbox .dialog_success{ padding:50px 0 0 0;}
+.dialog_wbox .dialog_success h3{ text-align:center; font-size:18px;}
+.dialog_wbox .dialog_success ul{ padding:20px 0;}
+.dialog_wbox .dialog_success ul li{ padding-left:175px; font-size:14px; height:30px; line-height:30px;}
+.dialog_wbox .dialog_success ul li.lifont{ text-align:center; padding-left:0px;}
+.dialog_wbox .dialog_success ul li.lihe{ height:auto; line-height:20px;}
+.dialog_wbox .dialog_success ul li .l-font{ display:inline-block; text-align:left;}
+.dialog_wbox .success-msg{ text-align:center; border-top:1px solid #e1e3e5; height:57px; line-height:57px;}
+.dialog_wbox .success-msg.msg-font{ height:auto; line-height:20px; text-align:left; padding:15px;}
+.dialog_wbox .success-msg.msg-font .iconi{ margin-top:3px;}
+.dialog_wbox .success-msg.msg-font .left{ display:inline-block;}
+.dialog_wbox .success-msg.msg-font p{ padding-bottom:10px;}
+
+.dialog_wbox .invest_not{ padding:50px 0 0 0;}
+.dialog_wbox .invest_not h3{ padding-left:85px; font-size:14px;}
+.dialog_wbox .invest_not ul{ padding:15px 0;}
+.dialog_wbox .invest_not li{ padding-left:132px; height:30px; line-height:30px;}
+.dialog_wbox .invest_not li .gray{ padding-left:15px;}
+
+.dialog_sucfont{ padding:30px 0;}
+.dialog_sucfont h3{ font-size:15px; line-height:30px; padding-bottom:15px;}
+.dialog_sucfont dl{ line-height:20px; font-size:12px;}
+.dialog_sucfont dd .sub01,.dialog_sucfont dd .sub03{ width:100px; height:35px; line-height:35px; font-size:14px; border-bottom-width:3px; margin-left:0px;}
+
+.dialog_login{ width:263px; background:#f4f4f4; padding:30px 45px;}
+.dialog_login dl{ width:100%; padding-bottom:12px; position:relative;}
+.dialog_login dt{ position:absolute; left:10px; top:12px;}
+.dialog_login dt .icon01{ width:23px; height:23px; display:inline-block; background-position:-22px -31px;}
+.dialog_login dt .icon02{ width:18px; height:22px; display:inline-block; background-position:-52px -31px; margin-left:2px;}
+.dialog_login dt .icon03{ width:15px; height:29px; display:inline-block; background-position:-83px -31px; margin-left:5px; margin-top:-3px;}
+.dialog_login dd{ width:100%;}
+.dialog_login dd .inputtext{ width:221px; height:40px; line-height:40px; border:1px solid #dddddd; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; padding-left:40px; font-size:14px; vertical-align:middle; margin:0px;}
+.dialog_login dd .text01{ width:110px;}
+.dialog_login dd .code{ display:inline-block; vertical-align:middle; padding-left:8px;}
+.dialog_login .msg{ text-align:right; font-size:14px; padding:20px 0 0 0;}
+
+.dialog_login .login_sub{ padding-top:10px;}
+.dialog_login .login_sub .sub02{ height:45px; line-height:45px;}
+
+.dialog_deposit{ padding-bottom:30px;}
+.dialog_deposit h2{ padding-left:78px; padding-bottom:15px;}
+.dialog_deposit dt{ padding-left:78px;}
+.dialog_deposit .success-msg{ text-align:center; border-top:1px solid #e1e3e5; height:20px; line-height:20px; padding-top:20px;}
+
+.dialog_settings h2{ padding-bottom:10px;}
+.dialog_settings dl{ padding-top:10px;}
+.dialog_settings dl.settingsub{ padding:20px 0;}
+.dialog_settings dl.settingsub .sub02{ width:120px; height:39px; line-height:39px; font-size:14px; margin:0px;}
+.dialog_settings dl.settingsub .sub04{ width:120px; height:39px; line-height:39px; font-size:14px;}
+.dialog_settings dt{ width:110px;}
+.dialog_settings .email_success{ padding:30px 0;}
+.dialog_settings .email_success h3{ padding-left:40px; font-size:14px;}
+.dialog_settings .email_success li{ padding-left:90px;}
+.dialog_settings .sub01,.dialog_settings .sub02,.dialog_settings .sub04{ width:60px; height:30px; line-height:30px; font-size:12px; border-bottom-width:1px;}
+.dialog_settings .sub03{ width:120px; height:39px; line-height:39px; font-size:14px;}
+
+.dialog_settings .picimg{ vertical-align:middle;}
+.dialog_settings .realnamemsg{ padding:20px 0 0 60px; font-size:12px; color:#999; line-height:20px;}
+
+.dialog_settings .settings_msg{ padding-top:27px; text-align:center; font-size:14px; font-weight:bold; line-height:24px;}
+.dialog_settings .settings_msg h3{ font-size:14px; font-weight:normal; line-height:36px;}
+.dialog_settings .settings_msg .subse01{ background:url("../images/sub.jpg"/*tpa=https://www.xinrong.com/2.0/images/sub.jpg*/) no-repeat; width:123px; height:40px; line-height:40px; text-align:center; display:inline-block; color:#fff; font-size:16px; font-weight:normal; padding-left:20px; text-decoration:none; vertical-align:middle;}
+.dialog_settings .settings_msg .subse02{ background:#fff; width:143px; height:38px; line-height:38px; border:1px solid #c01920; border-radius:5px; text-align:center; display:inline-block; color:#c01920; font-size:16px; font-weight:normal; text-decoration:none; vertical-align:middle; margin-left:20px;}
+
+.dialog_settings .settings_tips{ border-top:1px solid #e1e1e1; margin:0 10px; padding:20px; line-height:20px;}
+
+.dialog_bank{ width:640px;}
+.dialog_bank .bank_list{ padding:20px;}
+.dialog_bank h3{ height:30px; line-height:30px; font-weight:normal; font-size:14px;}
+.dialog_bank h3 .gray{ font-size:12px;}
+.dialog_bank h4{ padding:10px 0;}
+.dialog_bank .bank_guild{ margin:10px 0; background:#def1fc; border:1px solid #aad2f0; height:27px;}
+.dialog_bank .bank_guild li{ width:108px; height:27px; line-height:27px; background:#def1fc; text-align:center; position:relative; float:left;}
+.dialog_bank .bank_guild li.w01{ width:137px;}
+.dialog_bank .bank_guild li .guild_pic{ width:14px; height:27px; display:block; background:url("../images/bank01.png"/*tpa=https://www.xinrong.com/2.0/images/bank01.png*/) no-repeat; position:absolute; right:-13px; top:0px;}
+.dialog_bank .bank_guild li.zindex03{ z-index:3;}
+.dialog_bank .bank_guild li.zindex04{ z-index:4;}
+.dialog_bank .bank_guild li.zindex05{ z-index:5;}
+.dialog_bank .bank_guild li.zindex06{ z-index:6;}
+.dialog_bank .bank_guild li.guildbg{ background:#aad2f0; color:#000; font-weight:bold;}
+.dialog_bank .bank_guild li.guildbg .guild_pic{ background:url("../images/bank02.png"/*tpa=https://www.xinrong.com/2.0/images/bank02.png*/) no-repeat;}
+
+.dialog_bank .guild_width li{ width:139px;}
+.dialog_bank .guild_width li.w01{ width:160px;}
+
+.dialog_bank dl{ padding:5px 0; font-size:12px;}
+.dialog_bank dl.settingsub{ padding:20px 0;}
+.dialog_bank dl.settingsub .sub01,.dialog_bank dl.settingsub .sub02{ width:120px; height:39px; line-height:39px; font-size:14px; margin:0px;}
+.dialog_bank dl.settingsub .sub03{ width:120px; font-size:14px; margin:0px; border-bottom: 3px solid #a1a1a1;}
+.dialog_bank dt{ width:120px;}
+
+.dialog_address{ padding:20px 0;}
+.dialog_address h3{ font-size:16px;}
+.dialog_address .address_list{ width:360px; padding:10px 0;}
+.dialog_address .address_list li{ line-height:40px; display:inline-block; font-size:12px;}
+
+.fast_box{ width:644px;}
+.fast_box h2{ font-size:14px; color:#ff0000; line-height:42px; padding:0 10px;}
+.fast_box h2.c444{ color:#444;}
+.fast_box dl{ width:100%; clear:both; padding:8px 0; line-height:28px;}
+.fast_box dl.error{ padding:0px;}
+.fast_box dt{ width:120px; padding-right:10px; text-align:right; float:left;}
+.fast_box dd{ width:455px; float:left;}
+.fast_box dd .select01{ width:99px; height:26px; line-height:26px; border:1px solid #d6d6d6;}
+.fast_box dd .tips{ color:#999999; padding-left:5px; display:inline-block; vertical-align:middle;}
+.fast_box dd .yuanfont{ position:relative; margin-left:-20px; color:#999999;}
+
+.fast_box dd .sub02{ width:102px; height:31px; line-height:31px; font-size:14px;/* border-bottom-width:2px; *//* margin-left:25px; */}
+.fast_box dd .sub01{ width:102px; height:31px; line-height:31px; font-size:14px;}
+.fast_box dd .sub04{ width:102px; height:31px; line-height:31px; font-size:14px;}
+
+.fast_box .textborder{ border:1px solid #4ba1f0;}
+.fast_box .icon01{ width:14px; height:14px; background:url("images/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/2.0/css/images/tip-s5a01e083c6.png*/) -1px -169px no-repeat; display:inline-block; vertical-align:middle; margin:0 6px 5px 0;}
+.fast_box .icon02{ width:14px; height:14px; background:url("images/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/2.0/css/images/tip-s5a01e083c6.png*/) -1px -195px no-repeat; display:inline-block; vertical-align:middle; margin:0 6px 5px 0;}
+.fast_box .paddingtleft{ padding-left:20px;}
+.fast_box .renzhengtip{ padding:20px 0 15px 10px; color:#999999; line-height:18px;}
+.fast_box .renzhengtip p{ padding-left:19px;}
+
+.fast_box .renzhengsucc{ display:block; text-align:center; font-size:20px; padding:64px 0 40px 0;}
+.fast_box .icon03{ width:35px; height:35px; background:url("images/tip-s5a01e083c6.png"/*tpa=https://www.xinrong.com/2.0/css/images/tip-s5a01e083c6.png*/) 0px -39px no-repeat; display:inline-block; vertical-align:middle; margin:0 6px 3px 0;}
+.fast_box .succsub{ display:block; height:68px; text-align:center;}
+
+.fast_box h3{ padding-top:10px; height:45px; line-height:45px; text-align:center; font-size:14px;}
+.fast_box .boxfont{ display:block; padding:0 40px; line-height:24px;}
+.fast_box .fontsub{ display:block; text-align:center; padding:33px 0;}
+.fast_box .fontsub .sub02{ width:88px; height:36px; line-height:36px; padding-right:25px; position:relative;}
+.fast_box .fontsub .sub02 i{ position:absolute; right:0px; top:0px;}
+.fast_box .fontsub .sub04{ width:113px; height:36px; line-height:36px; font-size:14px; margin-left:60px;}
+
+.fast_box .boxfoot{ display:block; background:#f6f9fd; border-top:1px solid #d7d8d9; padding:10px; color:#999;}
+.fast_box .boxfoot p{ padding-left:19px;}
+.fast_box .boxfoot p.font01{ text-align:right; padding:10px 0 0 0;}
+
+.dialog_vip h2{ font-weight:bold;}
+.dialog_vip dt{ width:120px;}
+.dialog_vip dd .paddingleft{ padding-left:25px;}
+.dialog_vip dd .sub01{ width:120px; font-size:14px; margin-top:15px;}
+
+.dialog_account{ width:800px;}
+.dialog_account .t_table{ padding:40px 30px 0 30px;}
+.dialog_account .t_table table{ border:1px solid #dddddd; border-collapse:collapse;}
+.dialog_account .t_table table td{ border:1px solid #dddddd; padding:10px 0 10px 18px; line-height:28px;}
+.dialog_account .t_table table td.bg{ background:#f7f7f7;}
+.dialog_account .t_table table td h2{ font-size:14px; font-weight:normal; color:#444;}
+.dialog_account .t_table table td h2 span{ font-size:12px;}
+.dialog_account .t_table table td .paddingleft{ padding-left:30px;}
+
+.recommend_dialog{ width:518px; padding:20px 0;}
+.recommend_dialog dl{ width:100%; clear:both; padding:30px 0 0 0;}
+.recommend_dialog dt{ padding-left:50px; float:left;}
+.recommend_dialog dd{ float:left; padding-left:0px; line-height:30px;}
+.recommend_dialog dd h2{ font-size:14px;}
+
+.recommend_dialog .dialogsub{ width:100%; text-align:center; padding:40px 0 0 0;}
+.recommend_dialog .dialogsub .sub01{ width:120px; height:30px; line-height:30px; margin-left:25px; font-size:14px;}
+
+.fenxiang_dialog{ width:800px;}
+.fenxiang_dialog ul.tabs { background:#e8e8e8; height:46px; padding:16px 0 0 43px;}
+.fenxiang_dialog ul.tabs li { display:block; width:139px; text-align:center; height:46px; line-height:46px; font-size:16px; float:left; margin-left:2px;}
+.fenxiang_dialog ul.tabs li:hover { color:#c01920; background:#fff;}
+.fenxiang_dialog ul.tabs li.current { color:#c01920; background:#fff;}
+.fenxiang_dialog .tabscontent { display:none; width:100%;}
+.fenxiang_dialog .tabscontent .tab_font{ padding:20px 45px;}
+.fenxiang_dialog .tabscontent .tab_font h2{ height:55px; line-height:55px; font-size:16px; font-weight:normal;}
+.fenxiang_dialog .tabscontent .tab_font .textareabor{ width:676px; height:70px; border:8px solid #eeeeee; font-size:14px; padding:10px; color:#666; line-height:22px;}
+.fenxiang_dialog .tabscontent .tab_pic{ padding:15px 45px 32px 45px;}
+.fenxiang_dialog .tabscontent .tab_pic dl{ width:100%; clear:both; line-height:32px; font-size:14px;}
+.fenxiang_dialog .tabscontent .tab_pic dt{ width:153px; text-align:right; float:left;}
+.fenxiang_dialog .tabscontent .tab_pic dd{ width:472px; float:left;}
+.fenxiang_dialog .tabscontent .tab_pic dd li{ width:100px; height:32px; line-height:32px; padding:0 4px; float:left;}
+
+.fenxiang_dialog .tabscontent .tab_pic .sns { display: inline-block; height: 16px; line-height: 16px; padding-left: 22px; background:url("../images/sns.png"/*tpa=https://www.xinrong.com/2.0/images/sns.png*/) no-repeat;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s1 { background-position: 0 -62px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s2 { background-position: 0 0;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s3 { background-position: 0 -93px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s4 { background-position: 0 -124px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s5 { background-position: 0 -217px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s6 { background-position: 0 -186px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s7 { background-position: 0 -155px;}
+.fenxiang_dialog .tabscontent .tab_pic .sns.s8 { background-position: 0 -31px;}
+
+
+.certifica_guild{ margin:10px 10px; background:#def1fc; border:1px solid #aad2f0; height:27px;}
+.certifica_guild li{ width:28%;  height:27px; line-height:27px; background:#def1fc; text-align:center; position:relative; float:left;}
+.certifica_guild li.w01{ width:44%; line-height:16px;}
+.certifica_guild li.w02{ width:33%;}
+.certifica_guild li .guild_pic{ width:14px; height:37px; display:block; background:url("../images/bank01.png"/*tpa=https://www.xinrong.com/2.0/images/bank01.png*/) no-repeat; position:absolute; right:-13px; top:0px;}
+.certifica_guild li.zindex03{ z-index:3;}
+.certifica_guild li.zindex04{ z-index:4;}
+.certifica_guild li.zindex05{ z-index:5;}
+.certifica_guild li.zindex06{ z-index:6;}
+.certifica_guild li.guildbg{ background:#aad2f0; color:#000; font-weight:bold;}
+.certifica_guild li.guildbg .guild_pic{ background:url("../images/bank02.png"/*tpa=https://www.xinrong.com/2.0/images/bank02.png*/) no-repeat;}
+
+.dialog_title{ margin:0 10px; height:30px; line-height:30px; font-size:12px; font-weight:normal;}
+.dialog_title span{ font-size:14px; font-weight:bold; padding-right:15px; color: #666;}
+
+
+#bigGlass{ height:45px; position:absolute; color:#c01920; display:none; line-height:45px; font-size:30px; font-weight:bold; padding:0 5px;}
+#bigGlass span{ margin-left:8px;}
+#bigGlass span:first-child{ margin-left:0;}
+
+.subhover .sub01{ position:relative;}
+.subhover .sub01 .infobox{ display:none;}
+.subhover .sub01:hover .infobox{ display:inline-block; width:226px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:130px; top:-16px; padding:8px; line-height:18px; font-style:normal; font-size:12px; color:#666; text-align:left;}
+.subhover .sub01:hover .infobox b{ display:inline-block; position:absolute; left:-6px; top:25px;}
+
+.subhover .sub02{ position:relative;}
+.subhover .sub02 .infobox{ display:none;}
+.subhover .sub02:hover .infobox{ display:inline-block; width:226px; background:#f6f9fd; border:1px solid #999999; border-radius:3px; position:absolute; left:130px; top:-16px; padding:8px; line-height:18px; font-style:normal; font-size:12px; color:#666; text-align:left;}
+.subhover .sub02:hover .infobox b{ display:inline-block; position:absolute; left:-6px; top:25px;}
+
+
+.dialog_wbox_2{ width:450px;}
+.dialog_wbox_2 dl{ width:100%; line-height:35px; clear:both; font-size:13px;}
+.dialog_wbox_2 dt{ width:160px; text-align:right; padding:0 0 0 33px; float:left;}
+.dialog_wbox_2 dd{ float:left;}
+
+.dialog_center_2{ padding-top:20px;}
+.dialog_center_2 h3{ text-align:center; font-size:16px;}
+.dialog_center_2 dt{ width:160px;}
+
+
+.dialog_font{ padding:22px 32px 0 32px; font-size:14px; line-height:24px; color:#656565;}
+.dialog_font h2{ text-align:center; font-size:18px; color:#000; font-weight:normal; height:47px; line-height:47px;}
+.dialog_font dl{ padding:14px 0; clear:both; width:100%; line-height:32px; font-size:14px; color:#000;}
+.dialog_font dt{ width:223px; text-align:right; padding-right:6px; float:left;}
+.dialog_font dd{ width:320px; float:left;}
+.dialog_font dd .text01{ width:148px; height:30px; line-height:30px; margin:0px; padding:0 10px; border:1px solid #a9a9a9;}
+.dialog_font dd .sub02{ width:114px; height:37px; line-height:37px; font-size:16px;}
+.dialog_font .t-tips{ font-size:12px; color:#999999; padding-top:15px;}

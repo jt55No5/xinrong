@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*左侧导航*/
+.AccountLeft{ width:170px; background:#fff; border:1px solid #e8e8e8;}
+.Accountbor{ height:0px; line-height:0px; border-bottom:1px dotted #dadada; font-size:0px;}
+
+.AccountNav{ width:100%; margin:0px; padding:0px; list-style:none;}
+.AccountNav li{ border-bottom:1px solid #e8e8e8;}
+.AccountNav li .fontr{ width:9px; height:9px; line-height:9px; display:inline-block; border:1px solid #444; border-radius:50%; font-size:12px; text-align:center; color:#444; font-style:normal; vertical-align:middle; margin:-14px 0 0 4px;}
+.AccountNav li.liFoot{ padding-bottom:0px;}
+.AccountNav li a{ height:44px; line-height:44px; padding-left:45px; font-size:16px; color:#333; display:block; text-decoration:none; border-left:3px solid #fff;}
+.AccountNav li a:hover{ background:#ffede3; border-left:3px solid #f60;}
+.AccountNav li a.cur{ color:#f60; background:#ffede3; font-weight:bold; border-left:3px solid #f60;}
+.AccountNav li a.cur .fontr{ border:1px solid #f60; color:#f60; font-weight:normal;}
+.AccountNav li a .AllIcon{ width:16px; height:16px; display: inline-block; vertical-align:middle; margin-right:9px;}
+.AccountNav li a .iconhot{ width:22px; height:14px; background-position:-223px -298px; display:inline-block; margin-left:5px;}
+.AccountNav li a .iconnew{ width:22px; height:11px; background-position:-0px -190px; display:inline-block; margin:0 0 5px 5px;}
+
+.AccountNav li .esw_new{ position:absolute; right:-3px; top:-3px;}
+
+.AccountRight { width: 914px; min-height:490px;}
+/*左侧导航 end*/
+.leftlogin{ height:160px; border:1px solid #eaeaea; text-align:center;}
+.leftlogin .loginsub{ padding-top:23px;}
+.leftlogin .loginsub .sub02{ font-size:16px; width:156px; height:32px; line-height:32px; text-decoration:none;}
+.leftlogin .gray{ line-height:30px; padding-top:6px;} 
+.leftlogin .loginfont{ color:#bababa; line-height:28px;}
+.leftlogin .loginbg{ height:34px; line-height:34px; background:#e6e6e6; margin-top:7px; font-size:14px; color:#939393;}
+.leftlogin .font01{ height:109px; text-align:left; padding-top:10px;}
+.leftlogin .font01 dl{ width:100%; clear:both; line-height:20px; padding:10px 0 0 0;}
+.leftlogin .font01 dd{ padding:0 15px;}
+.leftlogin .font01 dd.paddingtop{ padding-top:8px;}
+.leftlogin .font01 dd .fontcha{ width:46px; height:17px; line-height:17px; border:1px solid #e6e6e6; display:inline-block; padding-left:5px; text-align:left; position:relative;}
+.leftlogin .font01 dd .fontcha a{ text-decoration:none;}
+.leftlogin .font01 dd .fontcha .icon01{ width:7px; height:7px; display:inline-block; background-position:-403px -88px; margin-left:7px;}
+.leftlogin .font01 dd .fontcha .icon02{ width:7px; height:7px; display:inline-block; background-position:-412px -88px; margin-left:7px;}
+.leftlogin .font01 dd .fontcha .chapo{ display:block; position: absolute; top: 17px; left: -1px; z-index: 1; font-size: 12px; width: 200px; line-height: 12px; background-color: #fff; color: #333; border: 1px solid #e6e6e6; padding: 15px 10px 13px;}
+.leftlogin .font01 dd .fontcha .chapo dl{ width:100%; clear:both; padding:0px;}
+.leftlogin .font01 dd .fontcha .chapo dt,.leftlogin .font01 dd .fontcha .chapo dd{ float: left; line-height: 24px; padding:0px;}
+.leftlogin .font01 dd .fontcha .chapo .gray{ padding:0px; line-height:24px;}
+.leftlogin .font01 dd .fontcha .chapo .close{ position: absolute; display: block; right: 2px; top: 2px; width: 12px; height: 11px; background: url("../images/close.png"/*tpa=https://www.xinrong.com/2.0/images/close.png*/) no-repeat;}
+/*.leftlogin .font01 dd .fontcha .chapo .close:hover{ background-position: 0 -13px;}*/
+.leftlogin .font01 dd .fontpa{ padding-left:6px;}
+.leftlogin .font01 dd .icon02{}
+
+
+
+
+.leftxrbao{ border:1px solid #eaeaea; margin-top:29px;}
+.leftxrbao h2{ border-bottom:1px solid #eaeaea; height:55px; line-height:55px; background:#f7f7f7; padding:0 10px; font-size:20px; font-weight:normal;}
+.leftxrbao h2 span{ font-size:12px;}
+.leftxrbao .xrbaofont{ padding:10px 0 10px 10px; font-size:15px;}
+.leftxrbao .xrbaofont .orange{ font-size:36px; font-weight:bold;}
+.leftxrbao .xrbaofont .gray{ font-size:13px; width:166px; display:inline-block;}
+.leftxrbao .xrbaofont .sub02{ width:100px; height:30px; line-height:30px; font-size:12px;}
+.leftxrbao .xrbaopic{ width:289px; margin:0 auto; border-top:1px dotted #b2b2b2; padding:8px 0;}
+.leftxrbao .xrbaopic .picfont{ text-align:right; padding-top:8px;}
+
+.leftlistfont ul{ margin:0px; padding:3px 3px 0 3px; list-style:none;}
+.leftlistfont ul li{ width:100%; height:30px; line-height:30px;}
+.leftlistfont ul li span{ font-family:"宋体";}
+
+/* tabcon */
+.lefttab{ height:25px; border-bottom:1px solid #eaeaea;}
+.lefttab li { float:left; position:relative; margin:0px 0px 0 0px; width:69px; margin-top:8px;}
+.lefttab li a { width:69px; display:block; height:15px; line-height:15px; overflow:hidden; padding:0 0px; text-align:center; font-size:12px; background:none; cursor:pointer; text-decoration:none;}
+.lefttab li.current a { background:none; color:#444; font-weight:bold;}
+.lefttab li.tabbor{ border-right:1px solid #eaeaea;}
+/* tabbtn end */
+
+.recentlyfont{ margin:0px; padding:5px 0 0 0px; list-style:none;}
+.recentlyfont li{ width:100%; height:24px; line-height:24px;}
+.recentlyfont li .litime{ width:76px; display:inline-block;}
+.recentlyfont li .liname{ width:26px; display:inline-block;}
+.recentlyfont li .xmname{ width:140px; display:inline-block;}
+.recentlyfont li .money{ width:61px; display:inline-block;}

@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+
+.clear{ clear:both; height:0px; line-height:0px; font-size:0px; margin:0px; padding:0px;}
+.left{ float:left; display:inline}
+.right{ float:right; display:inline}
+.main{ width:1000px; margin:0 auto;}
+
+
+.black5{ height:5px; overflow:hidden; font-size:0; clear:both;}
+.black10{ height:10px; overflow:hidden; font-size:0; clear:both;}
+.black15{ height:15px; overflow:hidden; font-size:0; clear:both;}
+.black20{ height:20px; overflow:hidden; font-size:0; clear:both;}
+.black25{ height:25px; overflow:hidden; font-size:0; clear:both;}
+
+
+/*vip*/
+.VipLeft{ width:674px;}
+.VipTitle{ line-height:25px; border-bottom:1px solid #cfcfcf; padding-left:10px; font-size:14px;font-weight: bold;}
+.PositionR{ position:relative;}
+
+.VipLeft .VipSystem{background:white; position:absolute; width:330px; left:5px; top:5px; border: 1px solid #e8e8e8; -moz-box-shadow:0px 0px 4px #ddd; -webkit-box-shadow:0px 0px 4px #ddd; box-shadow:0px 0px 4px #ddd; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.VipLeft .VipSystem .VipSystemBr{}
+.VipLeft .VipSystem .VipSystemLeft{ position:absolute; left:0px; bottom:0px;}
+.VipLeft .VipSystem .VipSystemRight{ position:absolute; right:0px; bottom:0px; font-size:0px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemFont{ width:299px; margin-left:20px; border-bottom:1px dotted #e5e5e4; display:block; line-height:28px; color:#c22900; font-size:13px; font-weight:bold; padding-top:12px;}
+.VipLeft .VipSystem .VipSystemBr dl{ width:100%; clear:both; line-height:16px; padding-top:16px;}
+.VipLeft .VipSystem .VipSystemBr dt{ width:60px; padding-left:20px; color:#000; float:left;}
+.VipLeft .VipSystem .VipSystemBr dd{ width:244px; float:left;}
+.VipLeft .VipSystem .VipSystemBr dd .VipData{ display:block; width:184px; border:1px solid #d2d2d0; height:14px; position:relative;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataValue{ width:0%; height:14px; background:url("../../../images/vip/V06.jpg"/*tpa=https://www.xinrong.com/s/images/vip/V06.jpg*/) repeat-x; display:block;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataFont{ width:184px; display:block; position:absolute; left:0px; top:0px; line-height:14px; text-align:center; color:#000;}
+.VipLeft .VipSystem .VipSystemBr dd .VipWidth{ width:168px;}
+.VipLeft .VipSystem .VipSystemBr dd .VipDataPic{ width:170px; display:block; position:absolute; left:0px; top:-20px; text-align:center;}
+.VipLeft .VipSystem .VipSystemBr dd .VipNoFont{ display:block; padding-left:8px;}
+.VipLeft .VipSystem .VipSystemBr dd .VipNoFont a{ color:#0578b9;}
+.VipLeft .VipSystem .VipSystemBr dl.VipNo{ padding:25px 0 35px 0;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText{ padding-left:20px; display:block; height:28px; padding-top:19px; color:#666666;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText img{ float:left; padding-right:5px; padding-top:2px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText span{}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a{ color:#0578b9; position:relative;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a .VipFont{ display:none;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont{ display:block; background:url("../../../images/vip/V09.png"/*tpa=https://www.xinrong.com/s/images/vip/V09.png*/) no-repeat; width:274px; height:126px; position:absolute; left:-22px; top:13px;text-decoration:none;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont span{ display:block; padding:20px 0 0 36px; line-height:22px; color:#333;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemText a:hover .VipFont span p{position: relative; margin-left: -4px;}
+
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin{ margin-left:20px; display:block; line-height:41px; color:#c22900; font-size:13px; font-weight:bold; padding-top:10px;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin input{ width:60px; height:24px; border:1px solid #b3c8db; background:#fff; background:-webkit-linear-gradient(#ffffff,#f6f6f6); -moz-border-radius:2px; -webkit-border-radius:2px; cursor:pointer;}
+.VipLeft .VipSystem .VipSystemBr .VipSystemLogin input:hover{ border:1px solid #6c8faf; background:-webkit-linear-gradient(#ffffff,#e6eaed);}
+.VipLeft .VipSystem .VipSystemBr .VipLoginText{ display:block; height:28px; padding:10px 0 19px 20px; color:#666666;}
+.VipLeft .VipSystem .VipSystemBr .VipLoginText img{ float:left; padding-right:5px; padding-top:2px;}
+
+.VipRight{ width:314px;}
+.VipRight .VipRightList{ width:100%; height:208px;}
+.VipRight .VipRightList ul{ margin:0px; padding:5px 0 0 0; list-style:none;padding-top: 10px;}
+.VipRight .VipRightList ul li{ width:100%; clear:both; height:20px; line-height:28px; color:#000;}
+.VipRight .VipRightList ul li .Vtime{ width:120px; padding-left:5px; display:block; float:left;}
+.VipRight .VipRightList ul li .Vfont{ width:80px; display:block; float:left;}
+.VipRight .VipRightList ul li .VPast{ width:105px; display:block; float:left;}
+
+.VipDeals{ height:208px;}
+.deals {
+	font-family: Simsun; padding:4px 0; background: #FBFBFB;
+}
+
+.deals .bd {
+	height: 240px
+}
+
+.deals li {
+	height: 25px;
+	line-height: 25px
+}
+
+.deals span {
+	position: static !important;
+	display: inline-block;
+	overflow: hidden;
+	color: #333 !important
+}
+
+.deals .date {
+	width: 115px; padding-left:5px;
+	
+}
+
+.deals .name {
+	width: 75px
+}
+
+.deals .sn {
+	width: 100px
+}
+
+.deals .state {
+	width: 24px
+}
+
+.deals .money {
+	width: 52px;
+	text-align: right
+}
+
+.deals a {
+	color: #333
+}

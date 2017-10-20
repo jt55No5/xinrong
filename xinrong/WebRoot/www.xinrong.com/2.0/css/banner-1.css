@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+/*focus*/
+.focus {width:100%; min-width:1100px;height:371px;overflow:hidden;position:relative;}
+.focus_m ul {width:100%;height:371px;overflow:hidden;}
+.focus_m li {width:100%;height:371px;_float:left;}
+.focus_m li.li_1 {background:#780109 url("../../s/img/banner/3-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/3.jpg*/) center no-repeat;}
+.focus_m li.li_2 {background:#fbedce url("../../s/img/banner/6-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/6.jpg*/) center no-repeat ;}
+.focus_m li.li_3 {background:#ffc907 url("../../s/img/banner/169-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/169.jpg*/) center no-repeat;}
+.focus_m li.li_4 {background:#7fdbb4 url("../../s/img/banner/18-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/18.jpg*/) center no-repeat;}
+.focus_m li.li_5 {background:#f0e6cd url("../../s/img/banner/22-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/22.jpg*/) center no-repeat ;}
+.focus_m li.li_6 {background:#83e6de url("../../s/img/banner/33-1.png"/*tpa=http://www.xinrong.com/s/img/banner/33.png*/) center no-repeat;}
+.focus_m li.li_7 {background:#c6010b url("../../s/img/banner/39-1.png"/*tpa=http://www.xinrong.com/s/img/banner/39.png*/) center no-repeat;}
+.focus_m li.li_8 {background:#c92e3d url("../../s/img/banner/35-1.png"/*tpa=http://www.xinrong.com/s/img/banner/35.png*/) center no-repeat;}
+.focus_m li.li_9 {background:#505050 url("../../s/img/banner/36-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/36.jpg*/) center no-repeat;}
+.focus_m li.li_10 {background:#ded2b5 url("../../s/img/banner/40-1.png"/*tpa=http://www.xinrong.com/s/img/banner/40.png*/) center no-repeat;}
+.focus_m li.li_11 {background:#a0683f url("../../s/img/banner/41-1.png"/*tpa=http://www.xinrong.com/s/img/banner/41.png*/) center no-repeat;}
+.focus_m li.li_12 {background:#a0683f url("../../s/img/banner/42-1.png"/*tpa=http://www.xinrong.com/s/img/banner/42.png*/) center no-repeat;}
+.focus_m li.li_13 {background:#f2e9d7 url("../../s/img/banner/43-1.png"/*tpa=http://www.xinrong.com/s/img/banner/43.png*/) center no-repeat;}
+.focus_m li.li_14 {background:#f52529 url("../../s/img/banner/44-1.png"/*tpa=http://www.xinrong.com/s/img/banner/44.png*/) center no-repeat;}
+.focus_m li.li_15 {background:#1471c1 url("../../s/img/banner/45-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/45.jpg*/) center no-repeat;}
+.focus_m li.li_16 {background:#ee8100 url("../../s/img/banner/46-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/46.jpg*/) center no-repeat;}
+.focus_m li.li_17 {background:#6e1d08 url("../../s/img/banner/47-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/47.jpg*/) center no-repeat;}
+.focus_m li.li_18 {background:#e60213 url("../../s/img/banner/48-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/48.jpg*/) center no-repeat;}
+.focus_m li.li_19 {background:#3f141c url("../../s/img/banner/49-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/49.jpg*/) center no-repeat;}
+.focus_m li.li_20 {background:#122801 url("../../s/img/banner/56-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/56.jpg*/) center no-repeat;}
+.focus_m li.li_21 {background:#b62230 url("../../s/img/banner/51-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/51.jpg*/) center no-repeat;}
+.focus_m li.li_22 {background:#b62230 url("../../s/img/banner/52-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/52.jpg*/) center no-repeat;}
+.focus_m li.li_23 {background:#f5f5f5 url("../../s/img/banner/53-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/53.jpg*/) center no-repeat;}
+.focus_m li.li_24 {background:#fee9a8 url("../../s/img/banner/54-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/54.jpg*/) center no-repeat;}
+.focus_m li.li_25 {background:#245818 url("../../s/img/banner/55-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/55.jpg*/) center no-repeat;}
+.focus_m li.li_26 {background:#67cfb8 url("../../s/img/banner/57-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/57.jpg*/) center no-repeat;}
+.focus_m li.li_27 {background:#c8f1f3 url("../../s/img/banner/59-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/59.jpg*/) center no-repeat;}
+.focus_m li.li_28 {background:#FEFFFF url("../../s/img/banner/85-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/85.jpg*/) center no-repeat;}
+.focus_m li.li_29 {background:#e4d5ca url("../../s/img/banner/60-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/60.jpg*/) center no-repeat;}
+.focus_m li.li_30 {background:#80cccc url("../../s/img/banner/61-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/61.jpg*/) center no-repeat;}
+.focus_m li.li_31 {background:#0096d3 url("../../s/img/banner/62-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/62.jpg*/) center no-repeat;}
+.focus_m li.li_32 {background:#f74539 url("../../s/img/banner/63-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/63.jpg*/) center no-repeat;}
+.focus_m li.li_33 {background:#c9c379 url("../../s/img/banner/65-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/65.jpg*/) center no-repeat;}
+.focus_m li.li_34 {background:#e1c8a0 url("../../s/img/banner/67-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/67.jpg*/) center no-repeat;}
+.focus_m li.li_35 {background:#7fbed6 url("../../s/img/banner/68-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/68.jpg*/) center no-repeat;}
+.focus_m li.li_36 {background:#e02e50 url("../../s/img/banner/69-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/69.jpg*/) center no-repeat;}
+.focus_m li.li_37 {background:#fcebd2 url("../../s/img/banner/70-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/70.jpg*/) center no-repeat;}
+.focus_m li.li_38 {background:#2089da url("../../s/img/banner/72-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/72.jpg*/) center no-repeat;}
+.focus_m li.li_39 {background:#7cc9ff url("../../s/img/banner/86-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/86.jpg*/) center no-repeat;}
+.focus_m li.li_40 {background:#134f81 url("../../s/img/banner/74-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/74.jpg*/) center no-repeat;}
+.focus_m li.li_41 {background:#d9362f url("../../s/img/banner/75-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/75.jpg*/) center no-repeat;}
+.focus_m li.li_42 {background:#fde1cb url("../../s/img/banner/76-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/76.jpg*/) center no-repeat;}
+.focus_m li.li_43 {background:#032028 url("../../s/img/banner/78-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/78.jpg*/) center no-repeat;}
+.focus_m li.li_44 {background:#ffd792 url("../../s/img/banner/79-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/79.jpg*/) center no-repeat;}
+.focus_m li.li_45 {background:#208ee3 url("../../s/img/banner/80-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/80.jpg*/) center no-repeat;}
+.focus_m li.li_46 {background:#061753 url("../../s/img/banner/81-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/81.jpg*/) center no-repeat;}
+.focus_m li.li_47 {background:#db233f url("../../s/img/banner/82-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/82.jpg*/) center no-repeat;}
+.focus_m li.li_48 {background:#dfdfdf url("../../s/img/banner/83-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/83.jpg*/) center no-repeat;}
+.focus_m li.li_49 {background:#030207 url("../../s/img/banner/84-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/84.jpg*/) center no-repeat;}
+.focus_m li.li_50 {background:#f8f2e2 url("../../s/img/banner/87-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/87.jpg*/) center no-repeat;}
+.focus_m li.li_51 {background:#0d0502 url("../../s/img/banner/88-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/88.jpg*/) center no-repeat;}
+.focus_m li.li_52 {background:#0d0502 url("../../s/img/banner/93-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/93.jpg*/) center no-repeat;}
+.focus_m li.li_53 {background:#260202 url("../../s/img/banner/89-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/89.jpg*/) center no-repeat;}
+.focus_m li.li_54 {background:#cccccc url("../../s/img/banner/90-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/90.jpg*/) center no-repeat;}
+.focus_m li.li_55 {background:#ede9a2 url("../../s/img/banner/91-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/91.jpg*/) center no-repeat;}
+.focus_m li.li_56 {background:#ede9a2 url("../../s/img/banner/92-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/92.jpg*/) center no-repeat;}
+.focus_m li.li_57 {background:#ede9a2 url("../../s/img/banner/95-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/95.jpg*/) center no-repeat;}
+.focus_m li.li_58 {background:#fff0d7 url("../../s/img/banner/112-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/112.jpg*/) center no-repeat;}
+.focus_m li.li_59 {background:#176bb4 url("../../s/img/banner/109-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/109.jpg*/) center no-repeat;}
+.focus_m li.li_60 {background:#fff0d7 url("../../s/img/banner/98-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/98.jpg*/) center no-repeat;}
+.focus_m li.li_61 {background:#fabd00 url("../../s/img/banner/99-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/99.jpg*/) center no-repeat;}
+.focus_m li.li_62 {background:#041C3E url("../../s/img/banner/102-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/102.jpg*/) center no-repeat;}
+.focus_m li.li_63 {background:#DF221E url("../../s/img/banner/110-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/110.jpg*/) center no-repeat;}
+.focus_m li.li_64 {background:#7B0002 url("../../s/img/banner/108-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/108.jpg*/) center no-repeat;}
+.focus_m li.li_65 {background:#b7eaee url("../../s/img/banner/265-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/265.jpg*/) center no-repeat;}
+.focus_m li.li_66 {background:#FFF1D7 url("../../s/img/banner/113-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/113.jpg*/) center no-repeat;}
+.focus_m li.li_67 {background:#fabd00 url("../../s/img/banner/115-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/115.jpg*/) center no-repeat;}
+.focus_m li.li_68 {background:#FFF1D7 url("../../s/img/banner/116-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/116.jpg*/) center no-repeat;}
+.focus_m li.li_69 {background:#fabd00 url("../../s/img/banner/117-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/117.jpg*/) center no-repeat;}
+.focus_m li.li_70 {background:#fabd00 url("../../s/img/banner/202-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/202.jpg*/) center no-repeat;}
+.focus_m li.li_71 {background:#fabd00 url("../../s/img/banner/120-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/120.jpg*/) center no-repeat;}
+.focus_m li.li_72 {background:#553B2E url("../../s/img/banner/122-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/122.jpg*/) center no-repeat;}
+.focus_m li.li_73 {background:#BE2F2B url("../../s/img/banner/123-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/123.jpg*/) center no-repeat;}
+.focus_m li.li_74 {background:#00132B url("../../s/img/banner/124-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/124.jpg*/) center no-repeat;}
+.focus_m li.li_75 {background:#00132B url("../../s/img/banner/126-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/126.jpg*/) center no-repeat;}
+.focus_m li.li_76 {background:#e73f41 url("../../s/img/banner/139-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/139.jpg*/) center no-repeat;}
+.focus_m li.li_77 {background:#e73f41 url("../../s/img/banner/129-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/129.jpg*/) center no-repeat;}
+.focus_m li.li_78 {background:#e73f41 url("../../s/img/banner/130-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/130.jpg*/) center no-repeat;}
+.focus_m li.li_79 {background:#e73f41 url("../../s/img/banner/135-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/135.jpg*/) center no-repeat;}
+.focus_m li.li_80 {background:#e73f41 url("../../s/img/banner/136-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/136.jpg*/) center no-repeat;}
+.focus_m li.li_81 {background:#e73f41 url("../../s/img/banner/138-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/138.jpg*/) center no-repeat;}
+.focus_m li.li_82 {background:#e73f41 url("../../s/img/banner/141-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/141.jpg*/) center no-repeat;}
+.focus_m li.li_83 {background:#e73f41 url("../../s/img/banner/142-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/142.jpg*/) center no-repeat;}
+.focus_m li.li_84 {background:#e73f41 url("../../s/img/banner/146-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/146.jpg*/) center no-repeat;}
+.focus_m li.li_85 {background:#e73f41 url("../../s/img/banner/148-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/148.jpg*/) center no-repeat;}
+.focus_m li.li_86 {background:#e73f41 url("../../s/img/banner/149-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/149.jpg*/) center no-repeat;}
+.focus_m li.li_87 {background:#e73f41 url("../../s/img/banner/151-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/151.jpg*/) center no-repeat;}
+.focus_m li.li_88 {background:#e73f41 url("../../s/img/banner/153-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/153.jpg*/) center no-repeat;}
+.focus_m li.li_89 {background:#271309 url("../../s/img/banner/155-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/155.jpg*/) center no-repeat;}
+.focus_m li.li_90 {background:#0199B0 url("../../s/img/banner/157-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/157.jpg*/) center no-repeat;}
+.focus_m li.li_91 {background:#FCCF1E url("../../s/img/banner/159-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/159.jpg*/) center no-repeat;}
+.focus_m li.li_92 {background:#FCCF1E url("../../s/img/banner/160-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/160.jpg*/) center no-repeat;}
+.focus_m li.li_93 {background:#4c94e6 url("../../s/img/banner/161-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/161.jpg*/) center no-repeat;}
+.focus_m li.li_94 {background:#e6141f url("../../s/img/banner/164-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/164.jpg*/) center no-repeat;}
+.focus_m li.li_95 {background:#e6141f url("../../s/img/banner/165-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/165.jpg*/) center no-repeat;}
+.focus_m li.li_96 {background:#41C589 url("../../s/img/banner/175-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/175.jpg*/) center no-repeat;}
+.focus_m li.li_97 {background:#41C589 url("../../s/img/banner/171-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/171.jpg*/) center no-repeat;}
+.focus_m li.li_98 {background:#ea3e28 url("../../s/img/banner/174-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/174.jpg*/) center no-repeat;}
+.focus_m li.li_99 {background:#ea3e28 url("../../s/img/banner/176-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/176.jpg*/) center no-repeat;}
+.focus_m li.li_100 {background:#ea3e28 url("../../s/img/banner/177-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/177.jpg*/) center no-repeat;}
+.focus_m li.li_101 {background:#ea3e28 url("../../s/img/banner/179-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/179.jpg*/) center no-repeat;}
+.focus_m li.li_102 {background:#ea3e28 url("../../s/img/banner/181-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/181.jpg*/) center no-repeat;}
+.focus_m li.li_103 {background:#24275A url("../../s/img/banner/184-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/184.jpg*/) center no-repeat;}
+.focus_m li.li_104 {background:#1DC4F9 url("../../s/img/banner/185-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/185.jpg*/) center no-repeat;}
+.focus_m li.li_105 {background:#24275A url("../../s/img/banner/186-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/186.jpg*/) center no-repeat;}
+.focus_m li.li_106 {background:#181329 url("../../s/img/banner/187-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/187.jpg*/) center no-repeat;}
+.focus_m li.li_107 {background:#153F7B url("../../s/img/banner/190-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/190.jpg*/) center no-repeat;}
+.focus_m li.li_108 {background:#2259a6 url("../../s/img/banner/191-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/191.jpg*/) center no-repeat;}
+.focus_m li.li_109 {background:#2259a6 url("../../s/img/banner/192-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/192.jpg*/) center no-repeat;}
+.focus_m li.li_110 {background:#F8600C url("../../s/img/banner/194-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/194.jpg*/) center no-repeat;}
+.focus_m li.li_111 {background:#F8600C url("../../s/img/banner/196-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/196.jpg*/) center no-repeat;}
+.focus_m li.li_112 {background:#F8600C url("../../s/img/banner/197-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/197.jpg*/) center no-repeat;}
+.focus_m li.li_113 {background:#F8600C url("../../s/img/banner/200-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/200.jpg*/) center no-repeat;}
+.focus_m li.li_114 {background:#F8600C url("../../s/img/banner/204-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/204.jpg*/) center no-repeat;}
+.focus_m li.li_115 {background:#F8600C url("../../s/img/banner/205-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/205.jpg*/) center no-repeat;}
+.focus_m li.li_116 {background:#F8600C url("../../s/img/banner/206-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/206.jpg*/) center no-repeat;}
+.focus_m li.li_117 {background:#F8600C url("../../s/img/banner/207-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/207.jpg*/) center no-repeat;}
+.focus_m li.li_118 {background:#F8600C url("../../s/img/banner/223-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/223.jpg*/) center no-repeat;}
+.focus_m li.li_119 {background:#F8600C url("../../s/img/banner/210-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/210.jpg*/) center no-repeat;}
+.focus_m li.li_120 {background:#F8600C url("../../s/img/banner/212-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/212.jpg*/) center no-repeat;}
+.focus_m li.li_121 {background:#F8600C url("../../s/img/banner/213-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/213.jpg*/) center no-repeat;}
+.focus_m li.li_122 {background:#F8600C url("../../s/img/banner/214-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/214.jpg*/) center no-repeat;}
+.focus_m li.li_123 {background:#F8600C url("../../s/img/banner/218-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/218.jpg*/) center no-repeat;}
+.focus_m li.li_124 {background:#F8600C url("../../s/img/banner/219-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/219.jpg*/) center no-repeat;}
+.focus_m li.li_125 {background:#F8600C url("../../s/img/banner/220-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/220.jpg*/) center no-repeat;}
+.focus_m li.li_126 {background:#F8600C url("../../s/img/banner/222-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/222.jpg*/) center no-repeat;}
+.focus_m li.li_127 {background:#f60 url("../../s/img/banner/225-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/225.jpg*/) center no-repeat;}
+.focus_m li.li_128 {background:#000 url("../../s/img/banner/226-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/226.jpg*/) center no-repeat;}
+.focus_m li.li_129 {background:#f60 url("../../s/img/banner/228-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/228.jpg*/) center no-repeat;}
+.focus_m li.li_130 {background:#f60 url("../../s/img/banner/241-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/241.jpg*/) center no-repeat;}
+.focus_m li.li_131 {background:#1a6ddf url("../../s/img/banner/230-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/230.jpg*/) center no-repeat;}
+.focus_m li.li_132 {background:#1a6ddf url("../../s/img/banner/232-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/232.jpg*/) center no-repeat;}
+.focus_m li.li_133 {background:#f83d68 url("../../s/img/banner/233-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/233.jpg*/) center no-repeat;}
+.focus_m li.li_134 {background:#f83d68 url("../../s/img/banner/237-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/237.jpg*/) center no-repeat;}
+.focus_m li.li_135 {background:#f83d68 url("../../s/img/banner/239-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/239.jpg*/) center no-repeat;}
+.focus_m li.li_136 {background:#f83d68 url("../../s/img/banner/240-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/240.jpg*/) center no-repeat;}
+.focus_m li.li_137 {background:#f83d68 url("../../s/img/banner/243-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/243.jpg*/) center no-repeat;}
+.focus_m li.li_138 {background:#f83d68 url("../../s/img/banner/247-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/247.jpg*/) center no-repeat;}
+.focus_m li.li_139 {background:#f83d68 url("../../s/img/banner/249-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/249.jpg*/) center no-repeat;}
+.focus_m li.li_140 {background:#f83d68 url("../../s/img/banner/250-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/250.jpg*/) center no-repeat;}
+.focus_m li.li_141 {background:#f83d68 url("../../s/img/banner/252-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/252.jpg*/) center no-repeat;}
+.focus_m li.li_142 {background:#f83d68 url("../../s/img/banner/261-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/261.jpg*/) center no-repeat;}
+.focus_m li.li_143 {background:#f83d68 url("../../s/img/banner/254-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/254.jpg*/) center no-repeat;}
+.focus_m li.li_144 {background:#f83d68 url("../../s/img/banner/255-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/255.jpg*/) center no-repeat;}
+.focus_m li.li_145 {background:#f83d68 url("../../s/images/jipinhui/banner-1.jpg"/*tpa=http://www.xinrong.com/s/images/jipinhui/banner.jpg*/) center no-repeat;}
+.focus_m li.li_146 {background:#f83d68 url("../../s/img/banner/256-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/256.jpg*/) center no-repeat;}
+.focus_m li.li_147 {background:#f83d68 url("../../s/img/banner/258-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/258.jpg*/) center no-repeat;}
+.focus_m li.li_148 {background:#f83d68 url("../../s/img/banner/259-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/259.jpg*/) center no-repeat;}
+.focus_m li.li_149 {background:#f83d68 url("../../s/img/banner/262-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/262.jpg*/) center no-repeat;}
+.focus_m li.li_150 {background:#f83d68 url("../../s/img/banner/264-1.jpg"/*tpa=http://www.xinrong.com/s/img/banner/264.jpg*/) center no-repeat;}
+
+.focus_m li a{ display:block; width:1100px; margin:0 auto; height:371px; cursor:pointer;}
+.focus_m li a .t-time{ display:block; width:430px; padding:206px 0 0 142px; font-size:44px; line-height:48px; color:#fff;}
+.focus_m li a .t-time b{ font-weight:normal; padding:0 20px 0 10px; display:inline-block; letter-spacing:0.4em;}
+
+.focus_s {height:0;position:relative; margin:0 auto;z-index:2;width:1100px;}
+.focus_s ul {height:12px;overflow:hidden;position:absolute;right:458px;top:350px;}
+.focus_s li {float:left;cursor:pointer;height:12px;width:12px;overflow:hidden;margin-right:10px;}
+.focus_s li b {display:block;text-indent:-999em;background:url("../images/b-circle-1.png"/*tpa=http://www.xinrong.com/2.0/images/b-circle.png*/) 0 0 no-repeat;width:12px;height:32px;overflow:hidden;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='../images/b-circle.png');_background:none;}
+.focus_s li.active b {margin-top:-20px;}
+.focus_l,.focus_r {position:absolute;display:block;width:40px;height:70px;overflow:hidden;z-index:2;top:130px;}
+.focus_l {left:0;}
+.focus_r {right:0;}
+.focus_l b,.focus_r b {position:absolute;z-index:1;display:block;width:40px;height:70px;overflow:hidden;opacity:0.3;filter:alpha(opacity=30);cursor:pointer;}
+.focus_l span,.focus_r span {display:block;position:relative;z-index:2;width:40px;height:70px;top:0px;cursor:pointer;}
+.focus_l span {left:0px;background:url("../images/b-left-1.png"/*tpa=http://www.xinrong.com/2.0/images/b-left.png*/) 0 0 no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='images/b-left.png');_background:none;}
+.focus_r span {left:0px;background:url("../images/b-right-1.png"/*tpa=http://www.xinrong.com/2.0/images/b-right.png*/) 0 0 no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='images/b-right.png');_background:none;}
+.focus_l:hover,.focus_r:hover {*zoom:1;}
+.focus_l:hover b,.focus_r:hover b {opacity:0.5;filter:alpha(opacity=50);}
+/*login*/
+.login_box {height:0;position:relative;margin:0 auto;z-index:2;width:1100px;}
+.login{ width:262px; height:277px; position:absolute; right:0px; top:33px; background:#fff; padding:24px 24px 0 24px; color:#8b8787;}
+.login .sub02{ width:100%; height:40px; line-height:40px; font-size:18px;}
+.login .t-tel{ width:100%; font-size:15px; position:absolute; left:0px; bottom:0px; height:38px; line-height:38px; background:#e6e6e6; text-align:center;}
+
+.login_one{ line-height:27px; font-size:14px;}
+.login_one h2{ font-size:43px; color:#f60; line-height:60px; font-weight:normal;}
+.login_one h3{ font-size:12px; font-weight:normal;}
+.login_one h3 span{ font-size:16px;}
+.login_one .f-tips{ height:28px; line-height:28px; padding:14px 0 0 0; font-size:12px;}
+.login_one .t-r{ text-align:right; line-height:38px; font-size:13px;}
+
+.login_two h1{ font-size:18px; line-height:36px; font-weight:normal; color:#555;}
+.login_two h1 span{ color:#555; padding-right:6px;}
+.login_two h1 a{ color:#f60; padding-left:6px;}
+.login_two .h-input{ width:244px; height:38px; line-height:38px; border:1px solid #dcdcdc; border-radius:3px; padding:0 8px; margin-top:8px; font-size:14px; vertical-align:middle;}
+.login_two .h-input:-moz-placeholder { color: #c1c1c1;}
+.login_two .h-input:-ms-input-placeholder { color: #c1c1c1;}
+.login_two .h-input::-webkit-input-placeholder { color: #c1c1c1;}
+.login_two .inp_w{ width:124px;}
+.login_two .p_img{ display:inline-block; vertical-align:middle; padding-top:10px;}
+.login_two .sub02{ margin-top:4px;}
+.login_two .t-f{ line-height:20px; padding-top:6px;}
+.login_two p.error{height: 20px; padding-top: 3px; color: red;}
+.login_two p.error i.icon01{ width:14px; height:17px; background-position:-492px -85px; display:inline-block; vertical-align:middle; margin-right:4px;}
+
+.login-three{ line-height:35px; color:#666;}
+.login-three h3{ font-size:14px; height:35px; line-height:18px; color: #333; border-bottom: 1px dotted #e9e9e9; padding-top:10px;}
+.login-three .t_font{ height:120px; padding:20px 0;}
+.login-three .sub02{ width: 110px; height: 30px; line-height: 21px; font-size: 14px; border:none; cursor: pointer;}
+.login-three .sub03{ width: 110px; height: 30px; line-height: 21px; font-size: 14px; border:none; background: #4bc1e1; margin-left:15px; cursor: pointer;}
+
+.login-name{ width:310px; height:301px; padding:0;}
+.login-name h3{ height:40px; line-height:40px; background:#f2f2f2; padding:0 15px; font-size:14px; color:#444; font-weight:normal;}
+.login-name .t_font{ padding:8px 15px; line-height:24px; font-size:13px; color:#666;}
+.login-name .f-color{ color:#f60; margin-left:10px; text-decoration:underline;}
+.login-name .f-sdata{ font-size:14px; color:#666; text-align:center; height:118px; line-height:36px; padding:30px 0 0 0;}
+.login-name .f-sdata p{ font-size:26px;}
+.login-name .sub02{ width:243px; margin:0 auto; display:block; border:0px; cursor:pointer; font-size:16px;}
+
+
+
+

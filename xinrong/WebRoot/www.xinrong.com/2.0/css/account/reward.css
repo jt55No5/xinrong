@@ -1,0 +1,425 @@
+/*
+*	headerLine
+*/
+.headerLine{
+	width: 100%;
+	min-width: 1000px;
+	height: 2px;
+	margin-top: 6px;
+	background-color: #bababa;
+	clear: both;
+}
+/*
+*	我的奖励容器
+*/
+.rewardContent{
+	position: relative;
+	width: 1000px;
+	/*margin: 20px auto 0;*/
+}
+.rewardContent:after{
+	display: block;
+	rewardContent: "";
+	clear: both;
+}
+/*
+*	左侧菜单容器
+*/
+.rewardContent .menuCon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 168px;
+	border: 1px solid #9cb7d2;
+	background-color: #f6f9fe;
+}
+/*左侧菜单*/
+.rewardContent .menuCon .menu{
+	width: 100%;
+	height: 100%;
+}
+/*菜单条目高度*/
+.rewardContent .menuCon .menu>li{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+/*当前条目*/
+.rewardContent .menuCon .menu>li.current{
+	background-color: #4d8bc6 !important;
+}
+.rewardContent .menuCon .menu>li.current>span{
+	background-position: -247px -287px !important;
+}
+.rewardContent .menuCon .menu>li.current>a{
+	color: #fff !important;
+}
+/*奖励标记条目*/
+.rewardContent .menuCon .menu>li.prise{
+	background-image: url("../../images/account/reward/prise.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/prise.png*/);
+	background-position: 85% center;
+}
+/*new标记条目*/
+.rewardContent .menuCon .menu>li.new:after{
+	position: absolute;
+	display: block;
+	rewardContent: "";
+	right: 26px;
+	top: 10px;
+	width: 22px;
+	height: 20px;
+	background-image: url("../../images/icon.png"/*tpa=https://www.xinrong.com/2.0/images/icon.png*/);
+	background-position: -0px -186px;
+}
+/*菜单条目icon*/
+.rewardContent .menuCon .menu>li>span{
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../../images/icon.png"/*tpa=https://www.xinrong.com/2.0/images/icon.png*/);
+}
+.rewardContent .menuCon .menu>li>span{ 		/*账户首页*/
+	background-position: -110px -210px;
+}
+.rewardContent .menuCon .menu>li+li>span{		/*投资管理*/
+	background-position: -128px -210px;
+}
+.rewardContent .menuCon .menu>li+li+li>span{		/*借款管理*/
+	background-position: -246px -265px;
+}
+.rewardContent .menuCon .menu>li+li+li+li>span{		/*充值提现*/
+	width: 18px;
+	left: 32px;
+	background-position: -146px -210px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li>span{		/*收支查询*/
+	background-position: -161px -210px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li+li>span{		/*账户设置*/
+	background-position: -198px -212px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li+li+li>span{		/*我的消息*/
+	background-position: -218px -210px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li+li+li+li>span{		/*我的推荐*/
+	background-position: -288px -265px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li+li+li+li+li>span{		/*增值服务*/
+	background-position: -272px -287px;
+}
+.rewardContent .menuCon .menu>li+li+li+li+li+li+li+li+li+li>span{		/*朵朵来电*/
+	background-position: -325px -288px;
+}
+/*菜单条目链接*/
+.rewardContent .menuCon .menu>li>a{
+	line-height: 40px;
+	font-size: 14px;
+}
+/*
+*	右侧内容
+*/
+.rewardContent .rightCon{
+	float: left;
+	/*margin-left: 186px;*/
+	margin-top: 0;
+	width: 814px;
+}
+/*
+*	上方选择栏
+*/
+/*上方选择菜单*/
+.rewardContent .rightCon .menu{
+	width: 100%;
+	height: 27px;
+	border-bottom: 1px solid #99abbc;
+}
+/*上方选择菜单条目样式*/
+.service-tab .tabs>li{
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: 0 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #b5c2ca;
+}
+/*上方选择菜单当前条目样式*/
+.rewardContent .rightCon .menu>li.current{
+	border-bottom-color: #fff !important;
+}
+.rewardContent .rightCon .menu>li.current>a{
+	color: #000 !important;
+}
+/*上方选择菜单new条目样式*/
+.service-tab .tabs>li.new:after{
+	position: absolute;
+	display: block;
+	right: -12px;
+	top: -10px;
+	width: 27px;
+	height: 18px;
+	rewardContent: "";
+	background: url("../../images/account/reward/new.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/new.png*/) no-repeat;
+}
+
+.service-tab .tabs .new{
+	position: absolute;
+	display: block;
+	right: -12px;
+	top: -10px;
+	width: 27px;
+	height: 18px;
+	background: url("../../images/account/reward/new.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/new.png*/) no-repeat;
+	z-index: 2;
+}
+/*上方选择菜单条目链接*/
+.rewardContent .rightCon .menu>li>a{
+	padding: 0 15px;
+	color: #007ab8;
+	line-height: 26px;
+	font-size: 15px;
+}
+/*
+*	奖励详情
+*/
+.rewardContent .rightCon .rewardCon{
+	position: relative;
+	width: 100%;
+	/*margin-top: 15px;*/
+}
+/*领取与否切换菜单*/
+.rewardContent .rightCon .rewardCon .hasGot{
+	height: 29px;
+	border-bottom: 1px solid #dedcdc;
+}
+.rewardContent .rightCon .rewardCon .hasGot>li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	padding: 0 16px;
+	color: #676767;
+	line-height: 27px;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+/*领取与否切换菜单当前条目*/
+.rewardContent .rightCon .rewardCon .hasGot>li.current{
+	color: #ea5511;
+	border-bottom: 3px solid #ea5511;
+}
+/*领取与否切换菜单未读条目	ie7*/
+.rewardContent .rightCon .rewardCon .hasGot>li div{
+	display: none;
+	width: 0;
+	height: 0;
+}
+.rewardContent .rightCon .rewardCon .hasGot>li.unread div{
+	position: absolute;
+	display: block;
+	right: 9px;
+	top: 4px;
+	width: 5px;
+	height: 5px;
+	border: 0;
+	background-color: transparent;
+	background-image: url("../../images/account/reward/circle.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/circle.png*/);
+}
+/*奖励详情展示*/
+.rewardContent .rightCon .rewardCon .rewardBox{
+	position: relative;
+	width: 100%;
+	/*height: 600px;*/
+	margin-bottom: 40px;
+}
+/*
+*	奖励通用样式
+*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward{
+	position: relative;
+	float: left;
+	width: 233px;
+	height: 218px;
+	margin: 25px 19px 0;
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward>div{
+	position: relative;
+	display: block;
+	padding: 2px 10px;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward>div>em{
+	color: #676767;
+	font-style: normal;
+}
+/*奖励类型及数量行*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .typeCon{
+	height: 40px;
+	margin-top: 15px;
+	color: #fff;
+}
+/*奖励数量样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .typeCon .number{
+	line-height: 40px;
+	font-size: 37.33px;
+}
+/*奖励数量单位样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .typeCon .unit{
+	font-size: 18.67px;
+	margin-left: 4px;
+}
+/*人民币符号样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .typeCon .rmb{
+	font-size: 29.33px;
+}
+/*奖励类型样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .typeCon .type{
+	position: absolute;
+	display: block;
+	right: 20px;
+	top: 2px;
+	font-size: 17.33px;
+}
+/*奖励获得方式行样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .acqMethodCon{
+	margin-top: 42px;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward .acqMethod label,.rewardContent .rightCon .rewardCon .rewardBox .notGot .reward label
+{
+	color: #000;
+	font-size: 12px;
+}
+/*未领取奖励获得方式样式*/
+.rewardContent .rightCon .rewardCon .rewardBox .notGot .reward .acqMethod{
+	display: block;
+}
+/*奖励状态行*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .statusCon{
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	text-align: right;
+}
+/*奖励状态按钮*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .statusCon .status{
+	color: #0078b6;
+}
+/*积分可抵礼金行*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward .offsetCon{
+	position: absolute;
+	left: 0;
+	top: 55px;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward.inValid .offsetCon .number{
+	color: #f56504;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward.valid .offsetCon em{
+	color: #fff;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .reward.valid .offsetCon .number{
+	color: #fff;
+}
+/*可用奖励背景*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward.valid{
+	background-image: url("../../images/account/reward/valid.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/valid.png*/);
+}
+/*过期奖励背景*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward.overdue{
+	background-image: url("../../images/account/reward/overdue.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/overdue.png*/);
+}
+/*已使用奖励背景*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward.used{
+	background-image: url("../../images/account/reward/used.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/used.png*/);
+}
+/*未领取奖励背景*/
+.rewardContent .rightCon .rewardCon .rewardBox .reward.inValid{
+	background-image: url("../../images/account/reward/inValid.png"/*tpa=https://www.xinrong.com/2.0/images/account/reward/inValid.png*/);
+}
+/*
+*	已领取奖励容器
+*/
+.rewardContent .rightCon .rewardCon .rewardBox .got{
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*top: 0;*/
+	width: 100%;
+	/*height: 560px;*/
+	overflow: hidden;
+}
+/*
+*	未领取奖励容器
+*/
+.rewardContent .rightCon .rewardCon .rewardBox .notGot{
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*top: 0;*/
+	width: 100%;
+	/*height: 560px;*/
+	overflow: hidden;
+	display: none;
+}
+/*
+*	翻页
+*/
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch{
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	height: 25px;
+	line-height: 25px;
+	color: #0078b6;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch>div{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding: 0 5px;
+	cursor: pointer;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch>div:hover{
+	text-decoration: underline;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch .more{
+	padding: 0;
+	color: #000;
+	cursor: default;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch .pageJump{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch .pageJump>li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding: 0 5px;
+	cursor: pointer;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch .pageJump>li:hover{
+	text-decoration: underline;
+}
+.rewardContent .rightCon .rewardCon .rewardBox .pageSwitch .pageJump>li.current{
+	color: #fff;
+	background-color: #0078b6;
+}
+.rewardContent #empty{
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+}
+.rewardContent #empty h3{
+	font-size: x-large;
+	font-weight: 200;
+	color: grey;
+}

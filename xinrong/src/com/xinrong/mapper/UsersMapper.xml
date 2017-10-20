@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinrong.dao.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.xinrong.bean.Users" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="identifyNo" property="identifyno" jdbcType="VARCHAR" />
+    <result column="vipId" property="vipid" jdbcType="INTEGER" />
+    <result column="phonenumber" property="phonenumber" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="adressId" property="adressid" jdbcType="INTEGER" />
+    <result column="creditLevel" property="creditlevel" jdbcType="INTEGER" />
+    <result column="bankId" property="bankid" jdbcType="INTEGER" />
+    <result column="bankAdressId" property="bankadressid" jdbcType="INTEGER" />
+    <result column="bankNumber" property="banknumber" jdbcType="VARCHAR" />
+    <result column="actualNameStatus" property="actualnamestatus" jdbcType="INTEGER" />
+    <result column="createDate" property="createdate" jdbcType="DATE" />
+    <result column="modifyDate" property="modifydate" jdbcType="DATE" />
+    <result column="restMinPayment" property="restminpayment" jdbcType="DOUBLE" />
+    <result column="lateDays" property="latedays" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, username, password, name, identifyNo, vipId, phonenumber, email, adressId, creditLevel, 
+    bankId, bankAdressId, bankNumber, actualNameStatus, createDate, modifyDate, restMinPayment, 
+    lateDays
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xinrong.bean.Users" >
+    insert into users (id, username, password, 
+      name, identifyNo, vipId, 
+      phonenumber, email, adressId, 
+      creditLevel, bankId, bankAdressId, 
+      bankNumber, actualNameStatus, createDate, 
+      modifyDate, restMinPayment, lateDays
+      )
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{name,jdbcType=VARCHAR}, #{identifyno,jdbcType=VARCHAR}, #{vipid,jdbcType=INTEGER}, 
+      #{phonenumber,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{adressid,jdbcType=INTEGER}, 
+      #{creditlevel,jdbcType=INTEGER}, #{bankid,jdbcType=INTEGER}, #{bankadressid,jdbcType=INTEGER}, 
+      #{banknumber,jdbcType=VARCHAR}, #{actualnamestatus,jdbcType=INTEGER}, #{createdate,jdbcType=DATE}, 
+      #{modifydate,jdbcType=DATE}, #{restminpayment,jdbcType=DOUBLE}, #{latedays,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinrong.bean.Users" >
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="identifyno != null" >
+        identifyNo,
+      </if>
+      <if test="vipid != null" >
+        vipId,
+      </if>
+      <if test="phonenumber != null" >
+        phonenumber,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="adressid != null" >
+        adressId,
+      </if>
+      <if test="creditlevel != null" >
+        creditLevel,
+      </if>
+      <if test="bankid != null" >
+        bankId,
+      </if>
+      <if test="bankadressid != null" >
+        bankAdressId,
+      </if>
+      <if test="banknumber != null" >
+        bankNumber,
+      </if>
+      <if test="actualnamestatus != null" >
+        actualNameStatus,
+      </if>
+      <if test="createdate != null" >
+        createDate,
+      </if>
+      <if test="modifydate != null" >
+        modifyDate,
+      </if>
+      <if test="restminpayment != null" >
+        restMinPayment,
+      </if>
+      <if test="latedays != null" >
+        lateDays,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="identifyno != null" >
+        #{identifyno,jdbcType=VARCHAR},
+      </if>
+      <if test="vipid != null" >
+        #{vipid,jdbcType=INTEGER},
+      </if>
+      <if test="phonenumber != null" >
+        #{phonenumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="adressid != null" >
+        #{adressid,jdbcType=INTEGER},
+      </if>
+      <if test="creditlevel != null" >
+        #{creditlevel,jdbcType=INTEGER},
+      </if>
+      <if test="bankid != null" >
+        #{bankid,jdbcType=INTEGER},
+      </if>
+      <if test="bankadressid != null" >
+        #{bankadressid,jdbcType=INTEGER},
+      </if>
+      <if test="banknumber != null" >
+        #{banknumber,jdbcType=VARCHAR},
+      </if>
+      <if test="actualnamestatus != null" >
+        #{actualnamestatus,jdbcType=INTEGER},
+      </if>
+      <if test="createdate != null" >
+        #{createdate,jdbcType=DATE},
+      </if>
+      <if test="modifydate != null" >
+        #{modifydate,jdbcType=DATE},
+      </if>
+      <if test="restminpayment != null" >
+        #{restminpayment,jdbcType=DOUBLE},
+      </if>
+      <if test="latedays != null" >
+        #{latedays,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinrong.bean.Users" >
+    update users
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="identifyno != null" >
+        identifyNo = #{identifyno,jdbcType=VARCHAR},
+      </if>
+      <if test="vipid != null" >
+        vipId = #{vipid,jdbcType=INTEGER},
+      </if>
+      <if test="phonenumber != null" >
+        phonenumber = #{phonenumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="adressid != null" >
+        adressId = #{adressid,jdbcType=INTEGER},
+      </if>
+      <if test="creditlevel != null" >
+        creditLevel = #{creditlevel,jdbcType=INTEGER},
+      </if>
+      <if test="bankid != null" >
+        bankId = #{bankid,jdbcType=INTEGER},
+      </if>
+      <if test="bankadressid != null" >
+        bankAdressId = #{bankadressid,jdbcType=INTEGER},
+      </if>
+      <if test="banknumber != null" >
+        bankNumber = #{banknumber,jdbcType=VARCHAR},
+      </if>
+      <if test="actualnamestatus != null" >
+        actualNameStatus = #{actualnamestatus,jdbcType=INTEGER},
+      </if>
+      <if test="createdate != null" >
+        createDate = #{createdate,jdbcType=DATE},
+      </if>
+      <if test="modifydate != null" >
+        modifyDate = #{modifydate,jdbcType=DATE},
+      </if>
+      <if test="restminpayment != null" >
+        restMinPayment = #{restminpayment,jdbcType=DOUBLE},
+      </if>
+      <if test="latedays != null" >
+        lateDays = #{latedays,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinrong.bean.Users" >
+    update users
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      identifyNo = #{identifyno,jdbcType=VARCHAR},
+      vipId = #{vipid,jdbcType=INTEGER},
+      phonenumber = #{phonenumber,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      adressId = #{adressid,jdbcType=INTEGER},
+      creditLevel = #{creditlevel,jdbcType=INTEGER},
+      bankId = #{bankid,jdbcType=INTEGER},
+      bankAdressId = #{bankadressid,jdbcType=INTEGER},
+      bankNumber = #{banknumber,jdbcType=VARCHAR},
+      actualNameStatus = #{actualnamestatus,jdbcType=INTEGER},
+      createDate = #{createdate,jdbcType=DATE},
+      modifyDate = #{modifydate,jdbcType=DATE},
+      restMinPayment = #{restminpayment,jdbcType=DOUBLE},
+      lateDays = #{latedays,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

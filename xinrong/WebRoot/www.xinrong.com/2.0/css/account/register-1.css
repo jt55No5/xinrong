@@ -1,0 +1,374 @@
+/*
+*	注册
+*/
+body{ background-color: #fafafa;}
+
+.bgGrey{background-color:#bababa !important;}
+
+.headerReg .register{
+	height: 33px;
+	margin: 24px 0 4px 20px;
+	padding: 0 20px;
+	font-size: 22px;
+	line-height: 33px;
+	border-left: 1px solid #c4c4c4;
+}
+/*
+* 	登录
+*/
+.headerReg .login{
+	float: right;
+	height: 33px;
+	margin: 24px 0 4px;
+	font-size: 14px;
+	line-height: 33px;
+}
+.headerReg .login a{
+	color: #f60;
+}
+/*
+*	headerLine
+*/
+.headerLine{
+	width: 100%;
+	min-width: 1000px;
+	height: 1px;
+	margin-top: 6px;
+	background-color: #bababa;
+}
+/*下方外部背景设置*/
+.content{
+	width: 100%;
+	padding-top: 45px;
+	background-color: #fafafa;
+}
+/*
+*	注册表格
+*/
+.regContent{
+	width: 1000px;
+	margin: 0 auto 75px;
+	border: 1px solid #c4c4c4;
+	font-family: "宋体";
+	background-color: #fff;
+}
+/*banner*/
+.regContent .banners{
+	display: block;
+	position: relative;
+	width: 900px;
+	height: 160px;
+	margin: 40px auto 35px;
+}
+.regContent .banners a{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: all 0.6s ease;
+	cursor: default;
+}
+.regContent .banners .banner1{
+	opacity: 1;
+	background-image: url("../../images/register/banner1-1.png"/*tpa=http://www.xinrong.com/2.0/images/register/banner1.png*/);
+}
+.regContent .banners .banner2{
+	background-image: url("../../images/register/banner2-1.png"/*tpa=http://www.xinrong.com/2.0/images/register/banner2.png*/);
+}
+.regContent .banners .banner3{
+	background-image: url("../../images/register/banner3-1.png"/*tpa=http://www.xinrong.com/2.0/images/register/banner3.png*/);
+}
+/*表格*/
+.regForm input[type="text"],.regForm input[type="password"]{
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*top: 0;*/
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	outline: none;
+	border: 1px solid #c4c4c4;
+	font-family: "宋体";
+}
+.regForm>div{
+	/*position: relative;*/
+	/*overflow: hidden;*/
+	margin-left: 360px;
+	/*padding-top: 20px;*/
+	/*height: 64px;*/
+}
+.regForm .error-wrapper{
+	min-height: 15px;
+}
+.regForm .agreeCon .error-wrapper{
+	min-height: 15px;
+}
+.regForm .inputCon{
+	/*padding-top: 20px;*/
+}
+.regForm input[type="text"]:focus,.regForm input[type="password"]:focus{
+	border-color: #f60;
+}
+/*输入提示信息*/
+.regForm .hint{
+	display: block;
+	position: absolute;
+	/* top: 36px; */
+	height: 25px;
+	padding-top: 1px;
+	line-height: 25px;
+	color: #bababa;
+	clear: both;
+}
+/*输入错误信息*/
+.regForm .error{
+	display: none;
+	/*position: absolute;*/
+	/*top: 36px;*/
+	/*width: 276px;*/
+	height: 30px;
+	padding-left: 5px;
+	line-height: 30px;
+	color: #fe0326;
+	clear: both;
+}
+/*ie placeholder 提示信息样式*/
+.regForm .iePlaceHolder{
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	font: 12px/12px "宋体";
+	color: #a1a1a1;
+	z-index: 9;
+}
+/*手机号填写*/
+.regForm .phoneNum{
+	width: 269px;
+}
+/*密码填写*/
+.regForm .pwCon .password{
+	float: left;
+	width: 269px;
+	margin-left: 0;
+}
+/*密码安全等级显示*/
+.regForm .pwCon .pwLevel{
+	display: block;
+	/*position: absolute;*/
+	/*left: 296px;*/
+	/*top: 0;*/
+	/*width: 100px;*/
+	/*height: 36px;*/
+	margin-left: 296px;
+	vertical-align: middle;
+	color: #a1a1a1;
+	padding:10px 0px;
+}
+.regForm .pwCon .pwLevel span{
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+}
+.regForm .pwCon .pwLevel li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	*margin-right: 3px;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 5px;
+	background-color: #e0e0e0;
+}
+/*密码安全等级显示高亮*/
+.regForm .pwCon .pwLevel li.sebg{
+	color: #fff;
+	background-color: #f60;
+}
+/*密码输入提示*/
+.regForm .pwCon .error{
+	display: none;
+}
+/*图形验证码填写*/
+.regForm .valiPicCon{
+	display: none;
+}
+.regForm .valiPicCon .valiPic{
+	width: 159px;
+}
+/*图形验证码资源*/
+.regForm .valiPicCon #valiPicSrc{
+	/*position: absolute;*/
+	/*left: 177px;*/
+	/*top: 0;*/
+	/*width: 100px;*/
+	/*height: 36px;*/
+	border: 0;
+}
+/*图形验证码重置按钮*/
+.regForm .valiPicCon #resetPicSrc{
+	display: inline-block;
+	margin-left: 22px;
+	vertical-align: middle;
+	color: #64b5ec;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.regForm .valiPicCon #resetPicSrc span{
+	display: block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.regForm .valiPicCon #resetPicSrc:hover span{
+	text-decoration: underline;
+}
+.regForm .valiPicCon img{ vertical-align: middle}
+/*短信验证码填写*/
+.regForm .valiMesCon .valiMes{
+	width: 159px;
+}
+.regForm .valiMesCon .hint a{
+	color: #f60;
+}
+.regForm .valiMesCon .error{
+	display: none;
+}
+/*验证码发送按钮*/
+/*.regForm .valiMesCon #sendCaptcha,.regForm .valiVoiCon #sendYuyinMsg{*/
+	/*position: absolute;*/
+	/*left: 181px;*/
+	/*top: 0;*/
+	/*width: 100px;*/
+	/*height: 36px;*/
+	/*line-height: 36px;*/
+	/*text-align: center;*/
+	/*color: #fff;*/
+	/*background-color: #6fc8f2;*/
+	/*cursor: pointer;*/
+	/*-webkit-user-select: none;*/
+	/*-moz-user-select: none;*/
+	/*-ms-user-select: none;*/
+	/*user-select: none;*/
+/*}*/
+.regForm .valiMesCon .fontbg,.regForm .valiVoiCon .fontbg{ display:inline-block;vertical-align:middle;margin-left:2px;}
+.regForm .valiMesCon .fontbg a,.regForm .valiVoiCon .fontbg a{ width:101px; height:36px; line-height:36px;margin-left: 2px;margin-top:-2px;text-align:center; display:inline-block; background:#6fc8f2; color:#fff; font-size:13px; text-decoration:none;}
+/*语音验证码填写*/
+.regForm #forVoiCaptcha{
+	display: none;
+}
+.regForm  #forVoiCaptcha .valiVoi{
+	width: 159px;
+}
+.regForm  #forVoiCaptcha .hint a{
+	color: #f60;
+}
+.regForm  #forVoiCaptcha .error{
+	display: none;
+}
+/*推荐人手机号填写*/
+.regForm .recomNum{
+	width: 269px;
+}
+.regForm .recomNumCon{
+	/*display: none;*/
+}
+/*协议同意选择*/
+.regForm .agreeCon{
+	/*height: 40px;*/
+}
+.regForm .agreeCon .agree{
+	float: left;
+	width: 17px;
+	height: 20px;
+	margin: 1px 0 0;
+}
+.regForm .agreeCon label{
+	float: left;
+	display: inline-block;
+	height: 12px;
+	line-height: 12px;
+	padding-top: 4px;
+	margin: 1px 0 0;
+	margin-top: 4px\0;
+	*margin-top: 4px;
+}
+.regForm .agreeCon label a{
+	color: #f60;
+}
+.regForm .agreeCon .error{
+	display: none;
+	top: 19px !important;
+}
+/*表格提交按钮*/
+.regForm .submitCon{
+	height:40px;
+}
+.regForm .submit{
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*top: 0px;*/
+	/*display: block;*/
+	width: 260px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	background-color: #f60;
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+/*推荐人填写按钮*/
+.regForm .recomCon{
+	height: 35px;
+	line-height: 35px;
+}
+.regForm .recomCon a{
+	color: #6a6a6a;
+}
+/*客服热线*/
+.regForm .infoCon{
+	height: 35px;
+	margin-bottom: 65px;
+	line-height: 35px;
+	color: #a1a1a1;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+.regContent .welcome{
+	padding: 15px 40px 0px 40px;
+	height: 45px;
+}
+.regContent .welcome .title{
+	font-size: 30px;
+	font-weight:100;
+	color: #a1a1a1;
+	float:left;
+}
+.regContent .welcome .toRegister{
+	line-height: 45px;
+	font-size: 18px;
+	font-weight:100;
+	color: #a1a1a1;
+	float:right;
+}
+.regContent .welcome .headerLine{
+	min-width: 0px !important;
+	margin-top:50px;
+}
+.regContent .welcome .toRegister a{
+	color: #4387c0;
+	margin-left: 5px;
+}

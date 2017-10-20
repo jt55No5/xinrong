@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*开户提示*/
+.eswd_open{ width:559px; background:#fff; border:1px solid #c2c2c3; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
+.eswd_open .f-detail{ display:block; font-size:17px; color:#0cb0d9; position:absolute; bottom:40px; left:43%;}
+.eswd_open ul{ width:100%; height:63px;}
+.eswd_open ul li{ width:50%; float:left;}
+.eswd_open ul li a{ line-height:63px; font-size:22px; text-align:center; color:#0d2bb4; text-decoration:none; display:block;}
+.eswd_open ul li a.f-close{ border-right:1px solid #c2c2c3; color:#919191;}
+/*开户成功授权*/
+.eswd_authorization{ width:100%;}
+.eswd_authorization h2{ font-size:24px; text-align:center; font-weight:normal; padding:40px 0 30px 0;}
+.eswd_authorization h3{ padding-left:33px; font-size:16px; line-height:30px; font-weight:normal; padding-top:40px;}
+.eswd_authorization ul{ padding:0 0 0 33px;}
+.eswd_authorization li{ font-size:15px; color:#999; line-height:28px;}
+.eswd_authorization li .c_444{ color:#444;}
+
+.eswd_authorization .auth_btn{ text-align:center; padding:30px 0; line-height:40px;}
+.eswd_authorization .auth_btn .sub02{ width:203px; height:39px; line-height:39px; font-size:15px;}
+.eswd_authorization .auth_btn input{ vertical-align:middle;}
+
+/*认证页解绑提示*/
+/*.esw_dialog{ border:1px solid #0078b5; background:#fff; width:480px;}*/
+/*.esw_dialog h1{height: 30px; line-height: 30px; padding: 0 28px 0 10px;background: #3d8fca; color:#fff; font-size:14px; position:relative;}*/
+/*.esw_dialog h1 .close{ position:absolute; right:10px; top:0px; font-size:14px; color:#fff; text-decoration:none; font-family:Arial; font-weight:normal;}*/
+.esw_dialog .sub02{ width:203px; height:39px; line-height:39px; font-size:15px;}
+
+.esw_dialog .tie_font{ padding:40px 0; text-align:center;}
+.esw_dialog .tie_font h2{ font-size:16px; font-weight:normal; line-height:30px; padding-bottom:30px;}
+.esw_dialog .tie_font .sub02{ width:120px; height:30px; line-height:30px; font-size:14px;}
+/*绑定银行卡*/
+.esw_dialog .tie_bank{ width:100%; padding:30px 0;}
+.esw_dialog .tie_bank dl{ width:100%; clear:both; padding-top:10px; line-height:36px;}
+.esw_dialog .tie_bank dt{ width:100px; text-align:right; padding-right:10px; font-size:14px; float:left;}
+.esw_dialog .tie_bank dd{ width:370px; float:left;}
+.esw_dialog .tie_bank dd .t-input{ width:320px; height:34px; line-height:34px; border:1px solid #c4c4c4; padding:0 10px; font-size:14px;}
+.esw_dialog .tie_bank dd .text01{ width:191px;}
+.esw_dialog .tie_bank dd .sub01,.esw_dialog .tie_bank dd .sub03{ width:124px; height:36px; line-height:36px;}
+.esw_dialog .tie_bank dd .sub02{ width:120px; height:30px; line-height:30px; font-size:14px;}
+.esw_dialog .tie_bank dd p{ line-height:24px;}
+.esw_dialog .tie_bank dd select{ width:106px; height:34px; line-height:34px; font-family:"微软雅黑"; margin-right:10px;}
+
+/*投资提示*/
+.esw_dialog .invest_font{ padding:40px 0; text-align:center; font-size:14px; line-height:30px;}
+.esw_dialog .invest_font h2{ font-size:16px; font-weight:normal; line-height:30px;}
+.esw_dialog .invest_font .t-f{ color:#999; padding-bottom:40px;}
+.esw_dialog .invest_font .sub02{ width:120px; height:30px; line-height:30px; font-size:14px;}
+
+/*密码提示*/
+.password_font{ padding:40px 0; font-size:14px; text-align:center; line-height:26px;}
+.password_font dl{ width:100%; padding-bottom:30px;}
+.password_font dt{ width:100px; padding-right:10px; text-align:right; float:left;}
+.password_font dd{ width:68%; text-align:left; float:left;}
+
+/*已开户提示*/
+.esw_dialog .bank_y{ padding:40px 0; text-align:center;}
+.esw_dialog .bank_y h2{ padding:10px 0 30px 0; font-size:16px; font-weight:normal;}
+/*查看支持银行*/
+.esw_dialog .bank_table{ padding:10px; height:482px; overflow:hidden; overflow-y:auto;}
+.esw_dialog .bank_table table{ border:1px solid #e0e0e0; border-collapse:collapse; line-height:22px; font-size:14px;}
+.esw_dialog .bank_table table th{ border:1px solid #e0e0e0; padding:8px; font-weight:normal; background:#f2f6fa;}
+.esw_dialog .bank_table table td{ border:1px solid #e0e0e0; padding:8px;}
+.esw_dialog .bank_tips{ font-size:13px; line-height:24px; color:#999; padding:15px;}
+
+.dialog_mask{ background: #000; filter: alpha(opacity=36); opacity: .36; z-index: 2020; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden;}
+.dialog_load{ width:150px; height:156px; position: fixed; left:50%; top:50%; margin:-100px 0 0 -75px; z-index: 2021;}
+.dialog_load h2{ text-align:center; color:#fff; line-height:40px; font-weight:normal; font-size:18px;}
+

@@ -1,0 +1,69 @@
+.articles {
+	padding-bottom: 245px;
+	
+}
+
+.articles h3 {
+	line-height: 28px;
+	padding: 13px 0 0 16px;
+	font-size: 14px;
+	border-bottom-color: #eee;
+	margin-bottom: 13px
+}
+
+.articles a {
+	position: relative;
+	display: block;
+	padding-left: 33px;
+	line-height: 30px;
+	background: url("../../img/dot.png-1352173647.png"/*tpa=https://www.xinrong.com/s/img/dot.png?1352173647*/) no-repeat 21px center;
+	color: #333
+}
+
+.articles a:hover {
+	background-color: #f3f8fd;
+	text-decoration: none
+}
+
+.articles a span {
+	display: block;
+	position: absolute;
+	right: 23px;
+	top: 0;
+	font-family: Arial
+}
+
+.detail {
+	font-size: 14px;
+	line-height: 30px;
+	padding-bottom: 70px;
+	font-family: SimSun
+}
+
+.detail .hd {
+	padding-top: 13px;
+	border-bottom: 1px solid #eee;
+	font-family: Simsun
+}
+
+.detail h1 {
+	margin-top: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center
+}
+
+.detail .meta {
+	margin: 12px 0 45px 0;
+	text-align: center;
+	font-size: 12px;
+	color: #999
+}
+
+.detail .meta span {
+	margin: 0 13px
+}
+
+.detail .main-body p {
+	text-indent: 2em
+}

@@ -1,0 +1,119 @@
+/**
+ * @author    : aNd1coder
+ * @overview  : 投资理财
+ * @update    : $Id: invest.js 2223 2013-05-15 02:53:39Z and1coder $
+ * todo      : 进一步抽象试图渲染逻辑
+ */
+(function (AA) {
+    AA.Invest = {
+        /**
+         * 投资理财页初始化
+         */
+        init:function () {
+            //获得"投资项目"列表
+            AA.Invest.load(1);
+
+           /* $('.search .ui-button').click(function () {
+                AA.Invest.load(1);
+            });*/
+        } ,
+        /**
+         * 加载投资项目列表
+         * @param pageIndex 当前页码
+         */
+        load:function (pageIndex) {
+            var _page_size = 15, $money, $order, _order, _desc;
+
+            AA.loadLoans({
+                type:AA.Api.Loan.Type.INVESTS ,
+                perNum:_page_size ,
+                pageNum:pageIndex ,
+                is_page:1 ,
+                order:$('#order').val() ,//-1不排序 0-desc 1-asc
+                rType:$('#air').val() ,
+                dType:$('#deadline').val() ,
+                mType:$('#money').val()
+            } ,function (result) {
+                if (result.state == 1) {
+                	
+                    $('.wgt-pagination').pagination({
+                        'pageSize':_page_size ,
+                        'total':result.data.total ,
+                        'pageIndex':pageIndex ,
+                        'callback':'AA.Invest.load'
+                    });
+                   // _desc = $('#order').val() == '0';
+                   // _order = _desc ? ' desc' : ($('#order').val() == '-1' ? '' : ' asc');
+                    //$money = $('.wgt-datagrid th.money');
+                    //$money.wrapInner('<a href="javascript:;" class="order' + _order + '" hidefocus="true"/>');
+                   // $order = $money.find('.order');
+
+                   /* $money.bind('click' ,function () {
+                        if ($order.hasClass('asc')) {
+                            $order.removeClass('asc');
+                            $('#order').val('-1');
+                        } else if ($order.hasClass('desc')) {
+                            $order.removeClass('desc').addClass('asc');
+                            $('#order').val('1');
+                        } else {
+                            $order.addClass('desc');
+                            $('#order').val('0');
+                        }
+                        AA.Invest.load(1);
+                    });*/
+                }
+            });
+        } ,
+        /**
+         * 产品图片
+         */
+        Detail:{
+            init:function () {
+                AA.Invest.Detail.load(1);
+
+                /*$('a[rel="paper"]').live('click' ,function () {
+                    var that = $(this), size = that.data('size');
+
+                    if (size) {
+                        size = size.split('x');
+                        size = ' width="' + size[0] + '" height="' + size[1] + '"';
+                    } else {
+                        size = '';
+                    }
+
+                    $.dialog({
+                        padding:'0' ,
+                        content:'<img src="' + that.attr('href') + '"' + size + '/>'
+                    });
+                    $('.d-outer').addClass('d-state-lightbox').bind("contextmenu" ,function (e) {
+                        return false;
+                    });
+                    return false;
+                });*/
+            } ,
+            load:function (pageIndex) {
+                AA.Api.Loan.getImages({pid:$('#pid').val() ,pageNum:pageIndex} ,function (result) {
+                    if (result.state == 1) {
+                        var rows = result.data.rows, items = '', url;
+                        $.each(rows ,function (index ,row) {
+                            url = AA.Helper.buildUrl(row.url);
+                            items += '<li><a href="' + url + '" target="_blank"  rel="paper"><img src="' + url + '" alt="" width="94" height="54"/></a><span>' + row.code + '</span></li>';
+                        });
+
+                        $('.papers .bd').html('<ul class="g-fix">' + items + '</ul>');
+
+                        if (result.data.total > 6) {
+                            $('.wgt-pagination').pagination({
+                                'pageSize':6 ,
+                                'total':result.data.total ,
+                                'pageIndex':pageIndex ,
+                                'callback':'AA.Invest.Detail.load' ,
+                                'showPageNum':false
+                            });
+                        }
+                    }
+                });
+            }
+        }
+    }
+})(AA);

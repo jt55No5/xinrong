@@ -1,0 +1,1426 @@
+.wgt-datagrid {
+	width: 100%;
+	font-family: Simsun
+	
+}
+
+.wgt-datagrid tr.odd {
+	background-color: #f3f8fd
+}
+
+.wgt-datagrid th,.wgt-datagrid td {
+	text-align: center;
+	vertical-align: middle
+}
+
+.wgt-datagrid th {
+	height: 29px;
+	border-top: 1px solid #aeaeae;
+	background-color: #d9d9d9
+}
+
+.wgt-datagrid td {
+	height: 35px
+}
+
+.wgt-datagrid th.first,.wgt-datagrid td.first {
+	text-align: left;
+	padding-left: 18px
+}
+
+.wgt-datagrid th.last,.wgt-datagrid td.last {
+	padding-right: 10px
+}
+
+.wgt-datagrid .tl {
+	padding-left: 10px
+}
+
+.wgt-datagrid a {
+	color: #333;
+	text-decoration: underline
+}
+
+.wgt-datagrid a.ui-button {
+	text-decoration: none
+}
+
+.wgt-datagrid a:hover {
+	color: #f00
+}
+
+.wgt-datagrid-empty-row {
+	padding-top: 15px
+}
+
+.wgt-pagination {
+	padding-top: 10px;
+	text-align: right;
+	font-family: Arial;
+	*zoom: 1
+}
+
+.wgt-pagination:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-pagination .wgt-pagination-info {
+	float: left;
+	padding: 5px 0 0 18px;
+	color: #333
+}
+
+.wgt-pagination a {
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	padding: 0 5px;
+	color: #0077b5
+}
+
+.wgt-pagination a:hover {
+	text-decoration: none
+}
+
+.wgt-pagination a.selected,.wgt-pagination a.disabled {
+	cursor: default
+}
+
+.wgt-pagination a.disabled,.wgt-pagination a.disabled:hover {
+	color: #999
+}
+
+.wgt-pagination a.selected {
+	background: #75b3da;
+	color: #fff
+}
+
+.tip-sprite,.ui-tip.info,.ui-tip.help,.ui-tip.warn,.ui-tip.success,.ui-tip.error,.ui-tip.info1,.ui-tip.warn1,.ui-tip.success1,.ui-tip.error1
+	{
+	background: url("../../img/icons/tip-sb4d5658e68.png"/*tpa=https://www.xinrong.com/s/img/icons/tip-sb4d5658e68.png*//*tpa=https://www.xinrong.com/s/img/icons/tip-sb4d5658e68.png*/) no-repeat
+}
+
+.ui-tip {
+	line-height: 16px;
+	padding-left: 20px;
+	color: #999
+}
+
+.ui-tip .hl {
+	color: #f60
+}
+
+.ui-tip.info,.ui-tip.warn,.ui-tip.success,.ui-tip.error,.ui-tip.help {
+	font-size: 12px
+}
+
+.ui-tip.info1,.ui-tip.warn1,.ui-tip.success1,.ui-tip.error1 {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 40px;
+	color: #333
+}
+
+.ui-tip.info {
+	color: #666;
+	background-position: 0 0
+}
+
+.ui-tip.help {
+	color: #999;
+	padding-bottom: 1px;
+	background-position: 0 -66px;
+	cursor: pointer
+}
+
+.ui-tip.warn {
+	color: #f60;
+	background-position: 0 -592px
+}
+
+.ui-tip.success {
+	_display: inline-block;
+	background-position: 0 -526px
+}
+
+.ui-tip.error {
+	color: #dc3e00;
+	background-position: 0 -460px
+}
+
+.ui-tip.info1 {
+	background-position: 0 -296px
+}
+
+.ui-tip.warn1 {
+	background-position: 0 -132px
+}
+
+.ui-tip.success1 {
+	background-position: 0 -214px
+}
+
+.ui-tip.error1 {
+	background-position: 0 -378px
+}
+
+.ui-loading {
+	display: none;
+	height: 16px;
+	line-height: 16px;
+	padding: 1px 0 1px 20px;
+	color: #999;
+	background: url("../../img/icons/tip/loading.gif-1349688622.gif"/*tpa=https://www.xinrong.com/s/img/icons/tip/loading.gif?1349688622*/) no-repeat
+}
+
+.ui-loading1 {
+	height: 24px;
+	line-height: 24px;
+	padding: 1px 0 1px 28px;
+	color: #999;
+	font-weight: 700;
+	background: url("../../img/loading.gif-1351065205.gif"/*tpa=https://www.xinrong.com/s/img/loading.gif?1351065205*/) no-repeat
+}
+
+.ui-tip-warn {
+	padding: 10px 16px;
+	background-color: #fef3d7;
+	color: #666
+}
+
+.sns-sprite,.sns.s1,.sns.s2,.sns.s3,.sns.s4,.sns.s5,.sns.s6,.sns.s7,.sns.s8
+	{
+	background: url("../../img/icons/sns-se06f73df83.png"/*tpa=https://www.xinrong.com/s/img/icons/sns-se06f73df83.png*//*tpa=https://www.xinrong.com/s/img/icons/sns-se06f73df83.png*/) no-repeat
+}
+
+.sns {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 22px
+}
+
+.sns.s1 {
+	background-position: 0 -62px
+}
+
+.sns.s2 {
+	background-position: 0 0
+}
+
+.sns.s3 {
+	background-position: 0 -93px
+}
+
+.sns.s4 {
+	background-position: 0 -124px
+}
+
+.sns.s5 {
+	background-position: 0 -217px
+}
+
+.sns.s6 {
+	background-position: 0 -186px
+}
+
+.sns.s7 {
+	background-position: 0 -155px
+}
+
+.sns.s8 {
+	background-position: 0 -31px
+}
+
+.wgt-tab-trigger {
+	position: relative;
+	*zoom: 1
+}
+
+.wgt-tab-trigger:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	content: ' ';
+	clear: both
+}
+
+.wgt-tab-trigger .item {
+	float: left;
+	display: block
+}
+
+.wgt-tab-container .item {
+	display: none
+}
+
+.wgt-tab-container .current {
+	display: block
+}
+
+.wgt-dialog-invite {
+	width: 570px;
+	height: auto
+}
+
+.wgt-dialog-invite .ui-button {
+	margin-left: 210px
+}
+
+.wgt-dialog-invite .wgt-dialog-title {
+	text-align: center;
+	padding-bottom: 32px
+}
+
+.wgt-dialog-invite .wgt-tab-trigger {
+	padding-left: 20px
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.item {
+	position: relative;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 15px;
+	margin: 1px 10px 0 0;
+	border: 1px solid #b5c2ca;
+	border-bottom: none;
+	text-align: center;
+	color: #333333;
+	z-index: 2;
+	background-color: #f6f6f6
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.item:hover {
+	text-decoration: none;
+	color: #0078b6
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.current {
+	border-color: #99abbc !important;
+	bottom: -1px;
+	height: 29px;
+	margin-top: 0;
+	font-weight: 700;
+	background-color: #FFF
+}
+
+.wgt-dialog-invite .wgt-tab-trigger a.current:hover {
+	color: #333
+}
+
+.wgt-dialog-invite .wgt-tab-container {
+	padding: 23px 15px 0;
+	border-top: 1px solid #99abbc
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content {
+	margin: 15px 0 20px 0;
+	padding: 15px;
+	background-color: #f5f5f5
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content p {
+	line-height: 22px
+}
+
+.wgt-dialog-invite .wgt-tab-container .invite-content img {
+	vertical-align: middle
+}
+
+.wgt-dialog-invite .invite-share span.label-share,.wgt-dialog-invite .invite-share span.sns-share
+	{
+	display: inline-block;
+	visibility: top
+}
+
+.wgt-dialog-invite .invite-share span.label-share {
+	margin: 0 5px 0 45px
+}
+
+.wgt-dialog-invite .invite-share .sns-share {
+	width: 425px
+}
+
+.wgt-dialog-invite .invite-share .sns-share a {
+	width: 65px;
+	*width: 60px;
+	margin-bottom: 10px;
+	color: #333;
+	overflow: hidden
+}
+
+.wgt-dialog-opened-vip {
+	height: auto
+}
+
+.wgt-dialog-opened-vip .wgt-dialog-title {
+	padding: 0 0 10px 125px
+}
+
+.wgt-dialog-opened-vip input {
+	vertical-align: middle;
+	margin-right: 3px
+}
+
+.wgt-dialog-opened-vip .ui-form {
+	margin-top: 0
+}
+
+.wgt-dialog-opened-vip .ui-form-label {
+	width: 80px
+}
+
+.wgt-dialog-opened-vip .ui-form-input {
+	width: 120px
+}
+
+.wgt-dialog-opened-vip .ui-form-year {
+	height: 50px
+}
+
+.wgt-dialog-opened-vip .ui-form-year input {
+	margin-left: 10px
+}
+
+.wgt-dialog-opened-vip .ui-form-year input.first {
+	margin-left: 0
+}
+
+.wgt-dialog-opened-vip .ui-form-year input.last {
+	margin-left: 20px
+}
+
+.wgt-dialog-opened-vip p.ui-tip {
+	color: #999;
+	margin: 5px 0 0 84px
+}
+
+.wgt-dialog-opened-vip .ui-form-action {
+	padding-left: 85px
+}
+
+.g-header {
+	margin-bottom: 0
+}
+
+.main h2.channel {
+	top: -43px
+}
+
+.act-tip {
+	display: none;
+	height: 50px;
+	border-bottom: 3px solid #fff;
+	text-align: center;
+	background-color: #683514
+}
+
+.act-tip .ico-i,.act-tip .tip-msg {
+	vertical-align: top
+}
+
+.act-tip .ico-i {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: url("../../img/action/icon_i.png-1358927099.png"/*tpa=https://www.xinrong.com/s/img/action/icon_i.png?1358927099*/) no-repeat center
+}
+
+.act-tip .tip-msg {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 700;
+	font-family: Simsun;
+	font-size: 16px;
+	color: #fff
+}
+
+.activity-time {
+	position: absolute;
+	top: -27px;
+	right: 0;
+	color: #666;
+	font-family: Simsun
+}
+
+.countdown {
+	position: absolute;
+	top: -2px;
+	right: 0;
+	width: 201px;
+	height: 39px;
+	line-height: 18px;
+	color: #fff000;
+	font-family: "微软雅黑";
+	padding-top:19px;
+	background: url("../../img/action/countdown.png-1358930889.png"/*tpa=https://www.xinrong.com/s/img/action/countdown.png?1358930889*/) no-repeat;
+	_background: none;
+	_filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'/s/img/action/countdown.png?1358930889', sizingMethod = 'crop' );
+	text-align: center;
+	z-index: 2
+}
+
+.countdown span {
+	font-weight: 600
+}
+
+.sidebar {
+	width: 304px
+}
+
+.sidebar h3 {
+	font-size: 12px;
+	padding: 0;
+	border: none
+}
+
+.sidebar li span {
+	margin-right: 6px
+}
+
+.sidebar span.prize {
+	margin-right: 0
+}
+
+.sidebar .empty {
+	padding-left: 10px
+}
+
+.invite-content {
+	width: 510px;
+	overflow: hidden
+}
+
+.rewards {
+	height: 169px
+}
+
+.share {
+	border: none !important;
+	padding: 11px 10px;
+	height: 150px
+}
+
+.share .hd {
+	height: 21px;
+	padding: 3px 0 0 20px;
+	_height: 18px;
+	_padding-top: 6px;
+	background: url("../../img/icons/oauth/sina.png-1349579117.png"/*tpa=https://www.xinrong.com/s/img/icons/oauth/sina.png?1349579117*/) no-repeat left
+		center
+}
+
+.share .hd a {
+	color: #333;
+	display: block
+}
+
+.share .hd a:hover {
+	text-decoration: none
+}
+
+.share .hd span {
+	position: absolute;
+	right: 13px;
+	top: 15px;
+	width: 62px;
+	height: 22px;
+	background: url("../../img/special/btn-follow.png-1356605287.png"/*tpa=https://www.xinrong.com/s/img/special/btn-follow.png?1356605287*/) no-repeat
+}
+
+.share img {
+	vertical-align: middle;
+	margin: 0 0 1px 8px
+}
+
+.share .bd {
+	padding: 10px 0
+}
+
+.share form {
+	margin: 0
+}
+
+.share textarea {
+	width: 260px;
+	height: 58px;
+	border: 1px solid #b6c4cd;
+	padding: 8px;
+	color: #999;
+	font-family: Simsun;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	text-align-last: justify;
+	-moz-text-align-last: justify;
+	-webkit-text-align-last: justify
+}
+
+.share .ft {
+	text-align: right
+}
+
+.share .ui-button {
+	width: 94px
+}
+
+.vip-invite .g-header {
+	margin-bottom: 15px
+}
+
+.vip-invite h2.channel {
+	top: -58px
+}
+
+.vip-invite .g-mod {
+	margin-bottom: 15px
+}
+
+.vip-invite .lnk-privilege {
+	position: absolute;
+	bottom: 98px;
+	right: 65px;
+	font-size: 14px;
+	color: #b56b14;
+	text-decoration: underline
+}
+
+.vip-invite .intro .g-mod,.vip-invite .sidebar .g-mod {
+	border: 1px solid #e9e9e9;
+	font-family: Simsun
+}
+
+.vip-invite .sidebar .g-mod {
+	padding: 15px 13px 16px
+}
+
+.vip-invite .intro {
+	width: 682px
+}
+
+.vip-invite .intro .g-mod {
+	padding: 25px
+}
+
+.vip-invite .intro .g-mod .hd {
+	position: relative;
+	background: url("../../img/1.png-1354084111.png"/*tpa=https://www.xinrong.com/s/img/1.png?1354084111*/) no-repeat left center;
+	color: #d1823c;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 18px;
+	font-weight: 700;
+	font-family: 'Microsoft YaHei'
+}
+
+.vip-invite .intro .g-mod .hd span {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	font-size: 25px;
+	line-height: 16px;
+	color: #e7d1be
+}
+
+.vip-invite .intro .g-mod .bd {
+	line-height: 30px;
+	padding: 0 15px
+}
+
+.vip-invite .intro .g-mod .bd ul ul {
+	margin-left: 12px
+}
+
+.vip-invite .intro .g-mod .bd strong {
+	color: #f60
+}
+
+.vip-invite .intro .g-mod .bd a {
+	margin-left: 25px
+}
+
+.vip-invite .btns {
+	position: absolute;
+	right: 53px;
+	bottom: 38px
+}
+
+.vip-invite .btns .ui-button {
+	margin-left: 12px
+}
+
+.vip-invite .sidebar li {
+	line-height: 30px
+}
+
+.vip-invite .sidebar .share {
+	padding-top: 7px;
+	padding-bottom: 15px;
+	background-color: #f5f5f5
+}
+
+.vip-invite .sidebar .share .hd span {
+	top: 10px
+}
+
+.tenpay .g-header {
+	margin-bottom: 15px
+}
+
+.tenpay h2.channel {
+	top: -58px
+}
+
+.tenpay .banner {
+	background: url("../../img/action/tenpay/banner.png-1358519088.png"/*tpa=https://www.xinrong.com/s/img/action/tenpay/banner.png?1358519088*/)
+		no-repeat;
+	height: 253px;
+	text-align: right
+}
+
+.reg-invite .g-header {
+	margin-bottom: 15px
+}
+
+.reg-invite h2.channel {
+	top: -58px
+}
+
+.reg-invite .banner {
+	background: url("../../img/action/reg_invite/banner.jpg-1358519088.jpg"/*tpa=https://www.xinrong.com/s/img/action/reg_invite/banner.jpg?1358519088*/)
+		no-repeat;
+	height: 240px;
+	text-align: right
+}
+
+
+
+.reg-invite .banner .ui-button {
+	width: 118px;
+	height: 34px;
+	line-height: 34px;
+	margin: 176px 120px 0 0;
+	font-size: 16px
+}
+
+.reg-invite .step {
+	width: 682px;
+	height: 48px;
+	line-height: 48px;
+	color: #666;
+	font-size: 14px;
+	font-weight: 700;
+	background: url("../../img/action/reg_invite/step.jpg-1358836254.jpg"/*tpa=https://www.xinrong.com/s/img/action/reg_invite/step.jpg?1358836254*/)
+		no-repeat
+}
+
+.reg-invite .intro .hd {
+	padding-left: 12px;
+	font-weight: 700;
+	font-size: 14px;
+	margin-top: 15px
+}
+
+.reg-invite .intro .bd {
+	padding-top: 10px
+}
+
+.reg-invite .intro strong {
+	color: #c00
+}
+
+.reg-invite .intro li {
+	height: 22px;
+	line-height: 22px;
+	margin-left: 20px;
+	padding-left: 15px;
+	background: url("../../img/2.png-1358495855.png"/*tpa=https://www.xinrong.com/s/img/2.png?1358495855*/) no-repeat left center
+}
+
+.reg-invite .intro table,.reg-invite .intro th,.reg-invite .intro td {
+	border: 1px solid #cfcfcf;
+	text-align: center
+}
+
+.reg-invite .intro table {
+	width: 682px
+}
+
+.reg-invite .intro th {
+	height: 42px;
+	background-color: #f2f2f2;
+	color: #666
+}
+
+.reg-invite .intro td {
+	height: 80px
+}
+
+.reg-invite .intro td.first {
+	background-color: #f6fbff
+}
+
+.reg-invite .intro td label {
+	color: #c00
+}
+
+.reg-invite .intro td.last span {
+	padding-left: 33px
+}
+
+.reg-invite .intro td.last .ui-tip {
+	margin-top: 5px;
+	padding-left: 0
+}
+
+.reg-invite .sidebar li {
+	line-height: 29px
+}
+
+.reg-invite .sidebar .g-mod {
+	padding: 12px 9px;
+	border: 1px solid #e9e9e9;
+	font-family: Simsun
+}
+
+.reg-invite .rewards {
+	height: 164px;
+	margin-bottom: 12px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px
+}
+
+.reg-invite .rewards .hd {
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 6px
+}
+
+.reg-invite .share {
+	background-color: #f5f5f5
+}
+
+.lottery .main {
+	font-family: Simsun;
+	background: #660109 url("../../img/special/bg-lottery.jpg-1356788492.jpg"/*tpa=https://www.xinrong.com/s/img/special/bg-lottery.jpg?1356788492*/)
+		no-repeat top center
+}
+
+.lottery .d-outer {
+	background-color: rgba(255, 255, 255, 0.6);
+	filter: progid : DXImageTransform.Microsoft.Gradient ( GradientType =  
+		0, StartColorStr =   '#99FFFFFF', EndColorStr =   '#99FFFFFF' )
+}
+
+:root .lottery .d-outer {
+	filter: progid : DXImageTransform.Microsoft.Gradient ( GradientType =  
+		0, StartColorStr =   '#00000000', EndColorStr =   '#00000000' )
+}
+
+.lottery .d-outer,.lottery .d-inner {
+	border-color: #fe2406
+}
+
+.lottery .d-title {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 28px 0 10px;
+	color: #ffffff;
+	font-family: Tahoma, Arial/ 9 !important;
+	background: #ff6000;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff6000),
+		color-stop(100%, #df2f00) );
+	background-image: -webkit-linear-gradient(#ff6000, #df2f00);
+	background-image: -moz-linear-gradient(#ff6000, #df2f00);
+	background-image: -o-linear-gradient(#ff6000, #df2f00);
+	background-image: linear-gradient(#ff6000, #df2f00)
+}
+
+.lottery .wgt-dialog-address {
+	width: 460px;
+	height: 220px
+}
+
+.lottery .wgt-dialog-address .ui-form {
+	margin: 0 0 0 69px;
+	padding-top: 17px
+}
+
+.lottery .wgt-dialog-address .wgt-dialog-title {
+	font-weight: 700;
+	font-size: 14px
+}
+
+.lottery .wgt-dialog-address .ui-form-input {
+	width: 300px
+}
+
+.lottery .wgt-dialog-address .ui-button {
+	margin: 20px 0 0 0
+}
+
+.lottery .fill {
+	background: url("../../img/special/happy.png-1354672846.png"/*tpa=https://www.xinrong.com/s/img/special/happy.png?1354672846*/) no-repeat 12px
+		1px
+}
+
+.lottery .fill p.ui-tip {
+	padding: 20px 0 0 0;
+	color: #666
+}
+
+.lottery .fill em.ui-tip {
+	padding-bottom: 1px
+}
+
+.lottery .fill .fill-form {
+	display: block
+}
+
+.lottery .fill .confirm-form,.lottery .fill .btn-submit {
+	display: none
+}
+
+.lottery .confirm .ui-form {
+	margin: 0 0 0 25px
+}
+
+.lottery .confirm .fill-form,.lottery .confirm .btn-next {
+	display: none
+}
+
+.lottery .confirm .confirm-form {
+	display: block
+}
+
+.lottery .confirm .confirm-form p.address-info {
+	height: 52px;
+	padding: 20px 0 0 40px;
+	overflow: auto
+}
+
+.lottery .confirm .ui-button-orange {
+	margin-left: 100px
+}
+
+.lottery .confirm .ui-button-white {
+	position: absolute;
+	bottom: 50px;
+	right: 125px;
+	margin: 55px 0 0 50px
+}
+
+.lottery .main-content {
+	height: 653px;
+	padding-top: 7px;
+	background: url("../../img/special/bg-lottery-cont.jpg-1356787919.jpg"/*tpa=https://www.xinrong.com/s/img/special/bg-lottery-cont.jpg?1356787919*/)
+		no-repeat
+}
+
+.lottery .main-content .g-mod {
+	border: 1px solid #da0900;
+	margin-bottom: 10px
+}
+
+.lottery .banner {
+	height: 215px;
+	background: url("../../img/special/lottery-banner.jpg-1355110784.jpg"/*tpa=https://www.xinrong.com/s/img/special/lottery-banner.jpg?1355110784*/)
+		no-repeat;
+	color: #ffd98e;
+	margin-bottom: 0
+}
+
+.lottery .banner span {
+	position: absolute;
+	bottom: 12px;
+	right: 25px
+}
+
+.lottery .lottery-box {
+	width: 100%;
+	height: 100%
+}
+
+.lottery .prize-box {
+	*height: 92px
+}
+
+.lottery .prize-box.prize-hover {
+	position: relative;
+	width: 134px;
+	height: 92px;
+	_top: 1px;
+	background: url("../../img/special/draw-hover.png-1355122163.png"/*tpa=https://www.xinrong.com/s/img/special/draw-hover.png?1355122163*/) no-repeat
+}
+
+.lottery .draw-panel {
+	position: absolute;
+	left: 246px;
+	top: 150px
+}
+
+.lottery .draw-panel a {
+	position: absolute;
+	right: -70px;
+	text-decoration: underline
+}
+
+.lottery #draw {
+	width: 666px;
+	height: 366px;
+	padding: 7px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: #860f1c url("../../img/special/draw.png-1355122164.png"/*tpa=https://www.xinrong.com/s/img/special/draw.png?1355122164*/) no-repeat
+		center
+}
+
+.lottery #draw.disabled {
+	background: #860f1c url("../../img/special/draw-disabled.png-1355122164.png"/*tpa=https://www.xinrong.com/s/img/special/draw-disabled.png?1355122164*/)
+		no-repeat center
+}
+
+.lottery #btn-lottery {
+	display: block;
+	width: 190px;
+	height: 50px;
+	border: none;
+	vertical-align: middle;
+	background: url("../../img/special/btn-lottery.png-1354866982.png"/*tpa=https://www.xinrong.com/s/img/special/btn-lottery.png?1354866982*/) no-repeat 0
+		-50px;
+	cursor: pointer
+}
+
+.lottery #btn-lottery:hover {
+	background-position: 0 -100px
+}
+
+.lottery #btn-lottery.disabled,.lottery #btn-lottery.wait,.lottery #btn-lottery.end
+	{
+	cursor: default
+}
+
+.lottery #btn-lottery.disabled {
+	background-position: 0 -150px
+}
+
+.lottery #btn-lottery.wait {
+	background-position: 0 0
+}
+
+.lottery #btn-lottery.end {
+	background-position: 0 -200px
+}
+
+.lottery #prize1.prize-hover {
+	background-position: 0 1px
+}
+
+.lottery #prize2.prize-hover {
+	background-position: -133px 1px
+}
+
+.lottery #prize3.prize-hover {
+	background-position: -266px 1px
+}
+
+.lottery #prize4.prize-hover {
+	background-position: -399px 1px
+}
+
+.lottery #prize5.prize-hover {
+	background-position: -532px 1px
+}
+
+.lottery #prize6.prize-hover {
+	background-position: 0 -90px
+}
+
+.lottery #prize7.prize-hover {
+	background-position: -532px -90px
+}
+
+.lottery #prize8.prize-hover {
+	background-position: 0 -181px
+}
+
+.lottery #prize9.prize-hover {
+	background-position: -532px -181px
+}
+
+.lottery #prize6.prize-hover,.lottery #prize7.prize-hover {
+	*top: -1px;
+	_top: 0
+}
+
+.lottery #prize8.prize-hover,.lottery #prize9.prize-hover,.lottery #prize10.prize-hover,.lottery #prize11.prize-hover,.lottery #prize12.prize-hover,.lottery #prize13.prize-hover,.lottery #prize14.prize-hover
+	{
+	height: 93px;
+	_height: 92px
+}
+
+.lottery #prize8.prize-hover,.lottery #prize9.prize-hover {
+	*top: -2px;
+	_top: -1px
+}
+
+.lottery #prize10.prize-hover,.lottery #prize11.prize-hover,.lottery #prize12.prize-hover,.lottery #prize13.prize-hover,.lottery #prize14.prize-hover
+	{
+	*top: -3px;
+	_top: -2px
+}
+
+.lottery #prize10.prize-hover {
+	background-position: 0 -272px
+}
+
+.lottery #prize11.prize-hover {
+	background-position: -133px -272px
+}
+
+.lottery #prize12.prize-hover {
+	background-position: -266px -272px
+}
+
+.lottery #prize13.prize-hover {
+	background-position: -399px -272px
+}
+
+.lottery #prize14.prize-hover {
+	background-position: -532px -272px
+}
+
+.lottery .no-login {
+	top: 165px
+}
+
+.lottery .my-prizes {
+	top: 15px;
+	color: #fff224
+}
+
+.lottery .my-address {
+	top: 70px;
+	color: #F6E2B3
+}
+
+.lottery .integral {
+	display: inline-block;
+	width: 188px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 19px;
+	text-align: center;
+	border: 1px solid #68000c;
+	background-color: #7b060c;
+	color: #fff1b1;
+	border-radius: 2px
+}
+
+.lottery .integral strong {
+	color: #ffc000;
+	font-size: 14px;
+	font-family: Arial
+}
+
+.lottery .btns {
+	text-align: center;
+	padding-top: 20px
+}
+
+.lottery .btns .ui-button {
+	margin-right: 12px
+}
+
+.lottery .prize-list {
+	height: 178px
+}
+
+.lottery .wgt-datagrid th {
+	height: 28px;
+	border-top: none;
+	background-color: #f2f2f2
+}
+
+.lottery .wgt-datagrid .date {
+	width: 160px
+}
+
+.lottery .wgt-datagrid .first {
+	text-align: center
+}
+
+.lottery .wgt-datagrid td {
+	height: 30px
+}
+
+.lottery .wgt-datagrid td a {
+	color: #0077B5
+}
+
+.lottery .wgt-datagrid .name {
+	width: 150px;
+	text-align: left;
+	padding-left: 15px
+}
+
+.lottery .wgt-datagrid .name a {
+	margin-left: 15px
+}
+
+.lottery .wgt-datagrid-empty-row {
+	padding-bottom: 100px
+}
+
+.lottery .wgt-pagination {
+	height: 30px;
+	border-top: 1px solid #cfcfcf
+}
+
+.lottery .intro {
+	line-height: 24px;
+	padding-left: 8px;
+	color: #f6e2b3;
+	clear: both
+}
+
+.lottery .intro .hd {
+	font-weight: 700;
+	font-size: 14px;
+	border-bottom: 1px solid #9e0b0e
+}
+
+.lottery .intro .hd,.lottery .intro .bd {
+	padding-left: 17px
+}
+
+.lottery .ip5 {
+	padding-left: 2px;
+	*margin-top: -5px;
+	margin-bottom: 10px
+}
+
+.lottery .sidebar {
+	width: 290px;
+	margin-right: 10px
+}
+
+.lottery .sidebar .g-mod {
+	padding: 14px 12px;
+	background-color: #fef0e2
+}
+
+.lottery .sidebar h3 {
+	font-size: 12px;
+	padding: 0;
+	border: none
+}
+
+.lottery .sidebar li span {
+	line-height: 29px
+}
+
+.lottery .rewards {
+	height: 164px;
+	overflow: hidden
+}
+
+.lottery .rewards .hd {
+	padding: 0 0 8px 6px;
+	border-bottom: 1px solid #cfcfcf
+}
+
+.lottery .share {
+	padding: 11px 12px 12px
+}
+
+.lottery .share textarea {
+	width: 250px;
+	padding: 8px 7px 11px 6px;
+	line-height: 22px
+}
+
+.feedback .main {
+	padding-bottom: 34px;
+	background:url("../../img/special/fb/bg01.jpg-1355979463.jpg"/*tpa=https://www.xinrong.com/s/img/special/fb/bg01.jpg?1355979463*/);
+	}
+
+.feedback .g-mod {
+	border: 1px solid #bc5200;
+	background-color: #fef8e2;
+	margin-bottom: 0
+}
+
+.feedback .countdown {
+	background: url("../../img/special/fb/countdown.png-1358932416.png"/*tpa=https://www.xinrong.com/s/img/special/fb/countdown.png?1358932416*/) no-repeat;
+	_background: none;
+	_filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'/s/img/special/fb/countdown.png?1358932416', sizingMethod = 'crop' )
+}
+
+.feedback .banner {
+	height: 312px;
+	margin-bottom: 0;
+	border: none;
+	background: url("../../img/special/fb/banner.jpg-1357356316.jpg"/*tpa=https://www.xinrong.com/s/img/special/fb/banner.jpg?1357356316*/) no-repeat
+}
+.feedback .banner a{ height: 312px; display:block;}
+
+
+.feedback .main-content {
+	height: 868px;
+	padding: 20px 25px 0 23px;
+	background: url("../../img/special/fb/ct.jpg-1357286227.jpg"/*tpa=https://www.xinrong.com/s/img/special/fb/ct.jpg?1357286227*/) no-repeat
+}
+
+.feedback .g-left {
+	width: 651px
+}
+
+.feedback .g-left .g-mod {
+	padding: 20px 25px 16px 17px
+}
+
+.feedback .g-left .hd {
+	line-height: 14px;
+	border-bottom: none;
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	background: url("../../img/special/fb/hd.jpg-1355984233.jpg"/*tpa=https://www.xinrong.com/s/img/special/fb/hd.jpg?1355984233*/) no-repeat left
+		center
+}
+
+.feedback .g-left .bd {
+	padding: 10px 0 12px 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #cfcfcf
+}
+
+.feedback .g-left .last {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none
+}
+
+.feedback .g-left a.blue {
+	margin-left: 10px
+}
+
+.feedback .g-left .auth {
+	height: 75px;
+	margin-top: 14px;
+	color: #9e5225;
+	background: url("../../img/special/fb/auth.jpg-1357285042.jpg"/*tpa=https://www.xinrong.com/s/img/special/fb/auth.jpg?1357285042*/) no-repeat
+}
+
+.feedback .g-left .auth strong {
+	display: block;
+	height: 63px;
+	line-height: 63px;
+	padding-left: 24px;
+	font-size: 16px
+}
+
+.feedback .g-left .auth span {
+	font-family: Arial
+}
+
+.feedback .g-left .auth .ui-button {
+	width: 110px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px
+}
+
+.feedback .sidebar {
+	width: 288px
+}
+
+.feedback .sidebar,.feedback .sidebar li a {
+	color: #333
+}
+
+.feedback .sidebar .g-mod {
+	padding: 10px 11px 10px 10px
+}
+
+.feedback .sidebar h3 {
+	padding-bottom: 6px;
+	border-bottom: 1px solid #CFCFCF
+}
+
+.feedback .sidebar li {
+	line-height: 24px;
+	font-family: Simsun
+}
+
+.feedback .rewards {
+	height: 151px;
+	margin-bottom: 10px
+}
+
+.feedback .rewards .empty {
+	padding-left: 0
+}
+
+.feedback .faq a.more {
+	top: 11px;
+	right: 12px
+}
+
+.feedback .intro {
+	float: left;
+	width: 100%;
+	line-height: 22px
+}
+
+.feedback .intro,.feedback .intro a {
+	color: #ffde90
+}
+
+.feedback .intro .hd,.feedback .intro .bd {
+	padding-left: 18px
+}
+
+.feedback .intro .hd {
+	font-weight: 700;
+	font-size: 14px;
+	border-bottom: 1px solid #fa9e42;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 5px
+}
+
+.feedback .intro li {
+	line-height: 22px;
+	font-family: Simsun
+}
+
+.feedback .intro a {
+	text-decoration: underline
+}
+
+.activity-end .act-tip {
+	display: block !important
+}
+
+.activity-end .main h2.channel {
+	top: -96px !important
+}
+
+.activity-end .activity-time {
+	top: -80px !important
+}

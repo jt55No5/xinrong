@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"微软雅黑";}
+
+
+.tel{ width:287px; text-align:right; position:absolute; top:-53px; right:0px; font-size:32px; color:#ec1900;}
+.tel img{ vertical-align:middle; padding-right:10px; margin-bottom:5px;}
+
+.mapbanner{ width:100%; min-width:1000px; background:#fedfa6 url("../../../../images/action/photowall/banner/01.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/banner/01.png*/) center no-repeat; height:338px;}
+.mapbg{ background:url("../../../../images/action/photowall/banner/02.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/banner/02.jpg*/) center no-repeat; height:626px;}
+
+.zindex01{ z-index:9;}
+.zindex02{ z-index:8;}
+.zindex03{ z-index:7;}
+
+.mapmain{ height:626px;}
+.mapmain .icon01{ width:19px; height:28px; background:url("../../../../images/action/photowall/icon01.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/icon01.png*/) no-repeat; display:inline-block; text-align:center; line-height:17px; color:#fff; font-style:normal; cursor:pointer;}
+.mapmain .icon01 span{ -webkit-transform: scale(0.7); display:inline-block; font-size:8px;}
+.mapmain .icon01 font{ -webkit-transform: scale(0.7); display:inline-block; font-size:8px;}
+.mapmain .icon01:hover{ background:url("../../../../images/action/photowall/icon02.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/icon02.png*/) no-repeat;}
+.mapmain .mappic{ display:inline-block;}
+.mapmain .mappic img{ width:16px; height:16px; background:#fff; padding:2px; -moz-box-shadow:1px 1px 2px #666; -webkit-box-shadow:1px 1px 2px #666; box-shadow:1px 1px 2px #666;}
+.mapmain .mappic01{ display:inline-block;}
+.mapmain .mappic01 img{ width:41px; height:41px; background:#fff; padding:2px; -moz-box-shadow:1px 1px 2px #666; -webkit-box-shadow:1px 1px 2px #666; box-shadow:1px 1px 2px #666;}
+.mapmain .icon01po{ position:absolute; left:16px; top:2px;}
+.mapmain .icon01po01{ position:absolute; left:10px; bottom:-14px;}
+.mapmain .icon01po02{ position:absolute; left:24px; bottom:-10px;}
+.mapmain .mapUrumqi{ position:absolute; top:179px; left:252px;}
+.mapmain .mapLhasa{ position:absolute; top:419px; left:299px;}
+.mapmain .mapXining{ position:absolute; top:306px; left:444px;}
+.mapmain .maplanzhou{ position:absolute; top:310px; left:498px;}
+.mapmain .maplanzhou .icon01po{ left:-8px; top:8px;}
+.mapmain .mapChendou{ position:absolute; top:374px; left:481px;}
+.mapmain .mapKunming{ position:absolute; top:461px; left:463px;}
+.mapmain .mapGuiyang{ position:absolute; top:462px; left:516px;}
+.mapmain .mapChongqing{ position:absolute; top:390px; left:514px;}
+.mapmain .mapXian{ position:absolute; top:319px; left:534px;}
+.mapmain .mapyc{ position:absolute; top:250px; left:498px;}
+.mapmain .mapNanning{ position:absolute; top:521px; left:533px;}
+.mapmain .mapHaike{ position:absolute; top:565px; left:560px;}
+.mapmain .mapHongKong{ position:absolute; top:552px; left:675px;}
+.mapmain .mapHongKong .icon01po{ left:-20px; top:-8px;}
+.mapmain .mapHuhht{ position:absolute; top:231px; left:580px;}
+.mapmain .mapshijiaz{ position:absolute; top:282px; left:617px;}
+.mapmain .maptaiyuan{ position:absolute; top:305px; left:589px;}
+.mapmain .mapzhengzhou{ position:absolute; top:336px; left:635px;}
+.mapmain .mapzhengzhou .icon01po{ left:-12px;}
+.mapmain .mapwuhan{ position:absolute; top:404px; left:615px;}
+.mapmain .maphefei{ position:absolute; top:394px; left:654px;}
+.mapmain .mapnanchang{ position:absolute; top:444px; left:674px;}
+.mapmain .mapnanchang .icon01po{ left:-20px; top:-8px;}
+.mapmain .mapfuzhou{ position:absolute; top:484px; left:678px;}
+.mapmain .mapfuzhou .icon01po{ left:20px; top:-8px;}
+.mapmain .mapchangsha{ position:absolute; top:440px; left:596px;}
+.mapmain .mapguangzhou{ position:absolute; top:500px; left:607px;}
+.mapmain .mapbeijing{ position:absolute; top:228px; left:683px;}
+.mapmain .mapbeijing .icon01po01{ left:-23px; bottom:-2px;}
+.mapmain .maptianjing{ position:absolute; top:304px; left:694px;}
+.mapmain .maptianjing .icon01po{ left:-23px; top:-15px;}
+.mapmain .mapjinan{ position:absolute; top:326px; left:684px;}
+.mapmain .mapjinan .icon01po{ left:-23px; top:-15px;}
+.mapmain .mapnanjing{ position:absolute; top:352px; left:681px;}
+.mapmain .mapshanghai{ position:absolute; top:365px; left:718px;}
+.mapmain .maphangzhou{ position:absolute; top:439px; left:725px;}
+.mapmain .maphangzhou .icon01po01{ left:-14px; top:-25px;}
+.mapmain .mapshenyang{ position:absolute; top:221px; left:776px;}
+.mapmain .mapshenyang .icon01po01{ left:-18px; bottom:20px;}
+.mapmain .mapchangchun{ position:absolute; top:156px; left:742px;}
+.mapmain .mapchangchun .icon01po01{ left:38px; bottom:-5px;}
+.mapmain .mapharbing{ position:absolute; top:169px; left:817px;}
+.mapmain .mapharbing .icon01po{ left:-20px; top:-25px;}
+.mapmain .mapbot{ width:193px; position:absolute; right:0px; top:482px;}
+
+.mapmain .dialogmain{ position:absolute; left:-170px; bottom:30px; width:249px; height:342px; background:#fff; z-index:999; border:1px solid #307bb0; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -moz-box-shadow:1px 1px 10px #666; -webkit-box-shadow:1px 1px 10px #666; box-shadow:1px 1px 10px #666;}
+.mapmain .dialogmain h2{ height: 20px;line-height: 20px;padding: 0 28px 0 10px; font-weight:normal; color: #fff;font-family: Tahoma, Arial/ 9 !important;background: #74b4e2;background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #74b4e2), color-stop(100%, #3d8fca) );background-image: -webkit-linear-gradient(#74b4e2, #3d8fca);background-image: -moz-linear-gradient(#74b4e2, #3d8fca);background-image: -o-linear-gradient(#74b4e2, #3d8fca);background-image: linear-gradient(#74b4e2, #3d8fca);}
+.mapmain .dialogmain dl{ margin:0 6px; border-bottom:1px dotted #e5e5e5; padding:7px 0;}
+.mapmain .dialogmain dt{ width:56px; float:left;}
+.mapmain .dialogmain dd{ width:179px; float:left; line-height:18px; color:#999999; padding-top:4px;}
+.mapmain .dialogmain .more{ text-align:right; padding-right:6px; line-height:20px;}
+
+
+.mapmain .dialogpng{ position:absolute; bottom:-26px; right:45px; background:url("../../../../images/action/photowall/icon03.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/icon03.png*/) no-repeat; width:29px; height:28px;}
+.mapmain .dialogclose{ position:absolute; top:3px; right:4px; background:url("../../../../images/action/photowall/close.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/close.png*/) no-repeat; width:11px; height:11px; cursor:pointer;}
+
+.mapsub{ width:121px; height:39px; line-height:39px; text-align:center; background:#ff6600; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; display:inline-block; font-size:19px; color:#fff; -moz-box-shadow:0px 1px 2px #666; -webkit-box-shadow:0px 1px 2px #666; box-shadow:0px 1px 2px #666;}
+.mapsub:hover{ text-decoration:none;}
+.mapmain .mapbot .botfont{ color:#7f9cba; line-height:23px; font-size:14px; padding-top:17px;}
+.mapmain .mapbot span{ margin-right:4px;}
+
+.mapfont{ width:100%; min-width:1000px; background:url("../../../../images/action/photowall/bg.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/bg.jpg*/); padding:30px 0; line-height:26px; font-size:14px; color:#3a699a;}
+.mapfont h2{ padding:0 0 0 35px; font-size:18px; color:#3a699a;}
+.mapfont span{ display:inline-block; padding:0 0 0 35px;}
+.mapfont span b{ font-weight:normal;}
+
+
+.mappicmain{ width:100%; min-width:1000px; background:url("../../../../images/action/photowall/bg01.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/bg01.jpg*/); border-top:3px solid #FFC862;}
+.mappicmain .mappicmainbg{ background:url("../../../../images/action/photowall/pic/m12.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/pic/m12.png*/) bottom center repeat-x;}
+.mappiczs01{ position:absolute; top:0px; left:-80px;}
+
+.mappiclist{ padding:60px 0 150px 0;}
+.mappiclist li{ width:255px; background:#fff; -moz-box-shadow:5px 5px 20px #8f8c89; -webkit-box-shadow:5px 5px 20px #8f8c89; box-shadow:5px 5px 20px #8f8c89; padding:15px; float:left; margin:15px 20px; position:relative;}
+.mappiclist li .lifont{ display:block; padding-top:6px; line-height:20px; color:#b3b3b3;}
+.mappiclist li .lifont p{ height:60px;}
+.mappiclist li .paddingli{ padding-top:10px;}
+.mappiclist li .paddingli span{ padding:0 0px;}
+.mappiclist li .paddingli span img{ vertical-align:middle;}
+
+.mappiclist li .listpic{ display:block; position:absolute; left:125px; top:-23px;}
+.mappiclist li.rotate15{ transform: rotate(15deg) translateZ(0); -ms-transform: rotate(15deg) translateZ(0); -webkit-transform: rotate(15deg) translateZ(0); -o-transform: rotate(15deg) translateZ(0); -moz-transform: rotate(15deg) translateZ(0);}
+.mappiclist li.rotatef15{ transform: rotate(-15deg); -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); -o-transform: rotate(-15deg); -moz-transform: rotate(-15deg);}
+.mappiclist li.rotate10{ transform: rotate(10deg); -ms-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg); -moz-transform: rotate(10deg);}
+.mappiclist li.rotatef10{ transform: rotate(-10deg); -ms-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); -o-transform: rotate(-10deg); -moz-transform: rotate(-10deg);}
+.mappiclist li.rotate5{ transform: rotate(5deg); -ms-transform: rotate(5deg); -webkit-transform: rotate(5deg); -o-transform: rotate(5deg); -moz-transform: rotate(5deg);}
+.mappiclist li.rotatef5{ transform: rotate(-5deg); -ms-transform: rotate(-5deg); -webkit-transform: rotate(-5deg); -o-transform: rotate(-5deg); -moz-transform: rotate(-5deg);}
+.mappiclist li.rotate18{ transform: rotate(18deg); -ms-transform: rotate(18deg); -webkit-transform: rotate(18deg); -o-transform: rotate(18deg); -moz-transform: rotate(18deg);}
+.mappiclist li.rotatef18{ transform: rotate(-18deg); -ms-transform: rotate(-18deg); -webkit-transform: rotate(-18deg); -o-transform: rotate(-18deg); -moz-transform: rotate(-18deg);}
+
+.mappicpage{ text-align:right; padding:60px 0;}
+.mappicpage a{ background:url("../../../../images/action/photowall/bg02.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/bg02.jpg*/) repeat-x; height:28px; line-height:28px; display:inline-block; padding:0 10px; border:1px solid #aa844e; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; text-decoration:none; margin-right: 5px;}
+.mappicpage a:hover,.mappicpage a.cur{ background:url("../../../../images/action/photowall/bg03.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/bg03.jpg*/) repeat-x;}
+.mappicpage span{ background:url("../../../../images/action/photowall/bg02.jpg"/*tpa=https://www.xinrong.com/s/images/action/photowall/bg02.jpg*/) repeat-x; height:28px; line-height:28px; display:inline-block; padding:0 10px; border:1px solid #aa844e; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; text-decoration:none;margin-right: 5px;}
+
+
+/*focus*/
+.focus {height:338px;overflow:hidden;position:relative;background:#ccc;}
+.focus_m ul {width:100%;height:338px;overflow:hidden;}
+.focus_m li {width:100%;height:338px;_float:left; position:relative;}
+.focus_m li.li_1 {background:url("../../../../images/action/photowall/banner/01.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/banner/01.png*/) center 0 no-repeat #fedfa6;}
+.focus_m li.li_2 {background:url("../../../../images/action/photowall/banner/02.png"/*tpa=https://www.xinrong.com/s/images/action/photowall/banner/02.png*/) center 0 no-repeat #fd8612;}
+.focus_m li a{ width:100%; height:338px; display:block; text-decoration:none;}
+.focus_m li .slide_info{ position:absolute; left:0px; top:50px; width:100%;}
+.focus_s {height:0;position:relative;margin:0 auto;z-index:2;width:260px;}
+.focus_s ul {height:12px; position:absolute;left:10px;top:315px;}
+.focus_s li {float:left;cursor:pointer; width:98px; margin-right:10px;}
+.focus_s li b { background: #ffffff; width: 98px; height: 6px; display: inline-block;	border-radius: 6px;	-webkit-border-radius: 6px;	-moz-border-radius: 6px;}
+.focus_s li.active b {margin-top:-20px; background: #fee255;}
+.focus_l,.focus_r {position:absolute;display:block;width:72px;height:82px;overflow:hidden;z-index:2;top:130px;}
+.focus_l {left:0;}
+.focus_r {right:0;}
+.focus_l b,.focus_r b {position:absolute;z-index:1;display:block;width:72px;height:82px;overflow:hidden; cursor:pointer;}
+.focus_l span,.focus_r span {display:block;position:relative;z-index:2;width:72px;height:82px;top:0px;cursor:pointer;}
+.focus_l span {left:0px;background:url("../../../../images/bicon.png"/*tpa=https://www.xinrong.com/s/images/bicon.png*/) 0 0 no-repeat;}
+.focus_r span {left:0px;background:url("../../../../images/bicon.png"/*tpa=https://www.xinrong.com/s/images/bicon.png*/) -101px 0 no-repeat;}
+.focus_l:hover,.focus_r:hover {*zoom:1;}
+.focus_l:hover b,.focus_r:hover b {opacity:0.5;filter:alpha(opacity=50);}
+
+
+
+
+

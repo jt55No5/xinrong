@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+body{font: 12px/1.5 tahoma, arial, \5b8b\4f53;}
+.AccountLeft{ width:170px; background:#f6f9fd; border:1px solid #c4d6e6;}
+
+.Accountbor{ height:0px; line-height:0px; border-bottom:1px dotted #dadada; font-size:0px;}
+
+.AccountNav{ width:100%; margin:0px; padding:0px; list-style:none;}
+.AccountNav li{ padding-bottom:4px;}
+.AccountNav li.liFoot{ padding-bottom:0px;}
+.AccountNav li a{ height:38px; line-height:38px; padding-left:33px; font-size:14px; color:#333; display:block; text-decoration:none;}
+.AccountNav li a:hover{ background:#E1EAF2;}
+.AccountNav li a.cur{ color:#fff; background:#4c8bc5; font-weight:bold;}
+.AccountNav li a .AllIcon{ width:16px; height:16px; display: inline-block; vertical-align:middle; margin-right:9px;}
+.AccountNav li a .Icon01{ background-position:-111px -214px;}
+.AccountNav li a.cur .Icon01{ background-position:-111px -241px;}
+
+.AccountNav li a .Icon02{ background-position:-130px -214px;}
+.AccountNav li a.cur .Icon02{ background-position:-130px -241px;}
+
+.AccountNav li a .Icon03{ background-position:-146px -214px;}
+.AccountNav li a.cur .Icon03{ background-position:-146px -241px;}
+
+.AccountNav li a .Icon04{ background-position:-164px -214px;}
+.AccountNav li a.cur .Icon04{ background-position:-164px -241px;}
+
+.AccountNav li a .Icon05{ background-position:-181px -214px;}
+.AccountNav li a.cur .Icon05{ background-position:-181px -241px;}
+
+.AccountNav li a .Icon06{ background-position:-201px -214px;}
+.AccountNav li a.cur .Icon06{ background-position:-201px -241px;}
+
+.AccountNav li a .Icon07{ background-position:-220px -214px;}
+.AccountNav li a.cur .Icon07{ background-position:-220px -241px;}
+
+.AccountNav li a .Icon08{ background-position:-125px -472px; height:19px;}
+.AccountNav li a.cur .Icon08{ background-position:-101px -472px;}
+.AccountNav li .icon09{ background-position:-65px -474px; width:22px; height:11px; position:absolute; right:34px; top:7px;}
+
+.AccountNav li a .Icon10{ background-position:-135px -501px; height:18px;}
+.AccountNav li a.cur .Icon10{ background-position:-157px -501px;}
+
+.AccountNav li a .Icon11{ background-position:-249px -267px; height:18px;}
+.AccountNav li a.cur .Icon11{ background-position:-270px -267px;}
+
+.AccountNav li a .Icon12{ background-position:-291px -267px; height:18px;}
+.AccountNav li a.cur .Icon12{ background-position:-313px -267px;}
+
+.AccountNav li a .Icon13{ background-position:-275px -290px; height:16px;}
+.AccountNav li a.cur .Icon13{ background-position:-249px -290px;}
+.AccountNav li a .iconhot{ width:22px; height:14px; background-position:0px -191px; display:inline-block; margin-left:5px;}
+
+.AccountRight{ width:814px; font: 12px/1.5 "微软雅黑", tahoma, arial, \5b8b\4f53;}
+.AccountBox{ background:#f6f9fd; border:1px solid #e9f0f7; padding-bottom:10px;}
+.AccountBox h1{ width:755px; margin:0 auto; height:30px; line-height:30px; padding-top:19px; border-bottom:1px solid #d0d0d0; font-size:14px; color:#333;}
+.AccountBox h1 a{ color:#c30e0e; font-size:12px; font-weight:normal;}
+.AccountBox h1 .Icon08{ width:14px; height:14px; background-position: -161px -19px; display:inline-block; vertical-align:middle; margin-right:5px;}
+.AccountBox .BoxFont{ padding-top:12px; height:43px; line-height:43px; padding-left:46px; display:block;}
+.AccountBox .BoxFont b{ font-family:Arial, Helvetica, sans-serif; font-size:20px;}
+.AccountBox .BoxSub{ display:block; padding:10px 0 0 41px;}
+.AccountBox .BoxList{ margin:0px; padding:0px 0 0 46px; list-style:none;}
+.AccountBox .BoxList li{ width:235px; height:43px; line-height:43px; float:left;}
+
+.IntegralBox h1{ height:32px; line-height:32px; border-bottom:1px solid #AEAEAE; font-size:14px; padding-left:20px;}
+.IntegralBox h1 a{ float:right; font-size:12px; font-weight:normal; color:#007ab8;}
+.IntegralBox .BoxCond{ background:#f2f2f2; height:28px; line-height:28px;}
+.IntegralBox .BoxCond .BoxSelect01{ padding-left:22px;}
+.IntegralBox .BoxCond .BoxSelect02{ padding-left:53px;}
+.IntegralBox table{ border-collapse:collapse;}
+.IntegralBox table th{ line-height:28px; padding:0 15px; font-weight:normal; background:#d9d9d9;}
+.IntegralBox table tr.bg{ background:#f3f8fd;}
+.IntegralBox table td{ line-height:35px; padding:0 15px;}
+
+.IntegralBox .BoxFont{ height:77px; line-height:77px; padding-left:20px;}
+
+.investbox .BoxCond{ background:#f2f2f2; height:33px; line-height:33px; border-top:1px solid #d8d8d8;}
+.investbox .BoxCond .BoxSelect01{ padding-left:22px;}
+.investbox .BoxCond .BoxSelect02{ padding-left:53px;}
+.investbox table{ border-collapse:collapse;}
+.investbox table th{ line-height:31px; text-align:center; font-weight:normal; background:#d9d9d9;}
+.investbox table tr.bg{ background:#f3f8fd;}
+.investbox table td{ line-height:16px; padding:6px 0; color:#8b8b8b;}
+
+.AccountBoxbr{ border: 1px solid #C4D6E6; width:100%;}
+.AccountBoxbr h1{background-color: #ECF5FD; padding: 0px; margin: 0px; height: 48px; border-bottom: solid 1px #CCC; font-weight:bold;}
+.AccountBoxbr h1 .BoxbrTitle{ display:block; line-height:48px; padding-left: 18px; font-family: arial; font-size: 14px;}
+.AccountBoxbr h1 .BoxbrTitle i{ width:25px; height:25px; display:inline-block; vertical-align:middle; margin-left:8px;}
+.AccountBoxbr h1 .BoxbrTitle .ymail{ background-position:-355px -213px;}
+.AccountBoxbr h1 .BoxbrTitle .wmail{ background-position:-355px -246px;}
+.AccountBoxbr h1 .BoxbrTitle .yID{ background-position:-388px -213px;}
+.AccountBoxbr h1 .BoxbrTitle .wID{ background-position:-388px -246px;}
+.AccountBoxbr h1 .BoxbrTitle .ytel{ background-position:-421px -213px;}
+.AccountBoxbr h1 .BoxbrTitle .wtel{ background-position:-421px -246px;}
+.AccountBoxbr h1 .BoxbrTitle .ybank{ background-position:-455px -213px;}
+.AccountBoxbr h1 .BoxbrTitle .wbank{ background-position:-455px -246px;}
+
+.AccountBoxbr h1 .BoxBrTitlefont{ display:block; padding-right:10px; padding-top:20px; color:#999; font-weight:normal;}
+.AccountBoxbr h1 .BoxBrTitlefont .Icon01{ background-position: -293px 0px; width:15px; height:18px; display:inline-block; vertical-align: middle; margin-right: 6px;}
+.AccountBoxbr h1 .BoxBrTitlefont a{ color: #C22900; font-weight:normal;}
+.AccountBoxbr h1 .BoxBrTitlefont a.blue{ color:#0078B6;}
+.AccountBoxbr h1 .BoxBrTitlefont01{ display:block; padding-right:10px; padding-top:4px; color:#999; font-weight:normal; line-height:19px; text-align:right;}
+.AccountBoxbr h1 .BoxBrTitlefont01 .icon01{ width:29px; height:18px; display:inline-block; background-position:-49px -257px; vertical-align:middle; margin-right:5px;}
+.AccountBoxbr h1 .BoxBrTitlefont01 .red{ color:#a52b0a;}
+
+.AccountBoxbr .AccountIndex{ margin:10px 20px 0 18px;}
+.AccountBoxbr .AccountIndex .indextop{ position:relative; padding-top:6px;}
+.AccountBoxbr .AccountIndex .indextop dl{ width:100%; clear:both;}
+.AccountBoxbr .AccountIndex .indextop dt{ height: 26px; line-height: 26px; margin-left: 6px; float:left; font-size:13px;}
+.AccountBoxbr .AccountIndex .indextop dd{ float:left; line-height:26px; font-size:13px;}
+.AccountBoxbr .AccountIndex .indextop .font01{ font-size:18px;}
+.AccountBoxbr .AccountIndex .indextop .font02{ font-size:14px; padding-left:20px;}
+.AccountBoxbr .AccountIndex .indextop .topjifen{ position:absolute; right:0px; bottom:20px; font-size:14px; color:#969799;}
+.AccountBoxbr .AccountIndex .indextop .topjifen .red{ font-size:18px; margin-left:4px;}
+
+.AccountBoxbr .AccountIndex .xincuenbao{ padding:10px 0 0 6px; line-height:33px;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont{ line-height:33px;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont .font01{ width:185px; font-size:16px; display:inline-block; position:relative;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont .font01 .icon01{ display:inline-block; position:absolute; left:28px; top:-5px; width:45px; height:23px; background-position:0 -293px;}
+
+.AccountBoxbr .AccountIndex .xincuenbao .baofont .font03{ width:174px; display:inline-block; font-size:14px;text-align: right;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont01{ font-size:13px;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont02{ font-size:13px; color:#969799;}
+.AccountBoxbr .AccountIndex .xincuenbao .baofont02 span{ display:inline-block; padding-left:30px;}
+.AccountBoxbr .AccountIndex .Accountgl{ padding-left:16px; padding-top:5px;}
+.AccountBoxbr .AccountIndex .Accountgl dt{ float:left;}
+.AccountBoxbr .AccountIndex .Accountgl dd{ float:left;}
+.AccountBoxbr .AccountIndex .AccouBr{ height:1px; line-height:1px; border-bottom:dotted 1px #ddd;}
+.AccountBoxbr .AccountIndex .Accountgl ul{ margin:0px; padding:0px; list-style:none;}
+.AccountBoxbr .AccountIndex .Accountgl ul li{ width:240px; height:18px; line-height:18px; padding-top:15px; float:left;}
+.AccountBoxbr .AccountIndex .Accountgl ul li.w01{ width:390px;}
+.AccountBoxbr .AccountIndex .Accountgl ul li.w02{ width:700px;}
+.AccountBoxbr .AccountIndex .Accountgl .fontbg{ background-color: #ECF5FD; line-height:29px; padding-left:5px; position:relative; margin-left:-5px; margin-top:4px;}
+
+.AccountBoxbr .AccountIndex h2{ background-color: #ECF5FD; height: 25px; line-height:25px; padding:0 4px; font-weight:bold;}
+.AccountBoxbr .AccountIndex h2 a{ font-weight:normal;}
+
+.AccountBoxbr .AccountIndex h3{border-bottom: solid 1px #CCC; margin-top: 20px; height: 23px; padding:0 4px;}
+.AccountBoxbr .AccountIndex h3.investtitle{ border-bottom:0px; margin:0px; padding:0px; height:30px; line-height:30px; font-size:14px; font-weight:normal; padding-left:6px;}
+.AccountBoxbr .AccountIndex .Investfont{ font-size:13px; padding-left:6px; padding-top:8px; line-height:30px;}
+.AccountBoxbr .AccountIndex .Investfont .c999{ color:#999;}
+.AccountBoxbr .AccountIndex .Investfont .paddingleft{ padding-left:40px;}
+
+.AccountBoxbr .investtable{ padding:0 20px;}
+.AccountBoxbr .investtable table{ border:1px solid #c8c8c8; border-collapse:collapse; line-height:37px; color:#7a7a7a; font-size:14px;}
+.AccountBoxbr .investtable table th{ border:1px solid #c8c8c8; background:#d8d8d8; text-align:center; font-weight:normal;}
+.AccountBoxbr .investtable table td{ border:1px solid #c8c8c8; text-align:center;}
+.AccountBoxbr .investtable table td.bgf6f6f6{ background:#f6f6f6;}
+
+.AIndexFont{ text-align:center; padding-top:23px;}
+
+.AccountBoxbr .AccInT{background:none; padding: 0px; margin: 0px 16px; height: 48px; border-bottom: solid 1px #CCC;}
+.AccountBoxbr .AccInT .BoxInTitle{ display:block; line-height:48px; padding-left: 0px; font-family: arial; font-size: 14px;}
+.AccountBoxbr .AccInT .BoxBrTitlefont{ display:block; padding-right:10px; padding-top:26px; font-weight:normal; color:#999;}
+.AccountBoxbr .AccInT .BoxBrTitlefont .Icon01{ background-position: -161px -19px; width:15px; height:18px; display:inline-block; vertical-align: middle; margin-right: 6px;}
+.AccountBoxbr .AccInT .BoxBrTitlefont a{ color:#0078B6; font-weight:normal;}
+
+.AccountBoxbr .AccountInvest dl{ padding:6px 0px;}
+.AccountBoxbr .AccountInvest .AccountFont{ padding:6px 0;}
+.AccountBoxbr .AccountInvest .AccountFont li.AW03{ width:282px;}
+
+
+/*切换*/
+.tabs-nav{ height:33px; border-bottom:1px solid #99abbc; background:#f2f2f2; margin:0px; padding:0px 0 0 10px; list-style:none;}
+.tabs-nav li{ width:88px; text-align:center; float:left; position:relative; margin-bottom:-1px; padding-top:6px; margin-right:9px;}
+.tabs-nav a{display: block;width: 88px;height: 26px;line-height: 26px;border: 1px solid #9AABBD;border-bottom: none;color:#0078B6;font-family: SimSun;background-color: #F8F8F8; font-size:14px; text-decoration:none;}
+.tabs-nav .ui-state-active{ position:relative; margin-bottom:-1px;}
+.tabs-nav .ui-state-active a{ color:#000; font-weight:bold; border:1px solid #99abbc; border-bottom:1px solid #fff; background:#fff;}
+.ui-tabs-hide{ display:none}
+/*************************************************/
+
+.RechargeTabFont{ padding: 5px 0 0 44px;}
+.RechargeTabFont dl{ clear:both; line-height:28px; padding-top:12px; width:100%;}
+.RechargeTabFont dt{ width:60px; float:left;}
+.RechargeTabFont dd{ width:720px; float:left;}
+.RechargeTabFont dd.RechaFont{ color:#666;}
+.RechargeTabFont dd.RechaFont .Icon01{ background-position: -161px -19px; width:15px; height:18px; display:inline-block; vertical-align: middle; margin-right: 6px;}
+
+.AccountText{ width:104px; height: 24px; line-height: 24px; padding: 1px 3px; border: 1px solid #B6C4CD; -webkit-border-radius: 2px 2px 2px 2px; -moz-border-radius: 2px 2px 2px 2px; -ms-border-radius: 2px 2px 2px 2px; -o-border-radius: 2px 2px 2px 2px; border-radius: 2px 2px 2px 2px; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in;}
+
+.RechargeBox{ padding: 16px 19px; line-height: 2.5em; background-color: #F6F9FE;}
+.RechargeBox .Cf60{color: #F60;}
+.RechargeBox .Icon01{ background-position: -161px -19px; width:15px; height:18px; display:inline-block; vertical-align: middle; margin-right: 6px;}
+
+.RechargeFont{ padding-left:19px;}
+.RechargeFont .RFont{ padding-left:15px; line-height:13px;}
+.RechargeFont .RFont p{ padding-left:21px;}
+
+.AccountCon{ border-top:1px solid #CFCFCF;}
+
+.AccFontPage{ display:block; text-align:right; line-height:77px; color:#0078b6;}
+.AccFontPage a{ margin:0 8px; color:#0078b6;}
+.AccFontPage span{ padding:0 5px; color:#fff; background:#74b3da;}
+
+.AuthinfoBox{ padding: 12px 17px 20px; background-color: #F6F9FE;}
+.AuthinfoBox dl{ width:100%; padding:0px 0; clear:both;}
+.AuthinfoBox dt{ height: 26px; line-height: 26px; float:left;}
+.AuthinfoBox dd{ float:left; font-family: Simsun; line-height:26px;}
+.AuthinfoBox dd b{ font-family:Arial, Helvetica, sans-serif;}
+.AuthinfoBox dd .spanBox{ width:122px; background:#d9d9d9; height: 13px; display:block; position:relative; margin-top:6px; float:left;}
+.AuthinfoBox dd .spanjindu{ width:60%; height: 13px; background:#0daf7d; display:block;}
+.AuthinfoBox dd .spanorange{ width:60%; height: 12px; background:url("../../../images/my/orange.png"/*tpa=https://www.xinrong.com/s/images/my/orange.png*/) repeat-x; display:block;}
+.AuthinfoBox dd .spanred{ width:60%; height: 12px; background:url("../../../images/my/red1.png"/*tpa=https://www.xinrong.com/s/images/my/red1.png*/) repeat-x; display:block;}
+.AuthinfoBox dd .spanyellow{ width:60%; height: 12px; background:url("../../../images/my/yellow.png"/*tpa=https://www.xinrong.com/s/images/my/yellow.png*/) repeat-x; display:block;}
+.AuthinfoBox dd .spangreen{ width:60%; height: 12px; background:url("../../../images/my/green.png"/*tpa=https://www.xinrong.com/s/images/my/green.png*/) repeat-x; display:block;}
+.AuthinfoBox dd .spanText01{ height:12px; line-height:12px; display:block; float:left; margin-top:6px; margin-left:6px;}
+
+.AuthinfoBox .AccountImg{ background:url("../../../images/my/Acc.png"/*tpa=https://www.xinrong.com/s/images/my/Acc.png*/) no-repeat; display:inline-block; vertical-align:middle; margin-right:7px;}
+.AuthinfoBox .Img01{ width:18px; height:15px; background-position:0 0;}
+.AuthinfoBox .Img01grey{ width:18px; height:15px; background-position:0 -22px;}
+
+.AuthinfoBox .Img02{ width:22px; height:16px; background-position:0 -68px;}
+.AuthinfoBox .Img02grey{ width:22px; height:16px; background-position:0 -44px;}
+
+.AuthinfoBox .Img03{ width:13px; height:20px; background-position:0 -120px;}
+.AuthinfoBox .Img03grey{ width:13px; height:20px; background-position:0 -92px;}
+
+.AuthinfoBox .Img04{ width:20px; height:16px; background-position:0 -148px;}
+.AuthinfoBox .Img04grey{ width:20px; height:16px; background-position:0 -172px;}
+
+.AuthifoFont{ padding-bottom:20px;}
+.AuthifoFont h2{ height: 26px;line-height: 26px;border-bottom: none;padding: 0 0 0 17px;margin-bottom: 1px;font-size: 12px;background-color: #F2F2F2;}
+.AuthifoFont span{ display:block; padding-left:33px; padding-top:20px;}
+.AuthifoFont .ReIcon03{ width:15px; height:17px; background-position:-162px -405px; display:inline-block; vertical-align:middle; margin-left:6px;}
+
+.AuthifoFont dl{ width:100%; clear:both; border-bottom:1px solid #f3f3f3; padding:15px 0; line-height:20px;}
+.AuthifoFont dt{ padding-left:17px; width:110px; line-height:36px; float:left;}
+.AuthifoFont dd{ float:left; width:674px; position:relative;}
+.AuthifoFont dd .rensub{ width:106px; height:30px; line-height:30px; color:#fff; display:inline-block; position:absolute; top:3px; right:10px; font-size:14px; text-decoration:none; background:#ff6501; text-align:center;}
+.AuthifoFont dd.fontline01{ line-height:36px;}
+.AuthifoFont dl.w01{ border:0px;}
+.AuthifoFont dl.w01 dt{ width:67px;}
+.AuthifoFont dl.w01 dd{ width:717px;}
+
+
+.Authinfo2Font{ padding-left:39px;}
+.Authinfo2Font .SpanZs{ display:block; padding: 10px 16px; background-color: #FEF3D7; color: #666; width:480px;}
+.Authinfo2Font dl{ width:100%; clear:both; padding-top:10px;}
+.Authinfo2Font dt{ float:left; line-height:30px;}
+.Authinfo2Font dd{ float:left;}
+.Authinfo2Font dd .Sub04{ font-size:12px; font-weight:normal;}
+
+.AuthinfoTable table{ border-collapse:collapse;}
+.AuthinfoTable table th{font-size: 14px;background-color: #D9D9D9; height: 29px;}
+.AuthinfoTable table td{height: 35px; font-size: 14px; border-bottom: 1px dotted #D1D1D1;}
+.AuthinfoTable .SubVip{ width: 98px; height: 28px; line-height: 28px; text-decoration:none;}
+
+.MsgTitle{ height: 35px; line-height: 35px; padding-left: 15px; border-bottom: 1px solid #CFCFCF; background-color: #F2F2F2; }
+.MsgTitle h2{ font-size: 14px; display: inline; margin-right: 62px;}
+
+.AuthinfoTable .MsgTable td{ font-size:12px;}
+
+.MsgFont{ padding:0 0 0 14px;}
+.MsgFont .Sub04{ font-size:12px; font-weight:normal; width:66px; height:21px; line-height:21px;}
+.MsgFont input{ height:13px; vertical-align:text-top; margin-top:0px;}
+
+.MsDetail h3{ height: 35px; line-height: 35px; padding:0 16px; background-color: #F3F8FC; font-size:14px;}
+.MsDetail h3 .right{ font-weight:normal; font-size:12px;}
+.MsDetail .MsgText{ padding-left:16px; min-height:90px; line-height:25px; border-bottom: 1px dotted #D1D1D1; padding-top:10px;}
+.MsDetail .MsgText a{ text-decoration:underline;}
+.MsDetail .MsgSub{ text-align:right; padding-top:10px; padding-right:10px;}
+.MsDetail .Sub04{ font-size:12px; font-weight:normal; width:54px; height:21px; line-height:21px;}
+
+.AuthinfoAuto{ background: #F6F9FD; padding: 20px 13px 24px;}
+.AuthinfoAuto h2{font-size: 14px; padding-bottom:13px;}
+.AuthinfoAuto h2 span{ font-size:12px; font-weight:normal; color:#999;}
+
+.AutoLeft h1{ height:27px; line-height:27px; background:#f2f2f2; border-bottom:1px solid #d2d2d2; padding-left:13px; font-weight:bold; margin-bottom:10px;}
+.AutoLeft h1 span{ padding-left:54px; font-weight:normal;}
+.AutoLeft h1 span b{ font-weight:normal;}
+.AutoLeft dl{ width:100%; clear:both; padding:13px 0; line-height:18px;}
+.AutoLeft dt{ padding-left:23px; float:left; padding-top:0px; *padding-top:1px;}
+.AutoLeft dt.Dtlineh{ line-height:30px; padding-left:13px;}
+.AutoLeft dt.DtPadding{ padding-top:0px;}
+.AutoLeft dt .Icon01{ width:14px; height:20px; background-position: -161px -19px; display:inline-block; vertical-align:middle; margin-right:5px;}
+.AutoLeft dt .SubVip{ line-height:24px;}
+.AutoLeft dd{ float:left;}
+.AutoLeft dd input{ height:13px; vertical-align:text-top; margin-top:-1px;}
+.AutoLeft dd .spanPadding{ padding-left:25px;}
+.AutoLeft dd .Inputtext{ width:59px; height:18px; line-height:18px; border:solid 1px; border-color:#787878 #bebebe #dcdcdc #bebebe; vertical-align:middle; margin-top:-4px;}
+
+.AutoLeft .AutoLeftBr{ width:660px; margin-left:21px; border-bottom:1px solid #e5e5e5; height:1px; line-height:1px; font-size:0px;}
+
+
+.AutoLeft h2{ padding:20px 0 0 13px; height:30px; line-height:30px; border-bottom:1px solid #d2d2d2; font-weight:bold;}
+.AutoTable{ margin:24px 14px 0 14px;}
+.AutoTable table{ border-collapse:collapse;}
+.AutoTable table td{ border:1px solid #CFCFCF; line-height:29px; text-align:center;}
+.AutoTable table th{ border:1px solid #CFCFCF; background-color: #F2F2F2; line-height:27px; text-align:center; font-weight:bold;}
+.AutoTable table th.redFont{ font-family: Simsun;}
+
+
+ul.acctabs { width:100%;}
+
+ul.acctabs li { list-style-type:none; display:block; float:left; color:#7a7a7a; width:125px; height:27px; line-height:27px; text-align:center; border-bottom:0px solid #2f2f2f; background-color:#f2f2f2; -moz-border-radius:3px;-webkit-border-radius:3px; border-radius:3px; cursor:pointer; font-size:14px; margin-left:23px; position:relative;}
+ul.acctabs li span{ display:none;}
+ul.acctabs li:hover {background:#4c8bc5;}
+ul.acctabs li:hover a{ color:#fff; text-decoration:none;}
+ul.acctabs li:hover span{ display:block; position:absolute; left:55px; bottom:-6px;}
+ul.acctabs li.current {border-bottom:0px solid #43b0ce;background-color:#4c8bc5; color:#fff;}
+ul.acctabs li.current a{ color:#fff; text-decoration:none;}
+ul.acctabs li.current span{ display:block; position:absolute; left:55px; bottom:-6px;}
+.tabscontent {}
+
+.pagefont{ line-height:44px; padding:0 10px 0 0; text-align:right;}
+.pagefont a{ padding:2px 7px; color:#0078B6;}
+.pagefont a:hover{ background:#0078B6; color:#fff; text-decoration:none;}
+.pagefont span{ padding:2px 7px; background:#0078B6; color:#fff;}
+
+.investfoot{ color:#8b8b8b;}
+
+

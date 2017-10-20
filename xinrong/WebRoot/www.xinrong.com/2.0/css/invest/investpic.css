@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*preview*/
+#preview{ border:1px solid #eaeaea; zoom:1; height:626px; overflow:hidden;}
+#spec-n1{ float:right; width:512px; height:626px; overflow:hidden; position:relative; z-index:5; zoom:1;}
+#spec-n1 .o-img{ width:512px; height:579px; text-align:center; padding:20px 0 0 0; display:table;}
+#spec-n1 .o-img span{ display:table-cell; vertical-align:middle;}
+#spec-n1 .switch{ width:512px; height:579px; position:absolute; z-index:10; top:0; left:0;}
+#spec-n1 img{ max-width:512px; max-height:579px; _height:579px;}
+#spec-n5{ position:relative; float:left; width:165px; height:626px; background:#e6e6e6; zoom:1}
+#spec-list{ width:165px; height:626px; overflow:hidden;overflow-y:auto;}
+#spec-list ul{ overflow:hidden; margin:0; padding:15px 0 0;}
+#spec-list li{ width:117px; height:140px; text-align:center; margin:4px 15px; background:#fff; border:2px solid #e6e6e6; position:relative; padding:2px;}
+#spec-list li span{ position:absolute; left:0px; bottom:0px; background:#cbcbcb; width:121px; line-height:17px; font-size:10px;}
+#spec-list img{ width:116px; height:140px;}
+#spec-list .curr{ border:2px solid #f3a36d;}
+#spec-n5 .control{ position:absolute; width:134px; height:25px; background-repeat:no-repeat;cursor:pointer;}
+#spec-top{ top:-2px; background:url("../images/data/icoin.png"/*tpa=https://www.xinrong.com/2.0/css/images/data/icoin.png*/) 0 -30px;}
+#spec-top.disabled{ background-position:-85px -124px;}
+#spec-bottom{ bottom:-2px; background:url("../images/data/icoin.png"/*tpa=https://www.xinrong.com/2.0/css/images/data/icoin.png*/) -139px -30px;}
+#spec-bottom.disabled{ background-position:-139px -61px;}
+#intro{ float:left; width:512px; height:25px; line-height:25px; text-align:center; overflow:hidden; font-size:12px;}
+#foward{ display:block; width:360px; height:626px; float:left; cursor:url("../images/foward.ico"/*tpa=https://www.xinrong.com/2.0/css/images/foward.ico*/),pointer; background:#fff;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+#foward.disabled,#next.disabled{cursor:default;}
+#next{ display:block; width:360px; height:626px; float:right; cursor:url("../images/next.ico"/*tpa=https://www.xinrong.com/2.0/css/images/next.ico*/),pointer; background:#fff; filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+.thickcon{ line-height:40px; text-align:center}
+
+
+
+

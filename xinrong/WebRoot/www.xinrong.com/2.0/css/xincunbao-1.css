@@ -1,0 +1,889 @@
+@charset "utf-8";
+.wrapper{
+    width: 100%;
+    min-width: 1100px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+/**
+ *  general begin
+ */
+.orange{
+    color: #ff6612;
+}
+.blue{
+    color: #45b8ef;
+}
+
+/**
+ *  general begin
+ */
+/**
+ *  content begin
+ */
+.content{
+    position: relative;
+    padding-top: 15px;
+}
+.content .block{
+    margin-top: 15px;
+    border: 1px solid #e8e8e8;
+}
+/**
+ *  menu begin
+ */
+.content .menu{
+    float: left;
+    width: 170px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+}
+.content .menu li{
+    position: relative;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.content .menu li.current,.content .menu li:hover{
+    background-color: #ffede3;
+}
+.content .menu li:last-child{
+    border-bottom: 1px solid transparent;
+}
+.content .menu li a{
+    font-size: 16px;
+    line-height: 45px;
+    color: #666;
+    vertical-align: top;
+    text-decoration: none;
+}
+.content .menu li.current a,content .menu li:hover{
+    color: #ff6612;
+}
+.content .menu .icon{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    line-height: 9px;
+    margin-top: 12px;
+    *margin-top: 0;
+    vertical-align: top;
+    background: url("../images/R-1.png"/*tpa=http://www.xinrong.com/2.0/images/R.png*/) no-repeat;
+}
+.content .menu li:hover .bar,.content .menu li.current .bar{
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ff6600;
+    vertical-align: top;
+}
+/**
+ *  menu end
+ */
+/**
+ *  收益展示 begin
+ */
+.content .rightContent{
+    float: left;
+    width: 910px;
+    margin-left: 15px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.content .earnings{
+    margin-top: 0;
+    border: 1px solid #e8e8e8;
+}
+.content .earnings .title{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #f7f7f7;
+}
+.content .earnings .title .bar{
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ff6600;
+    vertical-align: top;
+}
+.content .earnings .title .mainTitle{
+    float: left;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #666;
+}
+.content .earnings .title .subTitle{
+    float: left;
+    margin-left: 40px;
+    color: #666;
+}
+.content .earnings .title .more{
+    float: right;
+    margin-right: 10px;
+}
+.content .earnings .details{
+    width: 100%;
+    margin-top: 30px;
+}
+.content .earnings .details li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 88px;
+    margin-left: -1px;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+}
+.content .earnings .details li:first-child>.detailName>i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    *margin-top: 5px;
+    vertical-align: top;
+    background: url("../images/arrow-1.png"/*tpa=http://www.xinrong.com/2.0/images/arrow.png*/) no-repeat;
+}
+.content .earnings .details li>.detailName{
+    position: relative;
+    display: block;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #969799;
+}
+.content .earnings .details li>.detailName #perCalculating .dots{
+    position: absolute;
+}
+.content .earnings .details li>.number{
+    font-size: 18px;
+    color: #666;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.content .earnings .details li>.number>.unit{
+    font-size: 13px;
+    color: #666;
+    vertical-align: middle;
+}
+.content .earnings .details li>.number.highlight{
+    font-size: 30px;
+    color: #ff6612;
+    font-weight: bold;
+}
+.content .earnings .details li>.number>.unit.highlight{
+    font-size: 16px;
+    color: #ff6612;
+}
+.content .earnings .details li>.perTenThousandEarnings{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 12px;
+    left: 0;
+    bottom: -4px;
+    color: #969799;
+    font-size: 12px;
+}
+.content .earnings .guarantee{
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content .earnings .guarantee li{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 100%;
+    
+    margin-left: 60px;
+    color: #969799;
+    font-size: 12px;
+}
+.content .earnings .guarantee li:first-child{
+    margin-left: 0;
+}
+.content .earnings .guarantee li i{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-image: url("../images/blank-1.png"/*tpa=http://www.xinrong.com/2.0/images/blank.png*/);
+    background-repeat: no-repeat;
+    background-position: left center;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.content .earnings .guarantee li+li i{
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/human-1.png"/*tpa=http://www.xinrong.com/2.0/images/human.png*/);
+}
+.content .earnings .guarantee li+li+li i{
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/coin-1.png"/*tpa=http://www.xinrong.com/2.0/images/coin.png*/);
+}
+.content .earnings .guarantee li span{
+    line-height: 70px;
+    vertical-align: middle;
+}
+/**
+ *  收益展示 end
+ */
+/**
+ *  存入存出 begin
+ */
+.content .transform .transBtn{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 16px;
+    line-height: 44px;
+    color: #666;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.content .transform .transBtn>li{
+    float: left;
+    width: 60px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.content .transform .transBtn>li:first-child{
+    margin-left: 10px;
+}
+.content .transform .transBtn>li.current{
+    color: #ff6612;
+    line-height: 43px;
+    border-bottom: 2px solid #ff6612; 
+}
+.content .transform .transBtn .separate{
+    width: 1px;
+    height: 16px;
+    margin-top: 14px;
+    background-color: #d9d9d9;
+}
+.content .transform .transBox .outBox{
+    display: none;
+}
+.content .transform .transBox .title{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #666;
+}
+.content .transform .transBox .title .balance{
+    padding-right: 20px;
+}
+.content .transform .transBox .title a{
+    font-size: 14px;
+}
+.content .transform .transBox .title .tips{
+    float: right;
+    margin-right: 60px;
+    *margin-top: -50px;
+    font-size: 12px;
+    color: #969799;
+    vertical-align: top;    
+}
+.content .transform .transBox .inputBox{
+    width: 890px;
+    margin-left: 10px;
+    background-color: #f9fcfa;
+}
+.content .transform .transBox .inputMoneyCon,.content .transform .transBox .inputPwCon{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    width: 210px;
+    height: 80px;
+    margin-right: 80px;   
+}
+.content .transform .transBox .inputPwCon{
+    margin-right: 130px;
+}
+.content .transform .transBox .inputMoneyCon{
+    margin-left: 10px;
+}
+.content .transform .transBox input[type=text],.content .transform .transBox input[type=password]{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    padding-left: 10px;
+    left: 0;
+    top: 20px;
+    font-size: 13px;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+}
+.content .transform .transBox .unit{
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 26px;
+    color: #989898;
+}
+.content .transform .transBox .error{
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    font-size: 13px;
+    color: #fe0326;
+    white-space: nowrap;
+}
+.content .transform .transBox .forgetPw{
+    position: absolute;
+    left: 220px;
+    top: 30px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.content .transform .transBox .btn{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #ff6612;
+    text-align: center;
+    border-radius: 3px;
+    vertical-align: top;
+    text-decoration: none;
+}
+.content .transform .transBox .agreementLine{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #969799;
+}
+.content .transform .transBox .agreementLine label{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0;
+    top: 19px;
+    vertical-align: middle;
+    border: 1px solid #666;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none\9;
+}
+.content .transform .transBox .agreementLine .agreementCheck:checked+label{
+    background-image: url("../images/checked-1.png"/*tpa=http://www.xinrong.com/2.0/images/checked.png*/);
+}
+.content .transform .transBox .agreementLine .agreementCheck{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 19px;
+    margin: 0;
+    opacity: 0;
+    opacity: 1\9;
+}
+.content .transform .transBox .agreementLine .agreement{
+    margin-left: 20px;
+}
+.content .transform .transBox .outBox .hints{
+    padding-left: 20px;
+    color: #a9a9a9;
+    font-size: 12px;
+    line-height: 50px;
+}
+/**
+ *  存入存出 end
+ */
+/**
+ *  收益明细 begin
+ */
+.content .earningsDetail>.title{
+    height: 70px;
+    line-height: 70px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.content .earningsDetail>.title select{
+    width: 125px;
+    height: 25px;
+    font-size: 13px;
+    color: #969799;
+}
+.content .earningsDetail>.title .lastWeek,.content .earningsDetail>.title .lastMonth{
+    float: right;
+    margin-right: 40px;
+    *margin-top: -70px;
+    font-size: 13px;
+    color: #666;
+}
+.content .earningsDetail .detailConfirm{
+    float: left;
+    width: 355px;
+    margin-left: 40px;
+}
+.content .earningsDetail .detailConfirm .title,.content .earningsDetail .transProgress .title{
+    width: 335px;
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    background-color: #ecf5fd;
+}
+.content .earningsDetail .detailConfirm .total{
+    position: relative;
+    width: 100%;
+    height: 195px;
+    text-align: center;
+}
+.content .earningsDetail .detailConfirm .total #tatalCanvas{
+    position: absolute;
+    width: 145px;
+    height: 145px;
+}
+.content .earningsDetail .detailConfirm .total span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    line-height: 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.content .earningsDetail .detailConfirm .total span.depositTotalWords{
+   top: 81.5px;
+}
+.content .earningsDetail .detailConfirm .total #depositTotal{
+   top: 95.5px;
+}
+.content .earningsDetail .detailConfirm .notConfirm,.content .earningsDetail .detailConfirm .confirmed{
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+}
+.content .earningsDetail .detailConfirm .notConfirm i{
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    margin: 0 16px;
+    background-color: #e8e8e8;
+    *vertical-align: middle;
+}
+.content .earningsDetail .detailConfirm .confirmed i{
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    margin: 0 16px;
+    background-color: #b9e1f2;
+    *vertical-align: middle;
+}
+.content .earningsDetail .detailConfirm .tips{
+    margin-left: 10px;
+    margin-top: 49px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a9a9a9;
+}
+.content .earningsDetail .transProgress{
+    float: right;
+    width: 355px;
+    margin-right: 40px;
+}
+.content .earningsDetail .transProgress .progressedPer{
+    position: relative;
+    width: 100%;
+    height: 195px;
+    text-align: center;
+}
+.content .earningsDetail .transProgress .progressedPer .waveCon{
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    left: 105px;
+    top: 30px;
+    background: url("../images/waveCircle-1.png"/*tpa=http://www.xinrong.com/2.0/images/waveCircle.png*/) no-repeat;
+    border-radius: 72.5px;
+    overflow: hidden;
+}
+.content .earningsDetail .transProgress .progressedPer span{
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+}
+.content .earningsDetail .transProgress .progressedPer #progressedPer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 70px;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    z-index: 9;
+}
+.content .earningsDetail .transProgress .progressedPer #progressedPer+span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    z-index: 9;
+}
+.content .earningsDetail .transProgress .progressTotal,.content .earningsDetail .transProgress .progressed,.content .earningsDetail .transProgress .notProgressed{
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+}
+.content .earningsDetail .transProgress .more{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.content .earningsDetail .transProgress .more:hover{
+    text-decoration: underline;
+}
+.content .earningsDetail .transProgress .more .moreDetail{
+    display: none;
+    position: absolute;
+    width: 250px;
+    right: 0;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a9a9a9;
+    background-color: #fff;
+    border: 1px solid #45b8ef;
+    word-wrap: break-word;
+    cursor: default;
+}
+.content .earningsDetail .transProgress .more .moreDetail>.arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 18px;
+    bottom: -12px;
+    border-top: 12px solid #45b8ef;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-bottom: 0;
+}
+.content .earningsDetail .transProgress .more .moreDetail>.arrow>.arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -16px;
+    bottom: 1px;
+    border-top: 12px solid #fff;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-bottom: 0;
+}
+/**
+ *  收益明细 end
+ */
+/**
+ *  查询菜单 begin
+ */
+.content .queryMenu .querySelect{
+    height: 34px;
+    padding-top: 10px;
+    border-bottom: 1px solid #f78f48;
+}
+.content .queryMenu .querySelect>li{
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 0 20px;
+    margin: 0 10px;
+    line-height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.content .queryMenu .querySelect>li:first-child{
+    margin-left: 40px;
+}
+.content .queryMenu .querySelect>li.current{
+    color: #fff;
+    background-color: #f78f48;
+}
+.content .queryMenu .querySelect>li.current>i{
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+    background-color: transparent;
+    vertical-align: middle;
+}
+.content .queryMenu .querySelect>li.current>i>i{
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 3px;
+    top: 5px;
+    border-top: 8px solid #fff;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-bottom: 0;
+}
+.content .queryMenu .querySelect>.record{
+    min-width: 67px;
+    text-align: center;
+    z-index: 9;
+}
+.content .queryMenu .querySelect>.record>.recordSub{
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 35px;
+    background-color: #ffede3;
+    z-index: 999;
+    overflow: hidden;
+}
+.content .queryMenu .querySelect>.record>.recordSub>li{
+    position: relative;
+    line-height: 25px;
+    font-size: 13px;
+    color: #b0aead;
+    text-align: center;
+    border-top: 1px solid #fff;
+    cursor: pointer;
+}
+.content .queryMenu .querySelect>.record>.recordSub>li:not(:first-child){
+    letter-spacing: 5px;
+    text-indent: 5px;
+}
+.content .queryMenu .querySelect>.record>.recordSub>li.current{
+    color: #f78f48;
+}
+.content .queryMenu .querySelect>.record>.recordSub>li.current>i>i{
+    display: inline-block;
+    position: absolute;
+    width: 3px;
+    height: 24px;
+    left: 0;
+    top: 1px;
+    background-color: #f78f48;
+}
+.content .queryMenu table thead th{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 50px;
+    color: #666;
+    text-align: center;
+}
+.content .queryMenu table tbody td{
+    font-size: 13px;
+    line-height: 35px;
+    color: #666;
+    text-align: center;
+}
+.content .queryMenu>.record{
+    position: relative;
+    height: 480px;
+    overflow: hidden;
+}
+.content .queryMenu .pageSwitcher{
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.content .queryMenu .pageSwitcher>a{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 2px;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.content .queryMenu .pageSwitcher>span{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #ff6612;
+    border-radius: 2px;
+}
+.content .queryMenu .pageSwitcher .c-font{
+    opacity: 0.6;
+}
+.content .queryMenu>.record .pageSwitcher .totalPages{
+    display: inline;
+    padding: 0;
+    background-color: #fff;
+    cursor: default;
+}
+.content .queryMenu>.movement{
+    display: none;
+    position: relative;
+    height: 480px;
+}
+.content .queryMenu>.introduce{
+    display: none;
+}
+.content .queryMenu>.introduce ul{
+    width: 700px;
+    margin: 0 auto;
+}
+.content .queryMenu>.introduce ul li{
+    width: 700px;
+    height: 230px;
+    border-bottom: 1px solid #e6f8fe;
+    background-image: url("../images/introduce1-1.png"/*tpa=http://www.xinrong.com/2.0/images/introduce1.png*/);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.content .queryMenu>.introduce ul li+li{
+    background-image: url("../images/introduce2-1.png"/*tpa=http://www.xinrong.com/2.0/images/introduce2.png*/);
+    background-position: right center;
+}
+.content .queryMenu>.introduce ul li+li+li{
+    background-image: url("../images/introduce3-1.png"/*tpa=http://www.xinrong.com/2.0/images/introduce3.png*/);
+    background-position: left center;
+    border-bottom: 0;
+}
+.content .queryMenu>.introduce ul li p{
+    display: inline-block;
+    width: auto;
+    padding-left: 250px;
+    padding-top: 50px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+}
+.content .queryMenu>.introduce ul li+li p{
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.content .queryMenu>.introduce ul li+li+li p{
+    padding-left: 250px;
+    padding-top: 40px;
+}
+.content .queryMenu>.introduce ul li p .title{
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #58b4e3;
+}
+.content .queryMenu>.introduce ul li a{
+    font-size: 12px;
+    color: #58b4e3;
+}
+.content .queryMenu>.questions{
+    display: none;
+}
+.content .queryMenu>.questions ul{
+    margin: 0 25px;
+    font-family: "宋体";
+}
+.content .queryMenu>.questions ul li{
+    margin-top: 20px;
+}
+.content .queryMenu>.questions ul li.last-child{
+    padding-bottom: 30px;
+}
+.content .queryMenu>.questions ul li h1{
+    font-size: 14px;
+}
+.content .queryMenu>.questions ul li h1 i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    background-color: #58b4e3;
+    border-radius: 2px;
+}
+.content .queryMenu>.questions ul li div{
+    position: relative;
+}
+.content .queryMenu>.questions ul li div i{
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 18px;
+    *top: 14px;
+    text-align: center;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    background-color: #ff8d4f;
+    border-radius: 2px;
+}
+.content .queryMenu>.questions ul li div p{
+    display: inline-block;
+    width: 820px;
+    margin-left: 26px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 23px;
+    color: #333;
+    background-color: #f6f6f6;
+}
+#detailChart{
+    width: 760px;
+    height: 330px;
+    margin: 0 auto;
+}
+/**
+ *  查询菜单 end
+ */
+/**
+ *  content end
+ */
+ 
+.transform .icon01{ width:14px; height:16px; background-position:-467px -85px; display:inline-block; vertical-align:middle; margin-right:6px;}
+.transform .icon02{ width:14px; height:16px; background-position:-430px -85px; display:inline-block; vertical-align:middle; margin:0 3px 0 13px;}
+ 
+.xcb-no-data{ height: 330px; line-height:330px; text-align:center; color:#999;}
+ 
+ 
+ 
